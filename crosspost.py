@@ -68,11 +68,31 @@ def api_call(method, params):
         raise RuntimeError(f"Telegram {method} failed")
     return answer
 
+def short_teaser(raw, limit=230):
+    """Use one or two complete opening sentences, never a mid-word cutoff."""
+    text = re.sub(r"\\s+", " ", raw or "").strip()
+    if not text:
+        return ""
+    # Sentence boundaries, excluding periods within numbers and abbreviations when possible.
+    parts = re.split(r"(?<=[.!?])\\s+(?=[А-ЯЁA-Z«\"(0-9])", text)
+    result = []
+    for part in parts:
+        candidate = " ".join(result + [part])
+        if len(candidate) > limit:
+            break
+        result.append(part)
+        if len(result) >= 2:
+            break
+    if result:
+        return " ".join(result)
+    # For a very long first sentence, use a clean word boundary with an ellipsis.
+    return text[:limit].rsplit(" ", 1)[0].rstrip(" ,;:") + "…"
+
 def send_article(item):
     title = html.escape(item["title"])
     desc = html.escape(re.sub(r"\s+", " ", item["text"]).strip()[:420])
     link = html.escape(item["url"], quote=True)
-    caption = f"<b>{title}</b>\n\n{desc}\n\n<a href=\"{link}\">Читать в Дзене →</a>"
+    caption = f"<b>{title}</b>\n\n{desc}\n\n<a href=\"{link}\">Читать в Дзене →</a>" if desc else f"<b>{title}</b>\n\n<a href=\"{link}\">Читать в Дзене →</a>"
     if item["image"] and len(caption) <= 1024:
         try:
             api_call("sendPhoto", {"chat_id": TELEGRAM_CHAT, "photo": item["image"],
