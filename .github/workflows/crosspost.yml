@@ -1,0 +1,40 @@
+name: Dzen to Telegram
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: dzen-telegram
+  cancel-in-progress: false
+
+jobs:
+  crosspost:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Install browser
+        run: |
+          python3 -m pip install playwright
+          python3 -m playwright install --with-deps chromium
+      - name: Read Dzen and post new articles
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        run: |
+          test -n "$TELEGRAM_BOT_TOKEN" || { echo "Missing TELEGRAM_BOT_TOKEN GitHub Actions secret"; exit 1; }
+          python3 crosspost.py
+      - name: Save published IDs
+        run: |
+          if [ -f seen_articles.json ] && [ -n "$(git status --porcelain -- seen_articles.json)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add seen_articles.json
+            git commit -m "Update Dzen posted article IDs [skip ci]"
+            git push
+          fi
