@@ -38,7 +38,7 @@ def main():
     variants += [v.replace('\\u0022', '"').replace('\\\"', '"').replace('\\u003c', '<') for v in variants]
     has_feed = any('feedData' in v for v in variants)
     hits = [phrase for phrase in EXPECTED if any(phrase in v for v in variants)]
-    article_urls = sorted(set(re.findall(r'https?://dzen\\?.ru/a/[A-Za-z0-9_-]+', " ".join(variants))))
+    article_urls = sorted(set(re.findall(r'https?://dzen[.]ru/a/[A-Za-z0-9_-]+', " ".join(variants))))
     print(f"feedData marker found: {has_feed}")
     print(f"Known article title markers: {len(hits)} / {len(EXPECTED)}")
     print(f"Article URL patterns found: {len(article_urls)}")
