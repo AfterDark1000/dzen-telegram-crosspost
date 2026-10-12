@@ -70,11 +70,11 @@ def api_call(method, params):
 
 def short_teaser(raw, limit=230):
     """Use one or two complete opening sentences, never a mid-word cutoff."""
-    text = re.sub(r"\\s+", " ", raw or "").strip()
+    text = re.sub(r"\s+", " ", raw or "").strip()
     if not text:
         return ""
     # Sentence boundaries, excluding periods within numbers and abbreviations when possible.
-    parts = re.split(r"(?<=[.!?])\\s+(?=[А-ЯЁA-Z«\"(0-9])", text)
+    parts = re.split(r'(?<=[.!?])\s+(?=[А-ЯЁA-Z«"(0-9])', text)
     result = []
     for part in parts:
         candidate = " ".join(result + [part])
@@ -90,7 +90,7 @@ def short_teaser(raw, limit=230):
 
 def send_article(item):
     title = html.escape(item["title"])
-    desc = html.escape(re.sub(r"\s+", " ", item["text"]).strip()[:420])
+    desc = html.escape(short_teaser(item["text"]))
     link = html.escape(item["url"], quote=True)
     caption = f"<b>{title}</b>\n\n{desc}\n\n<a href=\"{link}\">Читать в Дзене →</a>" if desc else f"<b>{title}</b>\n\n<a href=\"{link}\">Читать в Дзене →</a>"
     if item["image"] and len(caption) <= 1024:
