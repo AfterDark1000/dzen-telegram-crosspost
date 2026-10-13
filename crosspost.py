@@ -51,10 +51,27 @@ async def fetch_articles():
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=True, args=["--no-sandbox"])
         try:
-            page = await browser.new_page(locale="ru-RU", timezone_id="Europe/Moscow")
-            await page.goto(CHANNEL, wait_until="domcontentloaded", timeout=45000)
-            await page.wait_for_timeout(6500)
-            return extract_items(await page.content())
+            last_error = None
+            for attempt in range(1, 4):
+                page = await browser.new_page(locale="ru-RU", timezone_id="Europe/Moscow")
+                try:
+                    print(f"Dzen fetch attempt {attempt}/3", flush=True)
+                    await page.goto(CHANNEL, wait_until="commit", timeout=25000)
+                    for _ in range(12):
+                        await page.wait_for_timeout(1000)
+                        try:
+                            return extract_items(await page.content())
+                        except RuntimeError:
+                            pass
+                    raise RuntimeError("Dzen page opened but article feed not found")
+                except Exception as error:
+                    last_error = error
+                    print(f"Attempt {attempt} failed: {type(error).__name__}: {str(error)[:180]}", flush=True)
+                    if attempt < 3:
+                        await asyncio.sleep(2 * attempt)
+                finally:
+                    await page.close()
+            raise RuntimeError("Unable to obtain Dzen articles after 3 attempts") from last_error
         finally:
             await browser.close()
 
