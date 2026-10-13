@@ -10,7 +10,7 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
-from playwright.async_api import async_playwright
+from playwright.async_api import async_playwright, Error as PlaywrightError
 
 CHANNEL = "https://dzen.ru/iipike?tab=articles"
 TELEGRAM_CHAT = "@iipike"
@@ -57,11 +57,11 @@ async def fetch_articles():
                 try:
                     print(f"Dzen fetch attempt {attempt}/3", flush=True)
                     await page.goto(CHANNEL, wait_until="commit", timeout=25000)
-                    for _ in range(12):
+                    for _ in range(25):
                         await page.wait_for_timeout(1000)
                         try:
                             return extract_items(await page.content())
-                        except RuntimeError:
+                        except (RuntimeError, PlaywrightError):
                             pass
                     raise RuntimeError("Dzen page opened but article feed not found")
                 except Exception as error:
