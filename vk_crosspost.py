@@ -1,121 +1,137 @@
 #!/usr/bin/env python3
-"""Full Dzen article and cover -> VK. Skip publishing rather than post incomplete material."""
+"""Dzen -> VK: complete article text only. Cover is added manually in VK."""
 import asyncio
 import json
 import os
 import re
+import urllib.error
 import urllib.parse
 import urllib.request
 import uuid
 from pathlib import Path
+
 from playwright.async_api import async_playwright, Error as PlaywrightError
 from crosspost import fetch_articles
 
 STATE = Path("seen_vk_articles.json")
-GROUP = 242308928
+GROUP_ID = 242308928
+VK_API_VERSION = "5.199"
 
-def api(method, values, token):
-    data = urllib.parse.urlencode({**values, "access_token": token, "v": "5.199"}).encode()
-    with urllib.request.urlopen(urllib.request.Request("https://api.vk.com/method/" + method, data=data), timeout=40) as r:
-        output = json.load(r)
-    if "error" in output:
-        err = output["error"]
-        raise RuntimeError(f"VK {method}: {err.get('error_code')} {err.get('error_msg')}")
-    if "response" not in output:
-        raise RuntimeError("VK method has no response: " + method)
-    return output["response"]
 
-async def get_full_text(page, item):
-    for attempt in range(3):
+def make_message(title, body):
+    title = (title or "").strip()
+    body = (body or "").strip()
+    if not title or not body:
+        raise RuntimeError("Refusing to post an empty title or article")
+    # Preserve sections and paragraph breaks while removing excess blank lines.
+    body = re.sub(r"\r\n?", "\n", body)
+    body = re.sub(r"\n[ \t]*\n(?:[ \t]*\n)+", "\n\n", body)
+    message = title + "\n\n" + body
+    if len(message) > 15000:
+        raise RuntimeError("Full article exceeds safe VK post length; not truncating")
+    return message
+
+
+async def read_full_article(page, item):
+    """Read the actual Dzen article body, never fall back to its feed preview."""
+    last_error = None
+    for attempt in range(1, 4):
         try:
             await page.goto(item["url"], wait_until="commit", timeout=30000)
             for _ in range(25):
                 await page.wait_for_timeout(1000)
                 try:
                     content = await page.evaluate("""() => {
-                        let body = document.querySelector('[itemprop="articleBody"]');
-                        return body ? {text: (body.innerText || '').trim(), paragraphs: body.querySelectorAll('p').length} : null;
+                        const root = document.querySelector('[itemprop="articleBody"]');
+                        if (!root) return null;
+                        return {
+                            text: (root.innerText || '').trim(),
+                            paragraphCount: root.querySelectorAll('p').length
+                        };
                     }""")
                 except PlaywrightError:
                     continue
-                if content and content["paragraphs"] >= 2 and len(content["text"]) >= 500:
-                    text = content["text"]
-                    teaser = re.sub(r"\s+", " ", item.get("text", "")).strip()
-                    if teaser and len(re.sub(r"\s+", " ", text)) <= len(teaser) + 80:
-                        raise RuntimeError("Page text looks like an excerpt")
-                    if len(text) > 14000:
-                        raise RuntimeError("Article too long for safe VK post")
-                    return text
-        except Exception:
-            if attempt == 2:
-                raise
-        await asyncio.sleep(2)
-    raise RuntimeError("Could not obtain complete article body")
+                if not content:
+                    continue
+                body = content["text"]
+                if content["paragraphCount"] < 2 or len(body) < 350:
+                    continue
+                teaser = re.sub(r"\s+", " ", item.get("text") or "").strip()
+                normalized = re.sub(r"\s+", " ", body).strip()
+                # The public feed contains a preview, usually ~500 characters.
+                # Require evidence the extracted body is substantially longer.
+                if teaser and len(normalized) <= len(teaser) + 60:
+                    raise RuntimeError("Dzen body may be incomplete: no longer than feed preview")
+                return make_message(item["title"], body)
+            raise RuntimeError("Full article body not found on page")
+        except (PlaywrightError, RuntimeError) as exc:
+            last_error = exc
+            print(f"VK article read attempt {attempt}/3 failed: {type(exc).__name__}: {str(exc)[:140]}", flush=True)
+            if attempt < 3:
+                await asyncio.sleep(attempt * 2)
+    raise RuntimeError("Skipping VK post: full Dzen article could not be verified") from last_error
 
-def get_photo(url, token):
-    if not url.startswith("https://"):
-        raise RuntimeError("Missing HTTPS cover")
-    server = api("photos.getWallUploadServer", {"group_id": GROUP}, token)
-    with urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent":"Mozilla/5.0"}), timeout=30) as response:
-        content = response.read(12*1024*1024 + 1)
-    if not 1000 < len(content) < 12*1024*1024:
-        raise RuntimeError("Cover file size invalid")
-    if content.startswith(b"\xff\xd8\xff"):
-        ext, mime = "jpg", "image/jpeg"
-    elif content.startswith(b"\x89PNG\r\n\x1a\n"):
-        ext, mime = "png", "image/png"
-    else:
-        raise RuntimeError("Unsupported cover file type")
-    boundary = "----VK" + uuid.uuid4().hex
-    data = (
-        f'--{boundary}\r\nContent-Disposition: form-data; name="photo"; filename="cover.{ext}"\r\nContent-Type: {mime}\r\n\r\n'.encode()
-        + content + f'\r\n--{boundary}--\r\n'.encode()
+
+def publish_to_vk(item, message, token):
+    fields = {
+        "owner_id": str(-GROUP_ID),
+        "from_group": "1",
+        "message": message,
+        # A stable ID also protects against retries when the API accepted a
+        # request but the GitHub runner lost the response before saving state.
+        "guid": str(uuid.uuid5(uuid.NAMESPACE_URL, item["url"])),
+        "access_token": token,
+        "v": VK_API_VERSION,
+    }
+    request = urllib.request.Request(
+        "https://api.vk.com/method/wall.post",
+        data=urllib.parse.urlencode(fields).encode("utf-8"),
     )
-    request = urllib.request.Request(server["upload_url"], data=data, headers={"Content-Type": "multipart/form-data; boundary=" + boundary})
-    with urllib.request.urlopen(request, timeout=60) as response:
-        uploaded = json.load(response)
-    photos = api("photos.saveWallPhoto", {
-        "group_id": GROUP, "photo": uploaded["photo"], "server": uploaded["server"], "hash": uploaded["hash"]
-    }, token)
-    if not photos or "id" not in photos[0] or "owner_id" not in photos[0]:
-        raise RuntimeError("VK failed to save cover")
-    return f'photo{photos[0]["owner_id"]}_{photos[0]["id"]}'
+    try:
+        with urllib.request.urlopen(request, timeout=40) as reply:
+            payload = json.load(reply)
+    except urllib.error.HTTPError as exc:
+        raise RuntimeError(f"VK wall.post HTTP {exc.code}") from exc
+    if "error" in payload:
+        err = payload["error"]
+        raise RuntimeError(f"VK wall.post error {err.get('error_code')}: {err.get('error_msg')}")
+    post_id = payload.get("response", {}).get("post_id")
+    if not post_id:
+        raise RuntimeError("VK did not return post_id; publication unconfirmed")
+    print(f"VK full article posted: {item['title']} (wall-{GROUP_ID}_{post_id})", flush=True)
 
-def send(item, body, photo, token):
-    result = api("wall.post", {
-        "owner_id": -GROUP, "from_group": 1,
-        "message": item["title"].strip() + "\n\n" + body,
-        "attachments": photo,
-        "guid": str(uuid.uuid5(uuid.NAMESPACE_URL, item["url"]))
-    }, token)
-    if not result.get("post_id"):
-        raise RuntimeError("VK post was not confirmed")
-    print("VK complete article posted:", item["title"], "post:", result["post_id"], flush=True)
+
+def save_seen(ids):
+    STATE.write_text(json.dumps(sorted(ids), ensure_ascii=False, indent=2) + "\n",
+                     encoding="utf-8")
+
 
 async def main():
     if not STATE.exists():
-        raise RuntimeError("VK state not initialized")
-    group_token = os.environ["VK_ACCESS_TOKEN"]
-    user_token = os.getenv("VK_USER_ACCESS_TOKEN")
-    if not user_token:
-        print("VK awaiting VK_USER_ACCESS_TOKEN via official VK ID. No partial posts will be sent.", flush=True)
+        raise RuntimeError("VK state file is missing; not backfilling articles")
+    token = os.environ.get("VK_WALL_TOKEN", "").strip()
+    if not token:
+        print("VK paused: VK_WALL_TOKEN not configured. Telegram/MAX unaffected.", flush=True)
         return
     seen = set(json.loads(STATE.read_text(encoding="utf-8")))
-    items = await fetch_articles()
-    new = sorted((x for x in items if x["id"] not in seen), key=lambda x: (x["date"],x["id"]))
-    print("VK new articles:", len(new), flush=True)
+    articles = await fetch_articles()
+    pending = sorted((item for item in articles if item["id"] not in seen),
+                     key=lambda item: (item["date"], item["id"]))
+    print("VK new articles:", len(pending), flush=True)
+    if not pending:
+        return
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=True, args=["--no-sandbox"])
         try:
-            page = await browser.new_page(locale="ru-RU")
-            for item in new:
-                body = await get_full_text(page, item)
-                photo = get_photo(item["image"], user_token)
-                send(item, body, photo, group_token)
+            page = await browser.new_page(locale="ru-RU", timezone_id="Europe/Moscow")
+            for item in pending:
+                message = await read_full_article(page, item)
+                publish_to_vk(item, message, token)
                 seen.add(item["id"])
-                STATE.write_text(json.dumps(sorted(seen), ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+                save_seen(seen)
         finally:
             await browser.close()
+
 
 if __name__ == "__main__":
     asyncio.run(main())
