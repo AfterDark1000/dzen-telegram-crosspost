@@ -1,0 +1,17 @@
+name: Test VK posting
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test-post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - uses: actions/checkout@v4
+      - name: Send test post to VK community
+        env:
+          VK_ACCESS_TOKEN: ${{ secrets.VK_ACCESS_TOKEN }}
+        run: python3 vk_test_post.py
