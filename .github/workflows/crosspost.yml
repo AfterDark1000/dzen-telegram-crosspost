@@ -41,7 +41,9 @@ jobs:
       - name: Post full-text articles to VK (when new wall-only key is configured)
         env:
           VK_WALL_TOKEN: ${{ secrets.VK_WALL_TOKEN }}
-        run: python3 vk_crosspost.py
+        run: |
+          python3 -m py_compile vk_crosspost.py
+          python3 vk_crosspost.py
       - name: Save VK published IDs
         if: ${{ always() }}
         run: |
