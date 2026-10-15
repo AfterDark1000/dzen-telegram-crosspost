@@ -109,9 +109,9 @@ def save_seen(ids):
 async def main():
     if not STATE.exists():
         raise RuntimeError("VK state file is missing; not backfilling articles")
-    token = os.environ.get("VK_WALL_TOKEN", "").strip()
+    token = os.environ.get("VK_ACCESS_TOKEN", "").strip()
     if not token:
-        print("VK paused: VK_WALL_TOKEN not configured. Telegram/MAX unaffected.", flush=True)
+        print("VK paused: VK_ACCESS_TOKEN not configured. Telegram/MAX unaffected.", flush=True)
         return
     seen = set(json.loads(STATE.read_text(encoding="utf-8")))
     articles = await fetch_articles()
