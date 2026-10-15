@@ -38,13 +38,10 @@ jobs:
             git commit -m "Update Dzen posted article IDs [skip ci]"
             git push
           fi
-      - name: Post new articles to VK
+      - name: Post full-text articles to VK (when new wall-only key is configured)
         env:
-          VK_ACCESS_TOKEN: ${{ secrets.VK_ACCESS_TOKEN }}
-          VK_USER_ACCESS_TOKEN: ${{ secrets.VK_USER_ACCESS_TOKEN }}
-        run: |
-          test -n "$VK_ACCESS_TOKEN" || { echo "Missing VK_ACCESS_TOKEN secret"; exit 1; }
-          python3 vk_crosspost.py
+          VK_WALL_TOKEN: ${{ secrets.VK_WALL_TOKEN }}
+        run: python3 vk_crosspost.py
       - name: Save VK published IDs
         if: ${{ always() }}
         run: |
