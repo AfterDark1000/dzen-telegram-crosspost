@@ -21,7 +21,7 @@ jobs:
           persist-credentials: true
       - name: Install browser
         run: |
-          python3 -m pip install playwright
+          python3 -m pip install playwright pillow
           python3 -m playwright install --with-deps chromium
       - name: Read Dzen and post new articles
         env:
