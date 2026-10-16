@@ -8,9 +8,11 @@ import re
 import sys
 import urllib.parse
 import urllib.request
+import urllib.error
 from pathlib import Path
 
 from playwright.async_api import async_playwright, Error as PlaywrightError
+from telegram_photo import send_photo_upload
 
 CHANNEL = "https://dzen.ru/iipike?tab=articles"
 TELEGRAM_CHAT = "@iipike"
@@ -110,14 +112,37 @@ def send_article(item):
     desc = html.escape(short_teaser(item["text"]))
     link = html.escape(item["url"], quote=True)
     caption = f"<b>{title}</b>\n\n{desc}\n\n<a href=\"{link}\">Читать в Дзене →</a>" if desc else f"<b>{title}</b>\n\n<a href=\"{link}\">Читать в Дзене →</a>"
-    if item["image"] and len(caption) <= 1024:
+    cover = item.get("image") or ""
+    if cover and len(caption) <= 1024:
+        # Fast path: Telegram downloads the source image itself.
         try:
-            api_call("sendPhoto", {"chat_id": TELEGRAM_CHAT, "photo": item["image"],
+            api_call("sendPhoto", {"chat_id": TELEGRAM_CHAT, "photo": cover,
                                    "caption": caption, "parse_mode": "HTML"})
+            print("Telegram cover sent via URL.", flush=True)
+            return
+        except urllib.error.HTTPError as error:
+            try:
+                message = json.loads(error.read().decode("utf-8")).get("description", "")
+            except (ValueError, UnicodeError):
+                message = ""
+            print(f"Telegram URL photo rejected: HTTP {error.code}; {message[:250]}", flush=True)
+        except Exception as error:
+            print("Telegram URL photo failed:", type(error).__name__, flush=True)
+
+        # Reliable fallback: runner downloads the cover and uploads a JPEG directly.
+        try:
+            send_photo_upload(os.environ["TELEGRAM_BOT_TOKEN"], TELEGRAM_CHAT, caption, cover)
+            print("Telegram cover sent by direct upload.", flush=True)
             return
         except Exception as error:
-            # The image can be unavailable to Telegram; fall back to text.
-            print("Could not send image; retrying as text:", type(error).__name__)
+            print("Telegram direct photo upload failed:", type(error).__name__, flush=True)
+            # Keep the news rather than silently dropping the article.
+    else:
+        print("Telegram photo unavailable:",
+              "missing cover URL" if not cover else "caption exceeds 1024 characters",
+              flush=True)
+
+    print("Telegram text-only fallback:", item["title"], flush=True)
     api_call("sendMessage", {"chat_id": TELEGRAM_CHAT, "text": caption, "parse_mode": "HTML",
                              "disable_web_page_preview": "false"})
 
