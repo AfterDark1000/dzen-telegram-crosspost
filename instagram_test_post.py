@@ -73,8 +73,14 @@ async def main():
     print("Cover host:", urllib.parse.urlparse(item["image"]).netloc, flush=True)
     print("Test caption length:", len(caption), flush=True)
 
+    public_image_url = os.environ.get("IG_IMAGE_URL_OVERRIDE", "").strip() or item["image"]
+    if not public_image_url.startswith("https://"):
+        raise SystemExit("Instagram image URL must be publicly reachable over HTTPS")
+    if os.environ.get("IG_IMAGE_URL_OVERRIDE"):
+        print("Using generated square JPEG from GitHub.", flush=True)
+
     container = graph("POST", str(user_id) + "/media", {
-        "image_url": item["image"],
+        "image_url": public_image_url,
         "caption": caption,
     })
     cid = container.get("id")
