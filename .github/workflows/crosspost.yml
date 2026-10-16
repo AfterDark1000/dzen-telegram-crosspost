@@ -14,7 +14,7 @@ concurrency:
 jobs:
   crosspost:
     runs-on: ubuntu-latest
-    timeout-minutes: 8
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
         with:
@@ -52,5 +52,22 @@ jobs:
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add seen_vk_articles.json
             git commit -m "Update VK posted article IDs [skip ci]"
+            git push
+          fi
+      - name: Post new articles to Instagram
+        if: ${{ !cancelled() }}
+        env:
+          INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
+        run: |
+          python3 -m py_compile instagram_crosspost.py
+          python3 instagram_crosspost.py
+      - name: Save Instagram published IDs
+        if: ${{ !cancelled() }}
+        run: |
+          if [ -f seen_instagram_articles.json ] && [ -n "$(git status --porcelain -- seen_instagram_articles.json)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add seen_instagram_articles.json
+            git commit -m "Update Instagram posted article IDs [skip ci]"
             git push
           fi
