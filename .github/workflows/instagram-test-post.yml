@@ -1,0 +1,30 @@
+name: Test Instagram image post
+on:
+  workflow_dispatch:
+    inputs:
+      publish:
+        description: "Publish one real test post on @iipike.ai (leave unchecked for preview)"
+        type: boolean
+        required: true
+        default: false
+
+permissions:
+  contents: read
+
+jobs:
+  instagram-test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install browser to read latest Dzen cover
+        run: |
+          python3 -m pip install playwright
+          python3 -m playwright install --with-deps chromium
+      - name: Validate image, then optionally publish to Instagram
+        env:
+          INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
+          IG_TEST_PUBLISH: ${{ inputs.publish }}
+        run: |
+          python3 -m py_compile instagram_test_post.py
+          python3 instagram_test_post.py
