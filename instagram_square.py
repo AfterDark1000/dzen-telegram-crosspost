@@ -53,7 +53,9 @@ def compose(data):
     shadow = Image.new("RGBA", (original.width + 26, original.height + 26), (0, 0, 0, 0))
     shadow.paste((0, 0, 0, 210), (13, 13, 13 + original.width, 13 + original.height))
     shadow = shadow.filter(ImageFilter.GaussianBlur(radius=16))
-    background.paste(shadow.convert("RGB"), (x - 13, y - 8))
+    shadow_alpha = shadow.getchannel("A")
+    background.paste((0, 0, 0), (x - 13, y - 8, x - 13 + shadow.width, y - 8 + shadow.height),
+                     mask=shadow_alpha)
     background.paste(original, (x, y))
     return background
 
