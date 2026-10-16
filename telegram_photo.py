@@ -22,7 +22,7 @@ def download_photo(url):
     if not url.startswith("https://"):
         raise ValueError("Dzen photo URL must use HTTPS")
     request = urllib.request.Request(url, headers={
-        "User-Agent": "Mozilla/5.0 (compatible; NewsImageFetcher/1.0)",
+        "User-Agent": "Mozilla/5.0",
         "Accept": "image/jpeg,image/png,image/webp,image/*;q=0.8",
     })
     with urllib.request.urlopen(request, timeout=45) as response:
