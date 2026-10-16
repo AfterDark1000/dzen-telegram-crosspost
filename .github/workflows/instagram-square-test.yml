@@ -1,0 +1,81 @@
+name: Test Instagram square cover
+on:
+  workflow_dispatch:
+    inputs:
+      publish:
+        description: "Publish one real Instagram test post (default is preview only)"
+        type: boolean
+        required: true
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: dzen-telegram
+  cancel-in-progress: false
+
+jobs:
+  square-test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Install image and Dzen tools
+        run: |
+          python3 -m pip install playwright pillow
+          python3 -m playwright install --with-deps chromium
+      - name: Make square cover without cropping the original
+        id: render
+        run: |
+          python3 -m py_compile instagram_square.py
+          python3 instagram_square.py
+      - name: Host square cover as a public GitHub image
+        id: host
+        env:
+          COVER_PATH: ${{ steps.render.outputs.cover_path }}
+        run: |
+          test -f "$COVER_PATH"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- "$COVER_PATH"
+          if ! git diff --cached --quiet; then
+            git commit -m "Prepare square Instagram cover [skip ci]"
+          fi
+          git push
+          COMMIT="$(git rev-parse HEAD)"
+          URL="https://raw.githubusercontent.com/AfterDark1000/dzen-telegram-crosspost/${COMMIT}/${COVER_PATH}"
+          echo "image_url=$URL" >> "$GITHUB_OUTPUT"
+          echo "Public preview: $URL"
+      - name: Validate hosted JPEG (1080x1080)
+        env:
+          IG_IMAGE_URL_OVERRIDE: ${{ steps.host.outputs.image_url }}
+        run: |
+          python3 - <<'PY'
+          import io, os, time, urllib.request
+          from PIL import Image
+          url = os.environ["IG_IMAGE_URL_OVERRIDE"]
+          for attempt in range(12):
+              try:
+                  with urllib.request.urlopen(url, timeout=25) as response:
+                      data = response.read()
+                  image = Image.open(io.BytesIO(data))
+                  assert image.format == "JPEG" and image.size == (1080,1080), "Incorrect image dimensions or format"
+                  print("Public JPEG available: 1080x1080", flush=True)
+                  break
+              except Exception as error:
+                  print(f"Waiting for GitHub raw image (attempt {attempt+1}/12): {type(error).__name__}", flush=True)
+                  if attempt == 11:
+                      raise
+                  time.sleep(5)
+          PY
+      - name: Ask Instagram to process the square preview
+        env:
+          INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
+          IG_IMAGE_URL_OVERRIDE: ${{ steps.host.outputs.image_url }}
+          IG_TEST_PUBLISH: ${{ inputs.publish }}
+        run: |
+          python3 -m py_compile instagram_test_post.py
+          python3 instagram_test_post.py
