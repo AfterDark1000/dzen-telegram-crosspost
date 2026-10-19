@@ -71,3 +71,21 @@ jobs:
             git commit -m "Update Instagram posted article IDs [skip ci]"
             git push
           fi
+      - name: Post new Dzen articles to Threads
+        if: ${{ !cancelled() }}
+        continue-on-error: true
+        env:
+          THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
+        run: |
+          python3 -m py_compile threads_crosspost.py
+          python3 threads_crosspost.py
+      - name: Save Threads published IDs
+        if: ${{ !cancelled() }}
+        run: |
+          if [ -f seen_threads_articles.json ] && [ -n "$(git status --porcelain -- seen_threads_articles.json)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add seen_threads_articles.json
+            git commit -m "Update Threads posted article IDs [skip ci]"
+            git push
+          fi
