@@ -1,0 +1,36 @@
+name: Verify Meta token renewal
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/meta-token-verify.yml'
+      - 'meta_token_refresh.py'
+      - 'tests/test_meta_token_refresh.py'
+  workflow_dispatch:
+    inputs:
+      verify_live:
+        description: 'Check Meta tokens and GitHub Secrets permissions (no renewal)'
+        required: false
+        default: false
+        type: boolean
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install encryption dependency
+        run: python3 -m pip install pynacl
+      - name: Check Python syntax and run offline safety tests
+        run: |
+          python3 -m py_compile meta_token_refresh.py
+          python3 -m unittest discover -v -s tests -p 'test_meta_token_refresh.py'
+      - name: Verify live access without refreshing any token
+        if: ${{ inputs.verify_live == true }}
+        env:
+          INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
+          THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
+          GH_META_SECRETS_PAT: ${{ secrets.GH_META_SECRETS_PAT }}
+        run: python3 meta_token_refresh.py --check
