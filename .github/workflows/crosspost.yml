@@ -1,8 +1,6 @@
 name: Dzen to Telegram
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "17 * * * *"
 
 permissions:
   contents: write
