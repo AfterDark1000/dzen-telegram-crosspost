@@ -20,6 +20,7 @@ from crosspost import fetch_articles, short_teaser
 API = "https://graph.threads.net/v1.0"
 TOKEN = os.getenv("THREADS_ACCESS_TOKEN", "").strip()
 EXPECTED_USERNAME = "iipike.ai"
+INTRO_TEXT = "«Хроники Пикирующего ИИ» теперь и в Threads. Здесь — короткие новости об искусственном интеллекте: без рекламного восторга, без страшилок и без лишней воды. Разбираемся, что действительно произошло."
 STATE = Path("seen_threads_articles.json")
 MAX_PER_RUN = 8
 TEXT_LIMIT = 450  # keep clear of Threads' 500-character maximum
@@ -143,7 +144,7 @@ def publish(text, cover=None):
     return post_id
 
 
-async def main(check_only=False):
+async def main(check_only=False, intro=False):
     if not TOKEN:
         print("Threads paused: add THREADS_ACCESS_TOKEN to GitHub Actions secrets.", flush=True)
         return
@@ -159,6 +160,18 @@ async def main(check_only=False):
     print("Threads login verified: @" + EXPECTED_USERNAME, flush=True)
     if check_only:
         print("Threads check-only mode: no posts sent.", flush=True)
+        return
+
+    if intro:
+        # Fail closed if previous posts cannot be inspected. No accidental duplicate.
+        response = api("GET", "me/threads", {"fields": "id,text", "limit": "100"})
+        current = {x.get("text", "").strip() for x in response.get("data", [])
+                   if isinstance(x, dict)}
+        if INTRO_TEXT in current:
+            print("Threads welcome post already present; skipping.", flush=True)
+        else:
+            publish(INTRO_TEXT)
+            print("Threads welcome post successfully published.", flush=True)
         return
 
     articles = await fetch_articles()
@@ -189,4 +202,4 @@ async def main(check_only=False):
 
 
 if __name__ == "__main__":
-    asyncio.run(main(check_only=("--check" in sys.argv)))
+    asyncio.run(main(check_only=("--check" in sys.argv), intro=("--intro" in sys.argv)))
