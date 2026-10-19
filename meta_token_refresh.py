@@ -158,7 +158,19 @@ def check_connections():
         if details.get("name") != cfg["token_var"]:
             raise RuntimeError("GitHub cannot inspect " + cfg["token_var"])
         print(account + ": Meta token valid; GitHub Secrets access verified.", flush=True)
-    print("Check complete; NO token was renewed or overwritten.", flush=True)
+    # Test actual Secrets:write with a temporary random secret, without touching
+    # INSTAGRAM_ACCESS_TOKEN or THREADS_ACCESS_TOKEN. Delete immediately after.
+    import secrets
+    probe_name = "META_REFRESH_PERMISSION_TEST"
+    store_github_secret(probe_name, secrets.token_urlsafe(32), pat)
+    try:
+        details, _ = github_call("/actions/secrets/" + probe_name, pat)
+        if details.get("name") != probe_name:
+            raise RuntimeError("Temporary GitHub secret could not be verified")
+    finally:
+        github_call("/actions/secrets/" + probe_name, pat, method="DELETE")
+    print("GitHub Secrets write/delete permissions verified.", flush=True)
+    print("Check complete; NO Instagram or Threads token was renewed or overwritten.", flush=True)
 
 
 def main():
