@@ -19,7 +19,7 @@ jobs:
           persist-credentials: true
       - name: Install browser
         run: |
-          python3 -m pip install playwright pillow
+          python3 -m pip install playwright pillow pynacl
           python3 -m playwright install --with-deps chromium
       - name: Read Dzen and post new articles
         env:
@@ -85,5 +85,24 @@ jobs:
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add seen_threads_articles.json
             git commit -m "Update Threads posted article IDs [skip ci]"
+            git push
+          fi
+      - name: Refresh Instagram and Threads tokens when due
+        if: ${{ !cancelled() }}
+        env:
+          INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
+          THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
+          GH_META_SECRETS_PAT: ${{ secrets.GH_META_SECRETS_PAT }}
+        run: |
+          python3 -m py_compile meta_token_refresh.py
+          python3 meta_token_refresh.py
+      - name: Save token refresh dates (never tokens)
+        if: ${{ always() }}
+        run: |
+          if [ -f meta_token_refresh_state.json ] && [ -n "$(git status --porcelain -- meta_token_refresh_state.json)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add meta_token_refresh_state.json
+            git commit -m "Update Meta token refresh dates [skip ci]"
             git push
           fi
