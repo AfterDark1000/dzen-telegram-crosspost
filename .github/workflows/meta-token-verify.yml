@@ -28,7 +28,7 @@ jobs:
           python3 -m py_compile meta_token_refresh.py
           python3 -m unittest discover -v -s tests -p 'test_meta_token_refresh.py'
       - name: Verify live access without refreshing any token
-        if: ${{ inputs.verify_live == true }}
+        if: ${{ inputs.verify_live == true || github.event_name == 'push' }}
         env:
           INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
           THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
