@@ -1,8 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-20T17:18:15+00:00",
   "scope": "public Dzen feed + prepared Instagram covers; not private Dzen schedule",
-  "legacy_seen_ids_count": 80,
   "entries": [
     {
       "key": "dzen:6ad7720b46ef666b5665b1b6",
@@ -290,5 +288,7 @@
       "first_recorded_at_utc": "2026-10-20T10:48:34+00:00",
       "excerpt": "GitHub объявил о полноценном запуске AI Scan — инструмента, который проверяет изменения программного кода на потенциальные уязвимости. В отличие от традиционного анализатора CodeQL, новая система охватывает дополнительные языки и технологии, включая PHP, Bash, Terraform и Dockerfile. Когда разработчик предлагает изменения в проекте, AI Scan может автоматически проверить их, объяснить обнаруженную проблему и предложит"
     }
-  ]
+  ],
+  "updated_at_utc": "2026-10-20T17:18:15+00:00",
+  "legacy_seen_ids_count": 80
 }
