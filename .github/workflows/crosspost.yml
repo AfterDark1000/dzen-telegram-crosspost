@@ -54,6 +54,25 @@ jobs:
             git pull --rebase origin main
             git push
           fi
+      - name: Collect vertical Instagram covers from Telegram channel
+        if: ${{ !cancelled() }}
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        run: |
+          python3 -m py_compile instagram_cover_inbox.py instagram_crosspost.py
+          python3 -m unittest discover -s tests -p 'test_instagram_cover_inbox.py' -v
+          python3 instagram_cover_inbox.py
+      - name: Save Telegram cover inbox and public JPEGs for Instagram
+        if: ${{ !cancelled() }}
+        run: |
+          if [ -n "$(git status --porcelain -- instagram_cover_inbox.json instagram_covers/)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add instagram_cover_inbox.json instagram_covers/
+            git commit -m "Save tagged Instagram cover submissions [skip ci]"
+            git pull --rebase origin main
+            git push
+          fi
       - name: Post new articles to Instagram
         if: ${{ !cancelled() }}
         env:
@@ -64,11 +83,11 @@ jobs:
       - name: Save Instagram published IDs
         if: ${{ !cancelled() }}
         run: |
-          if [ -f seen_instagram_articles.json ] && [ -n "$(git status --porcelain -- seen_instagram_articles.json)" ]; then
+          if [ -f seen_instagram_articles.json ] && [ -n "$(git status --porcelain -- seen_instagram_articles.json instagram_pending_articles.json)" ]; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add seen_instagram_articles.json
-            git commit -m "Update Instagram posted article IDs [skip ci]"
+            git add seen_instagram_articles.json instagram_pending_articles.json
+            git commit -m "Update Instagram posted IDs and pending queue [skip ci]"
             git pull --rebase origin main
             git push
           fi
