@@ -1,0 +1,24 @@
+name: Check vertical Instagram cover pipeline
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'instagram_cover_inbox.py'
+      - 'instagram_crosspost.py'
+      - 'tests/test_instagram_cover_inbox.py'
+      - '.github/workflows/instagram-cover-tests.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  offline-safety:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install required image library
+        run: python3 -m pip install --disable-pip-version-check pillow
+      - name: Check Python syntax without publishing
+        run: python3 -m py_compile instagram_cover_inbox.py instagram_crosspost.py
+      - name: Run offline image validation tests without API keys
+        run: python3 -m unittest discover -s tests -p 'test_instagram_cover_inbox.py' -v
