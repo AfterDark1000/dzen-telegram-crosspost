@@ -5,24 +5,34 @@ on:
     paths:
       - '.github/workflows/editorial-archive-seed.yml'
   workflow_dispatch:
+
 permissions:
   contents: write
+
 concurrency:
   group: dzen-telegram
   cancel-in-progress: false
+
 jobs:
   archive-only:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 13
     steps:
       - uses: actions/checkout@v4
         with:
+          ref: main
+          fetch-depth: 0
           persist-credentials: true
+      - name: Initialize state checkpoint
+        id: state_init
+        run: python3 state_checkpoint.py init
       - name: Install read-only Dzen browser
+        id: install
         run: |
           python3 -m pip install playwright pillow pynacl
           python3 -m playwright install --with-deps chromium
-      - name: Fetch public Dzen articles without posting
+      - name: Fetch public Dzen articles (NO social posts)
+        if: ${{ !cancelled() && steps.state_init.outcome == 'success' && steps.install.outcome == 'success' }}
         continue-on-error: true
         run: |
           python3 - <<'PY'
@@ -34,16 +44,19 @@ jobs:
           print("Read public Dzen articles:", len(rows))
           PY
       - name: Test and create unified archive
+        if: ${{ !cancelled() && steps.state_init.outcome == 'success' && steps.install.outcome == 'success' }}
         run: |
           python3 -m unittest discover -s tests -p 'test_editorial_archive.py' -v
           python3 editorial_archive.py
-      - name: Save archive without changing crosspost states
-        run: |
-          if [ -f editorial_archive.json ] && [ -n "$(git status --porcelain -- editorial_archive.json)" ]; then
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add editorial_archive.json
-            git commit -m "Initialize HPI editorial archive [skip ci]"
-            git pull --rebase origin main
-            git push
-          fi
+      - name: Save archive after partial failure
+        if: ${{ always() && steps.state_init.outcome == 'success' }}
+        timeout-minutes: 4
+        run: python3 state_checkpoint.py save auxiliary
+      - name: Preserve recovery on failure
+        if: ${{ always() && steps.state_init.outcome == 'success' && (failure() || cancelled()) }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: state-recovery-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/hpi-state/recovery/
+          if-no-files-found: warn
+          retention-days: 7
