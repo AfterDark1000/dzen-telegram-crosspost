@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "offset": 129919642,
+  "offset": 129919646,
   "channel_id": -1004388745784,
   "covers": {
     "flux 3 max: десять секунд видео за двенадцать секунд": {
@@ -52,6 +52,11 @@
       "title": "Cloudflare выпустила Clairic — ИИ, который извлекает данные без генерации текста",
       "file": "instagram_covers/b72bc984eb1b1bbce2a4-11.jpg",
       "message_id": 11
+    },
+    "grok завалил депутата письмами ради возврата £350": {
+      "title": "Grok завалил депутата письмами ради возврата £350",
+      "file": "instagram_covers/91ae56b25792ef0319a5-15.jpg",
+      "message_id": 15
     }
   }
 }
