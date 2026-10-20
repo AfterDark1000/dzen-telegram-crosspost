@@ -148,6 +148,10 @@ def send_article(item):
 
 async def main():
     articles = await fetch_articles()
+    # Local snapshot for the archive builder later in the SAME workflow.
+    # Never commit this temporary file, and never change publication decisions.
+    Path("_current_dzen_snapshot.json").write_text(
+        json.dumps(articles, ensure_ascii=False), encoding="utf-8")
     print(f"Found {len(articles)} public Dzen articles")
     ids = {item["id"] for item in articles}
     if not STATE.exists():
