@@ -25,8 +25,11 @@
       "id": "cloudflare-clairic-20261020",
       "dzen_title": "Cloudflare выпустила Clairic — ИИ, который извлекает данные без генерации текста",
       "threads_text": "Cloudflare нашла работу, где нейросети полезнее заткнуться.\n\nClairic извлекает суммы, даты и номера заказов из текста, не сочиняя ответ слово за словом. В испытании компании система с Clairic сократила время обработки претензии покупателя на 69%, расходы — на 49% по сравнению с вариантом на обычной языковой модели.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6ad74813be108a14528bee3a",
+      "dzen_url": "https://dzen.ru/a/atdIE74QihRSi-46",
+      "threads_post_id": "18155459365521651"
     },
     {
       "id": "valsai-train-refund-agents-20261020",
