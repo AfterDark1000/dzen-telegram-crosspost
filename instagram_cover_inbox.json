@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "offset": 129919639,
+  "offset": 129919642,
   "channel_id": -1004388745784,
   "covers": {
     "flux 3 max: десять секунд видео за двенадцать секунд": {
@@ -37,6 +37,21 @@
       "title": "ИИ отказался ловить хакеров",
       "file": "instagram_covers/9cb1792e8119c36f2af2-8.jpg",
       "message_id": 8
+    },
+    "google научила gemini notebook показывать план видео до его создания": {
+      "title": "Google научила Gemini Notebook показывать план видео до его создания",
+      "file": "instagram_covers/e768b0baf0b19a56db13-9.jpg",
+      "message_id": 9
+    },
+    "openai: ии научился лучше работать со старым программным кодом": {
+      "title": "OpenAI: ИИ научился лучше работать со старым программным кодом",
+      "file": "instagram_covers/119fb4c03df68c9da769-10.jpg",
+      "message_id": 10
+    },
+    "cloudflare выпустила clairic - ии, который извлекает данные без генерации текста": {
+      "title": "Cloudflare выпустила Clairic — ИИ, который извлекает данные без генерации текста",
+      "file": "instagram_covers/b72bc984eb1b1bbce2a4-11.jpg",
+      "message_id": 11
     }
   }
 }
