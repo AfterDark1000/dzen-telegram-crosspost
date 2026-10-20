@@ -35,7 +35,7 @@ class ArchiveTests(unittest.TestCase):
                 (root/"editorial_archive.json").write_text(json.dumps(result,ensure_ascii=False))
                 (root/"_current_dzen_snapshot.json").write_text("[]")
                 next_run=archive.create_archive(NOW+dt.timedelta(hours=1))
-                self.assertEqual(next_run["entries"][0]["key"],result["entries"][0]["key"])
+                self.assertEqual({x["key"] for x in next_run["entries"]}, {x["key"] for x in result["entries"]})
                 self.assertEqual(len(next_run["entries"]),2)
 
     def test_reject_forged_dzen_url(self):
