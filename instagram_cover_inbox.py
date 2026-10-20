@@ -9,6 +9,7 @@ import io
 import json
 import os
 from pathlib import Path
+from state_checkpoint import atomic_json, atomic_bytes
 import re
 import sys
 import unicodedata
@@ -95,7 +96,8 @@ def main():
     channel_id = state.get("channel_id")
     offset = state["offset"]
     total = 0
-    for _ in range(6):
+    # One unacknowledged Telegram batch per checkpoint: no lost image on restart.
+    for _ in range(1):
         updates = api(token, "getUpdates", {
             "offset": str(offset),
             "limit": str(MAX_BATCH),
@@ -134,7 +136,7 @@ def main():
                         digest = hashlib.sha256(normalized.encode("utf-8")).hexdigest()[:20]
                         filename = f"{digest}-{message['message_id']}.jpg"
                         COVERS_DIR.mkdir(exist_ok=True)
-                        (COVERS_DIR / filename).write_bytes(jpeg)
+                        atomic_bytes(COVERS_DIR / filename, jpeg)
                         state["covers"][normalized] = {
                             "title": caption,
                             "file": "instagram_covers/" + filename,
@@ -146,8 +148,7 @@ def main():
                         print("Cover rejected: " + str(error), flush=True)
             offset = max(offset, uid + 1)
             state["offset"] = offset
-            STATE.write_text(json.dumps(state, ensure_ascii=False, indent=2) + "\n",
-                             encoding="utf-8")
+            atomic_json(STATE, state)
         if len(updates) < MAX_BATCH:
             break
     print(f"Inbox sync: {total} new covers; {len(state['covers'])} stored.", flush=True)
