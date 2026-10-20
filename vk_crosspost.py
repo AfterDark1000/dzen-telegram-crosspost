@@ -9,6 +9,7 @@ import urllib.parse
 import urllib.request
 import uuid
 from pathlib import Path
+from state_checkpoint import atomic_json
 
 from playwright.async_api import async_playwright, Error as PlaywrightError
 from crosspost import fetch_articles
@@ -102,8 +103,7 @@ def publish_to_vk(item, message, token):
 
 
 def save_seen(ids):
-    STATE.write_text(json.dumps(sorted(ids), ensure_ascii=False, indent=2) + "\n",
-                     encoding="utf-8")
+    atomic_json(STATE, sorted(ids))
 
 
 async def main():
