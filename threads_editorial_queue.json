@@ -15,8 +15,11 @@
       "id": "openai-legacy-code-20261020",
       "dzen_title": "OpenAI: ИИ научился лучше работать со старым программным кодом",
       "threads_text": "COBOL из банка не выкинешь командой «сделай мне нормальный код».\n\nGPT-6.1 Sol сохранила поведение старых программ при переносе в 97,9% внутренних тестов OpenAI — при высоких вычислительных усилиях. Серьёзный результат, но настоящие банковские системы так не проверяли.\n\nКнопку «переписать всё к чертям» пока лучше не устанавливать.",
-      "status": "approved",
-      "include_dzen_link": true
+      "status": "published",
+      "include_dzen_link": true,
+      "dzen_id": "6ad747205dd01a7e03411ef5",
+      "dzen_url": "https://dzen.ru/a/atdHIF3QGn4DQR71",
+      "threads_post_id": "18128704243843708"
     },
     {
       "id": "cloudflare-clairic-20261020",
