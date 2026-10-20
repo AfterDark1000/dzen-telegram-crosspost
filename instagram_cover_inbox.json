@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "offset": 129919646,
+  "offset": 129919647,
   "channel_id": -1004388745784,
   "covers": {
     "flux 3 max: десять секунд видео за двенадцать секунд": {
@@ -55,8 +55,8 @@
     },
     "grok завалил депутата письмами ради возврата £350": {
       "title": "Grok завалил депутата письмами ради возврата £350",
-      "file": "instagram_covers/91ae56b25792ef0319a5-15.jpg",
-      "message_id": 15
+      "file": "instagram_covers/91ae56b25792ef0319a5-16.jpg",
+      "message_id": 16
     }
   }
 }
