@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Dzen -> Threads. New articles only; existing article IDs are pre-seeded.
+"""Dzen -> Threads. Publish approved editorial texts only, never auto-teasers.
 
-Uses a separately scoped Threads token, never the Instagram token.
-Approximately two concise text posts for one text+original-cover post.
+Existing posted Dzen article IDs remain pre-seeded and untouched. Queue
+entries are created by ChatGPT only after explicit user approval.
 """
 import asyncio
 import json
@@ -15,7 +15,10 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
-from crosspost import fetch_articles, short_teaser
+from crosspost import fetch_articles
+from threads_editorial_queue import (
+    eligible_matches, load_queue, mark_published, save_queue
+)
 
 API = "https://graph.threads.net/v1.0"
 TOKEN = os.getenv("THREADS_ACCESS_TOKEN", "").strip()
@@ -23,7 +26,6 @@ EXPECTED_USERNAME = "iipike.ai"
 INTRO_TEXT = "«Хроники Пикирующего ИИ» теперь и в Threads. Здесь — короткие новости об искусственном интеллекте: без рекламного восторга, без страшилок и без лишней воды. Разбираемся, что действительно произошло."
 STATE = Path("seen_threads_articles.json")
 MAX_PER_RUN = 8
-TEXT_LIMIT = 450  # keep clear of Threads' 500-character maximum
 
 
 def api(method, path, params=None):
@@ -58,40 +60,23 @@ def api(method, path, params=None):
     return result
 
 
-def clip_at_word(value, limit):
-    value = re.sub(r"\s+", " ", value or "").strip()
-    if len(value) <= limit:
-        return value
-    return value[:limit - 1].rsplit(" ", 1)[0].rstrip(" ,;:-") + "…"
-
-
-def post_text(article):
-    title = re.sub(r"\s+", " ", (article.get("title") or "")).strip()
-    if not title:
-        raise RuntimeError("Threads article without a title")
-    title = clip_at_word(title, 340)
-    rest = TEXT_LIMIT - len(title) - 2
-    teaser = short_teaser(article.get("text", ""), limit=min(260, rest))
-    teaser = clip_at_word(teaser, rest)
-    content = title + ("\n\n" + teaser if teaser else "")
-    if len(content) > TEXT_LIMIT:
-        raise RuntimeError("Threads text unexpectedly long")
-    return content
-
-
 def save_state(seen):
     STATE.write_text(json.dumps(sorted(seen), ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
 def read_recent_texts():
-    """Extra duplicate protection if a publish succeeded before state was committed."""
-    try:
-        answer = api("GET", "me/threads", {"fields": "id,text", "limit": "100"})
-        return {x.get("text", "").strip() for x in answer.get("data", [])
-                if isinstance(x, dict) and x.get("text")}
-    except Exception as error:
-        print("Threads duplicate check unavailable:", str(error)[:220], flush=True)
-        return set()
+    """Read recent Threads posts BEFORE any new send, or fail closed.
+
+    Used to recover from Threads publish success followed by a GitHub commit
+    failure; never silently assume that the account contains no post.
+    """
+    response = api("GET", "me/threads", {"fields": "id,text", "limit": "100"})
+    data = response.get("data")
+    if not isinstance(data, list):
+        raise RuntimeError("Threads recent-post lookup incomplete; posting paused")
+    return {row["text"].strip(): str(row.get("id") or "")
+            for row in data if isinstance(row, dict)
+            and isinstance(row.get("text"), str) and row.get("text", "").strip()}
 
 
 def create_container(text, cover=None):
@@ -149,56 +134,72 @@ async def main(check_only=False, intro=False):
         print("Threads paused: add THREADS_ACCESS_TOKEN to GitHub Actions secrets.", flush=True)
         return
     if not STATE.exists():
-        raise RuntimeError("Missing Threads state file; refusing to post old archive.")
+        raise RuntimeError("Missing Threads state: refusing to re-post historic Dzen articles.")
+
+    queue = load_queue()
+    seen = set(json.loads(STATE.read_text(encoding="utf-8")))
+    if not all(isinstance(x, str) for x in seen):
+        raise RuntimeError("Corrupt Threads seen-ID state; refusing to post")
+
+    if not check_only and not intro and not any(
+            entry["status"] == "approved" for entry in queue["items"]):
+        print("Threads: no approved author-written posts; no publishing.", flush=True)
+        return
+
+    articles = []
+    matches = []
+    if not check_only and not intro:
+        articles = await fetch_articles()
+        matches = eligible_matches(articles, queue, seen)
+        print("Threads: "+str(len(articles))+" Dzen feed items; "+
+              str(len(matches))+" uniquely matched approved posts.", flush=True)
+        if not matches:
+            print("Unmatched editorial posts wait for the exact Dzen headline; no auto-teasers.", flush=True)
+            return
 
     profile = api("GET", "me", {"fields": "id,username"})
     if profile.get("username", "").lower() != EXPECTED_USERNAME:
-        raise RuntimeError(
-            "Threads token is not for @" + EXPECTED_USERNAME + "; "
-            "no posts were sent."
-        )
+        raise RuntimeError("Threads token is not for @" + EXPECTED_USERNAME + "; no posts sent")
     print("Threads login verified: @" + EXPECTED_USERNAME, flush=True)
+
     if check_only:
         print("Threads check-only mode: no posts sent.", flush=True)
         return
-
     if intro:
-        # Fail closed if previous posts cannot be inspected. No accidental duplicate.
-        response = api("GET", "me/threads", {"fields": "id,text", "limit": "100"})
-        current = {x.get("text", "").strip() for x in response.get("data", [])
-                   if isinstance(x, dict)}
+        # An explicit --intro is separate from regular editorial publishing.
+        current = read_recent_texts()
         if INTRO_TEXT in current:
             print("Threads welcome post already present; skipping.", flush=True)
         else:
             publish(INTRO_TEXT)
-            print("Threads welcome post successfully published.", flush=True)
         return
 
-    articles = await fetch_articles()
-    seen = set(json.loads(STATE.read_text(encoding="utf-8")))
-    pending = sorted((item for item in articles if item["id"] not in seen),
-                     key=lambda item: (item["date"], item["id"]))
-    print(f"Threads: {len(articles)} feed articles; {len(pending)} new.", flush=True)
-    if not pending:
-        return
-
+    # Protection against retry after a previous successful API post whose
+    # GitHub state commit failed. If this lookup fails, DO NOT publish.
     recent_texts = read_recent_texts()
-    for item in pending[:MAX_PER_RUN]:
-        text = post_text(item)
-        if text in recent_texts:
-            print("Threads already contains:", item["title"], flush=True)
+    for item, approved in matches[:MAX_PER_RUN]:
+        message = approved["threads_text"].strip()
+        if message in recent_texts:
+            post_id = recent_texts[message]
+            if not post_id:
+                raise RuntimeError("Threads prior post found without ID; hold for manual review")
+            print("Threads already contains approved author post:", item["title"], flush=True)
         else:
-            # Text-first feed, with original cover on about every third article.
-            cover = item.get("image", "") if (len(seen) % 3 == 2) else ""
-            if not cover.startswith("https://"):
+            # Preserve the historic alternating text / original-cover pattern.
+            cover = item.get("image", "") if len(seen) % 3 == 2 else ""
+            if not isinstance(cover, str) or not cover.startswith("https://"):
                 cover = ""
-            publish(text, cover=cover)
-            recent_texts.add(text)
-        seen.add(item["id"])
+            post_id = publish(message, cover=cover)
+            recent_texts[message] = post_id
+            print("Threads author post published:", item["title"], flush=True)
+        mark_published(approved, item, post_id)
+        seen.add(str(item["id"]))
+        # Both files will be committed together by the GitHub workflow.
+        save_queue(queue)
         save_state(seen)
 
-    if len(pending) > MAX_PER_RUN:
-        print(f"Threads: {len(pending) - MAX_PER_RUN} remain for next run.", flush=True)
+    if len(matches) > MAX_PER_RUN:
+        print(f"Threads: {len(matches) - MAX_PER_RUN} approved posts await next run.", flush=True)
 
 
 if __name__ == "__main__":
