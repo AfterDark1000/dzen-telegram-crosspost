@@ -1,15 +1,41 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-20T10:48:34+00:00",
+  "updated_at_utc": "2026-10-20T11:18:29+00:00",
   "scope": "public Dzen feed + prepared Instagram covers; not private Dzen schedule",
-  "legacy_seen_ids_count": 75,
+  "legacy_seen_ids_count": 76,
   "entries": [
     {
-      "key": "cover:9cb1792e8119c36f2af2",
+      "key": "cover:e768b0baf0b19a56db13",
+      "title": "Google научила Gemini Notebook показывать план видео до его создания",
+      "title_normalized": "google научила gemini notebook показывать план видео до его создания",
+      "status": "cover_ready",
+      "first_recorded_at_utc": "2026-10-20T11:18:29+00:00"
+    },
+    {
+      "key": "cover:c25d9e7ad1d50109e796",
+      "title": "Cloudflare выпустила Clairic — ИИ, который извлекает данные без генерации текста",
+      "title_normalized": "cloudflare выпустила clairic ии который извлекает данные без генерации текста",
+      "status": "cover_ready",
+      "first_recorded_at_utc": "2026-10-20T11:18:29+00:00"
+    },
+    {
+      "key": "cover:1b64c20e3605bf24caa9",
+      "title": "OpenAI: ИИ научился лучше работать со старым программным кодом",
+      "title_normalized": "openai ии научился лучше работать со старым программным кодом",
+      "status": "cover_ready",
+      "first_recorded_at_utc": "2026-10-20T11:18:29+00:00"
+    },
+    {
+      "key": "dzen:6ad70dd357450928e2779daf",
+      "dzen_id": "6ad70dd357450928e2779daf",
       "title": "ИИ отказался ловить хакеров",
       "title_normalized": "ии отказался ловить хакеров",
-      "status": "cover_ready",
-      "first_recorded_at_utc": "2026-10-20T10:48:34+00:00"
+      "status": "published",
+      "dzen_url": "https://dzen.ru/a/atcN01dFCSjid52v",
+      "published_at_utc": "2026-10-20T11:02:07+00:00",
+      "first_recorded_at_utc": "2026-10-20T11:18:29+00:00",
+      "excerpt": "Хакеры двое суток атаковали OpenCode с помощью искусственного интеллекта. Разработчики отправили на защиту собственных ИИ-агентов. И тут выяснилось, что у цифровых защитников имеются моральные принципы. История, которую ещё недавно сочли бы сценарием сатирического сериала, произошла в октябре 2026 года. Компания OpenCode, разрабатывающая ИИ-инструменты для программирования, столкнулась с серьёзной кибератакой. По сло",
+      "vertical_cover_prepared": true
     },
     {
       "key": "dzen:6ad6f21ca4204c21d6073b38",
