@@ -1,9 +1,28 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-20T14:18:14+00:00",
+  "updated_at_utc": "2026-10-20T15:18:19+00:00",
   "scope": "public Dzen feed + prepared Instagram covers; not private Dzen schedule",
-  "legacy_seen_ids_count": 78,
+  "legacy_seen_ids_count": 79,
   "entries": [
+    {
+      "key": "cover:2953d2c8153d3357fbbf",
+      "title": "Grok завалил депутата письмами ради возврата £350",
+      "title_normalized": "grok завалил депутата письмами ради возврата 350",
+      "status": "cover_ready",
+      "first_recorded_at_utc": "2026-10-20T15:18:19+00:00"
+    },
+    {
+      "key": "dzen:6ad74813be108a14528bee3a",
+      "dzen_id": "6ad74813be108a14528bee3a",
+      "title": "Cloudflare выпустила Clairic — ИИ, который извлекает данные без генерации текста",
+      "title_normalized": "cloudflare выпустила clairic ии который извлекает данные без генерации текста",
+      "status": "published",
+      "dzen_url": "https://dzen.ru/a/atdIE74QihRSi-46",
+      "published_at_utc": "2026-10-20T15:01:18+00:00",
+      "first_recorded_at_utc": "2026-10-20T15:18:19+00:00",
+      "excerpt": "Чтобы узнать сумму в счёте, дату доставки или номер заказа, совсем необязательно устраивать с нейросетью полноценный разговор. Иногда от неё требуется одно: прочитать документ и вернуть несколько конкретных значений. 19 октября Cloudflare представила Clairic — специализированную ИИ-модель, созданную именно для такой работы. Обычная большая языковая модель формирует ответ последовательно, слово за словом. Даже когда е",
+      "vertical_cover_prepared": true
+    },
     {
       "key": "dzen:6ad747205dd01a7e03411ef5",
       "dzen_id": "6ad747205dd01a7e03411ef5",
@@ -27,13 +46,6 @@
       "first_recorded_at_utc": "2026-10-20T13:18:13+00:00",
       "excerpt": "Одна из неприятных особенностей генеративного ИИ: результат иногда получается вполне красивым, только рассказывает совсем не о том и совсем не в том порядке. Приходится объяснять машине, что она сделала не так, и запускать генерацию заново...",
       "vertical_cover_prepared": true
-    },
-    {
-      "key": "cover:c25d9e7ad1d50109e796",
-      "title": "Cloudflare выпустила Clairic — ИИ, который извлекает данные без генерации текста",
-      "title_normalized": "cloudflare выпустила clairic ии который извлекает данные без генерации текста",
-      "status": "cover_ready",
-      "first_recorded_at_utc": "2026-10-20T11:18:29+00:00"
     },
     {
       "key": "dzen:6ad70dd357450928e2779daf",
