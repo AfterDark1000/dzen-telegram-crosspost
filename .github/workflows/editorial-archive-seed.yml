@@ -1,0 +1,49 @@
+name: Initialize editorial archive from public Dzen feed
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/editorial-archive-seed.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: dzen-telegram
+  cancel-in-progress: false
+jobs:
+  archive-only:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Install read-only Dzen browser
+        run: |
+          python3 -m pip install playwright pillow pynacl
+          python3 -m playwright install --with-deps chromium
+      - name: Fetch public Dzen articles without posting
+        continue-on-error: true
+        run: |
+          python3 - <<'PY'
+          import asyncio, json
+          from pathlib import Path
+          from crosspost import fetch_articles
+          rows = asyncio.run(fetch_articles())
+          Path("_current_dzen_snapshot.json").write_text(json.dumps(rows, ensure_ascii=False), encoding="utf-8")
+          print("Read public Dzen articles:", len(rows))
+          PY
+      - name: Test and create unified archive
+        run: |
+          python3 -m unittest discover -s tests -p 'test_editorial_archive.py' -v
+          python3 editorial_archive.py
+      - name: Save archive without changing crosspost states
+        run: |
+          if [ -f editorial_archive.json ] && [ -n "$(git status --porcelain -- editorial_archive.json)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add editorial_archive.json
+            git commit -m "Initialize HPI editorial archive [skip ci]"
+            git pull --rebase origin main
+            git push
+          fi
