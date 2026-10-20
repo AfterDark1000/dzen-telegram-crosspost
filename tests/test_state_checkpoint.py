@@ -162,5 +162,77 @@ class GitIntegrationTests(unittest.TestCase):
             self.assertTrue((cache / "recovery" / "test" / "seen_articles.json").exists())
 
 
+    def test_push_rejected_then_retried_without_losing_local_cover(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            bare, runner, editor = (root / x for x in ("origin.git", "runner", "editor"))
+            cache = root / "checkpoint-cache"
+            run("git", "init", "--bare", str(bare), cwd=root)
+            run("git", "init", "-b", "main", str(runner), cwd=root)
+            for key, val in (("user.name", "Fixture"), ("user.email", "fixture@example.org")):
+                run("git", "config", key, val, cwd=runner)
+            for name, data in fixture().items():
+                cp.atomic_json(runner / name, data)
+            (runner / "app.py").write_text("safe_code = True\n")
+            run("git", "add", "-A", cwd=runner)
+            run("git", "commit", "-m", "initial", cwd=runner)
+            run("git", "remote", "add", "origin", str(bare), cwd=runner)
+            run("git", "push", "-u", "origin", "main", cwd=runner)
+            run("git", "clone", "-b", "main", str(bare), str(editor), cwd=root)
+            for key, val in (("user.name", "Editor"), ("user.email", "editor@example.org")):
+                run("git", "config", key, val, cwd=editor)
+
+            with patch.object(cp, "ROOT", runner), patch.object(cp, "CACHE", cache):
+                cp.initialize()
+                ids = json.loads((runner / "seen_vk_articles.json").read_text())
+                ids.append("vk-sent-before-race")
+                cp.atomic_json(runner / "seen_vk_articles.json", ids)
+                image_name = "0123456789abcdef0123-23.jpg"
+                image_path = runner / "instagram_covers" / image_name
+                cp.atomic_bytes(image_path, b"\xff\xd8\xffMOCKJPEG")
+                inbox = json.loads((runner / "instagram_cover_inbox.json").read_text())
+                inbox["offset"] = 43
+                inbox["covers"]["new-cover"] = {
+                    "title": "New cover", "file": "instagram_covers/" + image_name
+                }
+                cp.atomic_json(runner / "instagram_cover_inbox.json", inbox)
+
+                # The editor is ready to push in the race window. It moves
+                # main EXACTLY when our first push starts, forcing a rejection.
+                (editor / "app.py").write_text("safe_code = True\neditor_update = 42\n")
+                run("git", "add", ".", cwd=editor)
+                run("git", "commit", "-m", "editor commit during race", cwd=editor)
+                actual_run = subprocess.run
+                injected = [False]
+
+                def raced_run(args, **kwargs):
+                    if (not injected[0] and args[:2] == ["git", "push"]
+                            and Path(kwargs.get("cwd") or "") == runner):
+                        injected[0] = True
+                        response = actual_run(["git", "push", "origin", "main"],
+                                              cwd=editor, capture_output=True)
+                        if response.returncode:
+                            raise AssertionError(response.stderr)
+                    return actual_run(args, **kwargs)
+
+                with patch.object(cp.subprocess, "run", side_effect=raced_run):
+                    cp.save("covers")
+                self.assertTrue(injected[0])
+
+            run("git", "fetch", "origin", cwd=editor)
+            data = json.loads(run("git", "show", "origin/main:seen_vk_articles.json", cwd=editor))
+            self.assertIn("vk-sent-before-race", data)
+            self.assertIn("editor_update = 42",
+                          run("git", "show", "origin/main:app.py", cwd=editor))
+            inbox_remote = json.loads(run("git", "show", "origin/main:instagram_cover_inbox.json",
+                                          cwd=editor))
+            self.assertEqual(inbox_remote["offset"], 43)
+            self.assertIn("new-cover", inbox_remote["covers"])
+            image = actual_run(
+                ["git", "show", "origin/main:instagram_covers/" + image_name],
+                cwd=editor, capture_output=True)
+            self.assertEqual(image.stdout, b"\xff\xd8\xffMOCKJPEG")
+
+
 if __name__ == "__main__":
     unittest.main()
