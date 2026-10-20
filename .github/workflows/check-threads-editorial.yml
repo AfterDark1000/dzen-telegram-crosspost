@@ -1,0 +1,30 @@
+name: Check approved Threads queue (no publishing)
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/check-threads-editorial.yml'
+      - 'threads_editorial_queue.py'
+      - 'threads_editorial_queue.json'
+      - 'threads_crosspost.py'
+      - 'tests/test_threads_editorial_queue.py'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  check-editorial-queue:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify Python and offline duplicate-prevention tests
+        run: |
+          python3 -m py_compile threads_crosspost.py threads_editorial_queue.py
+          python3 -m unittest discover -s tests -p 'test_threads_editorial_queue.py' -v
+      - name: Confirm publishing queue starts empty
+        run: |
+          python3 - <<'PY'
+          from threads_editorial_queue import load_queue
+          rows = load_queue()['items']
+          print("Approved queued Threads posts:", sum(x["status"]=="approved" for x in rows))
+          PY
