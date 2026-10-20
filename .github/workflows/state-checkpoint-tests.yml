@@ -1,0 +1,43 @@
+name: Test crosspost state safety (NO PUBLISHING)
+on:
+  push:
+    branches:
+      - fix/atomic-crosspost-state-20261020
+    paths:
+      - 'state_checkpoint.py'
+      - 'tests/test_state_checkpoint.py'
+      - '.github/workflows/state-checkpoint-tests.yml'
+      - '.github/workflows/crosspost.yml'
+      - '.github/workflows/instagram-cover-import.yml'
+      - '.github/workflows/editorial-archive-seed.yml'
+      - '**/*.py'
+  pull_request:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  offline-tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install import dependencies (NO browser launch)
+        run: python3 -m pip install --disable-pip-version-check pillow playwright pynacl pyyaml
+      - name: Compile all runtime Python files
+        run: python3 -m compileall -q .
+      - name: Run offline tests (network-free, no publishers)
+        run: python3 -m unittest discover -s tests -p 'test_*.py' -v
+      - name: Check workflow YAML and invariants
+        run: |
+          python3 - <<'PY'
+          import yaml
+          from pathlib import Path
+          for name in ("crosspost.yml", "instagram-cover-import.yml", "editorial-archive-seed.yml"):
+              content = (Path(".github/workflows") / name).read_text()
+              config = yaml.load(content, Loader=yaml.BaseLoader)
+              assert "jobs" in config and isinstance(config["jobs"], dict)
+              assert "state_checkpoint.py init" in content
+              assert "git pull --rebase" not in content and "git push" not in content
+              assert "state_checkpoint.py save" in content
+              print("Validated", name)
+          PY
