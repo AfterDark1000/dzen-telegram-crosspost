@@ -1,15 +1,20 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-20T11:18:29+00:00",
+  "updated_at_utc": "2026-10-20T13:18:13+00:00",
   "scope": "public Dzen feed + prepared Instagram covers; not private Dzen schedule",
-  "legacy_seen_ids_count": 76,
+  "legacy_seen_ids_count": 77,
   "entries": [
     {
-      "key": "cover:e768b0baf0b19a56db13",
+      "key": "dzen:6ad73f852d69ac1460137ba9",
+      "dzen_id": "6ad73f852d69ac1460137ba9",
       "title": "Google научила Gemini Notebook показывать план видео до его создания",
       "title_normalized": "google научила gemini notebook показывать план видео до его создания",
-      "status": "cover_ready",
-      "first_recorded_at_utc": "2026-10-20T11:18:29+00:00"
+      "status": "published",
+      "dzen_url": "https://dzen.ru/a/atc_hS1prBRgE3up",
+      "published_at_utc": "2026-10-20T13:01:08+00:00",
+      "first_recorded_at_utc": "2026-10-20T13:18:13+00:00",
+      "excerpt": "Одна из неприятных особенностей генеративного ИИ: результат иногда получается вполне красивым, только рассказывает совсем не о том и совсем не в том порядке. Приходится объяснять машине, что она сделала не так, и запускать генерацию заново...",
+      "vertical_cover_prepared": true
     },
     {
       "key": "cover:c25d9e7ad1d50109e796",
