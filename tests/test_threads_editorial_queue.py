@@ -47,6 +47,33 @@ class EditorialQueueTests(unittest.TestCase):
         self.assertEqual(item["dzen_id"], ARTICLE["id"])
         self.assertEqual(item["threads_post_id"], "threads-999")
 
+    def test_selective_dzen_link_only_when_explicitly_approved(self):
+        author_text = QUEUE["items"][0]["threads_text"]
+        no_link = ed.compose_delivery_text(QUEUE["items"][0], ARTICLE)
+        self.assertEqual(no_link, author_text)
+        approved = {**QUEUE["items"][0], "include_dzen_link": True}
+        message = ed.compose_delivery_text(approved, ARTICLE)
+        self.assertEqual(message, author_text + "\n\nПодробнее в Дзене: " + ARTICLE["url"])
+        self.assertLessEqual(len(message), 500)
+
+    def test_bad_or_missing_dzen_link_blocks_post(self):
+        approved = {**QUEUE["items"][0], "include_dzen_link": True}
+        for url in ("https://dzen.ru.evil.com/a/123", "https://dzen.ru/a/123?foo=bar",
+                    "http://dzen.ru/a/123", "", "https://dzen.ru/not-public"):
+            with self.assertRaisesRegex(RuntimeError, "Dzen article URL"):
+                ed.compose_delivery_text(approved, {**ARTICLE, "url": url})
+
+    def test_long_author_post_never_truncated_to_make_room_for_link(self):
+        approved = {**QUEUE["items"][0], "include_dzen_link": True,
+                    "threads_text": "Т" * 475}
+        with self.assertRaisesRegex(RuntimeError, "500 characters"):
+            ed.compose_delivery_text(approved, ARTICLE)
+        self.assertEqual(len(approved["threads_text"]), 475)
+        bad = {"schema_version": 1, "items": [
+            {**QUEUE["items"][0], "include_dzen_link": "yes"}]}
+        with self.assertRaisesRegex(RuntimeError, "true or false"):
+            ed.validate_queue(bad)
+
     def test_queue_json_roundtrip(self):
         with tempfile.TemporaryDirectory() as folder:
             path=Path(folder)/"queue.json"
@@ -104,6 +131,35 @@ class RuntimeTests(unittest.IsolatedAsyncioTestCase):
             result=ed.load_queue(queuepath)
             self.assertEqual(result["items"][0]["status"],"published")
             self.assertEqual(json.loads(seenpath.read_text()),["dzen-1001"])
+
+    async def test_linked_author_text_posts_once_with_real_dzen_url(self):
+        with tempfile.TemporaryDirectory() as folder:
+            seenpath = Path(folder) / "seen.json"
+            queuepath = Path(folder) / "queue.json"
+            seenpath.write_text("[]", encoding="utf-8")
+            approved = {"schema_version": 1, "items": [
+                {**QUEUE["items"][0], "include_dzen_link": True}]}
+            ed.save_queue(approved, queuepath)
+            expected = ed.compose_delivery_text(approved["items"][0], ARTICLE)
+            def mock_api(method, path, params=None):
+                if path == "me":
+                    return {"username": "iipike.ai"}
+                if path == "me/threads":
+                    return {"data": []}
+                raise AssertionError("Unexpected API request")
+            with patch.object(bot, "STATE", seenpath), patch.object(bot, "TOKEN", "dummy"), \
+                 patch.object(bot, "load_queue", side_effect=lambda: ed.load_queue(queuepath)), \
+                 patch.object(bot, "save_queue", side_effect=lambda q: ed.save_queue(q, queuepath)), \
+                 patch.object(bot, "fetch_articles", new_callable=AsyncMock,
+                              return_value=[ARTICLE]), \
+                 patch.object(bot, "api", side_effect=mock_api), \
+                 patch.object(bot, "publish", return_value="threads-999") as publish:
+                await bot.main()
+                publish.assert_called_once_with(expected, cover="")
+            result = ed.load_queue(queuepath)
+            self.assertEqual(result["items"][0]["status"], "published")
+            self.assertEqual(result["items"][0]["dzen_id"], ARTICLE["id"])
+            self.assertEqual(json.loads(seenpath.read_text()), [ARTICLE["id"]])
 
     async def test_remote_lookup_failure_blocks_send(self):
         with tempfile.TemporaryDirectory() as folder:
