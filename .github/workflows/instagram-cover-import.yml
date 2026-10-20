@@ -1,0 +1,41 @@
+name: Receive Instagram cover (safe test)
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/instagram-cover-import.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: dzen-telegram
+  cancel-in-progress: false
+
+jobs:
+  receive:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Install image support
+        run: python3 -m pip install --disable-pip-version-check pillow
+      - name: Read uploaded Telegram covers (NO Instagram publication)
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        run: |
+          test -n "$TELEGRAM_BOT_TOKEN" || { echo "Missing Telegram secret"; exit 1; }
+          python3 instagram_cover_inbox.py
+      - name: Save image and metadata only
+        run: |
+          if [ -n "$(git status --porcelain -- instagram_cover_inbox.json instagram_covers/)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add instagram_cover_inbox.json instagram_covers/
+            git commit -m "Receive Instagram cover safely [skip ci]"
+            git pull --rebase origin main
+            git push
+          fi
