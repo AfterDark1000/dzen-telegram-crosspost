@@ -1,6 +1,12 @@
 {
   "schema_version": 1,
-  "offset": 0,
-  "channel_id": null,
-  "covers": {}
+  "offset": 129919633,
+  "channel_id": -1004388745784,
+  "covers": {
+    "flux 3 max: десять секунд видео за двенадцать секунд": {
+      "title": "FLUX 3 Max: десять секунд видео за двенадцать секунд",
+      "file": "instagram_covers/c526781d98d762c6defc-2.jpg",
+      "message_id": 2
+    }
+  }
 }
