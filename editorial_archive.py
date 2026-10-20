@@ -10,6 +10,7 @@ import datetime as dt
 import hashlib
 import json
 from pathlib import Path
+from state_checkpoint import atomic_json
 import re
 import sys
 import unicodedata
@@ -143,8 +144,7 @@ def main():
         if cmp == result:
             print("Editorial archive unchanged.", flush=True)
             return
-    ARCHIVE.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n",
-                       encoding="utf-8")
+    atomic_json(ARCHIVE, result)
     n_published = sum(row["status"] == "published" for row in result["entries"])
     n_cover = sum(row["status"] == "cover_ready" for row in result["entries"])
     print(f"Editorial archive: {n_published} public publications; "

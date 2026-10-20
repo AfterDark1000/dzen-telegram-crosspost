@@ -10,6 +10,7 @@ import urllib.parse
 import urllib.request
 import urllib.error
 from pathlib import Path
+from state_checkpoint import atomic_json
 
 from playwright.async_api import async_playwright, Error as PlaywrightError
 from telegram_photo import send_photo_upload
@@ -155,7 +156,7 @@ async def main():
     print(f"Found {len(articles)} public Dzen articles")
     ids = {item["id"] for item in articles}
     if not STATE.exists():
-        STATE.write_text(json.dumps(sorted(ids), ensure_ascii=False, indent=2) + "\n")
+        atomic_json(STATE, sorted(ids))
         print("FIRST RUN: recorded existing articles, nothing posted.")
         return
     seen = set(json.loads(STATE.read_text()))
@@ -166,7 +167,7 @@ async def main():
         send_article(item)
         print("Posted:", item["title"])
         seen.add(item["id"])
-        STATE.write_text(json.dumps(sorted(seen), ensure_ascii=False, indent=2) + "\n")
+        atomic_json(STATE, sorted(seen))
     print("Done")
 
 if __name__ == "__main__":

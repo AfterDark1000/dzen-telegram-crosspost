@@ -14,6 +14,7 @@ import urllib.error
 import urllib.parse
 import urllib.request
 from pathlib import Path
+from state_checkpoint import atomic_json
 
 from crosspost import fetch_articles
 from threads_editorial_queue import (
@@ -61,7 +62,7 @@ def api(method, path, params=None):
 
 
 def save_state(seen):
-    STATE.write_text(json.dumps(sorted(seen), ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    atomic_json(STATE, sorted(seen))
 
 
 def read_recent_texts():

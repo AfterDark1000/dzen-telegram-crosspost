@@ -16,100 +16,64 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
+          ref: main
+          fetch-depth: 0
           persist-credentials: true
+      - name: Initialize crosspost state safety
+        id: state_init
+        run: python3 state_checkpoint.py init
       - name: Install browser
+        id: install
         run: |
           python3 -m pip install playwright pillow pynacl
           python3 -m playwright install --with-deps chromium
       - name: Read Dzen and post new articles
+        if: ${{ !cancelled() && steps.state_init.outcome == 'success' && steps.install.outcome == 'success' }}
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         run: |
           test -n "$TELEGRAM_BOT_TOKEN" || { echo "Missing TELEGRAM_BOT_TOKEN GitHub Actions secret"; exit 1; }
           python3 crosspost.py
-      - name: Save published IDs
-        run: |
-          if [ -f seen_articles.json ] && [ -n "$(git status --porcelain -- seen_articles.json)" ]; then
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add seen_articles.json
-            git commit -m "Update Dzen posted article IDs [skip ci]"
-            git pull --rebase origin main
-            git push
-          fi
-      - name: Post full-text articles to VK (when new wall-only key is configured)
+      - name: Post full-text articles to VK
+        if: ${{ !cancelled() && steps.state_init.outcome == 'success' && steps.install.outcome == 'success' }}
         env:
           VK_ACCESS_TOKEN: ${{ secrets.VK_ACCESS_TOKEN }}
         run: |
           python3 -m py_compile vk_crosspost.py
           python3 vk_crosspost.py
-      - name: Save VK published IDs
-        if: ${{ always() }}
-        run: |
-          if [ -f seen_vk_articles.json ] && [ -n "$(git status --porcelain -- seen_vk_articles.json)" ]; then
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add seen_vk_articles.json
-            git commit -m "Update VK posted article IDs [skip ci]"
-            git pull --rebase origin main
-            git push
-          fi
+      - name: Checkpoint delivered Telegram and VK IDs
+        id: early_checkpoint
+        if: ${{ !cancelled() && steps.state_init.outcome == 'success' }}
+        timeout-minutes: 4
+        run: python3 state_checkpoint.py save early
       - name: Collect vertical Instagram covers from Telegram channel
-        if: ${{ !cancelled() }}
+        if: ${{ !cancelled() && steps.state_init.outcome == 'success' && steps.install.outcome == 'success' && steps.early_checkpoint.outcome == 'success' }}
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         run: |
           python3 -m py_compile instagram_cover_inbox.py instagram_crosspost.py
           python3 -m unittest discover -s tests -p 'test_instagram_cover_inbox.py' -v
           python3 instagram_cover_inbox.py
-      - name: Save Telegram cover inbox and public JPEGs for Instagram
-        if: ${{ !cancelled() }}
-        run: |
-          if [ -n "$(git status --porcelain -- instagram_cover_inbox.json instagram_covers/)" ]; then
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add instagram_cover_inbox.json instagram_covers/
-            git commit -m "Save tagged Instagram cover submissions [skip ci]"
-            git pull --rebase origin main
-            git push
-          fi
       - name: Refresh unified HPI editorial archive
-        if: ${{ !cancelled() }}
+        if: ${{ !cancelled() && steps.state_init.outcome == 'success' && steps.install.outcome == 'success' && steps.early_checkpoint.outcome == 'success' }}
         continue-on-error: true
         run: |
           python3 -m unittest discover -s tests -p 'test_editorial_archive.py' -v
           python3 editorial_archive.py
-      - name: Save unified editorial archive
-        if: ${{ !cancelled() }}
-        run: |
-          if [ -f editorial_archive.json ] && [ -n "$(git status --porcelain -- editorial_archive.json)" ]; then
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add editorial_archive.json
-            git commit -m "Update HPI unified editorial archive [skip ci]"
-            git pull --rebase origin main
-            git push
-          fi
+      - name: Checkpoint covers and archive before Instagram
+        id: cover_checkpoint
+        if: ${{ !cancelled() && steps.state_init.outcome == 'success' && steps.early_checkpoint.outcome == 'success' }}
+        timeout-minutes: 4
+        run: python3 state_checkpoint.py save covers
       - name: Post new articles to Instagram
-        if: ${{ !cancelled() }}
+        if: ${{ !cancelled() && steps.state_init.outcome == 'success' && steps.install.outcome == 'success' && steps.cover_checkpoint.outcome == 'success' }}
         env:
           INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
         run: |
           python3 -m py_compile instagram_crosspost.py
           python3 instagram_crosspost.py
-      - name: Save Instagram published IDs
-        if: ${{ !cancelled() }}
-        run: |
-          if [ -f seen_instagram_articles.json ] && [ -n "$(git status --porcelain -- seen_instagram_articles.json instagram_pending_articles.json)" ]; then
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add seen_instagram_articles.json instagram_pending_articles.json
-            git commit -m "Update Instagram posted IDs and pending queue [skip ci]"
-            git pull --rebase origin main
-            git push
-          fi
-      - name: Post new Dzen articles to Threads
-        if: ${{ !cancelled() }}
+      - name: Post approved Dzen articles to Threads
+        if: ${{ !cancelled() && steps.state_init.outcome == 'success' && steps.install.outcome == 'success' && steps.cover_checkpoint.outcome == 'success' }}
         continue-on-error: true
         env:
           THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
@@ -117,19 +81,8 @@ jobs:
           python3 -m py_compile threads_crosspost.py threads_editorial_queue.py
           python3 -m unittest discover -s tests -p 'test_threads_editorial_queue.py' -v
           python3 threads_crosspost.py
-      - name: Save Threads queue and published IDs
-        if: ${{ !cancelled() }}
-        run: |
-          if [ -n "$(git status --porcelain -- seen_threads_articles.json threads_editorial_queue.json)" ]; then
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add seen_threads_articles.json threads_editorial_queue.json
-            git commit -m "Save approved Threads delivery results and Dzen IDs [skip ci]"
-            git pull --rebase origin main
-            git push
-          fi
       - name: Refresh Instagram and Threads tokens when due
-        if: ${{ !cancelled() }}
+        if: ${{ !cancelled() && steps.state_init.outcome == 'success' && steps.install.outcome == 'success' && steps.cover_checkpoint.outcome == 'success' }}
         env:
           INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
           THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
@@ -137,14 +90,16 @@ jobs:
         run: |
           python3 -m py_compile meta_token_refresh.py
           python3 meta_token_refresh.py
-      - name: Save token refresh dates (never tokens)
-        if: ${{ always() }}
-        run: |
-          if [ -f meta_token_refresh_state.json ] && [ -n "$(git status --porcelain -- meta_token_refresh_state.json)" ]; then
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add meta_token_refresh_state.json
-            git commit -m "Update Meta token refresh dates [skip ci]"
-            git pull --rebase origin main
-            git push
-          fi
+      - name: Save all remaining state even after failed publisher
+        id: final_checkpoint
+        if: ${{ always() && steps.state_init.outcome == 'success' }}
+        timeout-minutes: 4
+        run: python3 state_checkpoint.py save final
+      - name: Preserve recovery data if anything failed
+        if: ${{ always() && steps.state_init.outcome == 'success' && (failure() || cancelled()) }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: crosspost-state-recovery-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/hpi-state/recovery/
+          if-no-files-found: warn
+          retention-days: 7

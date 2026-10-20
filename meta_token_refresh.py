@@ -14,6 +14,7 @@ import urllib.error
 import urllib.parse
 import urllib.request
 from pathlib import Path
+from state_checkpoint import atomic_json
 
 STATE = Path("meta_token_refresh_state.json")
 EXPECTED_REPOSITORY = "AfterDark1000/dzen-telegram-crosspost"
@@ -186,7 +187,6 @@ def main():
     current = dt.datetime.now(UTC)
     pat = os.getenv("GH_META_SECRETS_PAT", "").strip()
     failures = []
-    changed = False
 
     for account, cfg in ACCOUNTS.items():
         row = state.get(account)
@@ -200,7 +200,6 @@ def main():
             print(account + ": waiting until next retry window.", flush=True)
             continue
         row["last_attempt"] = now_string(current)
-        changed = True
         try:
             if not pat:
                 raise RuntimeError("Missing GH_META_SECRETS_PAT")
@@ -214,10 +213,8 @@ def main():
             # Only our curated error strings, never tokens/URLs/response bodies.
             print("WARNING: " + account + ": " + str(exc), flush=True)
             failures.append(account)
-
-    if changed:
-        STATE.write_text(json.dumps(state, ensure_ascii=False, sort_keys=True, indent=2) + "\n",
-                         encoding="utf-8")
+        finally:
+            atomic_json(STATE, state)
     if failures:
         raise RuntimeError("Meta token refresh failed for: " + ", ".join(failures) +
                            ". Other publishing jobs are unaffected.")

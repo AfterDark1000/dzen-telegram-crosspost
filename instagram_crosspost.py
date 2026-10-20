@@ -8,6 +8,7 @@ import asyncio
 import json
 import os
 from pathlib import Path
+from state_checkpoint import atomic_json
 import re
 import time
 import urllib.error
@@ -68,7 +69,7 @@ def make_caption(item):
 
 
 def save_json(path, obj):
-    path.write_text(json.dumps(obj, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    atomic_json(path, obj)
 
 
 def cover_url(title, covers):
@@ -96,14 +97,15 @@ def is_cover_public(url):
 
 
 def recently_published_captions(user_id):
-    """Recover from success followed by a failed GitHub state commit."""
-    try:
-        response = graph("GET", str(user_id) + "/media", {
-            "fields": "id,caption", "limit": "100"})
-        return {row["caption"].strip() for row in response.get("data", []) if row.get("caption")}
-    except RuntimeError:
-        print("Instagram recent-post lookup failed; proceeding with local state.", flush=True)
-        return set()
+    """Fail closed when a prior successful Instagram post cannot be inspected."""
+    response = graph("GET", str(user_id) + "/media", {
+        "fields": "id,caption", "limit": "100"})
+    data = response.get("data")
+    if not isinstance(data, list):
+        raise RuntimeError("Instagram recent media lookup incomplete; publishing paused")
+    return {row["caption"].strip() for row in data
+            if isinstance(row, dict) and isinstance(row.get("caption"), str)
+            and row["caption"].strip()}
 
 
 def publish_article(user_id, item, caption, vertical_cover):
@@ -149,6 +151,7 @@ async def main():
                 "url": str(item.get("url") or ""), "date": int(item.get("date") or 0),
             }
     ordered = sorted(pending.values(), key=lambda row: (int(row.get("date") or 0), row["id"]))
+    save_json(PENDING, ordered)
     print("Instagram: " + str(len(ordered)) + " published Dzen news awaiting covers; " +
           str(len(covers)) + " matching-cover entries.", flush=True)
     if not TOKEN or not ordered:
