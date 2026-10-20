@@ -5,8 +5,11 @@
       "id": "google-gemini-video-plan-20261020",
       "dzen_title": "Google научила Gemini Notebook показывать план видео до его создания",
       "threads_text": "Самое обидное в ИИ-видео — заметить, что всё пошло не туда, когда ролик уже готов.\n\nGoogle добавила в Gemini Notebook согласование плана до генерации: можно поменять порядок сцен, содержание и оформление видеообзора или презентации.\n\nТеперь с нейросетью можно поругаться ещё на стадии черновика.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6ad73f852d69ac1460137ba9",
+      "dzen_url": "https://dzen.ru/a/atc_hS1prBRgE3up",
+      "threads_post_id": "18015144929754959"
     },
     {
       "id": "openai-legacy-code-20261020",
