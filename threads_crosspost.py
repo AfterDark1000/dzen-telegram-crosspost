@@ -17,7 +17,7 @@ from pathlib import Path
 
 from crosspost import fetch_articles
 from threads_editorial_queue import (
-    eligible_matches, load_queue, mark_published, save_queue
+    compose_delivery_text, eligible_matches, load_queue, mark_published, save_queue
 )
 
 API = "https://graph.threads.net/v1.0"
@@ -178,7 +178,7 @@ async def main(check_only=False, intro=False):
     # GitHub state commit failed. If this lookup fails, DO NOT publish.
     recent_texts = read_recent_texts()
     for item, approved in matches[:MAX_PER_RUN]:
-        message = approved["threads_text"].strip()
+        message = compose_delivery_text(approved, item)
         if message in recent_texts:
             post_id = recent_texts[message]
             if not post_id:
