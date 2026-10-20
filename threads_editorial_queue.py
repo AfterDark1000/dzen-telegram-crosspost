@@ -9,6 +9,7 @@ import json
 from pathlib import Path
 import re
 import unicodedata
+from urllib.parse import urlsplit
 
 QUEUE_FILE = Path("threads_editorial_queue.json")
 TEXT_LIMIT = 480  # Keep a little margin below Threads' 500-character limit.
@@ -46,6 +47,8 @@ def validate_queue(data):
             raise RuntimeError("Threads editorial post missing or exceeds 480 characters: " + identifier)
         if status not in ALLOWED_STATUSES:
             raise RuntimeError("Threads editorial item status is invalid: " + identifier)
+        if not isinstance(entry.get("include_dzen_link", False), bool):
+            raise RuntimeError("Threads Dzen link flag must be true or false: " + identifier)
         key = title_key(title)
         if len(key) < 5 or key in keys:
             raise RuntimeError("Threads queue has duplicate or ambiguous Dzen title: " + title)
@@ -89,6 +92,36 @@ def eligible_matches(articles, queue, seen):
     if len(ids) != len(set(ids)):
         raise RuntimeError("One Dzen ID matched multiple editorial queue entries")
     return sorted(matched, key=lambda pair: (int(pair[0].get("date") or 0), str(pair[0]["id"])))
+
+
+def verified_public_dzen_url(url):
+    """Use only the real public article URL, never a prepublication guess."""
+    if not isinstance(url, str):
+        raise RuntimeError("Published Dzen article URL missing")
+    parts = urlsplit(url)
+    if (parts.scheme != "https" or parts.netloc != "dzen.ru" or
+            not re.fullmatch(r"/a/[A-Za-z0-9_-]+/?", parts.path) or
+            parts.query or parts.fragment):
+        raise RuntimeError("Untrusted or malformed published Dzen article URL")
+    return url
+
+
+def compose_delivery_text(entry, article):
+    """Append the actual Dzen permalink only for posts explicitly marked for it.
+
+    Never shorten or rewrite the approved text. If the 500-character maximum
+    cannot hold the link, leave the post unposted for editorial review.
+    """
+    if entry.get("status") != "approved":
+        raise RuntimeError("Cannot compose an unapproved Threads post")
+    base = entry["threads_text"].strip()
+    if not entry.get("include_dzen_link", False):
+        return base
+    url = verified_public_dzen_url(article.get("url"))
+    message = base + "\n\nПодробнее в Дзене: " + url
+    if len(message) > 500:
+        raise RuntimeError("Threads author post plus real Dzen link exceeds 500 characters")
+    return message
 
 
 def mark_published(entry, article, threads_post_id):
