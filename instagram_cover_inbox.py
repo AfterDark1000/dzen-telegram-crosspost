@@ -69,12 +69,12 @@ def to_jpeg(raw):
     try:
         with Image.open(io.BytesIO(raw)) as src:
             src.load()
-            width, height = src.size
-            if width < 600 or height < 750:
-                raise ValueError("Image too small; use 1080 x 1350")
+            image = ImageOps.exif_transpose(src).convert("RGB")
+            width, height = image.size
             if abs(width / height - 0.8) > 0.02:
                 raise ValueError("Wrong aspect ratio; use 1080 x 1350 (4:5)")
-            image = ImageOps.exif_transpose(src).convert("RGB")
+            if width < 600 or height < 750:
+                raise ValueError("Image too small; use 1080 x 1350")
             image = image.resize((1080, 1350), Image.Resampling.LANCZOS)
             output = io.BytesIO()
             image.save(output, "JPEG", quality=93, optimize=True)
