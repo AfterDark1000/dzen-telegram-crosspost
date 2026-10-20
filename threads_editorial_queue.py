@@ -7,6 +7,7 @@ No payment, server, web UI or second Threads publisher is required.
 """
 import json
 from pathlib import Path
+from state_checkpoint import atomic_json
 import re
 import unicodedata
 from urllib.parse import urlsplit
@@ -134,4 +135,4 @@ def mark_published(entry, article, threads_post_id):
 
 def save_queue(queue, path=QUEUE_FILE):
     validate_queue(queue)
-    path.write_text(json.dumps(queue, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    atomic_json(path, queue)
