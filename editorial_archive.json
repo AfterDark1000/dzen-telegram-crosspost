@@ -1,9 +1,21 @@
 {
   "schema_version": 1,
-  "updated_at_utc": "2026-10-20T13:18:13+00:00",
+  "updated_at_utc": "2026-10-20T14:18:14+00:00",
   "scope": "public Dzen feed + prepared Instagram covers; not private Dzen schedule",
-  "legacy_seen_ids_count": 77,
+  "legacy_seen_ids_count": 78,
   "entries": [
+    {
+      "key": "dzen:6ad747205dd01a7e03411ef5",
+      "dzen_id": "6ad747205dd01a7e03411ef5",
+      "title": "OpenAI: ИИ научился лучше работать со старым программным кодом",
+      "title_normalized": "openai ии научился лучше работать со старым программным кодом",
+      "status": "published",
+      "dzen_url": "https://dzen.ru/a/atdHIF3QGn4DQR71",
+      "published_at_utc": "2026-10-20T14:01:28+00:00",
+      "first_recorded_at_utc": "2026-10-20T14:18:14+00:00",
+      "excerpt": "В старой банковской программе может быть заложено правило, о котором давно забыли даже её разработчики. Например, как именно обрабатывать дробную часть денежной суммы. Если при переносе программы на современный...",
+      "vertical_cover_prepared": true
+    },
     {
       "key": "dzen:6ad73f852d69ac1460137ba9",
       "dzen_id": "6ad73f852d69ac1460137ba9",
@@ -20,13 +32,6 @@
       "key": "cover:c25d9e7ad1d50109e796",
       "title": "Cloudflare выпустила Clairic — ИИ, который извлекает данные без генерации текста",
       "title_normalized": "cloudflare выпустила clairic ии который извлекает данные без генерации текста",
-      "status": "cover_ready",
-      "first_recorded_at_utc": "2026-10-20T11:18:29+00:00"
-    },
-    {
-      "key": "cover:1b64c20e3605bf24caa9",
-      "title": "OpenAI: ИИ научился лучше работать со старым программным кодом",
-      "title_normalized": "openai ии научился лучше работать со старым программным кодом",
       "status": "cover_ready",
       "first_recorded_at_utc": "2026-10-20T11:18:29+00:00"
     },
