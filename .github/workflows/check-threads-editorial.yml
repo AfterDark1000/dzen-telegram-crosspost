@@ -17,6 +17,8 @@ jobs:
     timeout-minutes: 3
     steps:
       - uses: actions/checkout@v4
+      - name: Install Python-only browser import dependency
+        run: python3 -m pip install playwright
       - name: Verify Python and offline duplicate-prevention tests
         run: |
           python3 -m py_compile threads_crosspost.py threads_editorial_queue.py
