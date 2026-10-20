@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "offset": 129919634,
+  "offset": 129919639,
   "channel_id": -1004388745784,
   "covers": {
     "flux 3 max: десять секунд видео за двенадцать секунд": {
@@ -12,6 +12,31 @@
       "title": "Mercury 3: нейросеть, которая пишет быстрее, чем успеваешь читать",
       "file": "instagram_covers/b16b21b760b27d8164fa-3.jpg",
       "message_id": 3
+    },
+    "google выпустила инструмент для запуска ии непосредственно на устройствах": {
+      "title": "Google выпустила инструмент для запуска ИИ непосредственно на устройствах",
+      "file": "instagram_covers/2af306e603f91a9da7f5-4.jpg",
+      "message_id": 4
+    },
+    "пять минут видео из одной картинки. китайцы выпустили omnihuman 2.0": {
+      "title": "Пять минут видео из одной картинки. Китайцы выпустили OmniHuman 2.0",
+      "file": "instagram_covers/b1664d931fe848fdf0f2-5.jpg",
+      "message_id": 5
+    },
+    "хакер использовал ии для атак на 1200 сайтов": {
+      "title": "Хакер использовал ИИ для атак на 1200 сайтов",
+      "file": "instagram_covers/86826076a5f4bc1a0e2f-6.jpg",
+      "message_id": 6
+    },
+    "amazon упрощает запуск ии на собственных процессорах вместо nvidia": {
+      "title": "Amazon упрощает запуск ИИ на собственных процессорах вместо NVIDIA",
+      "file": "instagram_covers/8053acdf5e8afeb3b6eb-7.jpg",
+      "message_id": 7
+    },
+    "ии отказался ловить хакеров": {
+      "title": "ИИ отказался ловить хакеров",
+      "file": "instagram_covers/9cb1792e8119c36f2af2-8.jpg",
+      "message_id": 8
     }
   }
 }
