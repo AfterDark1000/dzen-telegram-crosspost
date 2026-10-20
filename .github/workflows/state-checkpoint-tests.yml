@@ -27,6 +27,8 @@ jobs:
         run: python3 -m compileall -q .
       - name: Run offline tests (network-free, no publishers)
         run: python3 -m unittest discover -s tests -p 'test_*.py' -v
+      - name: Validate the current real JSON state without saving or publishing
+        run: python3 state_checkpoint.py init
       - name: Check workflow YAML and invariants
         run: |
           python3 - <<'PY'
