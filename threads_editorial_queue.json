@@ -132,8 +132,11 @@
       "id": "steam-next-fest-ai-copies-20261021",
       "dzen_title": "На Steam Next Fest больше 8 тысяч демоверсий. Одну разработчики побоялись показывать из-за ИИ",
       "threads_text": "На Steam Next Fest — 8 011 демоверсий. Но создатели одной игры свою показывать не захотели: боятся, что с помощью ИИ её скопируют и выпустят раньше оригинала.\n\nАвторы Drunken Goddess Reflux отменили публичную демку и перешли на закрытые сеансы.\n\nPC Gamer возмущается нашествием нейрослопа. Но сколько из этих 8 тысяч игр реально сделано ИИ, никто не подсчитал.\n\nРаньше демоверсию выпускали, чтобы игру заметили. Теперь страшно, что заметят слишком быстро.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6ad87ac2318e9e3914e0c86b",
+      "dzen_url": "https://dzen.ru/a/ath6wjGOnjkU4Mhr",
+      "threads_post_id": "17901798948601240"
     },
     {
       "id": "valsai-train-refund-agents-20261020",
