@@ -200,8 +200,11 @@
       "id": "openai-php-critical-vulnerabilities-20261022",
       "dzen_title": "ИИ помог найти две критические дыры в PHP. Под угрозой оказались сайты на WordPress и Drupal",
       "threads_text": "В PHP нашли две критические дыры: через них могли взломать сервер без пароля. А PHP стоит за WordPress и множеством других сайтов.\n\nОдну уязвимость команда Calif обнаружила с GPT-5.6 Sol. Wiz независимо нашла обе, используя в том числе Gemini 4 Argon.\n\nРазработчики PHP выпустили обновления, Cloudflare подготовила защиту.\n\nКонкурирующие нейросети помогли найти проблемы в основе интернета. Теперь очередь за владельцами серверов: патчи сами себя не установят.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6ad9af1ae9368d4a2d1b3016",
+      "dzen_url": "https://dzen.ru/a/atmvGuk2jUotGzAW",
+      "threads_post_id": "18121953085941912"
     },
     {
       "id": "openai-rosalind-brain-agents-20261022",
