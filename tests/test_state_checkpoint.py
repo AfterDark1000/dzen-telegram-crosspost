@@ -51,6 +51,23 @@ def run(*args, cwd):
 
 
 class MergeTests(unittest.TestCase):
+    def test_committed_production_state_preserves_queue_and_delivery_ids(self):
+        # Exercise the same real-data validation that initialize() runs before
+        # publishers, without invoking git, saving state or contacting services.
+        state = cp.local_states()
+        original = copy.deepcopy(state)
+        merged = cp.merge_states(state, state, state)
+        queue_name = "threads_editorial_queue.json"
+        self.assertEqual(
+            {row["id"]: row for row in merged[queue_name]["items"]},
+            {row["id"]: row for row in original[queue_name]["items"]})
+        for name in cp.IDS:
+            self.assertTrue(set(original[name]).issubset(merged[name]), name)
+        for row in original[queue_name]["items"]:
+            if row["status"] == "published":
+                self.assertIn(str(row["dzen_id"]), merged["seen_threads_articles.json"])
+        self.assertEqual(state, original)
+
     def test_id_union_and_independent_editorial_changes(self):
         base = fixture()
         local, remote = copy.deepcopy(base), copy.deepcopy(base)
