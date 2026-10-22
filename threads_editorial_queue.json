@@ -177,8 +177,11 @@
       "id": "perplexity-computer-local-mac-20261022",
       "dzen_title": "Perplexity перенесла ИИ-агента на Mac: он может работать даже без интернета",
       "threads_text": "Perplexity поселила ИИ-агента прямо в Mac. Теперь он может разбирать заметки и письма, обновлять таблицы и составлять отчёты без отправки данных в облако. Локально работают и модель, и планировщик задач.\n\nНо есть нюанс: нужен Mac с Apple Silicon, желательно 36 ГБ памяти, и подписка Pro, Max или Enterprise.\n\nЧтобы ИИ перестал зависеть от серверов компании, от самой компании пока отвязаться не получится.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6ad99b4108dabf01058bc45e",
+      "dzen_url": "https://dzen.ru/a/atmbQQjavwEFi8Re",
+      "threads_post_id": "18193563118358772"
     },
     {
       "id": "sony-generation-super-sampling-20261021",
