@@ -119,8 +119,11 @@
       "id": "nvidia-nemotron-35-retriever-20261022",
       "dzen_title": "NVIDIA выпустила ИИ для поиска в таблицах и графиках. Агенты стали тратить на 14% меньше токенов",
       "threads_text": "ИИ может сколько угодно рассуждать. Но если нашёл не тот график в отчёте, умным ответ от этого не станет.\n\nNVIDIA выпустила Nemotron 3.5 Retriever: модели ищут информацию в PDF, таблицах и изображениях, а затем отсеивают лишнее. В тестах самой NVIDIA добавление Rerank снизило расход токенов агента на 13–14% и повысило точность поиска.\n\nИногда, чтобы ИИ стал полезнее, ему надо не больше думать, а наконец найти нужную страницу.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6ad99ebe95e73b66d2f77c3e",
+      "dzen_url": "https://dzen.ru/a/atmevpXnO2bS93w-",
+      "threads_post_id": "18113123855519500"
     },
     {
       "id": "nvidia-openshell-reference-architecture-20261022",
