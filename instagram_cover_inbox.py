@@ -67,18 +67,45 @@ def receive_bytes(token, telegram_path):
 
 
 def to_jpeg(raw):
+    """Fit portrait art into Instagram 4:5 without cropping or stretching.
+
+    Generator portraits such as 1092x1440 are slightly narrower than 4:5.
+    Add small solid-color margins rather than altering any of the artwork.
+    Reject landscape, tiny and extreme-aspect images as before.
+    """
     try:
         with Image.open(io.BytesIO(raw)) as src:
             src.load()
             image = ImageOps.exif_transpose(src).convert("RGB")
             width, height = image.size
-            if abs(width / height - 0.8) > 0.02:
-                raise ValueError("Wrong aspect ratio; use 1080 x 1350 (4:5)")
+            ratio = width / height
+            if width >= height or not 0.65 <= ratio <= 0.90:
+                raise ValueError(
+                    f"Unsupported aspect ratio: {width} x {height}; "
+                    "expected portrait art close to 4:5"
+                )
             if width < 600 or height < 750:
-                raise ValueError("Image too small; use 1080 x 1350")
-            image = image.resize((1080, 1350), Image.Resampling.LANCZOS)
+                raise ValueError(f"Image too small: {width} x {height}")
+
+            fitted = ImageOps.contain(
+                image, (1080, 1350), method=Image.Resampling.LANCZOS
+            )
+            if fitted.size == (1080, 1350):
+                result = fitted
+            else:
+                # A neutral field sampled from the original artwork, never a crop.
+                color = image.resize((1, 1), Image.Resampling.BOX).getpixel((0, 0))
+                result = Image.new("RGB", (1080, 1350), color)
+                result.paste(fitted, ((1080 - fitted.width) // 2,
+                                      (1350 - fitted.height) // 2))
+                print(
+                    f"Instagram cover fitted: {width} x {height} -> 1080 x 1350 "
+                    f"(art {fitted.width} x {fitted.height}; no crop)",
+                    flush=True,
+                )
+
             output = io.BytesIO()
-            image.save(output, "JPEG", quality=93, optimize=True)
+            result.save(output, "JPEG", quality=93, optimize=True)
             return output.getvalue()
     except (UnidentifiedImageError, OSError):
         raise ValueError("Telegram file is not a readable image") from None
@@ -145,7 +172,7 @@ def main():
                         total += 1
                         print("Saved vertical cover for: " + caption[:110], flush=True)
                     except (RuntimeError, ValueError, KeyError) as error:
-                        print("Cover rejected: " + str(error), flush=True)
+                        print("Cover rejected for " + caption[:110] + ": " + str(error), flush=True)
             offset = max(offset, uid + 1)
             state["offset"] = offset
             atomic_json(STATE, state)
