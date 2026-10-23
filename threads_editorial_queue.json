@@ -89,8 +89,11 @@
       "id": "elevenlabs-realtime-mini-max-20261023",
       "dzen_title": "ElevenLabs выпустила двух голосовых ИИ: один дешевле, другой соображает лучше",
       "threads_text": "Раньше голосового бота собирали как Франкенштейна: отдельно уши, мозги и рот. Потом долго учили эту компанию не перебивать клиента.\n\nElevenLabs выпустила Eleven Realtime — готовые голосовые конфигурации Mini и Max. Обе поддерживают более 90 языков и начинают отвечать меньше чем за секунду в опубликованном тесте. Max успешнее справляется со сложными поручениями.\n\nАвтоответчик теперь умеет слушать и думать. Осталось научить его не переводить на оператора, которого нет. 😏",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6adb058c3404d230ff39e83d",
+      "dzen_url": "https://dzen.ru/a/atsFjDQE0jD_Oeg9",
+      "threads_post_id": "18120817019078604"
     },
     {
       "id": "elevenlabs-realtime-translation-20261023",
