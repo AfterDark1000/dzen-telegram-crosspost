@@ -5,8 +5,11 @@
       "id": "anthropic-agent-skills-foundation-20261023",
       "dzen_title": "Anthropic больше не рулит Agent Skills в одиночку — теперь в деле конкуренты",
       "threads_text": "Anthropic передала Agent Skills независимому фонду. Теперь стандарт, по которому ИИ-агенты получают рабочие навыки, будут развивать вместе с конкурентами — включая OpenAI и Google.\n\nВсё держится на папке с файлом SKILL.md. Формат уже поддерживают более 70 платформ, утверждает Anthropic.\n\nClaude и ChatGPT продолжают мериться интеллектом, зато методичка у них теперь общая. Следующий этап — выяснить, кто опять её не прочитал. 📂",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6adb1d8ae601f329d680352e",
+      "dzen_url": "https://dzen.ru/a/atsdiuYB8ynWgDUu",
+      "threads_post_id": "18125540399475539"
     },
     {
       "id": "anthropic-claude-duet-20261022",
@@ -210,8 +213,11 @@
       "id": "nvidia-dsx-pod-20261023",
       "dzen_title": "NVIDIA предложила собирать ИИ-дата-центры на заводе. Установка — всего две недели",
       "threads_text": "NVIDIA придумала, как собирать ИИ-дата-центры быстрее: не на стройплощадке, а на заводе. Вместе со стойками, кабелями, сетью и жидкостным охлаждением.\n\nПо расчётам компании, развёртывание DSX POD на готовой площадке может занять 14 дней вместо шести месяцев. Поставки партнёров ожидаются в 2027 году.\n\nПлощадку, электропитание и охлаждение придётся подготовить заранее.\n\nLEGO для миллиардеров: детали привезут, а электростанцию докупайте отдельно. 🧱",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6adb1b05397db6616b5e7bb1",
+      "dzen_url": "https://dzen.ru/a/atsbBTl9tmFrXnux",
+      "threads_post_id": "17995792677106701"
     },
     {
       "id": "nvidia-nemotron-35-retriever-20261022",
