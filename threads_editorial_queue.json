@@ -89,8 +89,11 @@
       "id": "elevenlabs-realtime-translation-20261023",
       "dzen_title": "ElevenLabs представила переводчик, который позволяет разговаривать на разных языках",
       "threads_text": "Японец говорит по-японски, вы — по-русски. И каждый слышит другого на своём языке. Без «секунду, сейчас открою переводчик».\n\nElevenLabs представила голосовой перевод прямо во время разговора: более 90 языков, голос на выбор. Deutsche Telekom уже работает над его внедрением в телефонную связь.\n\nПока только корпоративная альфа.\n\nПлохие новости: скоро даже незнание английского перестанет спасать от рабочих созвонов. 😏",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6adb03623404d230ff3635c7",
+      "dzen_url": "https://dzen.ru/a/atsDYjQE0jD_NjXH",
+      "threads_post_id": "18135200050673786"
     },
     {
       "id": "google-confidential-g4-blackwell-20261022",
