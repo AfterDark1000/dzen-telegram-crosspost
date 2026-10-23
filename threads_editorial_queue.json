@@ -270,8 +270,11 @@
       "id": "openai-decisions-api-20261023",
       "dzen_title": "Для GPT-6 Luna придумали работу без болтовни. Решения — до 10 раз быстрее",
       "threads_text": "⚡️ GPT ВЕЛЕЛИ НЕ БОЛТАТЬ — и он начал принимать решения до 10 раз быстрее, заявляет OpenAI.\n\nDecisions API на GPT-6 Luna вместо сочинения выбирает действие, оценивает вероятность или ставит балл. Цена — от $0,10 за миллион входных токенов, за выход отдельной платы нет.\n\nAPI работает и с GPT-Live: голосовой агент решает, что делать дальше, прямо во время разговора.\n\nОсталось подключить к совещаниям: там даже слово «да» требует трёх созвонов. 🫠",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6adb23aa40c3ad0e7fe7a95a",
+      "dzen_url": "https://dzen.ru/a/atsjqkDDrQ5_56la",
+      "threads_post_id": "18125799772852418"
     },
     {
       "id": "openai-legacy-code-20261020",
