@@ -401,8 +401,11 @@
       "id": "zoom-unified-context-layer-20261023",
       "dzen_title": "Zoom научил ИИ искать, кто что обещал на совещаниях",
       "threads_text": "Zoom решил испортить жизнь любителям фразы «я такого не обещал».\n\nUnified Context Layer ищет решения и договорённости в расшифровках созвонов, чатах и документах. Через API и MCP к этой памяти смогут подключаться Claude и ChatGPT. А ZoomMate уже умеет раздавать задачи целой команде ИИ-агентов.\n\nПоиск работает уже сейчас, автоматизация по итогам встреч выходит поэтапно. Доступ — с учётом корпоративных прав.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6adb0b290e1ecf632f3637f2",
+      "dzen_url": "https://dzen.ru/a/atsLKQ4ez2MvNjfy",
+      "threads_post_id": "17986790595095235"
     }
   ]
 }
