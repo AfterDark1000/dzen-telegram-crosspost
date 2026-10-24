@@ -103,8 +103,11 @@
       "id": "crowdstrike-claude-argentina-hospitals-20261023",
       "dzen_title": "Хакеры с Claude Code взломали не менее 15 медицинских организаций в Аргентине",
       "threads_text": "🚨 Хакеры собрали ИИ-БРИГАДУ: один Claude Code командовал, второй выполнял.\n\nПо данным CrowdStrike, так взломали не менее 15 медицинских организаций Аргентины. У одной украли пароли и записи пациентов.\n\nИсследователи нашли схемы атак в открытых каталогах самих преступников.\n\nЧужие двери взламывали с помощью ИИ, свои забыли запереть. 🤦",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6adc4b7fbefc9746e6b083c3",
+      "dzen_url": "https://dzen.ru/a/atxLf778l0bmsIPD",
+      "threads_post_id": "18101001452646611"
     },
     {
       "id": "deepseek-deepinfer-open-source-20261022",
