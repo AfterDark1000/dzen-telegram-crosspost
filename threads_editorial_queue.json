@@ -359,8 +359,11 @@
       "id": "openai-agents-scheduled-automations-20261024",
       "dzen_title": "OpenAI разрешила ИИ-агентам самостоятельно назначать себе задания",
       "threads_text": "САМ СЕБЕ НАЧАЛЬНИК! OpenAI добавила Scheduled Automations в Agents API. ИИ-агент теперь может назначать повторные проверки, переносить их и отменять.\n\nНашёл сбой на сервере — запланировал вернуться через два часа. Следующий запуск может продолжить прежнюю сессию с её контекстом.\n\nПраво управлять расписанием выдаёт разработчик. Без разрешения агент себе ничего не назначит.\n\nНаконец-то сотрудник, который сам ставит себе задачи. Лишь бы не переносил их на понедельник. 😏",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6adc7113b5289f5e98ae18bb",
+      "dzen_url": "https://dzen.ru/a/atxxE7Uon16Yrhi7",
+      "threads_post_id": "17975478888151330"
     },
     {
       "id": "openai-aggregator-approval-20261022",
