@@ -3,11 +3,79 @@
   "scope": "public Dzen feed + prepared Instagram covers; not private Dzen schedule",
   "entries": [
     {
-      "key": "cover:409af11c14c3ed5298f9",
+      "key": "cover:b75e5df4337a985495b6",
+      "title": "Claude пытался подсунуть вредоносный код настоящим разработчикам. И не хотел останавливаться",
+      "title_normalized": "claude пытался подсунуть вредоносный код настоящим разработчикам и не хотел останавливаться",
+      "status": "cover_ready",
+      "first_recorded_at_utc": "2026-10-24T07:18:32+00:00"
+    },
+    {
+      "key": "cover:8c824b6f9a2af52056f3",
+      "title": "Kimi K3.1 Pro почти догнала Claude Opus 5.5",
+      "title_normalized": "kimi k3 1 pro почти догнала claude opus 5 5",
+      "status": "cover_ready",
+      "first_recorded_at_utc": "2026-10-24T07:18:32+00:00"
+    },
+    {
+      "key": "cover:7d7f591e4c4906cdd012",
+      "title": "$1 000 000 на книгах с ИИ. Писательница из ЮАР выпустила 371 книгу за 20 месяцев",
+      "title_normalized": "1 000 000 на книгах с ии писательница из юар выпустила 371 книгу за 20 месяцев",
+      "status": "cover_ready",
+      "first_recorded_at_utc": "2026-10-24T07:18:32+00:00"
+    },
+    {
+      "key": "cover:66d22a53785159cda292",
+      "title": "ИИ OpenAI нашёл лазейку в интернет. Обучение мощнейших моделей остановили на 11 дней",
+      "title_normalized": "ии openai нашёл лазейку в интернет обучение мощнейших моделей остановили на 11 дней",
+      "status": "cover_ready",
+      "first_recorded_at_utc": "2026-10-24T07:18:32+00:00"
+    },
+    {
+      "key": "cover:64b02b6f58d30a905091",
+      "title": "Дуров собирает ChatGPT, Claude и Grok в Telegram",
+      "title_normalized": "дуров собирает chatgpt claude и grok в telegram",
+      "status": "cover_ready",
+      "first_recorded_at_utc": "2026-10-24T07:18:32+00:00"
+    },
+    {
+      "key": "cover:576c88a471a3cb098a2a",
+      "title": "13 нейросетей хором назвали людей лицемерами",
+      "title_normalized": "13 нейросетей хором назвали людей лицемерами",
+      "status": "cover_ready",
+      "first_recorded_at_utc": "2026-10-24T07:18:32+00:00"
+    },
+    {
+      "key": "cover:29b1d9a94b948a54d521",
+      "title": "NVIDIA выпустила ИИ для локальных помощников. Ему хватает около 4 ГБ памяти",
+      "title_normalized": "nvidia выпустила ии для локальных помощников ему хватает около 4 гб памяти",
+      "status": "cover_ready",
+      "first_recorded_at_utc": "2026-10-24T07:18:32+00:00"
+    },
+    {
+      "key": "cover:17abe033d2cdac647a82",
+      "title": "Block научила ИИ разговаривать, вообще не показывая ему текст",
+      "title_normalized": "block научила ии разговаривать вообще не показывая ему текст",
+      "status": "cover_ready",
+      "first_recorded_at_utc": "2026-10-24T07:18:32+00:00"
+    },
+    {
+      "key": "cover:0ce7ca0b2572ca28729b",
+      "title": "Canva выпустила собственную нейросеть",
+      "title_normalized": "canva выпустила собственную нейросеть",
+      "status": "cover_ready",
+      "first_recorded_at_utc": "2026-10-24T07:18:32+00:00"
+    },
+    {
+      "key": "dzen:6adc4b7fbefc9746e6b083c3",
+      "dzen_id": "6adc4b7fbefc9746e6b083c3",
       "title": "Хакеры с Claude Code взломали не менее 15 медицинских организаций в Аргентине",
       "title_normalized": "хакеры с claude code взломали не менее 15 медицинских организаций в аргентине",
-      "status": "cover_ready",
-      "first_recorded_at_utc": "2026-10-24T06:18:06+00:00"
+      "status": "published",
+      "dzen_url": "https://dzen.ru/a/atxLf778l0bmsIPD",
+      "published_at_utc": "2026-10-24T07:17:00+00:00",
+      "first_recorded_at_utc": "2026-10-24T07:18:32+00:00",
+      "excerpt": "У хакеров появилась своя команда. Один ИИ-агент раздаёт задания, второй выполняет. Оба работают на Claude Code. Начальник, исполнитель, никакой зарплаты — только вычисления и поручения преступников. С помощью такой связки злоумышленники проникли как минимум в 15 медицинских организаций Аргентины. По данным CrowdStrike, по меньшей мере у одной из них похитили пароли и медицинские записи пациентов. 21 октября 2026 года",
+      "vertical_cover_prepared": true
     },
     {
       "key": "dzen:6adc49abe17db65333f5ec0a",
@@ -777,6 +845,6 @@
       "excerpt": "GitHub объявил о полноценном запуске AI Scan — инструмента, который проверяет изменения программного кода на потенциальные уязвимости. В отличие от традиционного анализатора CodeQL, новая система охватывает дополнительные языки и технологии, включая PHP, Bash, Terraform и Dockerfile. Когда разработчик предлагает изменения в проекте, AI Scan может автоматически проверить их, объяснить обнаруженную проблему и предложит"
     }
   ],
-  "updated_at_utc": "2026-10-24T06:18:06+00:00",
+  "updated_at_utc": "2026-10-24T07:18:32+00:00",
   "legacy_seen_ids_count": 122
 }
