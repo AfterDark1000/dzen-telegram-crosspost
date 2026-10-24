@@ -316,8 +316,11 @@
       "id": "nvidia-nemotron35-bolt-e4b-4gb-20261024",
       "dzen_title": "NVIDIA выпустила ИИ для локальных помощников. Ему хватает около 4 ГБ памяти",
       "threads_text": "🎮 NVIDIA выпустила Nemotron 3.5 Bolt — ИИ для локальных помощников, игровых персонажей и роботов.\n\nВ игре такой персонаж сможет не только болтать, но и проверять оплату, искать рецепты и выдавать предметы.\n\nВ тестах модели хватало от 3,5 ГБ видеопамяти. Веса уже открыты.\n\nА теперь фокус: ИИ называется «4GB», но файл для скачивания весит 6,18 ГБ. Экономия начинается после загрузки. 😏",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6adc5030769daa5de27ac311",
+      "dzen_url": "https://dzen.ru/a/atxQMHadql3iesMR",
+      "threads_post_id": "17968779600206313"
     },
     {
       "id": "nvidia-openshell-reference-architecture-20261022",
