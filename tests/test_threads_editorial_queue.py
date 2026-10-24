@@ -33,6 +33,8 @@ class EditorialQueueTests(unittest.TestCase):
     def test_invalid_or_unapproved_posts_never_match(self):
         waiting = {"schema_version":1,"items":[{**QUEUE["items"][0],"status":"on_hold"}]}
         self.assertEqual(ed.eligible_matches([ARTICLE], waiting, set()), [])
+        at_limit = {"schema_version":1,"items":[{**QUEUE["items"][0],"threads_text":"А"*480}]}
+        ed.validate_queue(at_limit)
         overlong = {"schema_version":1,"items":[{**QUEUE["items"][0],"threads_text":"А"*481}]}
         with self.assertRaisesRegex(RuntimeError, "480"):
             ed.validate_queue(overlong)
@@ -80,6 +82,30 @@ class EditorialQueueTests(unittest.TestCase):
             ed.save_queue(QUEUE,path)
             self.assertEqual(ed.load_queue(path)["items"][0]["threads_text"],
                              QUEUE["items"][0]["threads_text"])
+
+    def test_eko_488_character_production_regression(self):
+        # Exact offending entry from 452b424, before the 41a1e78 data fix.
+        path = Path(__file__).parent / "fixtures" / "threads_eko_488.json"
+        queue = json.loads(path.read_text(encoding="utf-8"))
+        entry = queue["items"][0]
+        original_text = entry["threads_text"]
+        self.assertEqual(len(original_text), 488)
+        self.assertFalse(entry["include_dzen_link"])
+        with self.assertRaisesRegex(RuntimeError, "480 characters: " + entry["id"]):
+            ed.validate_queue(queue)
+        self.assertEqual(entry["threads_text"], original_text)
+
+    def test_committed_production_queue_roundtrip(self):
+        # Synthetic fixtures alone missed the invalid production data in 452b424.
+        source = Path(ed.__file__).with_name("threads_editorial_queue.json")
+        original = source.read_bytes()
+        queue = ed.load_queue(source)
+        with tempfile.TemporaryDirectory() as folder:
+            target = Path(folder) / "queue.json"
+            ed.save_queue(queue, target)
+            # Includes every text, status, Dzen ID and Threads publication ID.
+            self.assertEqual(ed.load_queue(target), json.loads(original))
+        self.assertEqual(source.read_bytes(), original)
 
 class RuntimeTests(unittest.IsolatedAsyncioTestCase):
     async def test_without_approval_no_threads_or_dzen_calls(self):
