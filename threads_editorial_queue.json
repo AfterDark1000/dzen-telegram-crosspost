@@ -486,6 +486,13 @@
       "dzen_id": "6adb0b290e1ecf632f3637f2",
       "dzen_url": "https://dzen.ru/a/atsLKQ4ez2MvNjfy",
       "threads_post_id": "17986790595095235"
+    },
+    {
+      "id": "telegram-agent-api-providers-20261024",
+      "dzen_title": "Дуров собирает ChatGPT, Claude и Grok в одном Telegram",
+      "threads_text": "ДУРОВ СОБИРАЕТ КОНКУРЕНТОВ! В бете Telegram для macOS нашли Agent — подключение ChatGPT, Claude, Gemini, Grok и OpenRouter.\n\nПонадобится свой API-ключ. Можно привязать несколько сервисов и переключаться между ними. Расходы по API — отдельно от обычных подписок.\n\nКлюч проходит через серверы Telegram для проверки. @agent пока недоступен, даты запуска нет.\n\nНейросети зовут за один стол, а счёт каждому предлагают принести свой.",
+      "status": "approved",
+      "include_dzen_link": false
     }
   ]
 }
