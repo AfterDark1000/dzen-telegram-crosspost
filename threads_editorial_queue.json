@@ -379,8 +379,11 @@
       "id": "openai-api-model-retirements-20261023",
       "dzen_title": "OpenAI отключила GPT-4, GPT-3.5 и другие старые модели в API",
       "threads_text": "GPT-4 — НА ПЕНСИЮ! 23 октября OpenAI отключила в API GPT-4, GPT-3.5 Turbo, GPT-4 Turbo, o1, o3-mini, o4-mini и GPT Image 1. Плюс отдельные старые версии GPT-4o и дообученные модели.\n\nПриложениям, которые всё ещё обращаются к этим моделям, придётся менять настройки: старые идентификаторы больше не работают. Разработчиков предупредили ещё в апреле.\n\nДругие версии GPT-4o пока доступны. Их очередь — 14 января 2027 года.\n\nУ GPT-4 наконец появилось свободное время. 🏖️",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6adc71cd3e43c31ff1214aaa",
+      "dzen_url": "https://dzen.ru/a/atxxzT5Dwx_xIUqq",
+      "threads_post_id": "18070297490505015"
     },
     {
       "id": "openai-decisions-api-20261023",
