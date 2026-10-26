@@ -82,8 +82,11 @@
       "id": "cathedral-anthropic-ai-security-test-20261026",
       "dzen_title": "ИИ-хакеры залезли к Anthropic всего за 12 часов",
       "threads_text": "12 ЧАСОВ НА ПОИСК ЛАЗЕЙКИ! Исследователи Cathedral с помощью ИИ-агентов нашли путь во внутренние системы Anthropic через уязвимости обычного корпоративного ПО.\n\nКомпания подтвердила ограниченный доступ к данным отделов продаж, кадров и IT. Под угрозой были стенограммы совещаний и переписка в Slack. Разговоры с Claude, исходный код и веса моделей исследователям не достались.\n\nЭто была проверка безопасности, но Anthropic считает, что её участники нарушили часть правил.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6adf23c799791f7d2c34da34",
+      "dzen_url": "https://dzen.ru/a/at8jx5l5H30sNNo0",
+      "threads_post_id": "18080354315650807"
     },
     {
       "id": "chatgpt-ads-89-countries-20261022",
