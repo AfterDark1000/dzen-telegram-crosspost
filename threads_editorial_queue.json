@@ -45,8 +45,11 @@
       "id": "atria-dawn-open-weights-20261026",
       "dzen_title": "Китайцы открыли ИИ-гиганта на 744 миллиарда",
       "threads_text": "744 МИЛЛИАРДА — БОЛЬШЕ НЕ ТОЛЬКО ЧЕРЕЗ API! Shanghai AI Laboratory выложила полные веса Atria Dawn и FP8-версию. Контекст вырос с 256 до 512 тысяч токенов.\n\nМодель рассчитана на код, работу с инструментами, документами и многошаговые задания. Лицензия MIT, скачать можно с Hugging Face.\n\nНо для запуска понадобятся серверные мощности: даже в FP8 веса занимают сотни гигабайт.\n\nСвобода есть. Осталось найти серверную. 😏",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6adf2f42f8edfc31bb69a73c",
+      "dzen_url": "https://dzen.ru/a/at8vQvjt_DG7aac8",
+      "threads_post_id": "18014505986977774"
     },
     {
       "id": "aws-continuum-code-vulnerabilities-20261023",
@@ -596,8 +599,11 @@
       "id": "tencent-hy-nomas-interactive-video-20261026",
       "dzen_title": "Tencent выпустила видеомир, который слушается команд",
       "threads_text": "ВИДЕОМИР ПОД КОМАНДОЙ! Tencent открыла Hy-Nomas: ИИ создаёт видео по кусочкам, а между ними можно добавлять объекты, менять действия, стиль и движение камеры. Предыдущие фрагменты учитываются при продолжении.\n\nКод и веса — под Apache 2.0, есть онлайн-демо. Запустить можно даже на одной RTX 4090, но с квантованием и выгрузкой данных в оперативную память.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6adf28bce17db653337bebef",
+      "dzen_url": "https://dzen.ru/a/at8ovOF9tlMze-vv",
+      "threads_post_id": "18131667919830028"
     },
     {
       "id": "valsai-train-refund-agents-20261020",
