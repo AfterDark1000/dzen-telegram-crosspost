@@ -49,7 +49,8 @@ def graph(method, path, values=None):
         except (ValueError, UnicodeError):
             error = {}
         raise RuntimeError("Instagram HTTP " + str(exc.code) + ", code " +
-                           str(error.get("code", "unknown"))) from None
+                           str(error.get("code", "unknown")) + ", subcode " +
+                           str(error.get("error_subcode", "unknown"))) from None
     except urllib.error.URLError:
         raise RuntimeError("Instagram API network error") from None
     if "error" in result:
@@ -106,6 +107,20 @@ def recently_published_captions(user_id):
     return {row["caption"].strip() for row in data
             if isinstance(row, dict) and isinstance(row.get("caption"), str)
             and row["caption"].strip()}
+
+
+def matches_published_caption(expected, recent_captions):
+    """Identify an already delivered article by its full first-line headline.
+
+    Meta can change harmless whitespace in the post body; the pending title
+    is unique within the queue and must match the complete remote first line.
+    """
+    headline = normalize_title(expected.split("\n", 1)[0])
+    if not headline:
+        return False
+    return any(remote == expected or
+               normalize_title(remote.split("\n", 1)[0]) == headline
+               for remote in recent_captions if isinstance(remote, str))
 
 
 def publish_article(user_id, item, caption, vertical_cover):
@@ -191,14 +206,39 @@ async def main():
     for item, vertical_cover in ready:
         if done >= MAX_PER_RUN:
             break
-        if not is_cover_public(vertical_cover):
-            print("Cover not yet available on public GitHub CDN:", item["title"][:110], flush=True)
-            continue
         caption = make_caption(item)
-        if caption in recent_captions:
+        if matches_published_caption(caption, recent_captions):
             print("Already on Instagram; recording without duplicate:", item["title"][:110], flush=True)
+        elif item.get("instagram_publish_attempted"):
+            # An earlier media_publish may have succeeded despite an API error.
+            print("Instagram outcome unconfirmed; holding automatic retry:",
+                  item["title"][:110], flush=True)
+            continue
         else:
-            publish_article(user_id, item, caption, vertical_cover)
+            if not is_cover_public(vertical_cover):
+                print("Cover not yet available on public GitHub CDN:", item["title"][:110], flush=True)
+                continue
+            # Save before any network send: checkpointing preserves this flag.
+            item["instagram_publish_attempted"] = True
+            save_json(PENDING, sorted(
+                pending.values(), key=lambda x: (int(x.get("date") or 0), x["id"])))
+            try:
+                publish_article(user_id, item, caption, vertical_cover)
+            except RuntimeError:
+                # An API error is not proof that publishing failed.
+                try:
+                    current = recently_published_captions(user_id)
+                except RuntimeError:
+                    print("Instagram verification unavailable; retry held:",
+                          item["title"][:110], flush=True)
+                    raise
+                if not matches_published_caption(caption, current):
+                    print("Instagram result not confirmed; retry held:",
+                          item["title"][:110], flush=True)
+                    raise
+                print("Instagram delivery confirmed after API error:",
+                      item["title"][:110], flush=True)
+                recent_captions.update(current)
             recent_captions.add(caption)
         done += 1
         seen.add(item["id"])
