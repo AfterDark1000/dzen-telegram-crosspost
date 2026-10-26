@@ -372,8 +372,11 @@
       "id": "ollama-phonon-local-voice-20261026",
       "dzen_title": "Ollama научилась озвучивать локальные нейросети.",
       "threads_text": "ГОВОРИТ БЕЗ ОБЛАКА! Ollama добавила Phonon: теперь ответ локальной нейросети можно сразу озвучивать. Речь начинает воспроизводиться, пока ИИ ещё формулирует продолжение.\n\nРаботает на Mac с Apple Silicon. Английский, французский, немецкий, испанский и португальский — есть. Русского пока нет. Windows и Linux обещают позже.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6adee4d2397db6616bdb31ee",
+      "dzen_url": "https://dzen.ru/a/at7k0jl9tmFr2zHu",
+      "threads_post_id": "18112181336615156"
     },
     {
       "id": "olmoearth-v1-3-20261023",
