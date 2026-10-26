@@ -349,8 +349,11 @@
       "id": "nanbeige-43-33b-agents-20261026",
       "dzen_title": "Китайцы выложили ИИ на 33 миллиарда параметров. Потянешь?",
       "threads_text": "33 МИЛЛИАРДА ПАРАМЕТРОВ — И ВЕСА ОТКРЫТЫ! Китайская Nanbeige выпустила модель для ИИ-агентов: писать код, вызывать инструменты и разбирать длинные задачи.\n\nВ собственных тестах команда получила 80,9 балла на Terminal-Bench 2.1 против 73,0 у Qwen3.8-27B. Контекст — до 512 тысяч токенов.\n\nСкачать можно с Hugging Face, лицензия Apache 2.0. Но с такой махиной обычному ноутбуку придётся несладко.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6adf2634edeaf11d1f76cd23",
+      "dzen_url": "https://dzen.ru/a/at8mNO3q8R0fds0j",
+      "threads_post_id": "18410540722089277"
     },
     {
       "id": "nvidia-dsx-pod-20261023",
