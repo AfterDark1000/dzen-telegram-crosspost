@@ -413,8 +413,11 @@
       "id": "microsoft-voluntary-exit-offer-20261027",
       "dzen_title": "Microsoft предложила уйти каждому четвёртому сотруднику. Даже вице-президентам",
       "threads_text": "MICROSOFT ПРЕДЛОЖИЛА УЙТИ 60 ТЫСЯЧАМ СОТРУДНИКОВ! Это 27% штата. Добровольно, с компенсацией — в США, Канаде, Великобритании и Индии.\n\nПредложения получили сотрудники Xbox, Windows, Copilot, финансовых служб и даже некоторые вице-президенты. Сколько человек согласится, неизвестно.\n\nCopilot помогает работать. Его коллегам теперь помогают уходить. 🫠",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6ae0813b6c54fa23921064ed",
+      "dzen_url": "https://dzen.ru/a/auCBO2xU-iOSEGTt",
+      "threads_post_id": "18130415852496526"
     },
     {
       "id": "mistral-voxtral-3-20261021",
