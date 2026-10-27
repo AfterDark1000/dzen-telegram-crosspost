@@ -333,8 +333,11 @@
       "id": "meta-95b-ai-capital-offering-20261027",
       "dzen_title": "Meta ищет $95 млрд на ИИ. Даже NVIDIA присматривается",
       "threads_text": "META ЗАМАХНУЛАСЬ НА $95 МЛРД! Ради ИИ компания объявила размещение акций примерно на $35 млрд. Позже хочет привлечь ещё до $60 млрд — но не раньше 2027 года.\n\nNVIDIA, AMD и Broadcom присматриваются к покупке её акций на общую сумму до $5 млрд. Пока без обязательств.\n\nПрограмма лояльности: купи чипов на миллиарды — получи акционера в подарок. 😏",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6ae0485408dabf010518b82a",
+      "dzen_url": "https://dzen.ru/a/auBIVAjavwEFGLgq",
+      "threads_post_id": "18109402253269178"
     },
     {
       "id": "metr-redwood-openai-monitoring-evasion-20261027",
