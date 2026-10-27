@@ -484,8 +484,11 @@
       "id": "nvidia-mission-control-25-gpu-recovery-20261027",
       "dzen_title": "NVIDIA научила ИИ-серверы чинить себя. Даже сломанная видеокарта не остановит обучение!",
       "threads_text": "GPU ВЫЛЕТЕЛ — ОБУЧЕНИЕ ИИ ПЕРЕЕХАЛО! NVIDIA выпустила Mission Control 2.5. Если видеокарта начинает сбоить, система убирает проблемный сервер из работы и перезапускает задание на исправном оборудовании. Диагностика идёт параллельно.\n\nРаньше это работало с Slurm, теперь и с Kubernetes через Run:ai.\n\nБольничный у видеокарты. У обучения — рабочий день. 🔧",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6ae065e0e9368d4a2d734bad",
+      "dzen_url": "https://dzen.ru/a/auBl4Ok2jUotc0ut",
+      "threads_post_id": "18026627636917082"
     },
     {
       "id": "nvidia-nemotron-35-retriever-20261022",
