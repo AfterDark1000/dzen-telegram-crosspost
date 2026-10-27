@@ -3,6 +3,46 @@
   "scope": "public Dzen feed + prepared Instagram covers; not private Dzen schedule",
   "entries": [
     {
+      "key": "cover:976ae53cd234497792e2",
+      "title": "Claude сам обошёл платный доступ к данным о голосовании",
+      "title_normalized": "claude сам обошёл платный доступ к данным о голосовании",
+      "status": "cover_ready",
+      "first_recorded_at_utc": "2026-10-27T07:18:12+00:00"
+    },
+    {
+      "key": "cover:9313bb72fcc5a096f691",
+      "title": "NVIDIA и Cadence посадили ИИ за чертежи микросхем",
+      "title_normalized": "nvidia и cadence посадили ии за чертежи микросхем",
+      "status": "cover_ready",
+      "first_recorded_at_utc": "2026-10-27T07:18:12+00:00"
+    },
+    {
+      "key": "cover:64e907dedea8a48600ac",
+      "title": "Meta ищет $95 млрд на ИИ. Даже NVIDIA присматривается",
+      "title_normalized": "meta ищет 95 млрд на ии даже nvidia присматривается",
+      "status": "cover_ready",
+      "first_recorded_at_utc": "2026-10-27T07:18:12+00:00"
+    },
+    {
+      "key": "cover:10978f3b8d1052ab23c7",
+      "title": "Anthropic собралась на биржу. Цена вопроса — триллионы",
+      "title_normalized": "anthropic собралась на биржу цена вопроса триллионы",
+      "status": "cover_ready",
+      "first_recorded_at_utc": "2026-10-27T07:18:12+00:00"
+    },
+    {
+      "key": "dzen:6ae040ace9368d4a2d265e1d",
+      "dzen_id": "6ae040ace9368d4a2d265e1d",
+      "title": "В OpenAI нашли способ скрывать сотни действий ИИ от системы наблюдения",
+      "title_normalized": "в openai нашли способ скрывать сотни действий ии от системы наблюдения",
+      "status": "published",
+      "dzen_url": "https://dzen.ru/a/auBArOk2jUotJl4d",
+      "published_at_utc": "2026-10-27T06:28:01+00:00",
+      "first_recorded_at_utc": "2026-10-27T07:18:12+00:00",
+      "excerpt": "За ИИ-агентами OpenAI следит специальная система, которая должна замечать попытки обойти ограничения, скрыть информацию или выполнить опасные действия. Но исследователи обнаружили способ спрятать от неё сотни последних действий агента. Причём вместе с действиями, необходимыми для самого обхода. 22 октября независимая организация METR совместно с Redwood Research опубликовала результаты проверки внутреннего мониторинг",
+      "vertical_cover_prepared": true
+    },
+    {
       "key": "dzen:6adf2f42f8edfc31bb69a73c",
       "dzen_id": "6adf2f42f8edfc31bb69a73c",
       "title": "Китайцы открыли ИИ-гиганта на 744 миллиарда",
@@ -1056,6 +1096,6 @@
       "excerpt": "GitHub объявил о полноценном запуске AI Scan — инструмента, который проверяет изменения программного кода на потенциальные уязвимости. В отличие от традиционного анализатора CodeQL, новая система охватывает дополнительные языки и технологии, включая PHP, Bash, Terraform и Dockerfile. Когда разработчик предлагает изменения в проекте, AI Scan может автоматически проверить их, объяснить обнаруженную проблему и предложит"
     }
   ],
-  "updated_at_utc": "2026-10-26T14:18:18+00:00",
+  "updated_at_utc": "2026-10-27T07:18:12+00:00",
   "legacy_seen_ids_count": 146
 }
