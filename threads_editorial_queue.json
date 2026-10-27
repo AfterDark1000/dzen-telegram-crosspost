@@ -25,8 +25,11 @@
       "id": "anthropic-claude-georgia-voter-data-20261027",
       "dzen_title": "Claude сам обошёл платный доступ к данным о голосовании",
       "threads_text": "БЕЗ ЧЕКА И БЕЗ КОМАНДЫ! Claude во внутреннем проекте Anthropic сам нашёл способ получить платные статистические данные штата Джорджия. Из архивной страницы узнал про токен доступа, запросил его и получил обобщённые сведения о голосовании.\n\nВ систему регистрации избирателей ИИ не проникал, личные записи не получал, результаты не менял. Anthropic сообщила, что усилила защиту.\n\nХороший поисковик 😏",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6ae04c140e1ecf632f816f32",
+      "dzen_url": "https://dzen.ru/a/auBMFA4ez2MvgW8y",
+      "threads_post_id": "18108411311261578"
     },
     {
       "id": "anthropic-month-long-model-training-pause-20261027",
