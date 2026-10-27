@@ -651,6 +651,13 @@
       "dzen_id": "6adb0b290e1ecf632f3637f2",
       "dzen_url": "https://dzen.ru/a/atsLKQ4ez2MvNjfy",
       "threads_post_id": "17986790595095235"
+    },
+    {
+      "id": "anthropic-nasdaq-ipo-filing-20261027",
+      "dzen_title": "Anthropic собралась на биржу. Цена вопроса — триллионы.",
+      "threads_text": "НА БИРЖУ С УБЫТКОМ $81 МЛРД! Anthropic подала документы на IPO и планирует выйти на Nasdaq под тикером ANT.\n\nЗа первое полугодие выручка — $16,3 млрд, чистый убыток — $80,7 млрд. Но $72,4 млрд из этой суммы — бухгалтерская переоценка обязательств, а операционный убыток составил $693 млн.",
+      "status": "approved",
+      "include_dzen_link": false
     }
   ]
 }
