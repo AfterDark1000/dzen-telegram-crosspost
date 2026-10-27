@@ -109,8 +109,11 @@
       "id": "cadence-nvidia-maestro-chip-design-20261027",
       "dzen_title": "NVIDIA и Cadence посадили ИИ за чертежи микросхем",
       "threads_text": "ИИ ПОСАДИЛИ ЗА ЧЕРТЕЖИ ЧИПОВ! Cadence и NVIDIA представили Maestro: нейросети для проектирования микросхем. Агенты разбирают требования, предлагают решения и проверяют их через инженерные программы.\n\nВ собственных испытаниях Cadence заявляет до 30% улучшения качества и пятикратную эффективность использования токенов. Пока доступ только избранным корпоративным клиентам.\n\nТеперь фразу «переделай схему» услышит и нейросеть. 😏",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6ae049b399791f7d2c3b3793",
+      "dzen_url": "https://dzen.ru/a/auBJs5l5H30sOzeT",
+      "threads_post_id": "17945936535362493"
     },
     {
       "id": "canva-craft-own-image-model-20261023",
