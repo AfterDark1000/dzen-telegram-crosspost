@@ -611,8 +611,11 @@
       "id": "openai-gpt61-terra-computer-agent-20261027",
       "dzen_title": "GPT-6.1 Terra от OpenAI обогнала флагмана: втрое быстрее и в десять раз дешевле!",
       "threads_text": "OPENAI НАНЯЛА ДЕШЁВОГО КОМПЬЮТЕРЩИКА! GPT-6.1 Terra читает чертежи, заполняет формы и работает в приложениях. В тесте Agents’ Last Exam задания выполняла более чем втрое быстрее GPT-6 Astra.\n\nВ API — $1 за миллион входных токенов и $5 за выходные. Это примерно вдвое дешевле прошлой Terra. Модель уже есть в ChatGPT Work, Codex и API.\n\nМышке пора требовать доплату за переработки. 🖱️",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6ae062a4621e6a2e9f1fb75b",
+      "dzen_url": "https://dzen.ru/a/auBipGIeai6fH7db",
+      "threads_post_id": "18095532716180920"
     },
     {
       "id": "openai-legacy-code-20261020",
