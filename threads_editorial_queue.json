@@ -72,8 +72,11 @@
       "id": "anthropic-single-agent-loop-subagents-20261027",
       "dzen_title": "Claude увольняет ИИ-агентов",
       "threads_text": "ANTHROPIC СОВЕТУЕТ СОКРАЩАТЬ ШТАТ ИИ-АГЕНТОВ! Оказалось, что один Claude иногда работает лучше целой команды цифровых специалистов.\n\nОдин агент планирует, другой ищет, третий проверяет, четвёртый руководит. Пока они согласовывают работу, теряются время, информация и деньги.\n\nУ одного клиента переход на единого агента ускорил задачи примерно вдвое.\n\nБюрократия осталась человеческой. Зарплату теперь выдают токенами. 💸",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6ae07e9d388b67714d9cf215",
+      "dzen_url": "https://dzen.ru/a/auB-nTiLZ3FNnPIV",
+      "threads_post_id": "18134427727671320"
     },
     {
       "id": "arenasi-six-claude-agents-loneliness-20261025",
