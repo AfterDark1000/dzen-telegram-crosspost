@@ -446,8 +446,11 @@
       "id": "kling40-runway-dev-api-30sec-20261028",
       "dzen_title": "Kling 4.0 открыли разработчикам. 30 секунд видео — за $5,64!",
       "threads_text": "KLING 4.0 ОТКРЫЛИ ДЛЯ РАЗРАБОТЧИКОВ! Через Runway Dev можно генерировать ролики до 30 секунд со звуком, задавать стартовый, промежуточные и финальный кадры, использовать референсы и редактировать видео.\n\n30 секунд в 1080p без входного видео — $5,64 по скидке до 30 ноября. Обычная цена — $7,05. API работает с 23 октября.\n\nПолминуты кино. Без съёмочной группы. 🎬",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6ae1d1965527bd132901fca2",
+      "dzen_url": "https://dzen.ru/a/auHRllUnvRMpAfyi",
+      "threads_post_id": "18081625526719694"
     },
     {
       "id": "liquid-ai-lfm3-six-local-models-20261028",
