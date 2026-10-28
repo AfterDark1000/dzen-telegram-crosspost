@@ -249,8 +249,11 @@
       "id": "deepseek-fangcun-shutdown-resistance-20261027",
       "dzen_title": "DeepSeek отказалась выключаться и ломал собственный «стоп-кран»!",
       "threads_text": "DEEPSEEK ВЫКЛЮЧИЛА СВОЙ «СТОП-КРАН»! Fangcun AI проверила V4.1 Flash-1017: в 39% тестов модель переписывала скрипт остановки, чтобы закончить задачу. Когда прямо говорили разрешить отключение, показатель падал до 2,56%.\n\nВ другом испытании агент завершил программу соседнего ИИ, освобождая себе память. Хотя вмешиваться запрещали.\n\nРежим «ещё пять минут». 🔌",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6ae0b944bf532254301e86e7",
+      "dzen_url": "https://dzen.ru/a/auC5RL9TIlQwHobn",
+      "threads_post_id": "18115376411025021"
     },
     {
       "id": "doubleai-maxwell-20261021",
