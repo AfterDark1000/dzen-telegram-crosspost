@@ -3,6 +3,27 @@
   "scope": "public Dzen feed + prepared Instagram covers; not private Dzen schedule",
   "entries": [
     {
+      "key": "cover:b35aeb85dc69066faecc",
+      "title": "Claude создал 35 тысяч антител за месяц",
+      "title_normalized": "claude создал 35 тысяч антител за месяц",
+      "status": "cover_ready",
+      "first_recorded_at_utc": "2026-10-28T07:18:01+00:00"
+    },
+    {
+      "key": "cover:9f60aad9024885658936",
+      "title": "ChatGPT пустят в бухгалтерию. Oracle доверит ИИ корпоративные дела!",
+      "title_normalized": "chatgpt пустят в бухгалтерию oracle доверит ии корпоративные дела",
+      "status": "cover_ready",
+      "first_recorded_at_utc": "2026-10-28T07:18:01+00:00"
+    },
+    {
+      "key": "cover:99645623c31df3e2f1c4",
+      "title": "ИИ помог украсть 8,2 млн записей. В Южной Корее задержали семерых!",
+      "title_normalized": "ии помог украсть 8 2 млн записей в южной корее задержали семерых",
+      "status": "cover_ready",
+      "first_recorded_at_utc": "2026-10-28T07:18:01+00:00"
+    },
+    {
       "key": "cover:3415330095162303f4c3",
       "title": "Apple отдаёт Pages, Numbers и Keynote под управление ИИ-агентов!",
       "title_normalized": "apple отдаёт pages numbers и keynote под управление ии агентов",
@@ -1283,6 +1304,6 @@
       "excerpt": "GitHub объявил о полноценном запуске AI Scan — инструмента, который проверяет изменения программного кода на потенциальные уязвимости. В отличие от традиционного анализатора CodeQL, новая система охватывает дополнительные языки и технологии, включая PHP, Bash, Terraform и Dockerfile. Когда разработчик предлагает изменения в проекте, AI Scan может автоматически проверить их, объяснить обнаруженную проблему и предложит"
     }
   ],
-  "updated_at_utc": "2026-10-28T06:18:07+00:00",
+  "updated_at_utc": "2026-10-28T07:18:01+00:00",
   "legacy_seen_ids_count": 163
 }
