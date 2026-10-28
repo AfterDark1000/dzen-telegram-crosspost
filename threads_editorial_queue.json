@@ -416,8 +416,11 @@
       "id": "ibm-agent-identity-vault-kill-switch-20261028",
       "dzen_title": "IBM выдала ИИ-агентам паспорта. И приготовила кнопку отключения!",
       "threads_text": "IBM ВЫДАЁТ ИИ-АГЕНТАМ ПАСПОРТА! Каждому — цифровое удостоверение, собственные полномочия и краткосрочные ключи доступа. Полез не туда? Доступ отзывают.\n\nА ещё IBM показала систему, которая находит агентов в Amazon Bedrock, Microsoft Foundry и Google Gemini, изолирует их и позволяет принудительно выключать.\n\nЦифровые удостоверения уже доступны бизнесу. Аварийный рубильник пока тестируют.\n\nПаспорт покажите! 🪪",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6ae1d01b0c75c303c1f541f7",
+      "dzen_url": "https://dzen.ru/a/auHQGwx1wwPB9UH3",
+      "threads_post_id": "18102297416642905"
     },
     {
       "id": "ibm-granite-speech-5-20261023",
