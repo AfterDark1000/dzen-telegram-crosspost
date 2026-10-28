@@ -92,8 +92,11 @@
       "id": "apple-creator-studio-mcp-agents-20261028",
       "dzen_title": "Apple отдаёт Pages, Numbers и Keynote под управление ИИ-агентов!",
       "threads_text": "APPLE ПУСКАЕТ ИИ-АГЕНТОВ В СВОИ ПРОГРАММЫ! В ноябре Pages, Numbers и Keynote получат помощников на моделях Apple и OpenAI. Они смогут редактировать документы, строить таблицы и оформлять презентации.\n\nА через MCP к приложениям подключатся и сторонние агенты: смогут читать файлы, менять их и выполнять действия.\n\nВ Logic Pro появится музыкальный ИИ-помощник, а в Pixelmator Pro — генеративная заливка.\n\nДаже яблоку понадобились рабочие руки. 🍏",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6ae19154d2f43220dc1a7aa6",
+      "dzen_url": "https://dzen.ru/a/auGRVNL0MiDcGnqm",
+      "threads_post_id": "18120027796991293"
     },
     {
       "id": "arenasi-six-claude-agents-loneliness-20261025",
