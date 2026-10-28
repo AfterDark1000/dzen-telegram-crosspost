@@ -329,8 +329,11 @@
       "id": "giotto-alto-solo-swiss-sovereign-ai-20261028",
       "dzen_title": "Швейцарцы выпустили два ИИ. Без американских облаков!",
       "threads_text": "ШВЕЙЦАРЦЫ ВЫПУСТИЛИ ДВА ИИ БЕЗ АМЕРИКАНСКИХ ОБЛАКОВ! Giotto Alto работает на восьми NVIDIA B300, а Solo — на одной совместимой видеокарте. Можно выбрать европейское облако или запуск на серверах компании.\n\nAlto уже доступна в бесплатном чате без регистрации. Для локальной установки нужна коммерческая лицензия: свободно распространяемых весов нет.\n\nДаже облака теперь нейтральные.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6ae2195eb7a7eb3f826895c6",
+      "dzen_url": "https://dzen.ru/a/auIZXren6z-CaJXG",
+      "threads_post_id": "18105110366014030"
     },
     {
       "id": "google-confidential-g4-blackwell-20261022",
