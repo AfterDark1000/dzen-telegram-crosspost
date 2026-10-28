@@ -15,8 +15,11 @@
       "id": "anthropic-claude-35000-antibodies-20261028",
       "dzen_title": "Claude создал 35 тысяч антител за месяц",
       "threads_text": "CLAUDE СПРОЕКТИРОВАЛ 35 ТЫСЯЧ АНТИТЕЛ ЗА МЕСЯЦ! Для борьбы с пищевой аллергией ИИ перебрал варианты, а лаборатория нашла 23 перспективных фрагмента. Три лучше стандартного препарата снимали IgE с иммунных клеток.\n\nВ другом проекте Claude Code помог укоротить часть конструкции CAR-T на 70%. В опытах клетки производили в 10 раз больше рецепторов для распознавания опухоли.\n\nХалат пора выдавать. 🥼",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6ae194224d27f64e5daa7c7b",
+      "dzen_url": "https://dzen.ru/a/auGUIk0n9k5dqnx7",
+      "threads_post_id": "17948157444091244"
     },
     {
       "id": "anthropic-claude-bioweapon-ipo-risks-20261027",
