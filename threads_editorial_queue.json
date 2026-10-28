@@ -709,8 +709,11 @@
       "id": "openai-oracle-ai-workspace-chatgpt-20261028",
       "dzen_title": "ChatGPT пустят в бухгалтерию. Oracle доверит ИИ корпоративные дела!",
       "threads_text": "CHATGPT ПУСТЯТ В КОРПОРАТИВНУЮ БУХГАЛТЕРИЮ! OpenAI и Oracle готовят AI Workspace: нейросеть сможет искать финансовые данные, разбираться в закупках и выполнять разрешённые операции в приложениях Oracle.\n\nДля разработчиков — App Composer с Codex, для безопасности — AI Security Mesh. Пока это анонсы; доступ к OpenAI через Oracle Marketplace в США уже продают.\n\nНейросеть освоила проводки. 🧾",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6ae1952e8b88aa0944685b2b",
+      "dzen_url": "https://dzen.ru/a/auGVLouIqglEaFsr",
+      "threads_post_id": "18467656291136339"
     },
     {
       "id": "openai-php-critical-vulnerabilities-20261022",
