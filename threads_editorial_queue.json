@@ -812,8 +812,11 @@
       "id": "prophecy-datagpt-auditable-data-workflows-20261028",
       "dzen_title": "DataGPT покажет, откуда ИИ взял цифры!",
       "threads_text": "ИИ ЗАСТАВИЛИ ПОКАЗЫВАТЬ РАСЧЁТЫ! Prophecy выпустила DataGPT для ChatGPT, Claude и Copilot.\n\nОн обрабатывает корпоративные таблицы и показывает схему каждого действия. Бухгалтер может проверить расчёты, исправить ошибки и утвердить результат.\n\nПосле этого процесс превращается в код и повторяется без новой генерации ИИ. Сервис уже доступен, есть бесплатный старт.\n\nОтвет «42» без решения больше не принимается.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6ae21a1b121f043a986ddb91",
+      "dzen_url": "https://dzen.ru/a/auIaGxIfBDqYbduR",
+      "threads_post_id": "18125711699471991"
     },
     {
       "id": "runway-app-studio-no-code-video-20261028",
