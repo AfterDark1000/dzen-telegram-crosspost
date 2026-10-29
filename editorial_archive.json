@@ -3,6 +3,20 @@
   "scope": "public Dzen feed + prepared Instagram covers; not private Dzen schedule",
   "entries": [
     {
+      "key": "cover:92cda5ba26b96bb80782",
+      "title": "ChatGPT пустили в техподдержку",
+      "title_normalized": "chatgpt пустили в техподдержку",
+      "status": "cover_ready",
+      "first_recorded_at_utc": "2026-10-29T11:17:58+00:00"
+    },
+    {
+      "key": "cover:9065d629652b1c9e0d7a",
+      "title": "ElevenLabs возвращает голоса людям с БАС — бесплатно",
+      "title_normalized": "elevenlabs возвращает голоса людям с бас бесплатно",
+      "status": "cover_ready",
+      "first_recorded_at_utc": "2026-10-29T11:17:58+00:00"
+    },
+    {
       "key": "cover:7572b076981c4247a02b",
       "title": "Opera дала сайтам бесплатный ИИ — прямо в браузере!",
       "title_normalized": "opera дала сайтам бесплатный ии прямо в браузере",
@@ -1475,6 +1489,6 @@
       "excerpt": "GitHub объявил о полноценном запуске AI Scan — инструмента, который проверяет изменения программного кода на потенциальные уязвимости. В отличие от традиционного анализатора CodeQL, новая система охватывает дополнительные языки и технологии, включая PHP, Bash, Terraform и Dockerfile. Когда разработчик предлагает изменения в проекте, AI Scan может автоматически проверить их, объяснить обнаруженную проблему и предложит"
     }
   ],
-  "updated_at_utc": "2026-10-29T10:18:24+00:00",
+  "updated_at_utc": "2026-10-29T11:17:58+00:00",
   "legacy_seen_ids_count": 179
 }
