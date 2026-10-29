@@ -19,6 +19,21 @@ CHANNEL = "https://dzen.ru/iipike?tab=articles"
 TELEGRAM_CHAT = "@iipike"
 STATE = Path("seen_articles.json")
 
+# Editorial articles that must remain on Dzen only. Every downstream
+# publisher (Telegram, VK, Instagram, Threads) uses fetch_articles().
+DZEN_ONLY_PATHS = frozenset({
+    "/a/auL2PIuIqglEYkgF",  # «Дневник канала»
+})
+
+
+def is_dzen_only_url(url):
+    if not isinstance(url, str):
+        return False
+    parsed = urllib.parse.urlsplit(url)
+    return (parsed.scheme == "https" and parsed.hostname == "dzen.ru"
+            and parsed.username is None
+            and parsed.path.rstrip("/") in DZEN_ONLY_PATHS)
+
 def extract_items(source):
     # Dzen embeds JSON in page HTML. Prefer the structured feedData payload.
     decoder = json.JSONDecoder()
@@ -30,11 +45,16 @@ def extract_items(source):
                 continue
             if isinstance(payload, dict) and isinstance(payload.get("items"), list):
                 articles = []
+                excluded = 0
                 for item in payload["items"]:
                     if not isinstance(item, dict) or item.get("type") != "article":
                         continue
                     url = item.get("shareLink") or item.get("bulkData", {}).get("url")
                     if not url or not url.startswith("https://dzen.ru/a/"):
+                        continue
+                    if is_dzen_only_url(url):
+                        excluded += 1
+                        print("Dzen-only editorial article excluded from crossposting:", url, flush=True)
                         continue
                     ident = str(item.get("id") or url)
                     img = item.get("image") or {}
@@ -46,7 +66,8 @@ def extract_items(source):
                         "text": item.get("text", ""), "url": url,
                         "image": image_url, "date": int(item.get("publicationDate") or 0)
                     })
-                if articles:
+                # A valid feed containing only excluded articles is not a parse error.
+                if articles or excluded:
                     return articles
     raise RuntimeError("Structured article feed not found; nothing will be posted.")
 
