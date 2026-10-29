@@ -389,6 +389,14 @@
       "threads_post_id": "18015144929754959"
     },
     {
+      "id": "google-gemini4-carbon-ranking-20261028",
+      "dzen_title": "Google обошла OpenAI и Anthropic! Gemini 4 Carbon заняла первое место среди ИИ!",
+      "threads_text": "GOOGLE ВЫШЛА НА ПЕРВОЕ МЕСТО! Gemini 4 Carbon набрала 59 баллов в рейтинге Artificial Analysis. Но в тестах ИИ-агентов для программирования Claude Opus 5.5 пока впереди.\n\nGoogle заявляет, что Carbon вдвое реже выдумывает факты. А независимый тест показал: точность выросла, но доля галлюцинаций тоже — с 4% до 11%. Методики разные.\n\nПощупать дадут только избранным, остальным ждать",
+      "status": "approved",
+      "include_dzen_link": false,
+      "require_image": true
+    },
+    {
       "id": "google-personal-intelligence-cars-20261021",
       "dzen_title": "Google подключила автомобильный Gemini к личным данным",
       "threads_text": "«Найди ту автомойку с фотки на прошлой неделе». Раньше навигатору с такими указаниями оставалось только посочувствовать.\n\nGoogle добавляет в автомобильный Gemini функцию Personal Intelligence. С разрешения владельца ИИ сможет искать сведения в Gmail, Календаре, Google Фото и Картах, учитывать предпочтения и прокладывать маршруты даже без точного адреса.\n\nОбновление уже распространяется в Android Auto. В автомобилях со встроенными сервисами Google появится позже.",
@@ -934,14 +942,6 @@
       "dzen_id": "6adb0b290e1ecf632f3637f2",
       "dzen_url": "https://dzen.ru/a/atsLKQ4ez2MvNjfy",
       "threads_post_id": "17986790595095235"
-    },
-    {
-      "id": "google-gemini4-carbon-ranking-20261028",
-      "dzen_title": "Google обошла OpenAI и Anthropic! Gemini 4 Carbon заняла первое место среди ИИ!",
-      "threads_text": "GOOGLE ВЫШЛА НА ПЕРВОЕ МЕСТО! Gemini 4 Carbon набрала 59 баллов в рейтинге Artificial Analysis. Но в тестах ИИ-агентов для программирования Claude Opus 5.5 пока впереди.\n\nGoogle заявляет, что Carbon вдвое реже выдумывает факты. А независимый тест показал: точность выросла, но доля галлюцинаций тоже — с 4% до 11%. Методики разные.\n\nПощупать дадут только избранным, остальным ждать",
-      "status": "approved",
-      "include_dzen_link": false,
-      "require_image": true
     }
   ]
 }
