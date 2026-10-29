@@ -203,5 +203,74 @@ class RuntimeTests(unittest.IsolatedAsyncioTestCase):
                     await bot.main()
                 publish.assert_not_called()
 
+class RequiredImageTests(unittest.IsolatedAsyncioTestCase):
+    def test_require_image_flag_must_be_boolean(self):
+        ed.validate_queue({"schema_version": 1, "items": [
+            {**QUEUE["items"][0], "require_image": True}]})
+        with self.assertRaisesRegex(RuntimeError, "required-image flag"):
+            ed.validate_queue({"schema_version": 1, "items": [
+                {**QUEUE["items"][0], "require_image": "yes"}]})
+
+    def test_image_rejection_never_falls_back_to_text(self):
+        with patch.object(bot, "create_container", side_effect=RuntimeError("bad image")) as create:
+            with self.assertRaisesRegex(RuntimeError, "required image container rejected"):
+                bot.publish("Approved post", cover="https://example.com/cover.jpg", require_image=True)
+            create.assert_called_once_with("Approved post", "https://example.com/cover.jpg")
+        with patch.object(bot, "create_container") as create:
+            with self.assertRaisesRegex(RuntimeError, "image required"):
+                bot.publish("Approved post", require_image=True)
+            create.assert_not_called()
+
+    async def test_required_image_missing_keeps_queue_approved(self):
+        with tempfile.TemporaryDirectory() as folder:
+            seenpath = Path(folder) / "seen.json"
+            queuepath = Path(folder) / "queue.json"
+            seenpath.write_text("[]", encoding="utf-8")
+            approved = {"schema_version": 1, "items": [
+                {**QUEUE["items"][0], "require_image": True}]}
+            ed.save_queue(approved, queuepath)
+            def fake_api(method, path, params=None):
+                if path == "me":
+                    return {"username": "iipike.ai"}
+                if path == "me/threads":
+                    return {"data": []}
+                raise AssertionError("Unexpected API request")
+            with patch.object(bot, "STATE", seenpath), patch.object(bot, "TOKEN", "dummy"), \
+                 patch.object(bot, "load_queue", side_effect=lambda: ed.load_queue(queuepath)), \
+                 patch.object(bot, "save_queue", side_effect=lambda q: ed.save_queue(q, queuepath)), \
+                 patch.object(bot, "fetch_articles", new_callable=AsyncMock, return_value=[ARTICLE]), \
+                 patch.object(bot, "api", side_effect=fake_api), \
+                 patch.object(bot, "publish") as publish:
+                await bot.main()
+                publish.assert_not_called()
+            self.assertEqual(ed.load_queue(queuepath)["items"][0]["status"], "approved")
+            self.assertEqual(json.loads(seenpath.read_text()), [])
+
+    async def test_required_image_overrides_alternation(self):
+        with tempfile.TemporaryDirectory() as folder:
+            seenpath = Path(folder) / "seen.json"
+            queuepath = Path(folder) / "queue.json"
+            seenpath.write_text("[]", encoding="utf-8")
+            approved = {"schema_version": 1, "items": [
+                {**QUEUE["items"][0], "require_image": True}]}
+            ed.save_queue(approved, queuepath)
+            art = {**ARTICLE, "image": "https://example.com/cover.jpg"}
+            def fake_api(method, path, params=None):
+                if path == "me":
+                    return {"username": "iipike.ai"}
+                if path == "me/threads":
+                    return {"data": []}
+                raise AssertionError("Unexpected API request")
+            with patch.object(bot, "STATE", seenpath), patch.object(bot, "TOKEN", "dummy"), \
+                 patch.object(bot, "load_queue", side_effect=lambda: ed.load_queue(queuepath)), \
+                 patch.object(bot, "save_queue", side_effect=lambda q: ed.save_queue(q, queuepath)), \
+                 patch.object(bot, "fetch_articles", new_callable=AsyncMock, return_value=[art]), \
+                 patch.object(bot, "api", side_effect=fake_api), \
+                 patch.object(bot, "publish", return_value="threads-999") as publish:
+                await bot.main()
+                publish.assert_called_once_with(
+                    approved["items"][0]["threads_text"], cover=art["image"], require_image=True)
+            self.assertEqual(ed.load_queue(queuepath)["items"][0]["status"], "published")
+
 if __name__=="__main__":
     unittest.main()

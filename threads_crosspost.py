@@ -109,13 +109,17 @@ def wait_until_ready(cid):
     raise RuntimeError("Threads container not ready after 60 seconds; no post sent")
 
 
-def publish(text, cover=None):
-    # A remote image can be rejected during container creation.
-    # If so, publish the same news as text; do not lose the news.
+def publish(text, cover=None, *, require_image=False):
+    # An explicitly image-required editorial item must NEVER silently become text-only.
+    if require_image and not cover:
+        raise RuntimeError("Threads image required but no public HTTPS cover available")
+    # Other posts may still use the legacy text fallback for rejected images.
     if cover:
         try:
             cid = create_container(text, cover)
         except RuntimeError as error:
+            if require_image:
+                raise RuntimeError("Threads required image container rejected; post held: " + str(error)[:180]) from error
             print("Threads image container rejected; using text:", str(error)[:180], flush=True)
             cid = create_container(text)
             cover = None
@@ -186,11 +190,20 @@ async def main(check_only=False, intro=False):
                 raise RuntimeError("Threads prior post found without ID; hold for manual review")
             print("Threads already contains approved author post:", item["title"], flush=True)
         else:
-            # Preserve the historic alternating text / original-cover pattern.
-            cover = item.get("image", "") if len(seen) % 3 == 2 else ""
+            # Preserve the historic alternating pattern except where the editor
+            # explicitly requires the Dzen cover to accompany the approved text.
+            require_image = approved.get("require_image", False)
+            cover = item.get("image", "") if require_image or len(seen) % 3 == 2 else ""
             if not isinstance(cover, str) or not cover.startswith("https://"):
                 cover = ""
-            post_id = publish(message, cover=cover)
+            if require_image and not cover:
+                print("Threads required-image post held until Dzen cover is available:",
+                      item["title"], flush=True)
+                continue
+            if require_image:
+                post_id = publish(message, cover=cover, require_image=True)
+            else:
+                post_id = publish(message, cover=cover)
             recent_texts[message] = post_id
             print("Threads author post published:", item["title"], flush=True)
         mark_published(approved, item, post_id)

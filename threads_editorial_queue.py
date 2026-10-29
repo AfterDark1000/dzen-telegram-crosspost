@@ -50,6 +50,8 @@ def validate_queue(data):
             raise RuntimeError("Threads editorial item status is invalid: " + identifier)
         if not isinstance(entry.get("include_dzen_link", False), bool):
             raise RuntimeError("Threads Dzen link flag must be true or false: " + identifier)
+        if not isinstance(entry.get("require_image", False), bool):
+            raise RuntimeError("Threads required-image flag must be true or false: " + identifier)
         key = title_key(title)
         if len(key) < 5 or key in keys:
             raise RuntimeError("Threads queue has duplicate or ambiguous Dzen title: " + title)
