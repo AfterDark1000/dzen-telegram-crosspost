@@ -527,8 +527,11 @@
       "id": "microsoft-mai-image-27-editor-20261027",
       "dzen_title": "Microsoft потеснила OpenAI! Новый ИИ-редактор ворвался в топ-3",
       "threads_text": "MICROSOFT ПОДВИНУЛА OPENAI! Компания показала MAI-Image-2.7 — свой ИИ-редактор изображений. Он меняет свет и стиль сцены, правит текст на картинке, переносит объекты в другую обстановку и восстанавливает изображения.\n\nПо данным Microsoft, модель заняла 3-е место в Arena и 2-е — в рейтинге редактирования Artificial Analysis, обойдя GPT Image 2.5 Flare.\n\nРедактировать стало важнее, чем просто генерить.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6ae2d8b70c75c303c16b4450",
+      "dzen_url": "https://dzen.ru/a/auLYtwx1wwPBa0RQ",
+      "threads_post_id": "18185471626372906"
     },
     {
       "id": "microsoft-voluntary-exit-offer-20261027",
