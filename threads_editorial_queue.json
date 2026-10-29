@@ -844,8 +844,11 @@
       "id": "openai-servicenow-chatgpt-support-20261028",
       "dzen_title": "ChatGPT пустили в техподдержку",
       "threads_text": "CHATGPT ПУСТИЛИ В ТЕХПОДДЕРЖКУ! OpenAI и ServiceNow подключили корпоративные заявки к чату. Теперь сотрудник сможет искать похожие сбои, оценивать риск изменений и обновлять записи, не выходя из разговора.\n\nПлагин уже доступен, расширение функций обещают до конца года. Права задаёт сама компания: чужую заявку просто так не перепишешь.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6ae31c844e1c18482737021c",
+      "dzen_url": "https://dzen.ru/a/auMchE4cGEgnNwIc",
+      "threads_post_id": "18417655957084027"
     },
     {
       "id": "openai-three-scientific-breakthroughs-20261027",
