@@ -382,8 +382,11 @@
       "id": "google-gemini-robotics-er2-cloud-20261027",
       "dzen_title": "Google открыла «мозг» для роботов. Теперь они могут работать командой",
       "threads_text": "РОБОТАМ ДАЛИ ОБЛАЧНЫЙ «МОЗГ»! Google открыла бизнесу Gemini Robotics ER 2. Модель видит ошибки на видео, планирует действия и помогает нескольким роботам делить работу.\n\nОна может понять, когда пора прекратить наливать жидкость, или прочитать показания прибора. Движениями робота управляют отдельные системы.\n\nER 2 представили ещё в июле. Новость октября — публичный предварительный доступ через Google Cloud.\n\nМозг в облаке, гайки на земле. 🤖",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6ae2dd0111eb372c3b97fe64",
+      "dzen_url": "https://dzen.ru/a/auLdARHrNyw7l_5k",
+      "threads_post_id": "18119672270059672"
     },
     {
       "id": "google-gemini-video-plan-20261020",
