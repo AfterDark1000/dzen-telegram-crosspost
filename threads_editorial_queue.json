@@ -861,8 +861,11 @@
       "id": "opera-webai-local-browser-models-20261027",
       "dzen_title": "Opera дала сайтам бесплатный ИИ — прямо в браузере!",
       "threads_text": "OPERA ДАЛА САЙТАМ БЕСПЛАТНЫЙ ИИ! WebAI позволяет запускать нейросети прямо в браузере — без облачных запросов, API-ключей и подписки.\n\nУже есть шесть экспериментальных расширений. Например, Project Lens подсвечивает в статьях абзацы по интересующей теме.\n\nПока работает в Opera One на Windows x64 и Mac с Apple Silicon. Модель скачивается на компьютер, скорость зависит от железа.\n\nFirefox, твой ход! 😏",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6ae316bb5527bd1329981824",
+      "dzen_url": "https://dzen.ru/a/auMWu1UnvRMpmBgk",
+      "threads_post_id": "18112899590270013"
     },
     {
       "id": "perplexity-computer-local-mac-20261022",
