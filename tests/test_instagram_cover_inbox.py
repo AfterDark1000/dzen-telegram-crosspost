@@ -1,5 +1,6 @@
 """Offline safety checks for photo inbox (no credentials or network)."""
 import io
+from unittest.mock import patch
 from pathlib import Path
 import sys
 import unittest
@@ -9,6 +10,12 @@ import instagram_cover_inbox as inbox
 
 
 class InboxTests(unittest.TestCase):
+    def test_paused_inbox_does_not_poll_telegram(self):
+        with patch.dict("os.environ", {"INSTAGRAM_FEED_ENABLED": "false"}), \
+             patch.object(inbox, "api") as api:
+            inbox.main()
+            api.assert_not_called()
+
     def test_normalized_title(self):
         self.assertEqual(inbox.normalize_title("  GPT — новая   модель "),
                          inbox.normalize_title("gpt - НОВАЯ модель"))
