@@ -148,6 +148,15 @@ def publish_article(user_id, item, caption, vertical_cover):
 
 
 async def main():
+    # Defense in depth for manual invocations or future workflow edits.
+    # A pause must NOT refresh the pending queue or contact the Instagram API.
+    if os.getenv("INSTAGRAM_FEED_ENABLED", "false").lower() != "true":
+        print("Instagram feed PAUSED: no publication and no new pending entries.", flush=True)
+        return
+    cutoff_text = os.getenv("INSTAGRAM_RESUME_FROM_UNIX", "").strip()
+    if not cutoff_text.isdecimal() or int(cutoff_text) <= 0:
+        raise RuntimeError("Instagram resume requires an explicit positive UTC UNIX cutoff; backlog held")
+    resume_from = int(cutoff_text)
     if not STATE.exists() or not PENDING.exists() or not INBOX.exists():
         raise RuntimeError("Instagram state files missing; publishing paused")
     seen = set(json.loads(STATE.read_text(encoding="utf-8")))
@@ -156,10 +165,14 @@ async def main():
     if not isinstance(rows, list) or not isinstance(inbox.get("covers"), dict):
         raise RuntimeError("Instagram queue or cover registry invalid")
     covers = inbox["covers"]
-    pending = {str(row["id"]): row for row in rows if str(row.get("id", "")) not in seen}
+    # On a deliberate future restart, drop pre-resumption items (including
+    # old pending records). Never release a backlog of stale news.
+    pending = {str(row["id"]): row for row in rows
+               if str(row.get("id", "")) not in seen
+               and int(row.get("date") or 0) >= resume_from}
     articles = await fetch_articles()
     for item in articles:
-        if item["id"] not in seen:
+        if item["id"] not in seen and int(item.get("date") or 0) >= resume_from:
             pending[item["id"]] = {
                 "id": str(item["id"]), "title": str(item.get("title") or ""),
                 "text": short_teaser(item.get("text") or "", limit=550),

@@ -24,7 +24,7 @@ class ReconciliationTests(unittest.TestCase):
         self.assertFalse(ig.matches_published_caption(
             caption, {"Other post about " + self.TITLE}))
 
-    def run_case(self, first_seen, after_error=None, publish_error=None, held=False):
+    def run_case(self, first_seen, after_error=None, publish_error=None, held=False, cutoff=1):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
             state, pending, inbox = (root / name for name in (
@@ -45,7 +45,9 @@ class ReconciliationTests(unittest.TestCase):
                     "file": "instagram_covers/" + "a" * 20 + "-1.jpg",
                 }}})
             after = [first_seen] if after_error is None else [first_seen, after_error]
-            with patch.object(ig, "STATE", state), \
+            with patch.dict("os.environ", {"INSTAGRAM_FEED_ENABLED": "true",
+                                        "INSTAGRAM_RESUME_FROM_UNIX": str(cutoff)}), \
+                 patch.object(ig, "STATE", state), \
                  patch.object(ig, "PENDING", pending), \
                  patch.object(ig, "INBOX", inbox), \
                  patch.object(ig, "TOKEN", "test-token"), \
@@ -93,6 +95,28 @@ class ReconciliationTests(unittest.TestCase):
         self.assertEqual(sends, 0)
         self.assertIsNone(failure)
         self.assertTrue(pending[0]["instagram_publish_attempted"])
+
+    def test_resume_drops_old_pending_instead_of_publishing(self):
+        seen, pending, sends, failure = self.run_case(set(), cutoff=100)
+        self.assertEqual((seen, pending, sends, failure), ([], [], 0, None))
+
+    def test_pause_does_not_fetch_or_mutate_pending_queue(self):
+        with patch.dict("os.environ", {"INSTAGRAM_FEED_ENABLED": "false"}), \
+             patch.object(ig, "fetch_articles", new=AsyncMock()) as fetch, \
+             patch.object(ig, "graph") as graph:
+            asyncio.run(ig.main())
+            fetch.assert_not_awaited()
+            graph.assert_not_called()
+
+    def test_no_resume_cutoff_refuses_publication(self):
+        with patch.dict("os.environ", {"INSTAGRAM_FEED_ENABLED": "true",
+                                      "INSTAGRAM_RESUME_FROM_UNIX": "0"}), \
+             patch.object(ig, "fetch_articles", new=AsyncMock()) as fetch, \
+             patch.object(ig, "graph") as graph:
+            with self.assertRaisesRegex(RuntimeError, "resume requires"):
+                asyncio.run(ig.main())
+            fetch.assert_not_awaited()
+            graph.assert_not_called()
 
 
 if __name__ == "__main__":

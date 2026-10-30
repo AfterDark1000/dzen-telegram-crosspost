@@ -13,6 +13,11 @@ jobs:
   crosspost:
     runs-on: ubuntu-latest
     timeout-minutes: 20
+    env:
+      # Instagram feed is intentionally paused; keep Threads and all other routes active.
+      INSTAGRAM_FEED_ENABLED: 'false'
+      # Set to the UTC UNIX time of an explicit future resumption; never replay backlog.
+      INSTAGRAM_RESUME_FROM_UNIX: '0'
     steps:
       - uses: actions/checkout@v4
         with:
@@ -47,7 +52,7 @@ jobs:
         timeout-minutes: 4
         run: python3 state_checkpoint.py save early
       - name: Collect vertical Instagram covers from Telegram channel
-        if: ${{ !cancelled() && steps.state_init.outcome == 'success' && steps.install.outcome == 'success' && steps.early_checkpoint.outcome == 'success' }}
+        if: ${{ env.INSTAGRAM_FEED_ENABLED == 'true' && !cancelled() && steps.state_init.outcome == 'success' && steps.install.outcome == 'success' && steps.early_checkpoint.outcome == 'success' }}
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         run: |
@@ -66,7 +71,7 @@ jobs:
         timeout-minutes: 4
         run: python3 state_checkpoint.py save covers
       - name: Post new articles to Instagram
-        if: ${{ !cancelled() && steps.state_init.outcome == 'success' && steps.install.outcome == 'success' && steps.cover_checkpoint.outcome == 'success' }}
+        if: ${{ env.INSTAGRAM_FEED_ENABLED == 'true' && !cancelled() && steps.state_init.outcome == 'success' && steps.install.outcome == 'success' && steps.cover_checkpoint.outcome == 'success' }}
         env:
           INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
         run: |

@@ -112,6 +112,9 @@ def to_jpeg(raw):
 
 
 def main():
+    if os.getenv("INSTAGRAM_FEED_ENABLED", "false").lower() != "true":
+        print("Instagram cover inbox PAUSED: no Telegram reads or image imports.", flush=True)
+        return
     token = os.getenv("TELEGRAM_BOT_TOKEN", "").strip()
     if not token:
         raise RuntimeError("Telegram token not configured")

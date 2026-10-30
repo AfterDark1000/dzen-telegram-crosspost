@@ -17,6 +17,9 @@ jobs:
   receive:
     runs-on: ubuntu-latest
     timeout-minutes: 8
+    env:
+      # Independent manual cover importer stays disabled during Instagram feed pause.
+      INSTAGRAM_FEED_ENABLED: 'false'
     steps:
       - uses: actions/checkout@v4
         with:
@@ -30,7 +33,7 @@ jobs:
         id: install
         run: python3 -m pip install --disable-pip-version-check pillow
       - name: Read Telegram covers (NO Instagram publication)
-        if: ${{ !cancelled() && steps.state_init.outcome == 'success' && steps.install.outcome == 'success' }}
+        if: ${{ env.INSTAGRAM_FEED_ENABLED == 'true' && !cancelled() && steps.state_init.outcome == 'success' && steps.install.outcome == 'success' }}
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         run: |
