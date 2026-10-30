@@ -600,8 +600,11 @@
       "id": "mistral-large4-oss-le-chonk-20261029",
       "dzen_title": "Mistral выложила ИИ на ТРИЛЛИОН параметров!",
       "threads_text": "ФРАНЦУЗЫ ВЫЛОЖИЛИ ИИ НА ТРИЛЛИОН ПАРАМЕТРОВ! 🇫🇷\n\nMistral открыла веса Large 4 (Le Chonk). Модель понимает текст и изображения, держит до миллиона токенов контекста и, по данным компании, стала сильнее в программировании после трёх недель дообучения.\n\nВерсии FP8 и NVFP4 уже на Hugging Face. Можно запустить на своих серверах и дообучить. Но продавать доступ к модели как к сервису без отдельной лицензии нельзя.\n\nСкачать легко, прокормить — сложнее. 💸",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6ae41757998fc72703c6c2cb",
+      "dzen_url": "https://dzen.ru/a/auQXV5mPxycDxsLL",
+      "threads_post_id": "18076489595774646"
     },
     {
       "id": "mistral-voxtral-3-20261021",
