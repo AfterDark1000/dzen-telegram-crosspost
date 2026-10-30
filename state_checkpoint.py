@@ -21,8 +21,8 @@ CACHE = Path(os.getenv("RUNNER_TEMP", tempfile.gettempdir())) / "hpi-state"
 IDS = ("seen_articles.json", "seen_vk_articles.json",
        "seen_instagram_articles.json", "seen_threads_articles.json")
 FILES = IDS + ("instagram_pending_articles.json", "instagram_cover_inbox.json",
-               "threads_editorial_queue.json", "editorial_archive.json",
-               "meta_token_refresh_state.json")
+               "threads_editorial_queue.json", "x_editorial_queue.json",
+               "editorial_archive.json", "meta_token_refresh_state.json")
 ABSENT = object()
 
 
@@ -144,6 +144,15 @@ def merge_states(base, local, remote):
                  if row["status"] == "published"}
     out["seen_threads_articles.json"] = sorted(
         set(out["seen_threads_articles.json"]) | delivered)
+
+    name = "x_editorial_queue.json"
+    out[name] = merge_dict(
+        *({key: val for key, val in s[name].items() if key != "items"}
+          for s in states), name)
+    out[name]["items"] = merge_rows(
+        *(s[name]["items"] for s in states), "id", name)
+    from x_editorial_queue import validate_queue as validate_x_queue
+    validate_x_queue(out[name])
 
     name = "instagram_cover_inbox.json"
     out[name] = merge_dict(

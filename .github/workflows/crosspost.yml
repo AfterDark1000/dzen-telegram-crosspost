@@ -86,6 +86,14 @@ jobs:
           python3 -m py_compile threads_crosspost.py threads_editorial_queue.py
           python3 -m unittest discover -s tests -p 'test_threads_editorial_queue.py' -v
           python3 threads_crosspost.py
+      - name: Queue approved X posts via Buffer (max one per run)
+        if: ${{ !cancelled() && steps.state_init.outcome == 'success' && steps.install.outcome == 'success' && steps.cover_checkpoint.outcome == 'success' }}
+        continue-on-error: true
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+        run: |
+          python3 -m py_compile buffer_x_check.py buffer_x_crosspost.py x_editorial_queue.py
+          python3 buffer_x_crosspost.py
       - name: Refresh Instagram and Threads tokens when due
         if: ${{ !cancelled() && steps.state_init.outcome == 'success' && steps.install.outcome == 'success' && steps.cover_checkpoint.outcome == 'success' }}
         env:
