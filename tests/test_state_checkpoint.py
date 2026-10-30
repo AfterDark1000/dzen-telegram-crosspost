@@ -31,6 +31,14 @@ def fixture():
                 "status": "approved",
             }]
         },
+        "x_editorial_queue.json": {
+            "schema_version": 1, "items": [{
+                "id": "approved-x-001",
+                "dzen_title": "An X sample approved story headline",
+                "x_text": "Approved X text.",
+                "status": "approved",
+            }]
+        },
         "editorial_archive.json": {
             "schema_version": 1, "updated_at_utc": "2026-10-20T00:00:00+00:00",
             "legacy_seen_ids_count": 1, "scope": "public feed",
@@ -88,6 +96,7 @@ class MergeTests(unittest.TestCase):
         self.assertEqual(len(merged["threads_editorial_queue.json"]["items"]), 2)
         self.assertEqual(merged["instagram_cover_inbox.json"]["offset"], 50)
         self.assertIn("cover-key", merged["instagram_cover_inbox.json"]["covers"])
+        self.assertEqual(len(merged["x_editorial_queue.json"]["items"]), 1)
 
     def test_pending_queue_removes_delivered_items(self):
         base = fixture()
