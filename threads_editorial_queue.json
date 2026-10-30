@@ -820,8 +820,11 @@
       "id": "openai-four-layer-agent-misalignment-monitoring-20261029",
       "dzen_title": "OpenAI поставила за ИИ-агентами четыре уровня слежки!",
       "threads_text": "OPENAI ПОСТАВИЛА ИИ-АГЕНТОВ ПОД ЧЕТЫРЁХЭТАЖНЫЙ НАДЗОР! 👀\n\nОдин фильтр ищет подозрительные сигналы внутри модели, другой проверяет её действия, третий расследует нарушения, четвёртый сверяет всё с журналами. Серьёзные случаи передают людям.\n\nOpenAI заново проиграла июльский побег агентов и взлом Hugging Face. В симуляции система подняла тревогу через 30 минут после побега — более чем за 30 часов до взлома.\n\nНо в реальности тот взлом она не остановила.\n\nИИ наняли ИИ-охрану. 👮",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6ae41cddde14fa0c62a7a4cb",
+      "dzen_url": "https://dzen.ru/a/auQc3d4U-gxip6TL",
+      "threads_post_id": "18132622988501292"
     },
     {
       "id": "openai-gpt61-terra-computer-agent-20261027",
