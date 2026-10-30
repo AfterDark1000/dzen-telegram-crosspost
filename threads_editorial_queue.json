@@ -369,8 +369,11 @@
       "id": "gnani-prisma-v3-indian-languages-stt-20261028",
       "dzen_title": "Индийский ИИ обошёл ElevenLabs сразу на девяти языках!",
       "threads_text": "ELEVENLABS ПРОИГРАЛА В ИНДИИ! 🇮🇳\n\nGnani AI выпустила Prisma v3.0 — распознаёт девять индийских языков и английский, даже когда они смешаны в одной фразе. Понимает телефонные записи, суммы и названия компаний.\n\nВ собственном тесте Gnani доля ошибок — 16,93% против 19,98% у ElevenLabs Scribe v2 и 20,51% у Azure. Независимой проверки пока нет.\n\nМодель уже доступна через API. Русского нет.\n\nЛишь бы танцевать не начали! 💃",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6ae4129ae0d1375c19009615",
+      "dzen_url": "https://dzen.ru/a/auQSmuDRN1wZAJYV",
+      "threads_post_id": "17964424998219030"
     },
     {
       "id": "google-confidential-g4-blackwell-20261022",
