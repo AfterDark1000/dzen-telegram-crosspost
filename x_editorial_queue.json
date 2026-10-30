@@ -11,6 +11,13 @@
       "dzen_url": "https://dzen.ru/a/auQc3d4U-gxip6TL",
       "buffer_post_id": "6ae460f758a62337fb784681",
       "with_image": true
+    },
+    {
+      "id": "pika-h3-flex-fast-video-20261029",
+      "dzen_title": "Pika: 15 секунд видео за 7 секунд вычислений!",
+      "x_text": "PIKA РАЗОГНАЛА ВИДЕОГЕНЕРАЦИЮ! ⚡\n\nH3 Flex в тесте просчитала 15 секунд видео со звуком за 7 секунд. Это только вычислительный этап, не готовый файл.\n\nДо 12 референсов, звук по 5 дорожкам, 4K после увеличения разрешения. Сейчас — API, в обычной Pika — с 2 ноября.",
+      "status": "approved",
+      "include_dzen_link": false
     }
   ]
 }
