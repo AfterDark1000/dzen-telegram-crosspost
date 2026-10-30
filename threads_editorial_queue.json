@@ -944,8 +944,11 @@
       "id": "runway-ads-general-availability-20261027",
       "dzen_title": "Runway запустила ИИ-рекламщика: сам смотрит статистику и делает ролики",
       "threads_text": "RUNWAY НАНЯЛА ИИ-РЕКЛАМЩИКА! 😎\n\nRunway Ads подключается к Meta, Google и TikTok, смотрит, какие объявления работают, и делает новые видео и картинки по результатам.\n\nПо словам Runway, внутри компании производство выросло до ~1000 объявлений в неделю, а стоимость привлечения подписчика снизилась на 41%. Это не независимый тест.\n\nСервис доступен на всех платных тарифах, но генерации тратят кредиты. Объявления запускает человек.\n\nИИ делает креатив, начальник жмёт «Пуск». 🖱️",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6ae4103afc598f004841c92e",
+      "dzen_url": "https://dzen.ru/a/auQQOvxZjwBIQcku",
+      "threads_post_id": "18352080991269608"
     },
     {
       "id": "runway-app-studio-no-code-video-20261028",
