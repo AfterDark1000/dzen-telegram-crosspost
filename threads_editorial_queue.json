@@ -710,8 +710,11 @@
       "id": "nvidia-nemotron35-transcribe-20261028",
       "dzen_title": "NVIDIA выпустила ИИ-секретаря: разберёт, кто что сказал на совещании!",
       "threads_text": "NVIDIA ВЫПУСТИЛА ИИ-СЕКРЕТАРЯ! 🎙️\n\nNemotron 3.5 Transcribe разбирает записи до часа, различает до восьми говорящих и переводит речь между английским и 31 языком. Всего распознаёт 40 языков, включая русский.\n\nВ тесте FLEURS на русском NVIDIA заявила 3,80% ошибок распознавания слов. Можно скачать веса и обрабатывать записи на своём GPU, но понадобится серьёзное железо.\n\nЭто инструмент для записей, не живой голосовой собеседник.\n\nВосьмерых выслушал — и ни разу не перебил. 🎧",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6ae4198f4e1c1848278239fd",
+      "dzen_url": "https://dzen.ru/a/auQZj04cGEgngjn9",
+      "threads_post_id": "18649759642018284"
     },
     {
       "id": "nvidia-openshell-reference-architecture-20261022",
