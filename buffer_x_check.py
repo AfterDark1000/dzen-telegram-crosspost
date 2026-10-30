@@ -39,9 +39,11 @@ def connected_x_channel():
         org_id = org.get("id")
         if not isinstance(org_id, str) or not org_id:
             continue
+        # Inline the JSON-escaped ID to avoid assumptions about Buffer's custom
+        # GraphQL scalar type for the organizationId argument.
         data = graphql(
-            "query ($org: String!) { channels(input: {organizationId: $org}) { id name displayName service isQueuePaused } }",
-            {"org": org_id},
+            "query { channels(input: {organizationId: " + json.dumps(org_id) +
+            "}) { id name displayName service isQueuePaused } }"
         )
         for item in data.get("channels") or []:
             if item.get("service") in ("twitter", "x"):
