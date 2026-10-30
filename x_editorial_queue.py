@@ -40,6 +40,8 @@ def validate_queue(data):
         titles.add(key)
         if status == "queued" and not (item.get("dzen_id") and item.get("buffer_post_id")):
             raise RuntimeError("Queued X post missing delivery evidence")
+        if "with_image" in item and not isinstance(item["with_image"], bool):
+            raise RuntimeError("X with_image must be Boolean")
     return items
 
 
@@ -79,9 +81,10 @@ def delivery_text(entry, article):
     return message
 
 
-def mark_queued(entry, article, buffer_post_id):
+def mark_queued(entry, article, buffer_post_id, *, with_image=False):
     entry.update(status="queued", dzen_id=str(article["id"]),
-                 dzen_url=str(article["url"]), buffer_post_id=str(buffer_post_id))
+                 dzen_url=str(article["url"]), buffer_post_id=str(buffer_post_id),
+                 with_image=with_image)
 
 
 def save_queue(data, path=QUEUE_FILE):
