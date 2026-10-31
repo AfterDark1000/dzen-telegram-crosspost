@@ -105,8 +105,12 @@
       "id": "wired-accenture-personal-claude-code-pentagon-20261029",
       "dzen_title": "Claude Code получил доступ к системе Пентагона",
       "x_text": "WIRED: сотрудник Accenture подключил личный Claude Code к системе Пентагона с правами администратора. Агент якобы работал там два месяца, а пароли могли уйти стороннему сервису.\n\nAccenture отвергает обвинения. Независимого подтверждения утечки и доступа к секретным сетям нет.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6ae4bb48a578bc23f57e4ef7",
+      "dzen_url": "https://dzen.ru/a/auS7SKV4vCP1fk73",
+      "buffer_post_id": "6ae6691d21c807e9d58aac3b",
+      "with_image": true
     }
   ]
 }
