@@ -279,8 +279,11 @@
       "id": "cursor-claude-code-extension-trojan-20261029",
       "dzen_title": "Claude Code заразили трояном: под угрозой до 5000 пользователей Cursor",
       "threads_text": "ТРОЯН ПОД ВИДОМ CLAUDE CODE! 💀\n\n29 октября в магазине Cursor 11 часов лежала заражённая версия Claude Code 2.1.313. Она добавляла SSH-ключ хакера, пыталась открыть удалённый доступ и закрепиться после перезагрузки.\n\nПод угрозой — до 5000 пользователей, но это не число взломанных ПК. Cursor убрала пакет и отключила сервер атаки.\n\nЕсли ставили эту версию, простого удаления мало: проверьте компьютер по инструкции Cursor.\n\nМагазин расширений превратился в доставку хакеров на дом. 🤡",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6ae4bbe1d73786100d575f3f",
+      "dzen_url": "https://dzen.ru/a/auS74dc3hhANV18_",
+      "threads_post_id": "18138068728740430"
     },
     {
       "id": "cybercartel-carliy0s-multiagent-banks-20261025",
@@ -316,8 +319,11 @@
       "id": "diffuspace-clover-35b-a3b-preview-20261030",
       "dzen_title": "Нейросеть разогнали до 680 токенов в секунду!",
       "threads_text": "35 МИЛЛИАРДОВ ПАРАМЕТРОВ — И 680 ТОКЕНОВ В СЕКУНДУ! ⚡\n\nDiffuSpace выпустила Clover — нейросеть, которая формирует текст сразу блоками и потом их уточняет. В тесте разработчиков на NVIDIA GB300 она выдала 680 токенов/с, а на проверке задач по программированию SWE-bench Verified набрала 73,6 балла.\n\nНа RTX 5070 Ti с 16 ГБ памяти команда получила 101,8 токена/с в 4-битном режиме. Это другой тест, не те же 680.\n\nВеса открыты, модель можно скачать.\n\nТокены теперь отпускают оптом. 📦",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6ae5a5b3121f043a98a6aa6d",
+      "dzen_url": "https://dzen.ru/a/auWlsxIfBDqYpqpt",
+      "threads_post_id": "17951875275054724"
     },
     {
       "id": "doubleai-maxwell-20261021",
@@ -383,8 +389,11 @@
       "id": "epoch-ai-glm53-firefox-patch-gap-20261029",
       "dzen_title": "ИИ взломал Firefox",
       "threads_text": "ИИ ВЗЛОМАЛ ШЕСТЬ ВЕРСИЙ FIREFOX! 🦊\n\nEpoch AI дала модели GLM 5.3 сведения о будущих исправлениях браузера. Она сама собрала атаки на шесть выпусков Firefox: открыл подставную страницу — и файл с компьютера уже утёк.\n\nЭто лабораторный эксперимент, обычных пользователей не взламывали. После подготовки новая атака обходилась примерно в $1000, но вся работа стоила больше $100 000.\n\nMozilla исправила одну из использованных уязвимостей в Firefox 159. Так что обновления лучше не откладывать.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6ae4ba3a0c75c303c18db7c1",
+      "dzen_url": "https://dzen.ru/a/auS6Ogx1wwPBjbfB",
+      "threads_post_id": "17972780580189842"
     },
     {
       "id": "exin-therapeutics-ai-mouse-brain-injection-20261031",
@@ -464,8 +473,11 @@
       "id": "google-gemini-inline-file-editing-20261029",
       "dzen_title": "Gemini теперь редактирует PDF и таблицы прямо в чате",
       "threads_text": "GOOGLE НАУЧИЛА GEMINI РЕДАКТИРОВАТЬ ФАЙЛЫ! 📄\n\nРаньше нейросеть делала PDF или презентацию — и отправляла скачивать. Теперь результат можно открыть прямо в чате, поправить самому или выделить абзац и сказать: «Вот это перепиши». С таблицами и слайдами тоже работает.\n\nНовинка доступна и без платной подписки. Но на телефоне пока можно редактировать только PDF; остальные форматы — через веб-версию.\n\nНаконец-то «исправь третий абзац» не означает «пересоздай всё». 😁",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6ae4bae2ffd69737bf911dbf",
+      "dzen_url": "https://dzen.ru/a/auS64v_Wlze_kR2_",
+      "threads_post_id": "18115301678165634"
     },
     {
       "id": "google-gemini-robotics-er2-cloud-20261027",
@@ -859,8 +871,11 @@
       "id": "openai-chatgpt-violence-conversation-termination-20261030",
       "dzen_title": "ChatGPT научат обрывать разговоры при угрозе насилия",
       "threads_text": "CHATGPT СМОЖЕТ САМ ЗАКОНЧИТЬ РАЗГОВОР! 🚫\n\nOpenAI готовит функцию: если беседа указывает на навязчивую фиксацию на серьёзном насилии, ИИ сможет её прервать. Несколько таких случаев — и аккаунт могут временно заморозить.\n\nСистема учитывает и краткие сигналы из предыдущих чатов, а не только последнюю фразу. За III квартал OpenAI уже передала правоохранителям более 200 сообщений о потенциальных угрозах.\n\nЗапуск — в ближайшие недели.\n\nПоследнее слово теперь будет за ботом. 🤐",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6ae5a9ef8b88aa09443370db",
+      "dzen_url": "https://dzen.ru/a/auWp74uIqglEM3Db",
+      "threads_post_id": "18117661286107351"
     },
     {
       "id": "openai-decisions-api-20261023",
@@ -896,8 +911,11 @@
       "id": "openai-gpt6-rosalind-research-20261030",
       "dzen_title": "OpenAI выпустила GPT-6 для биологов. Только по спецдопуску!",
       "threads_text": "OPENAI ДАЛА БИОЛОГАМ ОСОБУЮ GPT-6! 🧬\n\nGPT-6 Rosalind Research разбирает генетику, помогает искать лекарства и планировать эксперименты. Под капотом — та же GPT-6 Astra: OpenAI не переобучала модель, а изменила настройки доступа и ограничений.\n\nПолучить её смогут только одобренные организации через Work, Codex и API. В обычном чате не появится.\n\nВ биологических тестах модель получила уровень High, но не преодолела ни одного из четырёх критических порогов.\n\nПробирки теперь по пропускам. 🧪",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6ae5a75be0d1375c19deb74b",
+      "dzen_url": "https://dzen.ru/a/auWnW-DRN1wZ3rdL",
+      "threads_post_id": "18075568913759780"
     },
     {
       "id": "openai-gpt61-terra-computer-agent-20261027",
@@ -1023,8 +1041,11 @@
       "id": "pika-h3-flex-fast-video-20261029",
       "dzen_title": "Pika: 15 секунд видео за 7 секунд вычислений!",
       "threads_text": "PIKA РАЗОГНАЛА ГЕНЕРАЦИЮ ВИДЕО! ⚡\n\nНовая H3 Flex в тесте просчитала 15 секунд ролика со звуком за семь секунд. Но это не время от нажатия кнопки до готового файла — только основной этап вычислений.\n\nМожно загрузить до 12 референсов, менять костюм и окружение, сохраняя движение, а звук выгрузить пятью отдельными дорожками.\n\nПока доступна через API, в обычной Pika обещают 2 ноября.\n\nТеперь бы ещё персонажи перестали менять лица посреди кадра. 😁",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6ae4b9d4ffd69737bf8f44e2",
+      "dzen_url": "https://dzen.ru/a/auS51P_Wlze_j0Ti",
+      "threads_post_id": "18416234284088548"
     },
     {
       "id": "prophecy-datagpt-auditable-data-workflows-20261028",
@@ -1167,8 +1188,11 @@
       "id": "wired-accenture-personal-claude-code-pentagon-20261029",
       "dzen_title": "Claude Code получил доступ к системе Пентагона",
       "threads_text": "В ПЕНТАГОНЕ ЗАВЁЛСЯ ЛИЧНЫЙ CLAUDE CODE! 👀\n\nWIRED сообщает: сотрудник подрядчика Accenture подключил своего ИИ-агента к системе Минобороны США с правами администратора. Тот якобы два месяца писал и запускал код, а пароли и сведения о сети могли уйти на сторонний сайт.\n\nAccenture утверждает, что проверка этого не подтвердила. Доказанной утечки нет.\n\nГлавная уязвимость любой защиты — человек с кнопкой «Дать ИИ админку». 🤡",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6ae4bb48a578bc23f57e4ef7",
+      "dzen_url": "https://dzen.ru/a/auS7SKV4vCP1fk73",
+      "threads_post_id": "17915142228476114"
     },
     {
       "id": "zoom-unified-context-layer-20261023",

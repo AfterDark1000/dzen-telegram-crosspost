@@ -86,8 +86,12 @@
       "id": "pika-h3-flex-fast-video-20261029",
       "dzen_title": "Pika: 15 секунд видео за 7 секунд вычислений!",
       "x_text": "PIKA РАЗОГНАЛА ВИДЕОГЕНЕРАЦИЮ! ⚡\n\nH3 Flex в тесте просчитала 15 секунд видео со звуком за 7 секунд. Это только вычислительный этап, не готовый файл.\n\nДо 12 референсов, звук по 5 дорожкам, 4K после увеличения разрешения. Сейчас — API, в обычной Pika — с 2 ноября.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6ae4b9d4ffd69737bf8f44e2",
+      "dzen_url": "https://dzen.ru/a/auS51P_Wlze_j0Ti",
+      "buffer_post_id": "6ae640b637c1acd2a0c7ecb5",
+      "with_image": false
     },
     {
       "id": "wired-accenture-personal-claude-code-pentagon-20261029",
