@@ -88,6 +88,13 @@
       "x_text": "Cisco Talos нашла VOLTA-AUTODOXER — вредонос, который собирает пароли, токены, платежные данные и чеки, а потом просит ИИ оценить ценность жертвы.\n\nВ коде предусмотрены Claude Opus 4.6, Kimi K2 и Gemini 2.5 Flash. Применение программы в реальных атаках пока не подтверждено.",
       "status": "approved",
       "include_dzen_link": false
+    },
+    {
+      "id": "forever-security-embrace-embedded-browsers-20261029",
+      "dzen_title": "В браузерах пяти ИИ-помощников нашли дыры. Codex и VS Code пока без исправлений",
+      "x_text": "Forever Security нашла дыры во встроенных браузерах Cursor, Copilot, Claude Desktop, Codex и VS Code: выполнение кода, чтение файлов вне проекта и подмена адреса сайта.\n\nНа 29 октября Cursor и Copilot исправлены, Codex и VS Code — нет. OpenAI работает над исправлением.",
+      "status": "approved",
+      "include_dzen_link": false
     }
   ]
 }
