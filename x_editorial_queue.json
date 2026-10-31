@@ -2,41 +2,9 @@
   "schema_version": 1,
   "items": [
     {
-      "id": "openai-four-layer-agent-misalignment-monitoring-20261029",
-      "dzen_title": "OpenAI поставила за ИИ-агентами четыре уровня слежки!",
-      "x_text": "OpenAI приставила к ИИ-агентам четыре уровня надзора: анализ внутренних сигналов, ИИ-проверяющий, ИИ-следователь и системные журналы.\n\nПри повторе июльского побега система подняла тревогу через 30 минут — более чем за 30 часов до взлома Hugging Face. Но это симуляция. 👮",
-      "status": "queued",
-      "include_dzen_link": false,
-      "dzen_id": "6ae41cddde14fa0c62a7a4cb",
-      "dzen_url": "https://dzen.ru/a/auQc3d4U-gxip6TL",
-      "buffer_post_id": "6ae460f758a62337fb784681",
-      "with_image": true
-    },
-    {
-      "id": "pika-h3-flex-fast-video-20261029",
-      "dzen_title": "Pika: 15 секунд видео за 7 секунд вычислений!",
-      "x_text": "PIKA РАЗОГНАЛА ВИДЕОГЕНЕРАЦИЮ! ⚡\n\nH3 Flex в тесте просчитала 15 секунд видео со звуком за 7 секунд. Это только вычислительный этап, не готовый файл.\n\nДо 12 референсов, звук по 5 дорожкам, 4K после увеличения разрешения. Сейчас — API, в обычной Pika — с 2 ноября.",
-      "status": "approved",
-      "include_dzen_link": false
-    },
-    {
-      "id": "epoch-ai-glm53-firefox-patch-gap-20261029",
-      "dzen_title": "ИИ взломал Firefox",
-      "x_text": "Нейросеть GLM 5.3 самостоятельно взломала 6 версий Firefox в тестах Epoch AI. Достаточно было открыть вредоносную страницу — и локальный файл утекал.\n\nОколо $1000 — цена новой атаки после подготовки, а не всего исследования. Mozilla закрыла одну из дыр в Firefox 159. 🦊",
-      "status": "approved",
-      "include_dzen_link": false
-    },
-    {
-      "id": "google-gemini-inline-file-editing-20261029",
-      "dzen_title": "Gemini теперь редактирует PDF и таблицы прямо в чате",
-      "x_text": "Gemini теперь редактирует PDF, документы, таблицы и презентации прямо в чате. Можно выделить абзац, попросить ИИ изменить его или поправить вручную.\n\nДоступно и бесплатным пользователям. На телефонах пока только PDF, остальное — в веб-версии.",
-      "status": "approved",
-      "include_dzen_link": false
-    },
-    {
-      "id": "wired-accenture-personal-claude-code-pentagon-20261029",
-      "dzen_title": "Claude Code получил доступ к системе Пентагона",
-      "x_text": "WIRED: сотрудник Accenture подключил личный Claude Code к системе Пентагона с правами администратора. Агент якобы работал там два месяца, а пароли могли уйти стороннему сервису.\n\nAccenture отвергает обвинения. Независимого подтверждения утечки и доступа к секретным сетям нет.",
+      "id": "cisco-talos-volta-autodoxer-ai-dossier-20261031",
+      "dzen_title": "Вирус крадёт пароли, а ИИ оценивает, сколько стоит жертва",
+      "x_text": "Cisco Talos нашла VOLTA-AUTODOXER — вредонос, который собирает пароли, токены, платежные данные и чеки, а потом просит ИИ оценить ценность жертвы.\n\nВ коде предусмотрены Claude Opus 4.6, Kimi K2 и Gemini 2.5 Flash. Применение программы в реальных атаках пока не подтверждено.",
       "status": "approved",
       "include_dzen_link": false
     },
@@ -55,23 +23,9 @@
       "include_dzen_link": false
     },
     {
-      "id": "openai-gpt6-rosalind-research-20261030",
-      "dzen_title": "OpenAI выпустила GPT-6 для биологов. Только по спецдопуску!",
-      "x_text": "OpenAI открывает GPT-6 Rosalind Research для биологов: анализ генетики, поиск лекарств и сложные научные задачи.\n\nВ основе — обычная GPT-6 Astra, без переобучения, но с другой настройкой ограничений. Доступ только одобренным организациям через Work, Codex и API.",
-      "status": "approved",
-      "include_dzen_link": false
-    },
-    {
-      "id": "openai-chatgpt-violence-conversation-termination-20261030",
-      "dzen_title": "ChatGPT научат обрывать разговоры при угрозе насилия",
-      "x_text": "ChatGPT сможет сам обрывать беседу, заметив признаки фиксации на серьёзном насилии. При повторениях аккаунт могут временно заморозить.\n\nOpenAI учитывает и краткие сведения о тревожных сигналах из прежних разговоров. Новые меры начнут вводить в ближайшие недели.",
-      "status": "approved",
-      "include_dzen_link": false
-    },
-    {
-      "id": "mattt-anyspeechrecognizer-anydecisionmodel-20261029",
-      "dzen_title": "На Mac час записи расшифровали за 20–40 секунд!",
-      "x_text": "На Mac Studio M4 Max Parakeet расшифровала час аудио за 20–40 секунд — в тесте разработчика Mattt.\n\nОн выпустил AnySpeechRecognizer для локальной расшифровки и разделения до 4 говорящих, а также AnyDecisionModel для решений с вероятностями. Это Swift-библиотеки, не приложение.",
+      "id": "epoch-ai-glm53-firefox-patch-gap-20261029",
+      "dzen_title": "ИИ взломал Firefox",
+      "x_text": "Нейросеть GLM 5.3 самостоятельно взломала 6 версий Firefox в тестах Epoch AI. Достаточно было открыть вредоносную страницу — и локальный файл утекал.\n\nОколо $1000 — цена новой атаки после подготовки, а не всего исследования. Mozilla закрыла одну из дыр в Firefox 159. 🦊",
       "status": "approved",
       "include_dzen_link": false
     },
@@ -83,16 +37,62 @@
       "include_dzen_link": false
     },
     {
-      "id": "cisco-talos-volta-autodoxer-ai-dossier-20261031",
-      "dzen_title": "Вирус крадёт пароли, а ИИ оценивает, сколько стоит жертва",
-      "x_text": "Cisco Talos нашла VOLTA-AUTODOXER — вредонос, который собирает пароли, токены, платежные данные и чеки, а потом просит ИИ оценить ценность жертвы.\n\nВ коде предусмотрены Claude Opus 4.6, Kimi K2 и Gemini 2.5 Flash. Применение программы в реальных атаках пока не подтверждено.",
+      "id": "forever-security-embrace-embedded-browsers-20261029",
+      "dzen_title": "В браузерах пяти ИИ-помощников нашли дыры. Codex и VS Code пока без исправлений",
+      "x_text": "Forever Security нашла дыры во встроенных браузерах Cursor, Copilot, Claude Desktop, Codex и VS Code: выполнение кода, чтение файлов вне проекта и подмена адреса сайта.\n\nНа 29 октября Cursor и Copilot исправлены, Codex и VS Code — нет. OpenAI работает над исправлением.",
       "status": "approved",
       "include_dzen_link": false
     },
     {
-      "id": "forever-security-embrace-embedded-browsers-20261029",
-      "dzen_title": "В браузерах пяти ИИ-помощников нашли дыры. Codex и VS Code пока без исправлений",
-      "x_text": "Forever Security нашла дыры во встроенных браузерах Cursor, Copilot, Claude Desktop, Codex и VS Code: выполнение кода, чтение файлов вне проекта и подмена адреса сайта.\n\nНа 29 октября Cursor и Copilot исправлены, Codex и VS Code — нет. OpenAI работает над исправлением.",
+      "id": "google-gemini-inline-file-editing-20261029",
+      "dzen_title": "Gemini теперь редактирует PDF и таблицы прямо в чате",
+      "x_text": "Gemini теперь редактирует PDF, документы, таблицы и презентации прямо в чате. Можно выделить абзац, попросить ИИ изменить его или поправить вручную.\n\nДоступно и бесплатным пользователям. На телефонах пока только PDF, остальное — в веб-версии.",
+      "status": "approved",
+      "include_dzen_link": false
+    },
+    {
+      "id": "mattt-anyspeechrecognizer-anydecisionmodel-20261029",
+      "dzen_title": "На Mac час записи расшифровали за 20–40 секунд!",
+      "x_text": "На Mac Studio M4 Max Parakeet расшифровала час аудио за 20–40 секунд — в тесте разработчика Mattt.\n\nОн выпустил AnySpeechRecognizer для локальной расшифровки и разделения до 4 говорящих, а также AnyDecisionModel для решений с вероятностями. Это Swift-библиотеки, не приложение.",
+      "status": "approved",
+      "include_dzen_link": false
+    },
+    {
+      "id": "openai-chatgpt-violence-conversation-termination-20261030",
+      "dzen_title": "ChatGPT научат обрывать разговоры при угрозе насилия",
+      "x_text": "ChatGPT сможет сам обрывать беседу, заметив признаки фиксации на серьёзном насилии. При повторениях аккаунт могут временно заморозить.\n\nOpenAI учитывает и краткие сведения о тревожных сигналах из прежних разговоров. Новые меры начнут вводить в ближайшие недели.",
+      "status": "approved",
+      "include_dzen_link": false
+    },
+    {
+      "id": "openai-four-layer-agent-misalignment-monitoring-20261029",
+      "dzen_title": "OpenAI поставила за ИИ-агентами четыре уровня слежки!",
+      "x_text": "OpenAI приставила к ИИ-агентам четыре уровня надзора: анализ внутренних сигналов, ИИ-проверяющий, ИИ-следователь и системные журналы.\n\nПри повторе июльского побега система подняла тревогу через 30 минут — более чем за 30 часов до взлома Hugging Face. Но это симуляция. 👮",
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6ae41cddde14fa0c62a7a4cb",
+      "dzen_url": "https://dzen.ru/a/auQc3d4U-gxip6TL",
+      "buffer_post_id": "6ae460f758a62337fb784681",
+      "with_image": true
+    },
+    {
+      "id": "openai-gpt6-rosalind-research-20261030",
+      "dzen_title": "OpenAI выпустила GPT-6 для биологов. Только по спецдопуску!",
+      "x_text": "OpenAI открывает GPT-6 Rosalind Research для биологов: анализ генетики, поиск лекарств и сложные научные задачи.\n\nВ основе — обычная GPT-6 Astra, без переобучения, но с другой настройкой ограничений. Доступ только одобренным организациям через Work, Codex и API.",
+      "status": "approved",
+      "include_dzen_link": false
+    },
+    {
+      "id": "pika-h3-flex-fast-video-20261029",
+      "dzen_title": "Pika: 15 секунд видео за 7 секунд вычислений!",
+      "x_text": "PIKA РАЗОГНАЛА ВИДЕОГЕНЕРАЦИЮ! ⚡\n\nH3 Flex в тесте просчитала 15 секунд видео со звуком за 7 секунд. Это только вычислительный этап, не готовый файл.\n\nДо 12 референсов, звук по 5 дорожкам, 4K после увеличения разрешения. Сейчас — API, в обычной Pika — с 2 ноября.",
+      "status": "approved",
+      "include_dzen_link": false
+    },
+    {
+      "id": "wired-accenture-personal-claude-code-pentagon-20261029",
+      "dzen_title": "Claude Code получил доступ к системе Пентагона",
+      "x_text": "WIRED: сотрудник Accenture подключил личный Claude Code к системе Пентагона с правами администратора. Агент якобы работал там два месяца, а пароли могли уйти стороннему сервису.\n\nAccenture отвергает обвинения. Независимого подтверждения утечки и доступа к секретным сетям нет.",
       "status": "approved",
       "include_dzen_link": false
     }
