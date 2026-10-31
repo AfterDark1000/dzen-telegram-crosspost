@@ -13,7 +13,7 @@ import unicodedata
 from urllib.parse import urlsplit
 
 QUEUE_FILE = Path("threads_editorial_queue.json")
-TEXT_LIMIT = 480  # Keep a little margin below Threads' 500-character limit.
+TEXT_LIMIT = 500  # Threads API limit; published posts must never exceed this.
 ALLOWED_STATUSES = {"approved", "published", "on_hold"}
 
 
@@ -23,7 +23,7 @@ def title_key(text):
     return " ".join(re.findall(r"[^\W_]+", text, re.UNICODE))
 
 
-def validate_queue(data):
+def validate_queue(data, *, enforce_text_limit=True):
     if not isinstance(data, dict) or data.get("schema_version") != 1:
         raise RuntimeError("Threads editorial queue has an unknown version")
     entries = data.get("items")
@@ -44,8 +44,9 @@ def validate_queue(data):
         status = entry.get("status")
         if not isinstance(title, str) or len(title.strip()) < 8 or len(title) > 300:
             raise RuntimeError("Threads queue needs the exact approved Dzen title")
-        if not isinstance(text, str) or not text.strip() or len(text) > TEXT_LIMIT:
-            raise RuntimeError("Threads editorial post missing or exceeds 480 characters: " + identifier)
+        if (not isinstance(text, str) or not text.strip()
+                or (enforce_text_limit and len(text) > TEXT_LIMIT)):
+            raise RuntimeError("Threads editorial post missing or exceeds 500 characters: " + identifier)
         if status not in ALLOWED_STATUSES:
             raise RuntimeError("Threads editorial item status is invalid: " + identifier)
         if not isinstance(entry.get("include_dzen_link", False), bool):
@@ -119,6 +120,8 @@ def compose_delivery_text(entry, article):
         raise RuntimeError("Cannot compose an unapproved Threads post")
     base = entry["threads_text"].strip()
     if not entry.get("include_dzen_link", False):
+        if len(base) > TEXT_LIMIT:
+            raise RuntimeError("Threads approved text exceeds 500 characters")
         return base
     url = verified_public_dzen_url(article.get("url"))
     message = base + "\n\nПодробнее в Дзене: " + url
