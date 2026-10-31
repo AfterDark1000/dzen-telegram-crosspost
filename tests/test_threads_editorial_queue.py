@@ -33,11 +33,16 @@ class EditorialQueueTests(unittest.TestCase):
     def test_invalid_or_unapproved_posts_never_match(self):
         waiting = {"schema_version":1,"items":[{**QUEUE["items"][0],"status":"on_hold"}]}
         self.assertEqual(ed.eligible_matches([ARTICLE], waiting, set()), [])
-        at_limit = {"schema_version":1,"items":[{**QUEUE["items"][0],"threads_text":"А"*480}]}
+        at_limit = {"schema_version":1,"items":[{**QUEUE["items"][0],"threads_text":"А"*500}]}
         ed.validate_queue(at_limit)
-        overlong = {"schema_version":1,"items":[{**QUEUE["items"][0],"threads_text":"А"*481}]}
-        with self.assertRaisesRegex(RuntimeError, "480"):
+        overlong = {"schema_version":1,"items":[{**QUEUE["items"][0],"threads_text":"А"*501}]}
+        with self.assertRaisesRegex(RuntimeError, "500"):
             ed.validate_queue(overlong)
+        # State-level checkpoint keeps functioning; the Threads publisher still
+        # rejects this text and never sends it to the external API.
+        ed.validate_queue(overlong, enforce_text_limit=False)
+        with self.assertRaisesRegex(RuntimeError, "500"):
+            ed.compose_delivery_text(overlong["items"][0], ARTICLE)
         sent = {"schema_version":1,"items":[{**QUEUE["items"][0],"status":"published", "dzen_id": "dzen-1001"}]}
         self.assertEqual(ed.eligible_matches([ARTICLE], sent, set()), [])
         ed.validate_queue(sent)
@@ -83,16 +88,16 @@ class EditorialQueueTests(unittest.TestCase):
             self.assertEqual(ed.load_queue(path)["items"][0]["threads_text"],
                              QUEUE["items"][0]["threads_text"])
 
-    def test_eko_488_character_production_regression(self):
-        # Exact offending entry from 452b424, before the 41a1e78 data fix.
+    def test_eko_488_character_post_now_valid_without_dzen_link(self):
+        # Earlier 480-character guard was unnecessarily stricter than Threads.
         path = Path(__file__).parent / "fixtures" / "threads_eko_488.json"
         queue = json.loads(path.read_text(encoding="utf-8"))
         entry = queue["items"][0]
         original_text = entry["threads_text"]
         self.assertEqual(len(original_text), 488)
         self.assertFalse(entry["include_dzen_link"])
-        with self.assertRaisesRegex(RuntimeError, "480 characters: " + entry["id"]):
-            ed.validate_queue(queue)
+        ed.validate_queue(queue)
+        self.assertEqual(ed.compose_delivery_text(entry, ARTICLE), original_text)
         self.assertEqual(entry["threads_text"], original_text)
 
     def test_committed_production_queue_roundtrip(self):

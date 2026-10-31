@@ -138,7 +138,9 @@ def merge_states(base, local, remote):
         *(s[name]["items"] for s in states), "id", name)
 
     from threads_editorial_queue import validate_queue
-    validate_queue(out[name])
+    # Editorial copy errors belong to the individual publisher. Do not halt
+    # Telegram, VK and checkpoint recovery over an oversized Threads text.
+    validate_queue(out[name], enforce_text_limit=False)
     # The queue may report a successful publish before the ID list is flushed.
     delivered = {str(row["dzen_id"]) for row in out[name]["items"]
                  if row["status"] == "published"}
@@ -152,7 +154,8 @@ def merge_states(base, local, remote):
     out[name]["items"] = merge_rows(
         *(s[name]["items"] for s in states), "id", name)
     from x_editorial_queue import validate_queue as validate_x_queue
-    validate_x_queue(out[name])
+    # The X publisher enforces its 280-char limit before any Buffer API call.
+    validate_x_queue(out[name], enforce_text_limit=False)
 
     name = "instagram_cover_inbox.json"
     out[name] = merge_dict(
