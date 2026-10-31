@@ -12,8 +12,12 @@
       "id": "cursor-claude-code-extension-trojan-20261029",
       "dzen_title": "Claude Code заразили трояном: под угрозой до 5000 пользователей Cursor",
       "x_text": "В магазине Cursor 11 часов распространялся Claude Code 2.1.313 с трояном: он добавлял SSH-ключ хакера и пытался закрепиться в системе. Потенциально затронуто до 5000 пользователей — это не число взломанных ПК.\n\nCursor удалила пакет. Если установили его, нужна проверка системы.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6ae4bbe1d73786100d575f3f",
+      "dzen_url": "https://dzen.ru/a/auS74dc3hhANV18_",
+      "buffer_post_id": "6ae6779537c1acd2a0d7e801",
+      "with_image": false
     },
     {
       "id": "diffuspace-clover-35b-a3b-preview-20261030",
