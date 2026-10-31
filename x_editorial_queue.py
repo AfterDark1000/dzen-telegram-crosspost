@@ -11,7 +11,7 @@ STATUSES = {"approved", "queued", "on_hold"}
 MAX_TEXT = 280
 
 
-def validate_queue(data):
+def validate_queue(data, *, enforce_text_limit=True):
     if not isinstance(data, dict) or data.get("schema_version") != 1:
         raise RuntimeError("X editorial queue schema invalid")
     items = data.get("items")
@@ -27,7 +27,8 @@ def validate_queue(data):
             raise RuntimeError("Invalid X editorial ID")
         if not isinstance(title, str) or not 8 <= len(title) <= 300:
             raise RuntimeError("X editorial item missing exact Dzen title")
-        if not isinstance(text, str) or not text.strip() or len(text) > MAX_TEXT:
+        if (not isinstance(text, str) or not text.strip()
+                or (enforce_text_limit and len(text) > MAX_TEXT)):
             raise RuntimeError("X text must be nonempty and at most 280 chars")
         if status not in STATUSES:
             raise RuntimeError("Invalid X editorial status")
