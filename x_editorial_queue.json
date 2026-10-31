@@ -74,6 +74,13 @@
       "x_text": "На Mac Studio M4 Max Parakeet расшифровала час аудио за 20–40 секунд — в тесте разработчика Mattt.\n\nОн выпустил AnySpeechRecognizer для локальной расшифровки и разделения до 4 говорящих, а также AnyDecisionModel для решений с вероятностями. Это Swift-библиотеки, не приложение.",
       "status": "approved",
       "include_dzen_link": false
+    },
+    {
+      "id": "exin-therapeutics-ai-mouse-brain-injection-20261031",
+      "dzen_title": "ИИ ввёл препарат в мозг мыши. Ветеринар держал аварийную кнопку!",
+      "x_text": "Стартап Exin Therapeutics дал Claude Sonnet 5 выбрать генную терапию для мыши и управлять инъекцией в мозг. Хирург вскрыл череп, ветеринар держал аварийную кнопку. Opus 5.5 отказался. По словам команды, мышь восстанавливается, но эффект на эпилепсию пока неизвестен.",
+      "status": "approved",
+      "include_dzen_link": false
     }
   ]
 }
