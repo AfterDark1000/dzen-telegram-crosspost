@@ -51,8 +51,12 @@
       "id": "google-gemini-inline-file-editing-20261029",
       "dzen_title": "Gemini теперь редактирует PDF и таблицы прямо в чате",
       "x_text": "Gemini теперь редактирует PDF, документы, таблицы и презентации прямо в чате. Можно выделить абзац, попросить ИИ изменить его или поправить вручную.\n\nДоступно и бесплатным пользователям. На телефонах пока только PDF, остальное — в веб-версии.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6ae4bae2ffd69737bf911dbf",
+      "dzen_url": "https://dzen.ru/a/auS64v_Wlze_kR2_",
+      "buffer_post_id": "6ae65b0d37c1acd2a0cf2fd4",
+      "with_image": false
     },
     {
       "id": "mattt-anyspeechrecognizer-anydecisionmodel-20261029",
