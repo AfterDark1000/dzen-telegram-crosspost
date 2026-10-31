@@ -594,8 +594,11 @@
       "id": "mattt-anyspeechrecognizer-anydecisionmodel-20261029",
       "dzen_title": "На Mac час записи расшифровали за 20–40 секунд!",
       "threads_text": "НА MAC ЧАС АУДИО — ЗА 20–40 СЕКУНД! 🎙️\n\nMattt выпустил AnySpeechRecognizer: пакет подключает NVIDIA Parakeet и Alibaba Qwen3-ASR к приложениям Mac локально.\n\nВ тесте на Mac Studio M4 Max Parakeet распознала часовой файл за 20–40 секунд. Есть разделение реплик до четырёх человек.\n\nЕщё одна библиотека, AnyDecisionModel, помогает ИИ выбирать ответы и оценивать вероятности.\n\nОба инструмента для программистов, не готовые приложения.\n\nЧас совещания расшифровали за полминуты — смысла не обнаружено. 😏",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6ae5aa9da9ed440223da0032",
+      "dzen_url": "https://dzen.ru/a/auWqnantRAIj2gAy",
+      "threads_post_id": "17987267400086196"
     },
     {
       "id": "meta-95b-ai-capital-offering-20261027",

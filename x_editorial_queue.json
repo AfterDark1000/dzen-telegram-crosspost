@@ -26,8 +26,12 @@
       "id": "epoch-ai-glm53-firefox-patch-gap-20261029",
       "dzen_title": "ИИ взломал Firefox",
       "x_text": "Нейросеть GLM 5.3 самостоятельно взломала 6 версий Firefox в тестах Epoch AI. Достаточно было открыть вредоносную страницу — и локальный файл утекал.\n\nОколо $1000 — цена новой атаки после подготовки, а не всего исследования. Mozilla закрыла одну из дыр в Firefox 159. 🦊",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6ae4ba3a0c75c303c18db7c1",
+      "dzen_url": "https://dzen.ru/a/auS6Ogx1wwPBjbfB",
+      "buffer_post_id": "6ae64d15ab019b908721d02c",
+      "with_image": true
     },
     {
       "id": "exin-therapeutics-ai-mouse-brain-injection-20261031",
