@@ -98,6 +98,22 @@ class MergeTests(unittest.TestCase):
         self.assertIn("cover-key", merged["instagram_cover_inbox.json"]["covers"])
         self.assertEqual(len(merged["x_editorial_queue.json"]["items"]), 1)
 
+    def test_invalid_editorial_lengths_cannot_halt_other_publishers(self):
+        base = fixture()
+        base["threads_editorial_queue.json"]["items"][0]["threads_text"] = "Т" * 501
+        base["x_editorial_queue.json"]["items"][0]["x_text"] = "И" * 281
+        # Global checkpoint must still validate schema, preserve every byte of
+        # approved editorial content and allow Telegram/VK to proceed.
+        merged = cp.merge_states(base, base, base)
+        self.assertEqual(merged["threads_editorial_queue.json"], base["threads_editorial_queue.json"])
+        self.assertEqual(merged["x_editorial_queue.json"], base["x_editorial_queue.json"])
+        from threads_editorial_queue import validate_queue as threads_validate
+        from x_editorial_queue import validate_queue as x_validate
+        with self.assertRaisesRegex(RuntimeError, "500"):
+            threads_validate(base["threads_editorial_queue.json"])
+        with self.assertRaisesRegex(RuntimeError, "280"):
+            x_validate(base["x_editorial_queue.json"])
+
     def test_pending_queue_removes_delivered_items(self):
         base = fixture()
         local, remote = copy.deepcopy(base), copy.deepcopy(base)
