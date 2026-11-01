@@ -77,8 +77,12 @@
       "id": "openai-chatgpt-violence-conversation-termination-20261030",
       "dzen_title": "ChatGPT научат обрывать разговоры при угрозе насилия",
       "x_text": "ChatGPT сможет сам обрывать беседу, заметив признаки фиксации на серьёзном насилии. При повторениях аккаунт могут временно заморозить.\n\nOpenAI учитывает и краткие сведения о тревожных сигналах из прежних разговоров. Новые меры начнут вводить в ближайшие недели.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6ae5a9ef8b88aa09443370db",
+      "dzen_url": "https://dzen.ru/a/auWp74uIqglEM3Db",
+      "buffer_post_id": "6ae6af6cf0984eef33450568",
+      "with_image": true
     },
     {
       "id": "openai-four-layer-agent-misalignment-monitoring-20261029",
