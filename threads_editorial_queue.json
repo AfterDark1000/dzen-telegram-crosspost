@@ -419,8 +419,11 @@
       "id": "forever-security-embrace-embedded-browsers-20261029",
       "dzen_title": "В браузерах пяти ИИ-помощников нашли дыры. Codex и VS Code пока без исправлений",
       "threads_text": "ПЯТЬ ИИ-ПОМОЩНИКОВ — И ДЫРЫ В ИХ БРАУЗЕРАХ! 🕳️\n\nForever Security проверила Cursor, GitHub Copilot, Claude Desktop, Codex и VS Code. В тестах встроенные браузеры позволяли запускать код, читать файлы вне проекта или подменять адрес сайта.\n\nCursor и Copilot уже исправили. На 29 октября у Codex и VS Code патчей не было; OpenAI работает над исправлением.\n\nРеальная эксплуатация уязвимостей не подтверждена.\n\nБраузер сделали умнее, а защиту — глупее. 🤦",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6ae708f3ffd69737bf529653",
+      "dzen_url": "https://dzen.ru/a/aucI8__Wlze_UpZT",
+      "threads_post_id": "17935846635142387"
     },
     {
       "id": "giotto-alto-solo-swiss-sovereign-ai-20261028",
