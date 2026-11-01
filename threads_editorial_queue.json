@@ -406,8 +406,11 @@
       "id": "exin-therapeutics-ai-mouse-brain-injection-20261031",
       "dzen_title": "ИИ ввёл препарат в мозг мыши. Ветеринар держал аварийную кнопку!",
       "threads_text": "ИИ ВВЁЛ ПРЕПАРАТ В МОЗГ МЫШИ! 🧠\n\nВ Exin Therapeutics Claude Sonnet 5 выбрал генную терапию из 19 вариантов, участок мозга и управлял роботизированной иглой.\n\nOpus 5.5 отказался участвовать. Хирург вскрыл череп, ветеринар контролировал действия и держал аварийную кнопку.\n\nПозже команда повторила опыт с GPT-6.1 Sol и Grok 4.7. Мыши восстанавливаются, но помогло ли лечение — неизвестно.\n\nСамое разумное решение в этой истории — не выпускать из рук кнопку «СТОП».",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6ae6fee08b88aa0944ccbca9",
+      "dzen_url": "https://dzen.ru/a/aub-4IuIqglEzLyp",
+      "threads_post_id": "18101591759382130"
     },
     {
       "id": "forever-security-embrace-embedded-browsers-20261029",
