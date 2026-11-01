@@ -23,8 +23,12 @@
       "id": "diffuspace-clover-35b-a3b-preview-20261030",
       "dzen_title": "Нейросеть разогнали до 680 токенов в секунду!",
       "x_text": "DiffuSpace выпустила Clover-35B-A3B — диффузионную модель на 35 млрд параметров. В тесте разработчиков она выдала 680 токенов/с на NVIDIA GB300.\n\nНа RTX 5070 Ti с 16 ГБ — 101,8 токена/с в 4-битном режиме, в другом тесте. Веса открыты.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6ae5a5b3121f043a98a6aa6d",
+      "dzen_url": "https://dzen.ru/a/auWlsxIfBDqYpqpt",
+      "buffer_post_id": "6ae6934f21c807e9d595b8c5",
+      "with_image": true
     },
     {
       "id": "epoch-ai-glm53-firefox-patch-gap-20261029",
