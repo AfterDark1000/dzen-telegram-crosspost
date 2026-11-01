@@ -95,8 +95,12 @@
       "id": "openai-gpt6-rosalind-research-20261030",
       "dzen_title": "OpenAI выпустила GPT-6 для биологов. Только по спецдопуску!",
       "x_text": "OpenAI открывает GPT-6 Rosalind Research для биологов: анализ генетики, поиск лекарств и сложные научные задачи.\n\nВ основе — обычная GPT-6 Astra, без переобучения, но с другой настройкой ограничений. Доступ только одобренным организациям через Work, Codex и API.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6ae5a75be0d1375c19deb74b",
+      "dzen_url": "https://dzen.ru/a/auWnW-DRN1wZ3rdL",
+      "buffer_post_id": "6ae6a15537c1acd2a0e1ea15",
+      "with_image": false
     },
     {
       "id": "pika-h3-flex-fast-video-20261029",
