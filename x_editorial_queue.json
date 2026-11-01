@@ -74,6 +74,13 @@
       "with_image": false
     },
     {
+      "id": "google-project-suncatcher-gemma4-orbit-haiku-20261030",
+      "dzen_title": "Google отправила ИИ в космос. Нейросеть ответила с орбиты!",
+      "x_text": "Google получила с орбиты ответ Gemma 4: модель на TPU спутника Project Suncatcher сочинила хокку о космосе. Ответ приняли над Шпицбергеном.\n\nСпутник запущен 1 октября. Дальше — проверки чипов на радиацию и температуру, в 2027 году — испытания двух связанных спутников.",
+      "status": "approved",
+      "include_dzen_link": false
+    },
+    {
       "id": "mattt-anyspeechrecognizer-anydecisionmodel-20261029",
       "dzen_title": "На Mac час записи расшифровали за 20–40 секунд!",
       "x_text": "На Mac Studio M4 Max Parakeet расшифровала час аудио за 20–40 секунд — в тесте разработчика Mattt.\n\nОн выпустил AnySpeechRecognizer для локальной расшифровки и разделения до 4 говорящих, а также AnyDecisionModel для решений с вероятностями. Это Swift-библиотеки, не приложение.",
@@ -125,20 +132,9 @@
       "with_image": false
     },
     {
-      "id": "wired-accenture-personal-claude-code-pentagon-20261029",
-      "dzen_title": "Claude Code получил доступ к системе Пентагона",
-      "x_text": "WIRED: сотрудник Accenture подключил личный Claude Code к системе Пентагона с правами администратора. Агент якобы работал там два месяца, а пароли могли уйти стороннему сервису.\n\nAccenture отвергает обвинения. Независимого подтверждения утечки и доступа к секретным сетям нет.",
-      "status": "queued",
-      "include_dzen_link": false,
-      "dzen_id": "6ae4bb48a578bc23f57e4ef7",
-      "dzen_url": "https://dzen.ru/a/auS7SKV4vCP1fk73",
-      "buffer_post_id": "6ae6691d21c807e9d58aac3b",
-      "with_image": true
-    },
-    {
-      "id": "google-project-suncatcher-gemma4-orbit-haiku-20261030",
-      "dzen_title": "Google отправила ИИ в космос. Нейросеть ответила с орбиты!",
-      "x_text": "Google получила с орбиты ответ Gemma 4: модель на TPU спутника Project Suncatcher сочинила хокку о космосе. Ответ приняли над Шпицбергеном.\n\nСпутник запущен 1 октября. Дальше — проверки чипов на радиацию и температуру, в 2027 году — испытания двух связанных спутников.",
+      "id": "sophos-gold-ogre-aur0ra-ai-agent-ransomware-20261029",
+      "dzen_title": "Хакеры назвали взлом «проверкой безопасности» — ИИ добрался до прав администратора",
+      "x_text": "Sophos раскрыла, как вымогатели GOLD OGRE применяли Cursor и модели Anthropic, xAI и Moonshot для атак на сети компаний.\n\nЛюди давали агентам доступ, ИИ искал пароли и пути к правам администратора. Три жертвы появились на сайте утечек Aur0ra. Шифрование всех трёх не доказано.",
       "status": "approved",
       "include_dzen_link": false
     },
@@ -150,11 +146,15 @@
       "include_dzen_link": false
     },
     {
-      "id": "sophos-gold-ogre-aur0ra-ai-agent-ransomware-20261029",
-      "dzen_title": "Хакеры назвали взлом «проверкой безопасности» — ИИ добрался до прав администратора",
-      "x_text": "Sophos раскрыла, как вымогатели GOLD OGRE применяли Cursor и модели Anthropic, xAI и Moonshot для атак на сети компаний.\n\nЛюди давали агентам доступ, ИИ искал пароли и пути к правам администратора. Три жертвы появились на сайте утечек Aur0ra. Шифрование всех трёх не доказано.",
-      "status": "approved",
-      "include_dzen_link": false
+      "id": "wired-accenture-personal-claude-code-pentagon-20261029",
+      "dzen_title": "Claude Code получил доступ к системе Пентагона",
+      "x_text": "WIRED: сотрудник Accenture подключил личный Claude Code к системе Пентагона с правами администратора. Агент якобы работал там два месяца, а пароли могли уйти стороннему сервису.\n\nAccenture отвергает обвинения. Независимого подтверждения утечки и доступа к секретным сетям нет.",
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6ae4bb48a578bc23f57e4ef7",
+      "dzen_url": "https://dzen.ru/a/auS7SKV4vCP1fk73",
+      "buffer_post_id": "6ae6691d21c807e9d58aac3b",
+      "with_image": true
     }
   ]
 }
