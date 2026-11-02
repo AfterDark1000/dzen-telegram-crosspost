@@ -187,6 +187,13 @@
       "dzen_url": "https://dzen.ru/a/auS7SKV4vCP1fk73",
       "buffer_post_id": "6ae6691d21c807e9d58aac3b",
       "with_image": true
+    },
+    {
+      "id": "microsoft-ai-mustafa-suleyman-conscious-ai-20261101",
+      "dzen_title": "Глава Microsoft AI призвал остановить разработку сознательных нейросетей",
+      "x_text": "Глава Microsoft AI Мустафа Сулейман призвал не создавать сознательные нейросети. Если при обучении появятся признаки сознания, разработку, по его мнению, нужно остановить.\n\nЗаявление опубликовано 1 ноября. Это позиция руководителя, не новый запрет Microsoft.",
+      "status": "approved",
+      "include_dzen_link": false
     }
   ]
 }
