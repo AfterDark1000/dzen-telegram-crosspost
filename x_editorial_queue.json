@@ -93,8 +93,12 @@
       "id": "google-project-suncatcher-gemma4-orbit-haiku-20261030",
       "dzen_title": "Google отправила ИИ в космос. Нейросеть ответила с орбиты!",
       "x_text": "Google получила с орбиты ответ Gemma 4: модель на TPU спутника Project Suncatcher сочинила хокку о космосе. Ответ приняли над Шпицбергеном.\n\nСпутник запущен 1 октября. Дальше — проверки чипов на радиацию и температуру, в 2027 году — испытания двух связанных спутников.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6ae80f20a578bc23f54c478b",
+      "dzen_url": "https://dzen.ru/a/augPIKV4vCP1TEeL",
+      "buffer_post_id": "6ae8637b3931d5366936864c",
+      "with_image": true
     },
     {
       "id": "mattt-anyspeechrecognizer-anydecisionmodel-20261029",
