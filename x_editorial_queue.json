@@ -159,8 +159,12 @@
       "id": "sophos-gold-ogre-aur0ra-ai-agent-ransomware-20261029",
       "dzen_title": "Хакеры назвали взлом «проверкой безопасности» — ИИ добрался до прав администратора",
       "x_text": "Sophos раскрыла, как вымогатели GOLD OGRE применяли Cursor и модели Anthropic, xAI и Moonshot для атак на сети компаний.\n\nЛюди давали агентам доступ, ИИ искал пароли и пути к правам администратора. Три жертвы появились на сайте утечек Aur0ra. Шифрование всех трёх не доказано.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6ae80fd4de145f3d4939767e",
+      "dzen_url": "https://dzen.ru/a/augP1N4UXz1JOXZ-",
+      "buffer_post_id": "6ae87f886c56e41b9953c9ea",
+      "with_image": true
     },
     {
       "id": "telus-elevenlabs-voice-agent-outbound-calls-20261030",
