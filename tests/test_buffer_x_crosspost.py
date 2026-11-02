@@ -63,15 +63,16 @@ class RemoteTests(unittest.TestCase):
         with patch.object(x, "graphql", return_value={
             "createPost": {"post": {"id": "buf123", "text": ENTRY["x_text"], "assets": []}}
         }) as client:
-            self.assertEqual(x.create_scheduled_post("channel123", ENTRY["x_text"]), "buf123")
-            self.assertIn("addToQueue", client.call_args[0][0])
+            self.assertEqual(x.create_immediate_post("channel123", ENTRY["x_text"]), "buf123")
+            self.assertIn("mode: shareNow", client.call_args[0][0])
+            self.assertNotIn("addToQueue", client.call_args[0][0])
             self.assertNotIn("assets: [", client.call_args[0][0])
         cover = ARTICLE["image"]
         with patch.object(x, "graphql", return_value={
             "createPost": {"post": {"id": "img123", "text": ENTRY["x_text"],
                                     "assets": [{"id": "asset123", "mimeType": "image/jpeg"}]}}
         }) as client:
-            self.assertEqual(x.create_scheduled_post("channel123", ENTRY["x_text"],
+            self.assertEqual(x.create_immediate_post("channel123", ENTRY["x_text"],
                                                       cover_url=cover), "img123")
             self.assertIn("assets: [{image: {url:", client.call_args[0][0])
             self.assertIn(cover, client.call_args[0][0])
@@ -79,10 +80,10 @@ class RemoteTests(unittest.TestCase):
             "createPost": {"post": {"id": "wrong", "text": ENTRY["x_text"], "assets": []}}
         }):
             with self.assertRaisesRegex(RuntimeError, "media mismatch"):
-                x.create_scheduled_post("channel123", ENTRY["x_text"], cover_url=cover)
+                x.create_immediate_post("channel123", ENTRY["x_text"], cover_url=cover)
         with patch.object(x, "graphql", return_value={"createPost": {"message": "no room"}}):
             with self.assertRaisesRegex(RuntimeError, "not confirmed"):
-                x.create_scheduled_post("channel123", ENTRY["x_text"])
+                x.create_immediate_post("channel123", ENTRY["x_text"])
 
     def test_remote_pagination_required_before_any_writes(self):
         with patch.object(x, "graphql", side_effect=[
@@ -112,7 +113,7 @@ class RuntimeTests(unittest.TestCase):
             patch.object(x, "remote_posts", side_effect=[
                 [] if scheduled is None else scheduled, [] if sent is None else sent]),
             patch.object(x, "save_queue"),
-            patch.object(x, "create_scheduled_post", return_value="buffer123"),
+            patch.object(x, "create_immediate_post", return_value="buffer123"),
             patch.dict("os.environ", {"BUFFER_API_KEY": "dummy"}),
             patch.object(x.time, "time", return_value=1793300100),
         ]
@@ -174,6 +175,16 @@ class RuntimeTests(unittest.TestCase):
             save.assert_called_once()
         self.assertTrue(x.attach_cover_next(data))
         self.assertFalse(x.attach_cover_next({"items":[previous]}))
+
+    def test_sending_post_is_recovered_without_duplicate(self):
+        data, p = self.setup(scheduled=[{"id": "sending123", "text": ENTRY["x_text"],
+                                         "assets": [{"id": "asset", "mimeType": "image/jpeg"}]}])
+        with p[0], p[1], p[2], p[3] as posts, p[4] as save, p[5] as send, p[6], p[7]:
+            asyncio.run(x.main())
+            self.assertEqual(posts.call_args_list[0].args[2], ["scheduled", "sending"])
+            send.assert_not_called()
+            self.assertEqual(data["items"][0]["buffer_post_id"], "sending123")
+            save.assert_called_once()
 
     def test_remote_same_text_without_image_holds_instead_of_duplicating(self):
         data, p = self.setup(sent=[{"id":"remote-text", "text":ENTRY["x_text"], "assets":[]}])
