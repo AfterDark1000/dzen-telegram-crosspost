@@ -543,8 +543,11 @@
       "id": "google-project-suncatcher-gemma4-orbit-haiku-20261030",
       "dzen_title": "Google отправила ИИ в космос. Нейросеть ответила с орбиты!",
       "threads_text": "GOOGLE ОТПРАВИЛА ИИ В КОСМОС — ПОЛУЧИЛА ХОККУ! 🛰️\n\nНа спутнике Project Suncatcher запустили Gemma 4 на серверном TPU. Инженеры попросили написать стих о космосе. Ответ пришёл с орбиты при пролёте над Шпицбергеном.\n\nСпутник запустили 1 октября. Дальше Google проверит, как TPU переносит радиацию и перепады температур. На 2027 год запланирована пара связанных спутников.\n\nОтправили ИИ в космос — а первым делом попросили сочинить стишок. 🚀",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6ae80f20a578bc23f54c478b",
+      "dzen_url": "https://dzen.ru/a/augPIKV4vCP1TEeL",
+      "threads_post_id": "18103998149376810"
     },
     {
       "id": "grok-imagine-odyssey-musk-nolan-20261025",

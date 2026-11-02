@@ -84,8 +84,12 @@
       "id": "mattt-anyspeechrecognizer-anydecisionmodel-20261029",
       "dzen_title": "На Mac час записи расшифровали за 20–40 секунд!",
       "x_text": "На Mac Studio M4 Max Parakeet расшифровала час аудио за 20–40 секунд — в тесте разработчика Mattt.\n\nОн выпустил AnySpeechRecognizer для локальной расшифровки и разделения до 4 говорящих, а также AnyDecisionModel для решений с вероятностями. Это Swift-библиотеки, не приложение.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6ae5aa9da9ed440223da0032",
+      "dzen_url": "https://dzen.ru/a/auWqnantRAIj2gAy",
+      "buffer_post_id": "6ae81d34c60bdbcc33d7de9c",
+      "with_image": false
     },
     {
       "id": "openai-chatgpt-violence-conversation-termination-20261030",
