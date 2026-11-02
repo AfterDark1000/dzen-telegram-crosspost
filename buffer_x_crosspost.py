@@ -102,20 +102,20 @@ def remote_posts(org_id, channel_id, statuses, max_pages=8):
     raise RuntimeError("Buffer pagination exceeded safe limit; no X posts sent")
 
 
-def create_scheduled_post(channel_id, text, cover_url=None):
-    """Create an X text or image post using Buffer's official GraphQL assets."""
+def create_immediate_post(channel_id, text, cover_url=None):
+    """Request immediate X delivery via Buffer, using verified GraphQL media assets."""
     asset_input = (", assets: [{image: {url: " + json.dumps(cover_url) + "}}]"
                    if cover_url else "")
     query = (
         "mutation { createPost(input: {text: " + json.dumps(text, ensure_ascii=False) +
         ", channelId: " + json.dumps(channel_id) +
-        ", schedulingType: automatic, mode: addToQueue" + asset_input + "}) {" +
+        ", schedulingType: automatic, mode: shareNow" + asset_input + "}) {" +
         " ... on PostActionSuccess { post { id text assets { id mimeType } } }" +
         " ... on MutationError { message } } }"
     )
     result = graphql(query).get("createPost")
     if not isinstance(result, dict):
-        raise RuntimeError("Buffer did not confirm queued X post")
+        raise RuntimeError("Buffer immediate X post not confirmed")
     posted = result.get("post")
     if isinstance(posted, dict) and posted.get("id") and posted.get("text") == text:
         # The returned assets, not just an ID, must confirm requested media.
@@ -124,7 +124,7 @@ def create_scheduled_post(channel_id, text, cover_url=None):
         if is_image_post(posted) != bool(cover_url):
             raise RuntimeError("Buffer X post media mismatch; no automatic text-only fallback")
         return str(posted["id"])
-    raise RuntimeError("Buffer X scheduling not confirmed; inspect Buffer before retry")
+    raise RuntimeError("Buffer immediate X post not confirmed; inspect Buffer before retry")
 
 
 async def main():
@@ -141,10 +141,11 @@ async def main():
         return
     channel = find_channel()
     org, ch = channel["org_id"], channel["id"]
-    # Buffer may have sent older scheduled posts; inspect both statuses for retries.
-    scheduled = remote_posts(org, ch, ["scheduled"])
+    # An immediate post can remain "sending" while the worker delivers it.
+    # Include in-flight posts in duplicate recovery before ANY new write.
+    pending = remote_posts(org, ch, ["scheduled", "sending"])
     sent = remote_posts(org, ch, ["sent"])
-    remote_by_text = {x["text"].strip(): x for x in scheduled + sent}
+    remote_by_text = {x["text"].strip(): x for x in pending + sent}
     for article, entry in matches[:MAX_PER_RUN]:
         message = delivery_text(entry, article)
         with_image = attach_cover_next(queue)
@@ -161,11 +162,11 @@ async def main():
             post_id = existing["id"]
             print("X: approved message already found remotely; recovering delivery state", flush=True)
         else:
-            if len(scheduled) >= MAX_REMOTE_QUEUE:
+            if len(pending) >= MAX_REMOTE_QUEUE:
                 print("X: Buffer Free queue near limit; delaying editorial entries", flush=True)
                 return
-            post_id = create_scheduled_post(ch, message, cover_url=cover)
-            print("X: approved message queued in Buffer",
+            post_id = create_immediate_post(ch, message, cover_url=cover)
+            print("X: approved message accepted for immediate Buffer delivery",
                   "with Dzen cover" if with_image else "text only", flush=True)
         mark_queued(entry, article, post_id, with_image=with_image)
         save_queue(queue)
