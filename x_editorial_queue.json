@@ -166,8 +166,12 @@
       "id": "telus-elevenlabs-voice-agent-outbound-calls-20261030",
       "dzen_title": "ИИ обзвонил абонентов — отказов от интернета оказалось вдвое меньше!",
       "x_text": "TELUS поручила ElevenAgents обзванивать новых интернет-клиентов: 2300 звонков, в 19% случаев ответил нужный человек.\n\nСреди поговоривших с ИИ отказы за 30 дней были вдвое реже среднего. Цифра известна с июня; 30 октября раскрыли технические детали. Причина разницы не доказана.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6ae80f62121f043a98f7369e",
+      "dzen_url": "https://dzen.ru/a/augPYhIfBDqY9zae",
+      "buffer_post_id": "6ae8716997ae21595d53161c",
+      "with_image": false
     },
     {
       "id": "wired-accenture-personal-claude-code-pentagon-20261029",
