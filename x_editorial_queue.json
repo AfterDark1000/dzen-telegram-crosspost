@@ -5,8 +5,12 @@
       "id": "chainalysis-agentic-cyberattack-20261030",
       "dzen_title": "Хакеры взломали Chainalysis — компанию, которая помогает ловить криптопреступников",
       "x_text": "Chainalysis, помогающую расследовать криптопреступления, взломали. По словам компании, атакующий применял «агентные методы».\n\nПолучен доступ к именам, почтам и ролям пользователей. Следов доступа к материалам расследований и паролям нет. Какие ИИ использовали — неизвестно.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6ae70acf4d27f64e5d8cfa61",
+      "dzen_url": "https://dzen.ru/a/aucKz00n9k5djPph",
+      "buffer_post_id": "6ae8557cca68b566b62d93ec",
+      "with_image": false
     },
     {
       "id": "cisco-talos-volta-autodoxer-ai-dossier-20261031",
