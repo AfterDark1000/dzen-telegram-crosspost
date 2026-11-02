@@ -52,8 +52,12 @@
       "id": "exin-therapeutics-ai-mouse-brain-injection-20261031",
       "dzen_title": "ИИ ввёл препарат в мозг мыши. Ветеринар держал аварийную кнопку!",
       "x_text": "Стартап Exin Therapeutics дал Claude Sonnet 5 выбрать генную терапию для мыши и управлять инъекцией в мозг. Хирург вскрыл череп, ветеринар держал аварийную кнопку. Opus 5.5 отказался. По словам команды, мышь восстанавливается, но эффект на эпилепсию пока неизвестен.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6ae6fee08b88aa0944ccbca9",
+      "dzen_url": "https://dzen.ru/a/aub-4IuIqglEzLyp",
+      "buffer_post_id": "6ae82b4976279ec7eb9779ca",
+      "with_image": true
     },
     {
       "id": "forever-security-embrace-embedded-browsers-20261029",
