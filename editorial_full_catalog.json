@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6ae9b4b86692192b6b2bc2e4",
+      "title": "OpenAI, Google, Microsoft и Anthropic разрешат сайтам запрещать обучение ИИ",
+      "dzen_url": "https://dzen.ru/a/aum0uGaSGStrK8Lk",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-03T16:37:29+00:00",
+      "excerpt": "OpenAI, Google, Microsoft и Anthropic договорились поддерживать единый способ отказа от использования материалов сайтов для обучения нейросетей. Владельцам сайтов больше не придётся составлять отдельные запреты для каждой из этих компаний, когда все они внедрят новый механизм. 30 октября компании объявили о поддержке предложения инженера Anthropic Кевина Келли, который разработал общий сигнал для файла robots.txt. Се"
+    },
+    {
       "dzen_id": "6ae9af0cc44bda2203fe42ae",
       "title": "Codex так разогнал разработку, что OpenAI пришлось создавать новый Git-сервер",
       "dzen_url": "https://dzen.ru/a/aumvDMRL2iID_kKu",
@@ -2293,11 +2304,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 217,
-    "fully_titled_from_archived_public_feed": 162,
+    "total_cataloged_editorial_publications": 218,
+    "fully_titled_from_archived_public_feed": 163,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-03",
-  "coverage": "217 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "218 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
