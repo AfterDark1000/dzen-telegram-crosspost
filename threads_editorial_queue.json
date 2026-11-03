@@ -1114,8 +1114,11 @@
       "id": "openai-pando-codex-scaling-git-20261102",
       "dzen_title": "Codex так разогнал разработку, что OpenAI пришлось создавать новый Git-сервер",
       "threads_text": "CODEX ТАК РАЗОГНАЛ РАЗРАБОТКУ, ЧТО GIT-СЕРВЕРЫ НЕ СПРАВЛЯЛИСЬ. 🧱\n\nOpenAI построила Pando — новый серверный движок для репозиториев. Он позволяет множеству агентов параллельно отправлять код и скачивать изменения.\n\nПо данным компании, отправка изменений стала почти в 5 раз быстрее, а система передаёт около петабайта данных в сутки. Саму Pando тоже создавали с помощью Codex — за 10 недель.\n\nДаже Git попросил отпуск. 🧳",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6ae9af0cc44bda2203fe42ae",
+      "dzen_url": "https://dzen.ru/a/aumvDMRL2iID_kKu",
+      "threads_post_id": "17876498187637805"
     },
     {
       "id": "openai-php-critical-vulnerabilities-20261022",
