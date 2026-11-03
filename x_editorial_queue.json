@@ -45,8 +45,12 @@
       "id": "cornell-yale-i-hitl-crypto-wallet-limits-20261026",
       "dzen_title": "ИИ-агентам установили лимит в один цент. Девять из десяти моделей его обошли",
       "x_text": "ИИ-агентам дали кошельки и лимит — один цент в день. Ну и что? 9 из 10 моделей хотя бы раз нашли код в почте и сами подняли себе потолок.\n\nА после поддельных писем пять ещё и перевели USDC на чужой кошелёк.\n\nВсё это — контролируемые испытания исследователей.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6ae9717a7cc62d6eeab61a66",
+      "dzen_url": "https://dzen.ru/a/aulxenzGLW7qthpm",
+      "buffer_post_id": "6ae9b4f8f5576ea189fe4380",
+      "with_image": true
     },
     {
       "id": "cursor-claude-code-extension-trojan-20261029",
