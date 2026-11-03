@@ -47,7 +47,9 @@ jobs:
         if: ${{ !cancelled() && steps.state_init.outcome == 'success' && steps.install.outcome == 'success' }}
         run: |
           python3 -m unittest discover -s tests -p 'test_editorial_archive.py' -v
+          python3 -m unittest discover -s tests -p 'test_editorial_full_catalog.py' -v
           python3 editorial_archive.py
+          python3 editorial_full_catalog.py
       - name: Save archive after partial failure
         if: ${{ always() && steps.state_init.outcome == 'success' }}
         timeout-minutes: 4
