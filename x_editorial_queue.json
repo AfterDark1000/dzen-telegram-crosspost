@@ -202,8 +202,12 @@
       "id": "openai-grid-protectors-effingham-georgia-20261102",
       "dzen_title": "OpenAI пообещала разгружать электросети: в Джорджии — до 1000 МВт",
       "x_text": "OpenAI представила Grid Protectors: будущие дата-центры смогут снижать потребление при перегрузке электросетей.\n\nДля проекта в Джорджии согласована гибкость до 1000 МВт — примерно среднее потребление 700 тысяч домохозяйств. Центр ещё в разработке.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6ae96ea055a910701b153d93",
+      "dzen_url": "https://dzen.ru/a/auluoFWpEHAbFT2T",
+      "buffer_post_id": "6ae9a6e304ca6f1fcc47a471",
+      "with_image": false
     },
     {
       "id": "openai-lifeval-gpt6-astra-real-life-tasks-20261102",
