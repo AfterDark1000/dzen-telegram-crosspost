@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-03",
+  "checked_at_utc": "2026-11-03T07:26:14.542934+00:00",
+  "community_id": 242308928,
+  "community": {
+    "status": "ok",
+    "members": 1
+  },
+  "wall": {
+    "status": "unavailable",
+    "reason": "api_denied",
+    "api_error_code": 27
+  },
+  "statistics": {
+    "status": "unavailable",
+    "reason": "api_denied",
+    "api_error_code": 27
+  }
+}
