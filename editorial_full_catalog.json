@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6ae9a97ce116fa28c5f19f91",
+      "title": "Grok Bot взял на себя около 70 часов работы аналитиков за неделю",
+      "dzen_url": "https://dzen.ru/a/aumpfOEW-ijF8Z-R",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-03T13:15:36+00:00",
+      "excerpt": "Внутренний ИИ-агент Data Bot за неделю выполнил задачи, на которые команда аналитиков SpaceXSI потратила бы примерно 70 часов. Эту оценку компания опубликовала 2 ноября в блоге xAI. Data Bot работает на платформе Grok Bot и подключается к корпоративному хранилищу данных. Сотрудники могут попросить его исследовать падение продаж, разобраться в поведении пользователей, проверить результаты рекламной кампании или подгот"
+    },
+    {
       "dzen_id": "6ae981bb5ec3a00a555b23d3",
       "title": "ИИ-пузырь трещит по швам: акции Intel рухнули на 29%, Alphabet потеряла $500 млрд",
       "dzen_url": "https://dzen.ru/a/aumBu17DoApVWyPT",
@@ -2260,11 +2271,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 214,
-    "fully_titled_from_archived_public_feed": 159,
+    "total_cataloged_editorial_publications": 215,
+    "fully_titled_from_archived_public_feed": 160,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-03",
-  "coverage": "214 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "215 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
