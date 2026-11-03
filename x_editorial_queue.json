@@ -148,6 +148,13 @@
       "include_dzen_link": false
     },
     {
+      "id": "ietf-ai-training-preference-four-companies-20261030",
+      "dzen_title": "OpenAI, Google, Microsoft и Anthropic разрешат сайтам запрещать обучение ИИ",
+      "x_text": "@OpenAI, @Google, @Microsoft и @AnthropicAI договорились: две строки в robots.txt позволят попросить не обучать ИИ на текстах сайта.\n\nПока это проект, и внедрять будут постепенно: @Microsoft — с февраля 2027-го, @Google — в 2027-м.\n\nОдин знак «Не трогать» на всех. 🪧",
+      "status": "approved",
+      "include_dzen_link": false
+    },
+    {
       "id": "mattt-anyspeechrecognizer-anydecisionmodel-20261029",
       "dzen_title": "На Mac час записи расшифровали за 20–40 секунд!",
       "x_text": "На Mac Studio M4 Max Parakeet расшифровала час аудио за 20–40 секунд — в тесте разработчика Mattt.\n\nОн выпустил AnySpeechRecognizer для локальной расшифровки и разделения до 4 говорящих, а также AnyDecisionModel для решений с вероятностями. Это Swift-библиотеки, не приложение.",
