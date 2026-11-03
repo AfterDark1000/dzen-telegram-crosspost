@@ -261,8 +261,12 @@
       "id": "openai-security-bug-bounty-increased-rewards-20261102",
       "dzen_title": "За взлом ChatGPT теперь платят до $172 тысяч!",
       "x_text": "У @OpenAI подняли выплаты за дыры в ChatGPT, Codex и API: критическая уязвимость — до $30 тыс., исключительная — до $100 тыс. А с бонусами можно добраться почти до $172 тыс.\n\nБонусы зависят от качества отчёта, участия в программе и спецкампаний. Баги пошли в премиум. 🪲",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6ae9ac1a5ec3a00a55b8501d",
+      "dzen_url": "https://dzen.ru/a/aumsGl7DoApVuFAd",
+      "buffer_post_id": "6ae9ed45736f19a87427b713",
+      "with_image": true
     },
     {
       "id": "pika-h3-flex-fast-video-20261029",
