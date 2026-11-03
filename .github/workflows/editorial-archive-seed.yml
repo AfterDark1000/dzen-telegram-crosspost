@@ -43,7 +43,7 @@ jobs:
           Path("_current_dzen_snapshot.json").write_text(json.dumps(rows, ensure_ascii=False), encoding="utf-8")
           print("Read public Dzen articles:", len(rows))
           PY
-      - name: Test and create unified archive
+      - name: Test and refresh unified archive and full linking catalog
         if: ${{ !cancelled() && steps.state_init.outcome == 'success' && steps.install.outcome == 'success' }}
         run: |
           python3 -m unittest discover -s tests -p 'test_editorial_archive.py' -v
