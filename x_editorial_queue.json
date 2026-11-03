@@ -5,8 +5,12 @@
       "id": "abu-dhabi-openai-machine-readable-government-20261102",
       "dzen_title": "OpenAI переводит госправила на язык ИИ: в Абу-Даби уже проверяют импорт продуктов",
       "x_text": "Власти Абу-Даби и OpenAI переводят часть госрегламентов в машиночитаемый формат. ИИ помогает проверять заявки по конкретным пунктам правил, но решения остаются за чиновниками.\n\nПервый пилот уже работает с импортом продуктов в ADAFSA. Вычисления идут в дата-центрах ОАЭ.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6ae9687670b2207347df850c",
+      "dzen_url": "https://dzen.ru/a/aulodnCyIHNH34UM",
+      "buffer_post_id": "6ae98ab53b00665c737ddcb6",
+      "with_image": false
     },
     {
       "id": "ai-stock-selloff-intel-alphabet-nasdaq-20261030",
