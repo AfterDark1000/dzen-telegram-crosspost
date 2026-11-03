@@ -1,8 +1,6 @@
 {
   "schema_version": 1,
-  "generated_date": "2026-11-03",
   "purpose": "Internal linking and duplicate avoidance for Хроники Пикирующего ИИ. Exclude Dzen-only diary and non-article formats. Only source-backed associations; do not invent titles.",
-  "coverage": "212 cataloged editorial publications out of 215 channel publications reported by editor; remaining three are one clip, one post, and the Dzen-only 'Дневник канала' expressly excluded from this catalog. Fifteen early cataloged entries (5–12 October) lack verified titles.",
   "url_derivation": "Dzen article links encode the 24-hex article ID as 12-byte URL-safe Base64 without padding; validated against all 157 recorded archive URLs.",
   "notes": [
     "Do not treat an ID creation timestamp as the publication time.",
@@ -10,17 +8,6 @@
     "The six scheduled articles were counted by the editor but are not inserted until they have public URLs.",
     "Editor reconciliation on 2026-11-03: 215 total channel publications minus one clip, one post, and one Dzen-only diary expressly excluded equals 212 catalog entries."
   ],
-  "stats": {
-    "total_cataloged_editorial_publications": 212,
-    "total_channel_publications_editor_reported": 215,
-    "excluded_clip_count": 1,
-    "excluded_post_count": 1,
-    "excluded_dzen_only_diary_count": 1,
-    "editor_reported_scheduled_not_cataloged": 6,
-    "fully_titled_from_archived_public_feed": 157,
-    "titled_from_historical_github_logs": 40,
-    "missing_titles": 15
-  },
   "entries": [
     {
       "dzen_id": "6ae9717a7cc62d6eeab61a66",
@@ -2244,5 +2231,18 @@
       "title_evidence": "unavailable",
       "url_evidence": "derived_from_12_byte_id"
     }
-  ]
+  ],
+  "stats": {
+    "total_channel_publications_editor_reported": 215,
+    "excluded_clip_count": 1,
+    "excluded_post_count": 1,
+    "excluded_dzen_only_diary_count": 1,
+    "editor_reported_scheduled_not_cataloged": 6,
+    "total_cataloged_editorial_publications": 212,
+    "fully_titled_from_archived_public_feed": 157,
+    "titled_from_historical_github_logs": 40,
+    "missing_titles": 15
+  },
+  "generated_date": "2026-11-03",
+  "coverage": "212 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
