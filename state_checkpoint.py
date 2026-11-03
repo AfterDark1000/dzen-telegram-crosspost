@@ -22,7 +22,8 @@ IDS = ("seen_articles.json", "seen_vk_articles.json",
        "seen_instagram_articles.json", "seen_threads_articles.json")
 FILES = IDS + ("instagram_pending_articles.json", "instagram_cover_inbox.json",
                "threads_editorial_queue.json", "x_editorial_queue.json",
-               "editorial_archive.json", "meta_token_refresh_state.json")
+               "editorial_archive.json", "editorial_full_catalog.json",
+               "meta_token_refresh_state.json")
 ABSENT = object()
 
 
@@ -179,6 +180,28 @@ def merge_states(base, local, remote):
     out[name]["updated_at_utc"] = max(
         s[name].get("updated_at_utc", "") for s in states)
     out[name]["legacy_seen_ids_count"] = len(out["seen_articles.json"])
+
+    # The historical linking catalog is retained in every checkpoint, even
+    # when a limited public feed no longer contains older articles. Merge
+    # independent new records by Dzen ID, never by transient feed position.
+    name = "editorial_full_catalog.json"
+    from editorial_full_catalog import DYNAMIC_STATS, refresh_metadata, validate_catalog
+    for state in states:
+        validate_catalog(state[name])
+    out[name] = merge_dict(
+        *({key: value for key, value in state[name].items()
+           if key not in ("entries", "stats", "coverage", "generated_date")}
+          for state in states), name)
+    out[name]["entries"] = merge_rows(
+        *(state[name]["entries"] for state in states), "dzen_id", name)
+    out[name]["entries"].sort(key=lambda row: row["dzen_id"], reverse=True)
+    out[name]["stats"] = merge_dict(
+        *({key: value for key, value in state[name].get("stats", {}).items()
+           if key not in DYNAMIC_STATS} for state in states), name + "/stats")
+    out[name]["generated_date"] = max(
+        state[name].get("generated_date", "") for state in states)
+    refresh_metadata(out[name])
+    validate_catalog(out[name])
 
     name = "meta_token_refresh_state.json"
     out[name] = merge_dict(*(s[name] for s in states), name)
