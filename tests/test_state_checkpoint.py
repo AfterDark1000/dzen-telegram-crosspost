@@ -44,6 +44,15 @@ def fixture():
             "legacy_seen_ids_count": 1, "scope": "public feed",
             "entries": [],
         },
+        "editorial_full_catalog.json": {
+            "schema_version": 1,
+            "generated_date": "2026-10-20",
+            "purpose": "Dzen editorial linking",
+            "coverage": "Test catalog",
+            "stats": {"total_cataloged_editorial_publications": 0,
+                      "missing_titles": 0},
+            "entries": [],
+        },
         "meta_token_refresh_state.json": {
             "instagram": {"last_attempt": None, "last_success": "2026-10-19T00:00:00+00:00"},
             "threads": {"last_attempt": None, "last_success": "2026-10-19T00:00:00+00:00"},
@@ -97,6 +106,40 @@ class MergeTests(unittest.TestCase):
         self.assertEqual(merged["instagram_cover_inbox.json"]["offset"], 50)
         self.assertIn("cover-key", merged["instagram_cover_inbox.json"]["covers"])
         self.assertEqual(len(merged["x_editorial_queue.json"]["items"]), 1)
+
+    def test_concurrent_full_catalog_additions_merge_without_erasing_history(self):
+        base = fixture()
+        local, remote = copy.deepcopy(base), copy.deepcopy(base)
+        local["editorial_full_catalog.json"]["entries"].append({
+            "dzen_id": "6ad08e827267ec5b95c8c6ca",
+            "dzen_url": "https://dzen.ru/a/atCOgnJn7FuVyMbK",
+            "title": "Anthropic Scion", "source": "github_actions_post_logs",
+        })
+        remote["editorial_full_catalog.json"]["entries"].append({
+            "dzen_id": "6ae9717a7cc62d6eeab61a66",
+            "dzen_url": "https://dzen.ru/a/aulxenzGLW7qthpm",
+            "title": "New Dzen article", "source": "editorial_archive.json",
+        })
+        merged = cp.merge_states(base, local, remote)
+        catalog = merged["editorial_full_catalog.json"]
+        self.assertEqual(len(catalog["entries"]), 2)
+        self.assertEqual(catalog["stats"]["total_cataloged_editorial_publications"], 2)
+        self.assertEqual(catalog["stats"]["missing_titles"], 0)
+        self.assertEqual({e["title"] for e in catalog["entries"]},
+                         {"Anthropic Scion", "New Dzen article"})
+
+    def test_concurrent_edits_to_one_catalog_row_fail_safely(self):
+        base = fixture()
+        base["editorial_full_catalog.json"]["entries"].append({
+            "dzen_id": "6ad08e827267ec5b95c8c6ca",
+            "dzen_url": "https://dzen.ru/a/atCOgnJn7FuVyMbK",
+            "title": "Original", "source": "editorial_archive.json",
+        })
+        local, remote = copy.deepcopy(base), copy.deepcopy(base)
+        local["editorial_full_catalog.json"]["entries"][0]["title"] = "Agent edit"
+        remote["editorial_full_catalog.json"]["entries"][0]["title"] = "Editor edit"
+        with self.assertRaises(cp.Conflict):
+            cp.merge_states(base, local, remote)
 
     def test_invalid_editorial_lengths_cannot_halt_other_publishers(self):
         base = fixture()
