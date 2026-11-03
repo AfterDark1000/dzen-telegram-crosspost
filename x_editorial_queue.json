@@ -180,8 +180,12 @@
       "id": "openai-altman-adipec-scientists-office-work-20261102",
       "dzen_title": "Альтман заявил: ИИ уже превосходит лучших учёных и осваивает офисную работу",
       "x_text": "Альтман в Абу-Даби заявил: ИИ уже в основном обгоняет лучших учёных и тянет немалую часть офисной работы. В начале года, говорит, такого ещё не было.\n\nНо решать за людей нейросетям он не предлагает. Умник в штате появился — ответственность осталась у нас. 😏",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6ae97df092fe1009414bb9fe",
+      "dzen_url": "https://dzen.ru/a/aul98JL-EAlBS7n-",
+      "buffer_post_id": "6ae9c30635443b847afcc69e",
+      "with_image": false
     },
     {
       "id": "openai-chatgpt-violence-conversation-termination-20261030",
