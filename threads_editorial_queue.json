@@ -1031,8 +1031,11 @@
       "id": "openai-lifeval-gpt6-astra-real-life-tasks-20261102",
       "dzen_title": "OpenAI проверила ИИ на бытовухе: GPT-6 Astra набрала 80,6%",
       "threads_text": "OPENAI УСТРОИЛА ИИ ЭКЗАМЕН ПО БЫТОВУХЕ 🧺\n\nВ LifeVal — поиск детсада, запись машины на осмотр, покупка продуктов в пределах бюджета. Задания составили с учётом опроса 3995 человек.\n\nGPT-6 Astra набрала 80,6% по шкале OpenAI. У предыдущей GPT-5.6 — 80,0%.\n\nВ примере с детсадом система предложила три варианта и получила 93,1%. Родителям осталось уточнить два пожелания.\n\nСледующий уровень сложности — поймать талон к врачу в 7 утра. 😏",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6ae96c5329933216f113c227",
+      "dzen_url": "https://dzen.ru/a/aulsUymTMhbxE8In",
+      "threads_post_id": "18096829313155311"
     },
     {
       "id": "openai-locked-chats-20261021",
