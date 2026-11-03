@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6ae9af0cc44bda2203fe42ae",
+      "title": "Codex так разогнал разработку, что OpenAI пришлось создавать новый Git-сервер",
+      "dzen_url": "https://dzen.ru/a/aumvDMRL2iID_kKu",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-03T15:36:19+00:00",
+      "excerpt": "Программисты OpenAI стали настолько активно использовать Codex, что прежняя инфраструктура хранения исходного кода начала захлёбываться от нагрузки. Отправка изменений замедлялась, возникали ошибки при объединении кода, а надёжность системы временами падала ниже 90%. 2 ноября OpenAI рассказала о Pando — новом серверном движке для Git, который теперь обслуживает основной репозиторий компании. Git хранит исходный код п"
+    },
+    {
       "dzen_id": "6ae9ac1a5ec3a00a55b8501d",
       "title": "За взлом ChatGPT теперь платят до $172 тысяч!",
       "dzen_url": "https://dzen.ru/a/aumsGl7DoApVuFAd",
@@ -2282,11 +2293,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 216,
-    "fully_titled_from_archived_public_feed": 161,
+    "total_cataloged_editorial_publications": 217,
+    "fully_titled_from_archived_public_feed": 162,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-03",
-  "coverage": "216 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "217 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
