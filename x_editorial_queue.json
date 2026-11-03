@@ -63,8 +63,12 @@
       "id": "elon-musk-grok-bot-costs-limits-20261101",
       "dzen_title": "Маск признал: Grok Bot обходится слишком дорого!",
       "x_text": "Пользователи Grok Bot жалуются на неожиданно быстрое исчерпание недельных лимитов. Маск ответил: содержание агента было слишком дорогим относительно выручки.\n\nОн не назвал новых квот или цен. 1 ноября также фиксировали сбой панели учёта использования.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6ae96750587e28053e31f0a3",
+      "dzen_url": "https://dzen.ru/a/aulnUFh-KAU-MfCj",
+      "buffer_post_id": "6ae97cadee93f2557f2a1e41",
+      "with_image": true
     },
     {
       "id": "epoch-ai-glm53-firefox-patch-gap-20261029",
