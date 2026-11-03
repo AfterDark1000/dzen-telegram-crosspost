@@ -593,8 +593,11 @@
       "id": "grok-bot-data-bot-analytics-70-hours-20261102",
       "dzen_title": "Grok Bot взял на себя около 70 часов работы аналитиков за неделю",
       "threads_text": "ИИ-АНАЛИТИК СЭКОНОМИЛ КОЛЛЕГАМ 70 ЧАСОВ ЗА НЕДЕЛЮ. 🧮\n\nSpaceXSI рассказала о Data Bot — общем агенте Grok Bot, который ищет ответы в корпоративных данных, строит графики и отчитывается в Slack.\n\nПо оценке компании, за неделю он взял на себя около 70 часов задач аналитиков. Сложные исследования пока остаются людям, а новые знания в общую память добавляются после одобрения команды.\n\nНаконец-то коллега, который обожает таблицы. 🫡",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6ae9a97ce116fa28c5f19f91",
+      "dzen_url": "https://dzen.ru/a/aumpfOEW-ijF8Z-R",
+      "threads_post_id": "17939326947404831"
     },
     {
       "id": "grok-imagine-odyssey-musk-nolan-20261025",

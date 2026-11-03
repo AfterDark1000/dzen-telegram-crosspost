@@ -148,8 +148,12 @@
       "id": "grok-bot-data-bot-analytics-70-hours-20261102",
       "dzen_title": "Grok Bot взял на себя около 70 часов работы аналитиков за неделю",
       "x_text": "У @bot уже есть коллега-аналитик. Data Bot копается в корпоративных данных, строит отчёты и пишет в Slack. За неделю, по оценке компании, он снял с команды около 70 часов работы.\n\nСложные задачи люди оставили себе. А вот таблицы, похоже, нашли хозяина. 🧮",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6ae9a97ce116fa28c5f19f91",
+      "dzen_url": "https://dzen.ru/a/aumpfOEW-ijF8Z-R",
+      "buffer_post_id": "6ae9df411e1aeba3c6baab89",
+      "with_image": false
     },
     {
       "id": "ietf-ai-training-preference-four-companies-20261030",
