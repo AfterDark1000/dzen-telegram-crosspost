@@ -650,8 +650,11 @@
       "id": "ietf-ai-training-preference-four-companies-20261030",
       "dzen_title": "OpenAI, Google, Microsoft и Anthropic разрешат сайтам запрещать обучение ИИ",
       "threads_text": "ЧЕТЫРЕ ИИ-ГИГАНТА ДОГОВОРИЛИСЬ О КНОПКЕ «НЕ УЧИТЬСЯ НА МОЁМ САЙТЕ». 🛑\n\nOpenAI, Google, Microsoft и Anthropic поддержали общий сигнал в robots.txt. Владельцу сайта хватит двух строк, чтобы сообщить всем четырём: не используйте мои страницы для обучения моделей.\n\nЭто пока проект стандарта, а внедрение растянется на месяцы. Сигнал сам по себе не блокирует скачивание страниц.\n\nУ интернета появилась табличка «Руками не трогать». 🪧",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6ae9b4b86692192b6b2bc2e4",
+      "dzen_url": "https://dzen.ru/a/aum0uGaSGStrK8Lk",
+      "threads_post_id": "18133676554866275"
     },
     {
       "id": "iflytek-spark-x26-hybrid-cloud-20261024",
