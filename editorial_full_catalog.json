@@ -2,7 +2,7 @@
   "schema_version": 1,
   "generated_date": "2026-11-03",
   "purpose": "Internal linking and duplicate avoidance for Хроники Пикирующего ИИ. Only source-backed associations. Do not invent titles.",
-  "coverage": "Partial: 213 identified public article records versus 215 published reported by editor. 22 known links still lack verified titles; two further publications have no known ID or URL here.",
+  "coverage": "Partial: 213 identified public article records versus 215 published reported by editor. 15 early records (5–12 October) lack verified titles; two further publications have no known ID or URL here.",
   "url_derivation": "Dzen article links encode the 24-hex article ID as 12-byte URL-safe Base64 without padding; validated against all 157 recorded archive URLs.",
   "notes": [
     "Do not treat an ID creation timestamp as the publication time.",
@@ -17,9 +17,9 @@
     "editor_reported_scheduled_not_cataloged": 6,
     "unaccounted_publications_vs_editor_reported": 2,
     "fully_titled_from_archived_public_feed": 157,
-    "titled_from_historical_github_logs": 33,
+    "titled_from_historical_github_logs": 40,
     "known_dzen_only_with_short_label": 1,
-    "missing_titles": 22
+    "missing_titles": 15
   },
   "entries": [
     {
@@ -1760,65 +1760,65 @@
     },
     {
       "dzen_id": "6ad342fc8da7ee4d90019cef",
-      "title": null,
+      "title": "Krea 3 обещает редактировать изображения за 8 секунд",
       "dzen_url": "https://dzen.ru/a/atNC_I2n7k2QAZzv",
       "status": "published_observed_in_feed",
-      "source": "seen_articles.json",
-      "title_evidence": "unavailable",
+      "source": "github_actions_post_logs + seen_articles.json",
+      "title_evidence": "workflow_log_matched_commit",
       "url_evidence": "derived_from_12_byte_id"
     },
     {
       "dzen_id": "6ad342916e7f9963c88fe6dd",
-      "title": null,
+      "title": "Kling 4.0 научилась создавать 30-секундные видео с управлением по ключевым кадрам",
       "dzen_url": "https://dzen.ru/a/atNCkW5_mWPIj-bd",
       "status": "published_observed_in_feed",
-      "source": "seen_articles.json",
-      "title_evidence": "unavailable",
+      "source": "github_actions_post_logs + seen_articles.json",
+      "title_evidence": "workflow_log_matched_commit",
       "url_evidence": "derived_from_12_byte_id"
     },
     {
       "dzen_id": "6ad302087e6dd4477fce3f97",
-      "title": null,
+      "title": "ИИ-агенты проникли в системы индийских компаний и получили доступ к данным. Пострадавшие ничего не заметили",
       "dzen_url": "https://dzen.ru/a/atMCCH5t1Ed_zj-X",
       "status": "published_observed_in_feed",
-      "source": "seen_articles.json",
-      "title_evidence": "unavailable",
+      "source": "github_actions_post_logs + seen_articles.json",
+      "title_evidence": "workflow_log_matched_commit",
       "url_evidence": "derived_from_12_byte_id"
     },
     {
       "dzen_id": "6ad301988524b568aef97eb8",
-      "title": null,
+      "title": "ИИ OpenAI нашёл чужой криптокошелёк, потратил деньги и промолчал",
       "dzen_url": "https://dzen.ru/a/atMBmIUktWiu-X64",
       "status": "published_observed_in_feed",
-      "source": "seen_articles.json",
-      "title_evidence": "unavailable",
+      "source": "github_actions_post_logs + seen_articles.json",
+      "title_evidence": "workflow_log_matched_commit",
       "url_evidence": "derived_from_12_byte_id"
     },
     {
       "dzen_id": "6ad3012a2cdfb474e8e82c4e",
-      "title": null,
+      "title": "OpenAI разрешила создавать собственные голоса простым текстовым описанием",
       "dzen_url": "https://dzen.ru/a/atMBKizftHTo6CxO",
       "status": "published_observed_in_feed",
-      "source": "seen_articles.json",
-      "title_evidence": "unavailable",
+      "source": "github_actions_post_logs + seen_articles.json",
+      "title_evidence": "workflow_log_matched_commit",
       "url_evidence": "derived_from_12_byte_id"
     },
     {
       "dzen_id": "6ad3009a53d2e40886c7e3d3",
-      "title": null,
+      "title": "Американская Reflection открыла доступ к параметрам огромной модели Beam",
       "dzen_url": "https://dzen.ru/a/atMAmlPS5AiGx-PT",
       "status": "published_observed_in_feed",
-      "source": "seen_articles.json",
-      "title_evidence": "unavailable",
+      "source": "github_actions_post_logs + seen_articles.json",
+      "title_evidence": "workflow_log_matched_commit",
       "url_evidence": "derived_from_12_byte_id"
     },
     {
       "dzen_id": "6ad30040733b6714e9e7e1da",
-      "title": null,
+      "title": "Китай предложил ограничить экспорт передовых технологий ИИ",
       "dzen_url": "https://dzen.ru/a/atMAQHM7ZxTp5-Ha",
       "status": "published_observed_in_feed",
-      "source": "seen_articles.json",
-      "title_evidence": "unavailable",
+      "source": "github_actions_post_logs + seen_articles.json",
+      "title_evidence": "workflow_log_matched_commit",
       "url_evidence": "derived_from_12_byte_id"
     },
     {
