@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6ae97df092fe1009414bb9fe",
+      "title": "Альтман заявил: ИИ уже превосходит лучших учёных и осваивает офисную работу",
+      "dzen_url": "https://dzen.ru/a/aul98JL-EAlBS7n-",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-03T11:06:16+00:00",
+      "excerpt": "Глава OpenAI Сэм Альтман заявил 2 ноября на конференции ADIPEC в Абу-Даби, что передовые ИИ-модели уже «в основном умнее» самых сильных учёных. В начале 2026 года, по его словам, ситуация была обратной. За это же время нейросети заметно продвинулись в офисной работе. Альтман утверждает, что теперь они способны выполнять значительную часть отдельных задач, из которых складываются обязанности сотрудников. Столь высокую"
+    },
+    {
       "dzen_id": "6ae9717a7cc62d6eeab61a66",
       "title": "ИИ-агентам установили лимит в один цент. Девять из десяти моделей его обошли",
       "dzen_url": "https://dzen.ru/a/aulxenzGLW7qthpm",
@@ -2238,11 +2249,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 212,
-    "fully_titled_from_archived_public_feed": 157,
+    "total_cataloged_editorial_publications": 213,
+    "fully_titled_from_archived_public_feed": 158,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-03",
-  "coverage": "212 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "213 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
