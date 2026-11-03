@@ -64,7 +64,9 @@ jobs:
         continue-on-error: true
         run: |
           python3 -m unittest discover -s tests -p 'test_editorial_archive.py' -v
+          python3 -m unittest discover -s tests -p 'test_editorial_full_catalog.py' -v
           python3 editorial_archive.py
+          python3 editorial_full_catalog.py
       - name: Checkpoint covers and archive before Instagram
         id: cover_checkpoint
         if: ${{ !cancelled() && steps.state_init.outcome == 'success' && steps.early_checkpoint.outcome == 'success' }}
