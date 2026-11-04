@@ -336,7 +336,11 @@
       "dzen_title": "Взломали Trigger.dev: под угрозой ключи и пароли пользователей",
       "x_text": "СЕКРЕТЫ под угрозой! 🔑\n\n@triggerdotdev признала взлом: злоумышленник получил доступ к переменным окружения части клиентов. Там могут храниться API-ключи и токены для внешних сервисов.\n\nУязвимость закрыта, пострадавших уведомили. Масштаб пока неизвестен.",
       "include_dzen_link": false,
-      "status": "approved"
+      "status": "queued",
+      "dzen_id": "6aeab8fa728a9a2a9ee08569",
+      "dzen_url": "https://dzen.ru/a/auq4-nKKmiqe4IVp",
+      "buffer_post_id": "6aeaea5ce478396c274f9fa7",
+      "with_image": true
     },
     {
       "id": "wired-accenture-personal-claude-code-pentagon-20261029",
