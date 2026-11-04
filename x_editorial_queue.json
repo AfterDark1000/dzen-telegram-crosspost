@@ -215,7 +215,11 @@
       "dzen_title": "OpenAI позвала хакеров, взломавших системы Anthropic, проверить свою защиту",
       "x_text": "ХАКЕРСКОЕ РЕЗЮМЕ! 🔓\n\nИИ-агенты Cathedral за 12 часов нашли путь в часть внутренних систем @AnthropicAI. Теперь @OpenAI пригласила тех же исследователей проверять свою защиту — с помощью моделей OpenAI.\n\nВот это портфолио. Даже рекомендации от конкурентов не понадобились. 😏",
       "include_dzen_link": false,
-      "status": "approved"
+      "status": "queued",
+      "dzen_id": "6aeab653728a9a2a9edd2968",
+      "dzen_url": "https://dzen.ru/a/auq2U3KKmiqe3Slo",
+      "buffer_post_id": "6aeace34c63bd995bd132b49",
+      "with_image": true
     },
     {
       "id": "openai-chatgpt-violence-conversation-termination-20261030",
