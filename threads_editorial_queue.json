@@ -125,8 +125,11 @@
       "id": "anthropic-recursive-self-improvement-risk-20261102",
       "dzen_title": "Anthropic предупредила: ИИ может вскоре ускорить собственное развитие",
       "threads_text": "САМОСОВЕРШЕНСТВУЮЩИЙСЯ ИИ уже близко? 🧠\n\nAnthropic предупредила в документе для SEC: будущие модели Claude могут вскоре приблизиться к порогу, когда ИИ резко ускоряет разработку следующих поколений ИИ.\n\nClaude уже помогает исследователям писать код и проводить эксперименты. Причём компания признала, что раньше иногда замечала ускорение разработки с опозданием.\n\nОтделу безопасности, похоже, понадобится кнопка «Помедленнее!» 😅",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6ae9f49e13e9876ec6e94713",
+      "dzen_url": "https://dzen.ru/a/aun0nhPph27G6UcT",
+      "threads_post_id": "17980284080918811"
     },
     {
       "id": "anthropic-single-agent-loop-subagents-20261027",
