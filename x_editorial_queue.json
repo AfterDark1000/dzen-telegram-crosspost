@@ -354,7 +354,11 @@
       "dzen_title": "Хакеры с ИИ добрались до данных клиентов WorkOS",
       "x_text": "ARTEX В WORKOS! 🔓\n\n@WorkOS сообщила о взломе внутреннего инструмента продаж с применением ИИ-системы ARTEX. Доступными оказались контакты и фрагменты общения с клиентами.\n\nСистема авторизации, по данным компании, не пострадала. Вошли через отдел продаж. 😬",
       "include_dzen_link": false,
-      "status": "approved"
+      "status": "queued",
+      "dzen_id": "6aeab7190a81e25c5761ffbe",
+      "dzen_url": "https://dzen.ru/a/auq3GQqB4lxXYf--",
+      "buffer_post_id": "6aeadc44e478396c27452050",
+      "with_image": false
     }
   ]
 }
