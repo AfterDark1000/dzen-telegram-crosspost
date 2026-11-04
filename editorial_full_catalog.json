@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6aeab7190a81e25c5761ffbe",
+      "title": "Хакеры с ИИ добрались до данных клиентов WorkOS",
+      "dzen_url": "https://dzen.ru/a/auq3GQqB4lxXYf--",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-04T06:54:37+00:00",
+      "excerpt": "Компания WorkOS, которая помогает другим сервисам организовывать безопасный вход пользователей, сама столкнулась со взломом. 30 октября злоумышленники проникли в её внутреннее приложение для работы с клиентами. При атаке использовался ARTEX — ИИ-инструмент, уже фигурировавший в масштабных кибератаках. О происшествии WorkOS сообщила 2 ноября. Генеральный директор компании Майкл Гринич подтвердил, что нападавшие примен"
+    },
+    {
       "dzen_id": "6aeab653728a9a2a9edd2968",
       "title": "OpenAI позвала хакеров, взломавших системы Anthropic, проверить свою защиту",
       "dzen_url": "https://dzen.ru/a/auq2U3KKmiqe3Slo",
@@ -2326,11 +2337,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 220,
-    "fully_titled_from_archived_public_feed": 165,
+    "total_cataloged_editorial_publications": 221,
+    "fully_titled_from_archived_public_feed": 166,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-04",
-  "coverage": "220 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "221 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
