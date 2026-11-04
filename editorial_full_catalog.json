@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6aeab653728a9a2a9edd2968",
+      "title": "OpenAI позвала хакеров, взломавших системы Anthropic, проверить свою защиту",
+      "dzen_url": "https://dzen.ru/a/auq2U3KKmiqe3Slo",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-04T05:48:24+00:00",
+      "excerpt": "В октябре ИИ-агенты компании Cathedral менее чем за 12 часов нашли путь во внутренние системы Anthropic. Теперь этих же исследователей пригласила OpenAI. Им предстоит искать уязвимости в инфраструктуре разработчика ChatGPT, используя его собственные нейросети. О подготовке нового испытания безопасности OpenAI объявила 2 ноября 2026 года. Специалисты Cathedral будут работать вместе с внутренними командами компании, пр"
+    },
+    {
       "dzen_id": "6ae9f49e13e9876ec6e94713",
       "title": "Anthropic предупредила: ИИ может вскоре ускорить собственное развитие",
       "dzen_url": "https://dzen.ru/a/aun0nhPph27G6UcT",
@@ -2315,11 +2326,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 219,
-    "fully_titled_from_archived_public_feed": 164,
+    "total_cataloged_editorial_publications": 220,
+    "fully_titled_from_archived_public_feed": 165,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-04",
-  "coverage": "219 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "220 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
