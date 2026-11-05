@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6aeaba216aa1000c3d513987",
+      "title": "GPT-6 Astra спроектировала гаджет. Его уже изготовили на заводе",
+      "dzen_url": "https://dzen.ru/a/auq6IWqhAAw9UTmH",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-05T03:45:51+00:00",
+      "excerpt": "У GPT-6 Astra появился результат, который можно подержать в руках: небольшая партия электронных устройств для общения с ИИ-агентом Codex. Двое сотрудников OpenAI подготовили проект с помощью нейросети меньше чем за неделю, а контрактный производитель изготовил прототипы менее чем за месяц. Об эксперименте компания рассказала 3 ноября 2026 года. Astra определила требования к устройству, разработала корпус и крепления"
+    },
+    {
       "dzen_id": "6aeab8fa728a9a2a9ee08569",
       "title": "Взломали Trigger.dev: под угрозой ключи и пароли пользователей",
       "dzen_url": "https://dzen.ru/a/auq4-nKKmiqe4IVp",
@@ -2348,11 +2359,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 222,
-    "fully_titled_from_archived_public_feed": 167,
+    "total_cataloged_editorial_publications": 223,
+    "fully_titled_from_archived_public_feed": 168,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
-  "generated_date": "2026-11-04",
-  "coverage": "222 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "generated_date": "2026-11-05",
+  "coverage": "223 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
