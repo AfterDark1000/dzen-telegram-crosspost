@@ -348,8 +348,12 @@
       "id": "openai-linux-root-948-20261104",
       "dzen_title": "ИИ OpenAI нашёл 948 способов получить root в Linux",
       "x_text": "К Linux пришёл ревизор с бюджетом $1,21 млн. 🕵️ @OpenAI прогнала ИИ по ядру: 948 уязвимостей для получения root, 1169 работающих эксплойтов в тестах. Чужие серверы не трогали — находки и патчи отправляют разработчикам. У пингвина насыщенная неделя.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6aec5fa092fe100941ed2933",
+      "dzen_url": "https://dzen.ru/a/auxfoJL-EAlB7Skz",
+      "buffer_post_id": "6aec9036bfdb27db17f39129",
+      "with_image": true
     },
     {
       "id": "openai-pando-codex-scaling-git-20261102",
