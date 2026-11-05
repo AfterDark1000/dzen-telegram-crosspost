@@ -410,6 +410,13 @@
       "dzen_url": "https://dzen.ru/a/auq3GQqB4lxXYf--",
       "buffer_post_id": "6aeadc44e478396c27452050",
       "with_image": false
+    },
+    {
+      "id": "openai-images-2-6-gif-20261104",
+      "dzen_title": "OpenAI выпустила Images 2.6: ChatGPT теперь делает ГИФКИ!",
+      "x_text": "Дождались: ChatGPT теперь делает ГИФКИ! 😎 Попросил «оживи картинку» — и получаешь анимацию. @OpenAI обещает в Images 2.6 генерацию на 50% быстрее и меньше самодеятельности при правках. Правда, GIF-функцию подключают постепенно.",
+      "status": "approved",
+      "include_dzen_link": false
     }
   ]
 }
