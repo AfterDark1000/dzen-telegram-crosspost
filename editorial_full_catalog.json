@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6aec6365a4dd2c63461913bb",
+      "title": "OpenAI покупает Pierre: её инструменты уже работают в Codex",
+      "dzen_url": "https://dzen.ru/a/auxjZaTdLGNGGRO7",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-05T15:03:12+00:00",
+      "excerpt": "OpenAI 4 ноября объявила о намерении приобрести Pierre Computer Company — разработчика инструментов для работы с программным кодом. Причём две библиотеки Pierre уже встроены в Codex: разработчики используют их при просмотре файлов и проверке изменений, сделанных в том числе ИИ-агентами. Речь об инструментах Trees и Diffs. Первый помогает быстро ориентироваться в структуре проекта, второй показывает, какие строки кода"
+    },
+    {
       "dzen_id": "6aec5fa092fe100941ed2933",
       "title": "ИИ OpenAI нашёл 948 способов получить root в Linux",
       "dzen_url": "https://dzen.ru/a/auxfoJL-EAlB7Skz",
@@ -2403,11 +2414,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 227,
-    "fully_titled_from_archived_public_feed": 172,
+    "total_cataloged_editorial_publications": 228,
+    "fully_titled_from_archived_public_feed": 173,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-05",
-  "coverage": "227 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "228 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
