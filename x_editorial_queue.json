@@ -385,6 +385,13 @@
       "dzen_url": "https://dzen.ru/a/auq3GQqB4lxXYf--",
       "buffer_post_id": "6aeadc44e478396c27452050",
       "with_image": false
+    },
+    {
+      "id": "collinear-cwe-bench-v2-20261103",
+      "dzen_title": "ИИ поручили исправить 100 уязвимостей. Лучший результат — 67,8%",
+      "x_text": "ПЯТЬ ДЫР УСТОЯЛИ! 🕳️\n\n11 моделей пытались чинить 100 уязвимостей в CWE-bench v2. Пять заданий не покорились никому.\n\nGemini 4 Argon от @GoogleDeepMind — 67,8% успешных запусков, Claude Opus 5.5 от @AnthropicAI — 67,3%.\n\nИнженерам пока рано сдавать пропуска. 😏",
+      "status": "approved",
+      "include_dzen_link": false
     }
   ]
 }
