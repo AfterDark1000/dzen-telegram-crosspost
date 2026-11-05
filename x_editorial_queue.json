@@ -435,8 +435,12 @@
       "id": "snowflake-business-ontology-ai-gateway-20261103",
       "dzen_title": "Snowflake прописала ИИ-агентам правила: что считать выручкой и сколько тратить",
       "x_text": "В продажах одна «выручка», в бухгалтерии — другая. ИИ готов насчитать третью. @Snowflake показала Business Ontology: утверждённые определения для агентов. Пока закрытый тест. А через Cortex AI Gateway уже можно ставить лимиты расходов.\n\nЦифрам выдадут пропуска. 📒",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6aec6a5213e9876ec62cde89",
+      "dzen_url": "https://dzen.ru/a/auxqUhPph27GLN6J",
+      "buffer_post_id": "6aecbc65d7d39142cf502712",
+      "with_image": false
     },
     {
       "id": "sophos-gold-ogre-aur0ra-ai-agent-ransomware-20261029",

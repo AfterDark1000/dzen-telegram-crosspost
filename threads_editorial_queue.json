@@ -1389,8 +1389,11 @@
       "id": "snowflake-business-ontology-ai-gateway-20261103",
       "dzen_title": "Snowflake прописала ИИ-агентам правила: что считать выручкой и сколько тратить",
       "threads_text": "ИИ-АГЕНТАМ объяснят, что такое ВЫРУЧКА. 🧾\n\nУ бухгалтерии и отдела продаж одна и та же цифра может считаться по-разному. Snowflake представила Business Ontology: компании смогут закреплять утверждённые определения, чтобы агенты не выбирали их наугад.\n\nА Cortex AI Gateway уже позволяет учитывать расходы агентов и ставить лимиты. Правда, сама Business Ontology пока в закрытом тестировании.\n\nУ бухгалтерии появился аргумент посильнее «у нас так принято». 🧮",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6aec6a5213e9876ec62cde89",
+      "dzen_url": "https://dzen.ru/a/auxqUhPph27GLN6J",
+      "threads_post_id": "18114854026876183"
     },
     {
       "id": "sony-generation-super-sampling-20261021",
