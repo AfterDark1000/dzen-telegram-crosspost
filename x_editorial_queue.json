@@ -485,6 +485,13 @@
       "dzen_url": "https://dzen.ru/a/auq3GQqB4lxXYf--",
       "buffer_post_id": "6aeadc44e478396c27452050",
       "with_image": false
+    },
+    {
+      "id": "openai-brockman-anthropic-enterprise-20261104",
+      "dzen_title": "Брокман признал: OpenAI отставала от Anthropic в борьбе за бизнес-клиентов",
+      "x_text": "У OpenAI тоже бывают неудачные полугодия. Брокман признал: в начале 2026-го Anthropic перехватывала корпоративных клиентов, а Codex почти не замечали. Теперь, говорит, бизнес-направление за квартал удвоилось. Цифры компании, независимого аудита нет.",
+      "status": "approved",
+      "include_dzen_link": false
     }
   ]
 }
