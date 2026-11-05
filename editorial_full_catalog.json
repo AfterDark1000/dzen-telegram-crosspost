@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6aec0bd5c4df40737eced1fa",
+      "title": "ИИ поручили исправить 100 уязвимостей. Лучший результат — 67,8%",
+      "dzen_url": "https://dzen.ru/a/auwL1cTfQHN-ztH6",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-05T08:38:54+00:00",
+      "excerpt": "Gemini 4 Argon показала лучший результат среди 11 ИИ-моделей, которым поручили искать и исправлять опасные ошибки в настоящем программном коде. Успешными оказались 67,8% отдельных запусков. Причём 19 заданий модель так и не решила, хотя на каждое ей давали четыре попытки. 3 ноября 2026 года компания Collinear AI опубликовала CWE-bench v2 — открытый набор из 100 заданий, охватывающих 91 тип программных уязвимостей. Ср"
+    },
+    {
       "dzen_id": "6aebfc1cb3220418d3d33244",
       "title": "ИИ-агенты могут стать неотключаемыми",
       "dzen_url": "https://dzen.ru/a/auv8HLMiBBjT0zJE",
@@ -2370,11 +2381,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 224,
-    "fully_titled_from_archived_public_feed": 169,
+    "total_cataloged_editorial_publications": 225,
+    "fully_titled_from_archived_public_feed": 170,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-05",
-  "coverage": "224 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "225 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
