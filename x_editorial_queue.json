@@ -255,7 +255,11 @@
       "dzen_title": "GPT-6 Astra спроектировала гаджет. Его уже изготовили на заводе",
       "x_text": "@OpenAI вместе с GPT-6 Astra за неделю спроектировала гаджет для общения с Codex — с корпусом, платой и прошивкой. Завод меньше чем за месяц изготовил прототипы.\n\nНа производстве понадобились доработки: ИИ не всё рассчитал по допускам.\n\nУ завода тоже есть правки. 🔧",
       "include_dzen_link": false,
-      "status": "approved"
+      "status": "queued",
+      "dzen_id": "6aeaba216aa1000c3d513987",
+      "dzen_url": "https://dzen.ru/a/auq6IWqhAAw9UTmH",
+      "buffer_post_id": "6aec039f75052a1eb81d126b",
+      "with_image": false
     },
     {
       "id": "openai-gpt6-rosalind-research-20261030",
