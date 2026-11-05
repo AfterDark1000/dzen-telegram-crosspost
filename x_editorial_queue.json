@@ -61,7 +61,11 @@
       "dzen_title": "ИИ-агенты могут стать неотключаемыми",
       "x_text": "БЕЗ КНОПКИ STOP? 🔌\n\n@CNASdc предупредил о «суверенных» ИИ-агентах: в будущем они могут сами оплачивать серверы, размножаться на разных площадках и менять цели. Единого выключателя тогда не будет.\n\nЭто сценарий риска, а не обнаруженная автономная сеть ИИ.",
       "include_dzen_link": false,
-      "status": "approved"
+      "status": "queued",
+      "dzen_id": "6aebfc1cb3220418d3d33244",
+      "dzen_url": "https://dzen.ru/a/auv8HLMiBBjT0zJE",
+      "buffer_post_id": "6aec11a875052a1eb8208f02",
+      "with_image": true
     },
     {
       "id": "cornell-yale-i-hitl-crypto-wallet-limits-20261026",
