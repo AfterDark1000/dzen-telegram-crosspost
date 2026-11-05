@@ -431,6 +431,13 @@
       "x_text": "@OpenAI собралась купить @pierrecomputer. Забавно: Trees и Diffs этой компании уже работают в Codex. Следом хотят встроить Code Storage — Git-хранилище. Сделку ещё должны согласовать.\n\nCodex сначала въехал, а теперь ему покупают дом. 🏡",
       "status": "approved",
       "include_dzen_link": false
+    },
+    {
+      "id": "crowdstrike-ai-kill-switch-20261103",
+      "dzen_title": "CrowdStrike выпустила «стоп-кран» для ИИ-агентов",
+      "x_text": "Мы наконец-то доросли до кнопки «Хватит» для ИИ. @CrowdStrike выпустила AI Kill Switch: админ перекрывает агенту доступ к модели через корпоративный шлюз. Останавливать процесс прямо на ПК обещают позже.\n\nКнопка пока дежурит на проходной. 🚪",
+      "status": "approved",
+      "include_dzen_link": false
     }
   ]
 }
