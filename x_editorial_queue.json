@@ -370,8 +370,12 @@
       "id": "openai-pierre-acquisition-20261104",
       "dzen_title": "OpenAI покупает Pierre: её инструменты уже работают в Codex",
       "x_text": "@OpenAI собралась купить @pierrecomputer. Забавно: Trees и Diffs этой компании уже работают в Codex. Следом хотят встроить Code Storage — Git-хранилище. Сделку ещё должны согласовать.\n\nCodex сначала въехал, а теперь ему покупают дом. 🏡",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6aec6365a4dd2c63461913bb",
+      "dzen_url": "https://dzen.ru/a/auxjZaTdLGNGGRO7",
+      "buffer_post_id": "6aec9e4a0fcbe7315a2aa097",
+      "with_image": false
     },
     {
       "id": "openai-security-bug-bounty-increased-rewards-20261102",

@@ -1218,8 +1218,11 @@
       "id": "openai-pierre-acquisition-20261104",
       "dzen_title": "OpenAI покупает Pierre: её инструменты уже работают в Codex",
       "threads_text": "OpenAI собирается купить компанию, чьи инструменты УЖЕ работают в Codex. 🧩\n\nУ Pierre есть Trees — просмотр файлов, Diffs — разбор изменений, Highlights — подсветка кода. А ещё Code Storage, хранилище с историей Git, которое OpenAI хочет встроить в Codex.\n\nЗа два дня до этого компания показала Pando — собственный Git-сервер для множества параллельных задач ИИ-агентов.\n\nCodex обставляют со всех сторон. Осталось, чтобы кто-нибудь успевал проверять его работу. 🧐",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6aec6365a4dd2c63461913bb",
+      "dzen_url": "https://dzen.ru/a/auxjZaTdLGNGGRO7",
+      "threads_post_id": "18111330404525607"
     },
     {
       "id": "openai-rosalind-brain-agents-20261022",
