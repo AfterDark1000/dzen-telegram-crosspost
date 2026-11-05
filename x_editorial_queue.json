@@ -71,8 +71,12 @@
       "id": "collinear-cwe-bench-v2-20261103",
       "dzen_title": "ИИ поручили исправить 100 уязвимостей. Лучший результат — 67,8%",
       "x_text": "ПЯТЬ ДЫР УСТОЯЛИ! 🕳️\n\n11 моделей пытались чинить 100 уязвимостей в CWE-bench v2. Пять заданий не покорились никому.\n\nGemini 4 Argon от @GoogleDeepMind — 67,8% успешных запусков, Claude Opus 5.5 от @AnthropicAI — 67,3%.\n\nИнженерам пока рано сдавать пропуска. 😏",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6aec0bd5c4df40737eced1fa",
+      "dzen_url": "https://dzen.ru/a/auwL1cTfQHN-ztH6",
+      "buffer_post_id": "6aec4a0b5f08fe30f9f1acb6",
+      "with_image": false
     },
     {
       "id": "cornell-yale-i-hitl-crypto-wallet-limits-20261026",

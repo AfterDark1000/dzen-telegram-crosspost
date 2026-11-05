@@ -302,8 +302,11 @@
       "id": "collinear-cwe-bench-v2-20261103",
       "dzen_title": "ИИ поручили исправить 100 уязвимостей. Лучший результат — 67,8%",
       "threads_text": "ПЯТЬ УЯЗВИМОСТЕЙ устояли против 11 нейросетей. 🔓\n\nCollinear AI устроила моделям ремонт настоящего кода: 100 задач, по четыре попытки на каждую. Заплатку засчитывали, только если она закрывала дыру и не ломала программу.\n\nGemini 4 Argon — 67,8% успешных запусков, Claude Opus 5.5 — 67,3%. Пять заданий не решил никто даже за четыре попытки.\n\nИнженерам по безопасности увольняться пока рановато. 😏",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6aec0bd5c4df40737eced1fa",
+      "dzen_url": "https://dzen.ru/a/auwL1cTfQHN-ztH6",
+      "threads_post_id": "17950897470341236"
     },
     {
       "id": "coop-legal-ai-monitoring-20261021",
