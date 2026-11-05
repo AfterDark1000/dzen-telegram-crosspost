@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6aec6a5213e9876ec62cde89",
+      "title": "Snowflake прописала ИИ-агентам правила: что считать выручкой и сколько тратить",
+      "dzen_url": "https://dzen.ru/a/auxqUhPph27GLN6J",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-05T17:02:35+00:00",
+      "excerpt": "Snowflake 3 ноября представила Business Ontology — систему, которая позволит компаниям устанавливать единые определения для корпоративных ИИ-агентов. Чтобы один цифровой сотрудник не считал выручку одним способом, второй — другим, а третий не выдавал собственную версию с полной уверенностью в результате. Проблема вполне реальная. Финансовый отдел может считать выручку с учётом возвратов и скидок, а отдел продаж — ори"
+    },
+    {
       "dzen_id": "6aec66b657f6257dbfb3cd9f",
       "title": "CrowdStrike выпустила «стоп-кран» для ИИ-агентов",
       "dzen_url": "https://dzen.ru/a/auxmtlf2JX2_s82f",
@@ -2425,11 +2436,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 229,
-    "fully_titled_from_archived_public_feed": 174,
+    "total_cataloged_editorial_publications": 230,
+    "fully_titled_from_archived_public_feed": 175,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-05",
-  "coverage": "229 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "230 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
