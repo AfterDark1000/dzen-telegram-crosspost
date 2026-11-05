@@ -114,8 +114,12 @@
       "id": "crowdstrike-ai-kill-switch-20261103",
       "dzen_title": "CrowdStrike выпустила «стоп-кран» для ИИ-агентов",
       "x_text": "Мы наконец-то доросли до кнопки «Хватит» для ИИ. @CrowdStrike выпустила AI Kill Switch: админ перекрывает агенту доступ к модели через корпоративный шлюз. Останавливать процесс прямо на ПК обещают позже.\n\nКнопка пока дежурит на проходной. 🚪",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6aec66b657f6257dbfb3cd9f",
+      "dzen_url": "https://dzen.ru/a/auxmtlf2JX2_s82f",
+      "buffer_post_id": "6aecac659b4d9c5576321a42",
+      "with_image": true
     },
     {
       "id": "cursor-claude-code-extension-trojan-20261029",
