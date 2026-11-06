@@ -14,6 +14,7 @@ from state_checkpoint import atomic_json
 
 from playwright.async_api import async_playwright, Error as PlaywrightError
 from telegram_photo import send_photo_upload
+from site_utm import load_site_catalog, tagged_site_url
 
 CHANNEL = "https://dzen.ru/iipike?tab=articles"
 TELEGRAM_CHAT = "@iipike"
@@ -129,11 +130,20 @@ def short_teaser(raw, limit=230):
     # For a very long first sentence, use a clean word boundary with an ellipsis.
     return text[:limit].rsplit(" ", 1)[0].rstrip(" ,;:") + "…"
 
-def send_article(item):
+def send_article(item, *, site_url=None):
     title = html.escape(item["title"])
     desc = html.escape(short_teaser(item["text"]))
     link = html.escape(item["url"], quote=True)
     caption = f"<b>{title}</b>\n\n{desc}\n\n<a href=\"{link}\">Читать в Дзене →</a>" if desc else f"<b>{title}</b>\n\n<a href=\"{link}\">Читать в Дзене →</a>"
+    # Repostbot mirrors this exact message to MAX. The combined source label
+    # prevents falsely attributing MAX readers to Telegram.
+    if site_url:
+        extra = '<a href="' + html.escape(site_url, quote=True) + '">Читать на сайте ХПИИ →</a>\\n'
+        if len(caption) + len(extra) <= 1024:
+            caption = caption.replace('<a href="' + link + '">Читать в Дзене →</a>',
+                                      extra + '<a href="' + link + '">Читать в Дзене →</a>')
+        else:
+            print("SITE_UTM_SKIPPED: Telegram photo caption length safeguard", flush=True)
     cover = item.get("image") or ""
     if cover and len(caption) <= 1024:
         # Fast path: Telegram downloads the source image itself.
@@ -184,8 +194,9 @@ async def main():
     new = sorted((item for item in articles if item["id"] not in seen),
                  key=lambda item: (item["date"], item["id"]))
     print(f"New articles: {len(new)}")
+    catalog = load_site_catalog() if new else []
     for item in new:
-        send_article(item)
+        send_article(item, site_url=tagged_site_url(item, catalog, "telegram_max"))
         print("Posted:", item["title"])
         seen.add(item["id"])
         atomic_json(STATE, sorted(seen))
