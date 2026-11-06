@@ -191,8 +191,12 @@
       "id": "geoffrey-hinton-ai-chernobyl-20261103",
       "dzen_title": "Джеффри Хинтон: ИИ может устроить «Чернобыль» уже в 2026–2027 годах",
       "x_text": "Хинтон опять портит настроение ИИ-боссам. 😬\n\nНобелевский лауреат допускает «Чернобыль» для ИИ уже в 2026–2027 годах. А руководителям @OpenAI, @Meta и @xAI прилетело за гонку ради прибыли.\n\nГоворит: сначала независимые проверки моделей, потом релиз. Логика, конечно, дерзкая.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6aec2fd092fe10094184b166",
+      "dzen_url": "https://dzen.ru/a/auwv0JL-EAlBhLFm",
+      "buffer_post_id": "6aed470586fe9b83796c8dc9",
+      "with_image": true
     },
     {
       "id": "google-gemini-inline-file-editing-20261029",
