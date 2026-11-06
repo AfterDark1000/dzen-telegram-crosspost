@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6aed5221f4387469d80b5bfc",
+      "title": "Skyfall показала ИИ, который разбирает автомобиль на детали по фотографии",
+      "dzen_url": "https://dzen.ru/a/au1SIfQ4dGnYC1v8",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-06T06:46:34+00:00",
+      "excerpt": "Skyfall AI 19 октября представила SKY-001 — нейросеть, которая по одному изображению сложного механизма создаёт его трёхмерную структуру, разделяет её на узлы и детали и предлагает последовательность геометрических построений для каждого элемента. В демонстрациях компания использовала Jaguar E-Type, реактивный двигатель, промышленного робота FANUC и компактный трактор. Модель начинает с приблизительной формы всего об"
+    },
+    {
       "dzen_id": "6aec6e98edfee2293a039c2e",
       "title": "Макаки по $20 тысяч: фонд сооснователя Palantir вложил $20 млн в проект фермы",
       "dzen_url": "https://dzen.ru/a/auxumO3-4ik6A5wu",
@@ -2458,11 +2469,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 232,
-    "fully_titled_from_archived_public_feed": 177,
+    "total_cataloged_editorial_publications": 233,
+    "fully_titled_from_archived_public_feed": 178,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-06",
-  "coverage": "232 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "233 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
