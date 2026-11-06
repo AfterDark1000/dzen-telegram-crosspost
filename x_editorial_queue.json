@@ -60,8 +60,12 @@
       "id": "cert-in-crafty-falcon-ai-attacks-20261104",
       "dzen_title": "Индия предупредила об ИИ-атаках на финансовые компании: снова ARTEX",
       "x_text": "У хакеров, похоже, тоже есть любимый график: работать, когда у банка выходной.\n\nИндийский CERT-In предупредил о Crafty Falcon — атаках на финтех и криптобиржи с помощью ARTEX и других ИИ-инструментов.\n\nА если дыру закрыли кое-как, преступники возвращаются. Ущерб пока неизвестен.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6aed52e9cd1c0c1d624f5874",
+      "dzen_url": "https://dzen.ru/a/au1S6c0cDB1iT1h0",
+      "buffer_post_id": "6aed9b6d86fe9b8379871684",
+      "with_image": true
     },
     {
       "id": "chainalysis-agentic-cyberattack-20261030",

@@ -252,8 +252,11 @@
       "id": "cert-in-crafty-falcon-ai-attacks-20261104",
       "dzen_title": "Индия предупредила об ИИ-атаках на финансовые компании: снова ARTEX",
       "threads_text": "ИНДИЯ объявила тревогу из-за ARTEX. ⚠️\n\nCERT-In сообщила о кампании Crafty Falcon против финтеха, кредитных организаций и криптобирж. Хакеры используют ARTEX, PentAGI, Cairn и CyberStrikeAI, чтобы быстрее искать уязвимости и проводить атаки.\n\nНападают по выходным и возвращаются к тем, кто залатал дыры не до конца. Кто стоит за кампанией и сколько украдено, ведомство не назвало.\n\nДля атакующих выходной — рабочая смена. 🗓️",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6aed52e9cd1c0c1d624f5874",
+      "dzen_url": "https://dzen.ru/a/au1S6c0cDB1iT1h0",
+      "threads_post_id": "17985412565904277"
     },
     {
       "id": "chainalysis-agentic-cyberattack-20261030",
