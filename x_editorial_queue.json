@@ -457,8 +457,12 @@
       "id": "skyfall-sky-001-20261019",
       "dzen_title": "Skyfall показала ИИ, который разбирает автомобиль на детали по фотографии",
       "x_text": "@skyfallai показала SKY-001: по одному фото Jaguar E-Type ИИ строит 3D-дерево деталей и шаги их создания. В тестах Skyfall — в 51 раз быстрее GPT-6 Astra на CAD-задачах. Но редактируемую историю CAD-построений пока только обещают. Гайки разложены, завод ждёт. 🔧",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6aed5221f4387469d80b5bfc",
+      "dzen_url": "https://dzen.ru/a/au1SIfQ4dGnYC1v8",
+      "buffer_post_id": "6aed7f3f7b7e47e8f414688b",
+      "with_image": true
     },
     {
       "id": "snowflake-business-ontology-ai-gateway-20261103",
