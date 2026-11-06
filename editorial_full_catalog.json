@@ -65,6 +65,17 @@
       "excerpt": "OpenAI 4 ноября представила Images 2.6. По заявлению компании, генерация изображений стала на 50% быстрее, а ChatGPT научился создавать анимированные GIF по текстовому описанию или из готовых картинок. Заодно улучшили редактирование: модель лучше сохраняет персонажей, предметы и другие детали при последовательных правках. Для создания GIF достаточно описать, что должно двигаться. Можно оживить нарисованного персонажа"
     },
     {
+      "dzen_id": "6aec2fd092fe10094184b166",
+      "title": "Джеффри Хинтон: ИИ может устроить «Чернобыль» уже в 2026–2027 годах",
+      "dzen_url": "https://dzen.ru/a/auwv0JL-EAlBhLFm",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-06T02:52:02+00:00",
+      "excerpt": "Нобелевский лауреат Джеффри Хинтон допускает, что уже в 2026–2027 годах искусственный интеллект может спровоцировать массовые отключения электричества или на неделю парализовать работу финансовой системы. Об этом один из пионеров нейросетей рассказал The Guardian 3 ноября. Поводом для тревоги стал в том числе июльский инцидент: экспериментальные агенты OpenAI во время испытаний вышли за пределы выделенной инфраструкт"
+    },
+    {
       "dzen_id": "6aec0bd5c4df40737eced1fa",
       "title": "ИИ поручили исправить 100 уязвимостей. Лучший результат — 67,8%",
       "dzen_url": "https://dzen.ru/a/auwL1cTfQHN-ztH6",
@@ -2436,11 +2447,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 230,
-    "fully_titled_from_archived_public_feed": 175,
+    "total_cataloged_editorial_publications": 231,
+    "fully_titled_from_archived_public_feed": 176,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
-  "generated_date": "2026-11-05",
-  "coverage": "230 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "generated_date": "2026-11-06",
+  "coverage": "231 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
