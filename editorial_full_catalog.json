@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6aed528d08d9d64149054131",
+      "title": "Взлом Binance на $6,34 млрд: хакеры использовали внутренний ИИ биржи",
+      "dzen_url": "https://dzen.ru/a/au1SjQjZ1kFJBUEx",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-06T08:01:40+00:00",
+      "excerpt": "Binance 3 ноября раскрыла новые обстоятельства крупнейшей кражи криптовалюты, произошедшей 29 октября. По предварительным результатам расследования, злоумышленники использовали внутренний ИИ-инструмент самой биржи для проникновения в системы сотрудников, отвечавших за криптокошельки. В результате атаки были затронуты цифровые активы общей стоимостью около $6,34 млрд. Подготовка заняла несколько месяцев, а одним из кл"
+    },
+    {
       "dzen_id": "6aed5221f4387469d80b5bfc",
       "title": "Skyfall показала ИИ, который разбирает автомобиль на детали по фотографии",
       "dzen_url": "https://dzen.ru/a/au1SIfQ4dGnYC1v8",
@@ -2469,11 +2480,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 233,
-    "fully_titled_from_archived_public_feed": 178,
+    "total_cataloged_editorial_publications": 234,
+    "fully_titled_from_archived_public_feed": 179,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-06",
-  "coverage": "233 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "234 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
