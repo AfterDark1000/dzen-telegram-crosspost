@@ -1,0 +1,25 @@
+name: HPII site UTM attribution tests (NO PUBLICATION)
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'site_utm.py'
+      - 'crosspost.py'
+      - 'vk_crosspost.py'
+      - 'tests/test_site_utm.py'
+      - '.github/workflows/site-utm-tests.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  offline-tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - uses: actions/checkout@v4
+      - name: Compile optional attribution and existing publishers
+        run: python3 -m py_compile site_utm.py crosspost.py vk_crosspost.py
+      - name: Test source tagging and exact article matching (offline)
+        run: python3 -m unittest discover -s tests -p 'test_site_utm.py' -v
