@@ -13,6 +13,7 @@ from state_checkpoint import atomic_json
 
 from playwright.async_api import async_playwright, Error as PlaywrightError
 from crosspost import fetch_articles
+from site_utm import load_site_catalog, tagged_site_url
 
 STATE = Path("seen_vk_articles.json")
 GROUP_ID = 242308928
@@ -120,12 +121,20 @@ async def main():
     print("VK new articles:", len(pending), flush=True)
     if not pending:
         return
+    catalog = load_site_catalog()
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=True, args=["--no-sandbox"])
         try:
             page = await browser.new_page(locale="ru-RU", timezone_id="Europe/Moscow")
             for item in pending:
                 message = await read_full_article(page, item)
+                site_url = tagged_site_url(item, catalog, "vk")
+                if site_url:
+                    extra = "\n\nЧитать на сайте ХПИИ: " + site_url
+                    if len(message) + len(extra) <= 15000:
+                        message += extra
+                    else:
+                        print("SITE_UTM_SKIPPED: VK post length safeguard", flush=True)
                 publish_to_vk(item, message, token)
                 seen.add(item["id"])
                 save_seen(seen)
