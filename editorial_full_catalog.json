@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6aed52e9cd1c0c1d624f5874",
+      "title": "Индия предупредила об ИИ-атаках на финансовые компании: снова ARTEX",
+      "dzen_url": "https://dzen.ru/a/au1S6c0cDB1iT1h0",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-06T09:03:31+00:00",
+      "excerpt": "Индийский центр кибербезопасности CERT-In 4 ноября предупредил об активной кампании взломов финансовых организаций с использованием ИИ-инструментов. Среди них — уже знакомый ARTEX. Атакующие выбирают небанковские кредитные организации, финтех-сервисы, платёжные компании и криптобиржи. Кампания получила название Crafty Falcon, а предупреждению присвоен критический уровень опасности. Ведомство продолжило расследование"
+    },
+    {
       "dzen_id": "6aed528d08d9d64149054131",
       "title": "Взлом Binance на $6,34 млрд: хакеры использовали внутренний ИИ биржи",
       "dzen_url": "https://dzen.ru/a/au1SjQjZ1kFJBUEx",
@@ -2480,11 +2491,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 234,
-    "fully_titled_from_archived_public_feed": 179,
+    "total_cataloged_editorial_publications": 235,
+    "fully_titled_from_archived_public_feed": 180,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-06",
-  "coverage": "234 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "235 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
