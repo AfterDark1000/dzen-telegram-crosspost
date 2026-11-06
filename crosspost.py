@@ -138,7 +138,7 @@ def send_article(item, *, site_url=None):
     # Repostbot mirrors this exact message to MAX. The combined source label
     # prevents falsely attributing MAX readers to Telegram.
     if site_url:
-        extra = '<a href="' + html.escape(site_url, quote=True) + '">Читать на сайте ХПИИ →</a>\\n'
+        extra = '<a href="' + html.escape(site_url, quote=True) + '">Читать на сайте ХПИИ →</a>\n'
         if len(caption) + len(extra) <= 1024:
             caption = caption.replace('<a href="' + link + '">Читать в Дзене →</a>',
                                       extra + '<a href="' + link + '">Читать в Дзене →</a>')
