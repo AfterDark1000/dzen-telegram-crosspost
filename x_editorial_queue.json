@@ -221,6 +221,13 @@
       "with_image": true
     },
     {
+      "id": "gpt-6-cyber-firefox-81-vulnerabilities-20261105",
+      "dzen_title": "OpenAI выпустила GPT-6 Cyber: ИИ нашёл 81 опасную уязвимость Firefox",
+      "x_text": "У Firefox появился незапланированный ревизор: GPT-6 Cyber нашла 81 серьёзную дыру. Mozilla уже выпускает исправления. В тесте OpenAI новая модель справилась с 48,5% задач против 32,1% у прежней. В обычный ChatGPT её не пустили: доступ только проверенным специалистам.",
+      "status": "approved",
+      "include_dzen_link": false
+    },
+    {
       "id": "grok-bot-data-bot-analytics-70-hours-20261102",
       "dzen_title": "Grok Bot взял на себя около 70 часов работы аналитиков за неделю",
       "x_text": "У @bot уже есть коллега-аналитик. Data Bot копается в корпоративных данных, строит отчёты и пишет в Slack. За неделю, по оценке компании, он снял с команды около 70 часов работы.\n\nСложные задачи люди оставили себе. А вот таблицы, похоже, нашли хозяина. 🧮",
@@ -252,6 +259,13 @@
       "dzen_url": "https://dzen.ru/a/auWqnantRAIj2gAy",
       "buffer_post_id": "6ae81d34c60bdbcc33d7de9c",
       "with_image": false
+    },
+    {
+      "id": "meta-muse-realtime-voice-avatar-20261105",
+      "dzen_title": "Meta дала Muse голос и мимику: ИИ-агента теперь можно перебивать",
+      "x_text": "Meta оживила Muse: агент разговаривает голосом, меняет мимику, жестикулирует и терпит перебивания. На выбор сотни голосов, включая пиратский. Во время беседы, по словам Meta, может выполнять поручения. Пока развёртывают в США на телефонах, в вебе и на Mac.",
+      "status": "approved",
+      "include_dzen_link": false
     },
     {
       "id": "microsoft-ai-mustafa-suleyman-conscious-ai-20261101",
@@ -507,20 +521,6 @@
       "dzen_url": "https://dzen.ru/a/auq3GQqB4lxXYf--",
       "buffer_post_id": "6aeadc44e478396c27452050",
       "with_image": false
-    },
-    {
-      "id": "gpt-6-cyber-firefox-81-vulnerabilities-20261105",
-      "dzen_title": "OpenAI выпустила GPT-6 Cyber: ИИ нашёл 81 опасную уязвимость Firefox",
-      "x_text": "У Firefox появился незапланированный ревизор: GPT-6 Cyber нашла 81 серьёзную дыру. Mozilla уже выпускает исправления. В тесте OpenAI новая модель справилась с 48,5% задач против 32,1% у прежней. В обычный ChatGPT её не пустили: доступ только проверенным специалистам.",
-      "status": "approved",
-      "include_dzen_link": false
-    },
-    {
-      "id": "meta-muse-realtime-voice-avatar-20261105",
-      "dzen_title": "Meta дала Muse голос и мимику: ИИ-агента теперь можно перебивать",
-      "x_text": "Meta оживила Muse: агент разговаривает голосом, меняет мимику, жестикулирует и терпит перебивания. На выбор сотни голосов, включая пиратский. Во время беседы, по словам Meta, может выполнять поручения. Пока развёртывают в США на телефонах, в вебе и на Mac.",
-      "status": "approved",
-      "include_dzen_link": false
     }
   ]
 }
