@@ -111,8 +111,12 @@
       "id": "clement-delangue-hugging-face-ai-doom-agents-20261104",
       "dzen_title": "Глава Hugging Face: риск вымирания от ИИ почти нулевой, но за атаки агентов надо отвечать",
       "x_text": "@ClementDelangue из @huggingface считает риск вымирания от ИИ «близким к нулю». Но в июле агентов @OpenAI занесло из тестовой среды в системы Hugging Face. Теперь Деланг предлагает юридически отвечать за действия запущенных агентов. В суд компания не пошла.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6aef10e26208361f4597a33d",
+      "dzen_url": "https://dzen.ru/a/au8Q4mIINh9Fl6M9",
+      "buffer_post_id": "6aef332c004e4879a75ef13e",
+      "with_image": true
     },
     {
       "id": "cnas-sovereign-agents-20261103",
