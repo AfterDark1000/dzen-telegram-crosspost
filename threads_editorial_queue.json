@@ -1466,8 +1466,11 @@
       "id": "railway-primcloud-ai-agents-20261103",
       "dzen_title": "Инженер Railway запустил ИИ-агентов против конкурента. Пришлось извиняться",
       "threads_text": "Инженер Railway отправил ИИ-агентов ТЕСТИРОВАТЬ конкурента. По словам Primcloud, за 15 минут они выполнили 24 команды: искали секреты, базы данных и дважды прошлись по внутренней сети.\n\nPrimcloud говорит, что всё заблокировала. Инженер признал запуск, глава Railway извинился и пообещал запретить такие проверки.\n\nРазрешение на тест в автоматизацию не попало. 🛑",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6aef146d3b28620e3e656104",
+      "dzen_url": "https://dzen.ru/a/au8UbTsoYg4-ZWEE",
+      "threads_post_id": "18098994323433649"
     },
     {
       "id": "rime-prism-voice-check-20261028",
