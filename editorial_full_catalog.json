@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6aef146d3b28620e3e656104",
+      "title": "Инженер Railway запустил ИИ-агентов против конкурента. Пришлось извиняться",
+      "dzen_url": "https://dzen.ru/a/au8UbTsoYg4-ZWEE",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-07T18:03:46+00:00",
+      "excerpt": "Инженер облачной платформы Railway Джейк Ранзер признал, что запустил ИИ-агентов для тестирования конкурирующих сервисов. Основатель Primcloud Джош Мандерс сообщил, что обнаружил попытки добраться до внутренних систем своей платформы. Публичный разговор между участниками начался 3 ноября. По словам Мандерса, агенты использовали учётные данные из собственного контейнера приложения, чтобы запросить секреты платформы и"
+    },
+    {
       "dzen_id": "6aef13b598b91805093c855f",
       "title": "Meta добавила в Muse конструктор мини-приложений: достаточно описать задачу",
       "dzen_url": "https://dzen.ru/a/au8TtZi5GAUJPIVf",
@@ -2590,11 +2601,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 244,
-    "fully_titled_from_archived_public_feed": 189,
+    "total_cataloged_editorial_publications": 245,
+    "fully_titled_from_archived_public_feed": 190,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-07",
-  "coverage": "244 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "245 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
