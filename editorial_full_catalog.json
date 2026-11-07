@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6aed53785d6def07806b2a87",
+      "title": "Сэм Альтман стал Ram Altman после спора об оперативной памяти",
+      "dzen_url": "https://dzen.ru/a/au1TeF1t7weAayqH",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-07T07:04:44+00:00",
+      "excerpt": "Глава OpenAI Сэм Альтман 4 ноября ненадолго сменил имя своего профиля в X на Ram Altman. Каламбур возник после спора о том, кому нужнее дефицитная оперативная память: владельцам обычных компьютеров или огромным ИИ-дата-центрам..."
+    },
+    {
       "dzen_id": "6aed5329537ecf4b7ae0fcb7",
       "title": "Брокман признал: OpenAI отставала от Anthropic в борьбе за бизнес-клиентов",
       "dzen_url": "https://dzen.ru/a/au1TKVN-z0t64Py3",
@@ -2502,11 +2513,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 236,
-    "fully_titled_from_archived_public_feed": 181,
+    "total_cataloged_editorial_publications": 237,
+    "fully_titled_from_archived_public_feed": 182,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-07",
-  "coverage": "236 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "237 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
