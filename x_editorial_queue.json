@@ -576,6 +576,20 @@
       "dzen_url": "https://dzen.ru/a/auq3GQqB4lxXYf--",
       "buffer_post_id": "6aeadc44e478396c27452050",
       "with_image": false
+    },
+    {
+      "id": "railway-primcloud-ai-agents-20261103",
+      "dzen_title": "Инженер Railway запустил ИИ-агентов против конкурента. Пришлось извиняться",
+      "x_text": "У @Railway тест конкурента дошёл до поиска чужих секретов. @joshmanders из Primcloud сообщил о 24 командах за 15 минут; доступ, по его словам, заблокирован. Инженер признал запуск агентов. @JustJake извинился. Вот тебе и «посмотреть, как у соседей».",
+      "status": "approved",
+      "include_dzen_link": false
+    },
+    {
+      "id": "censys-artex-exposed-servers-20261105",
+      "dzen_title": "Censys нашла 1465 серверов с ИИ-инструментом ARTEX. Некоторые раскрыли и файлы операторов",
+      "x_text": "@censysio нашла 32 сервера с ARTEX, где были открыты папки с инструментами взлома и файлами операторов. ИИ помогает проверять чужую защиту, а собственные файлы лежат на виду. Исследователям удобно.",
+      "status": "approved",
+      "include_dzen_link": false
     }
   ]
 }
