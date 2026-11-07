@@ -551,6 +551,13 @@
       "dzen_url": "https://dzen.ru/a/auq3GQqB4lxXYf--",
       "buffer_post_id": "6aeadc44e478396c27452050",
       "with_image": false
+    },
+    {
+      "id": "google-gemini-omni-1-2-flash-video-20261105",
+      "dzen_title": "Google выпустила Gemini Omni 1.2 Flash: 15 секунд видео и правки в переписке",
+      "x_text": "@GoogleDeepMind выпустила Omni 1.2 Flash: видео до 15 секунд, а фон, свет и предметы можно менять прямо в переписке. Генерация 720p через API — $0,07 за секунду, на 30% дешевле. В @GeminiApp доступ к новинке пока развёртывают для подписчиков Ultra.",
+      "status": "approved",
+      "include_dzen_link": false
     }
   ]
 }
