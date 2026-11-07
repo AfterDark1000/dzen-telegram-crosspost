@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6aedadeb05fe010947b54163",
+      "title": "Четыре университета Австралии внедряют ИИ OpenAI: от ChatGPT Edu до робота-родителя",
+      "dzen_url": "https://dzen.ru/a/au2t6wX-AQlHtUFj",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-07T12:31:09+00:00",
+      "excerpt": "OpenAI 5 ноября сообщила о расширении использования своих ИИ-инструментов в четырёх австралийских университетах. UNSW Sydney планирует предоставить ChatGPT Edu более чем 80 тысячам студентов и сотрудников, а La Trobe University уже открыл доступ 3500 работникам..."
+    },
+    {
       "dzen_id": "6aed60e13937a639907b29a1",
       "title": "Meta дала Muse голос и мимику: ИИ-агента теперь можно перебивать",
       "dzen_url": "https://dzen.ru/a/au1g4Tk3pjmQeymh",
@@ -2535,11 +2546,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 239,
-    "fully_titled_from_archived_public_feed": 184,
+    "total_cataloged_editorial_publications": 240,
+    "fully_titled_from_archived_public_feed": 185,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-07",
-  "coverage": "239 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "240 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
