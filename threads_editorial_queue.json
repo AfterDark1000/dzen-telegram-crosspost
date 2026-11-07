@@ -1102,8 +1102,11 @@
       "id": "openai-brockman-anthropic-enterprise-20261104",
       "dzen_title": "Брокман признал: OpenAI отставала от Anthropic в борьбе за бизнес-клиентов",
       "threads_text": "В OPENAI признали: ANTHROPIC их обгоняла.\n\nНа конференции WSJ Tech Грег Брокман назвал первые два квартала 2026-го тяжёлыми. Codex уже существовал, но, по его словам, о нём почти никто не говорил.\n\nЗато в третьем квартале корпоративное направление OpenAI, утверждает Брокман, удвоилось, а годовой темп выручки вырос на 70% за квартал.\n\nЦифры пока со слов самой компании. Кажется, в этой гонке даже лидерам приходится иногда бежать вдогонку.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6aed5329537ecf4b7ae0fcb7",
+      "dzen_url": "https://dzen.ru/a/au1TKVN-z0t64Py3",
+      "threads_post_id": "18078665357455576"
     },
     {
       "id": "openai-cathedral-security-sprint-20261102",
