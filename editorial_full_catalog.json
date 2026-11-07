@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6aef11284e9678290424cc6b",
+      "title": "Google выпустила Gemini Omni 1.2 Flash: 15 секунд видео и правки в переписке",
+      "dzen_url": "https://dzen.ru/a/au8RKE6WeCkEJMxr",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-07T14:42:53+00:00",
+      "excerpt": "Google DeepMind 5 ноября выпустила Gemini Omni 1.2 Flash — модель, создающая видео длительностью до 15 секунд и позволяющая сохранять готовый ролик обычными текстовыми командами. Можно последовательно менять фон, освещение, предметы и даже формат кадра, сохраняя остальные детали сцены. Раньше Gemini Omni 1.1 Flash была ограничена десятью секундами. Новая версия позволяет выбрать продолжительность от 3 до 15 секунд с"
+    },
+    {
       "dzen_id": "6aef10e26208361f4597a33d",
       "title": "Глава Hugging Face: риск вымирания от ИИ почти нулевой, но за атаки агентов надо отвечать",
       "dzen_url": "https://dzen.ru/a/au8Q4mIINh9Fl6M9",
@@ -2557,11 +2568,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 241,
-    "fully_titled_from_archived_public_feed": 186,
+    "total_cataloged_editorial_publications": 242,
+    "fully_titled_from_archived_public_feed": 187,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-07",
-  "coverage": "241 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "242 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
