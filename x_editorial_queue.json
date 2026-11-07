@@ -635,8 +635,12 @@
       "id": "thinking-machines-inkling-2-small-20261105",
       "dzen_title": "Thinking Machines выпустила Inkling 2 Small: 594 млрд параметров и обещание открыть веса",
       "x_text": "@thinkymachines выпустила Inkling 2 Small: 594 млрд параметров, 17 млрд активны при обработке токена. Модель принимает изображения и пишет код. Пока доступна через @tinkerapi; веса под Apache 2.0 обещают на следующей неделе после проверки безопасности. Вот такой «Small».",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6aef11f41163a041fcdccfe4",
+      "dzen_url": "https://dzen.ru/a/au8R9BFjoEH83M_k",
+      "buffer_post_id": "6aef5d6f229bf05daf636f6f",
+      "with_image": true
     },
     {
       "id": "triggerdev-client-env-incident-20261101",
