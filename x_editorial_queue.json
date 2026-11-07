@@ -678,6 +678,13 @@
       "dzen_url": "https://dzen.ru/a/auq3GQqB4lxXYf--",
       "buffer_post_id": "6aeadc44e478396c27452050",
       "with_image": false
+    },
+    {
+      "id": "openai-chatgpt-codex-shared-limits-20261107",
+      "dzen_title": "ChatGPT и Codex посадят на один лимит. OpenAI меняет правила подписки с декабря",
+      "x_text": "С декабря @OpenAI посадит ChatGPT и Codex на ОДИН лимит для Plus, Pro и Business. Долго разбирал код в чате — меньше останется на Codex. И наоборот. Instant общий ресурс не расходует. А сколько токенов дадут, компания пока не говорит. 🪙",
+      "status": "approved",
+      "include_dzen_link": false
     }
   ]
 }
