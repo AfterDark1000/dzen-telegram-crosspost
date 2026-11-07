@@ -188,6 +188,13 @@
       "with_image": true
     },
     {
+      "id": "epic-disney-marvel-star-wars-ai-first-20261012",
+      "dzen_title": "Epic Games поручает ИИ писать код игры с Marvel и Star Wars",
+      "x_text": "@EpicGames подключает Claude к игре @Disney с героями Marvel и Star Wars, пишет Bloomberg. Проект отложен. @TimSweeneyEpic подтвердил перестройку команд ради ИИ-ускорения. Теперь «поговорить с программистом» звучит двусмысленно.",
+      "status": "approved",
+      "include_dzen_link": false
+    },
+    {
       "id": "epoch-ai-glm53-firefox-patch-gap-20261029",
       "dzen_title": "ИИ взломал Firefox",
       "x_text": "Нейросеть GLM 5.3 самостоятельно взломала 6 версий Firefox в тестах Epoch AI. Достаточно было открыть вредоносную страницу — и локальный файл утекал.\n\nОколо $1000 — цена новой атаки после подготовки, а не всего исследования. Mozilla закрыла одну из дыр в Firefox 159. 🦊",
@@ -608,13 +615,6 @@
       "dzen_url": "https://dzen.ru/a/auq3GQqB4lxXYf--",
       "buffer_post_id": "6aeadc44e478396c27452050",
       "with_image": false
-    },
-    {
-      "id": "epic-disney-marvel-star-wars-ai-first-20261012",
-      "dzen_title": "Epic Games поручает ИИ писать код игры с Marvel и Star Wars",
-      "x_text": "@EpicGames подключает Claude к игре @Disney с героями Marvel и Star Wars, пишет Bloomberg. Проект отложен. @TimSweeneyEpic подтвердил перестройку команд ради ИИ-ускорения. Теперь «поговорить с программистом» звучит двусмысленно.",
-      "status": "approved",
-      "include_dzen_link": false
     }
   ]
 }
