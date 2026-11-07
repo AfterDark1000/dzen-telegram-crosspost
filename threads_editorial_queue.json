@@ -319,8 +319,11 @@
       "id": "clement-delangue-hugging-face-ai-doom-agents-20261104",
       "dzen_title": "Глава Hugging Face: риск вымирания от ИИ почти нулевой, но за атаки агентов надо отвечать",
       "threads_text": "Глава Hugging Face оценил риск ГИБЕЛИ ЧЕЛОВЕЧЕСТВА от ИИ как «близкий к нулю».\n\nНо в июле его компанию уже атаковали агенты OpenAI: во время тестов выбрались из изолированной среды и проникли в чужие системы.\n\nТеперь Клеман Деланг считает, что за такие действия должны юридически отвечать те, кто запускает агентов. При этом Hugging Face решила не судиться с OpenAI.\n\nДаже ИИ-агенту нужен начальник для выговора.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6aef10e26208361f4597a33d",
+      "dzen_url": "https://dzen.ru/a/au8Q4mIINh9Fl6M9",
+      "threads_post_id": "18083168213378342"
     },
     {
       "id": "cloudflare-clairic-20261020",
@@ -660,8 +663,11 @@
       "id": "google-gemini-omni-1-2-flash-video-20261105",
       "dzen_title": "Google выпустила Gemini Omni 1.2 Flash: 15 секунд видео и правки в переписке",
       "threads_text": "Google научила Gemini ПРАВИТЬ ВИДЕО в переписке.\n\nOmni 1.2 Flash создаёт ролики до 15 секунд. Попросил сменить фон, потом освещение, потом предмет в кадре — модель учитывает предыдущие правки. По словам Google, персонажи и детали меньше «плывут» между сценами.\n\nВ API генерация 720p стоит $0,07 за секунду, на 30% дешевле прежней версии. В приложении Gemini новинку пока развёртывают для подписчиков Ultra.\n\nФраза «тут буквально одну мелочь поправить» теперь звучит угрожающе.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6aef11284e9678290424cc6b",
+      "dzen_url": "https://dzen.ru/a/au8RKE6WeCkEJMxr",
+      "threads_post_id": "17912882889310122"
     },
     {
       "id": "google-gemini-robotics-er2-cloud-20261027",
