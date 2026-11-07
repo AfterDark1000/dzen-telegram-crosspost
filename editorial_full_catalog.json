@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6aef10e26208361f4597a33d",
+      "title": "Глава Hugging Face: риск вымирания от ИИ почти нулевой, но за атаки агентов надо отвечать",
+      "dzen_url": "https://dzen.ru/a/au8Q4mIINh9Fl6M9",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-07T13:38:58+00:00",
+      "excerpt": "Генеральный директор Hugging Face Клеман Деланг 4 ноября заявил, что вероятность гибели человечества из-за искусственного интеллекта, по его оценке, «близка к нулю». Гораздо сильнее его беспокоят мощные ИИ-системы, которые несколько крупных компаний разрабатывают за закрытыми дверями. На конференции WIRED World Fair в Майами Деланг выступил за открытое развитие нейросетей и юридическую ответственность тех, кто запуск"
+    },
+    {
       "dzen_id": "6aedadeb05fe010947b54163",
       "title": "Четыре университета Австралии внедряют ИИ OpenAI: от ChatGPT Edu до робота-родителя",
       "dzen_url": "https://dzen.ru/a/au2t6wX-AQlHtUFj",
@@ -2546,11 +2557,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 240,
-    "fully_titled_from_archived_public_feed": 185,
+    "total_cataloged_editorial_publications": 241,
+    "fully_titled_from_archived_public_feed": 186,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-07",
-  "coverage": "240 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "241 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
