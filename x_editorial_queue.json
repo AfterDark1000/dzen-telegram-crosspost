@@ -271,8 +271,12 @@
       "id": "gpt-6-cyber-firefox-81-vulnerabilities-20261105",
       "dzen_title": "OpenAI выпустила GPT-6 Cyber: ИИ нашёл 81 опасную уязвимость Firefox",
       "x_text": "У Firefox появился незапланированный ревизор: GPT-6 Cyber нашла 81 серьёзную дыру. Mozilla уже выпускает исправления. В тесте OpenAI новая модель справилась с 48,5% задач против 32,1% у прежней. В обычный ChatGPT её не пустили: доступ только проверенным специалистам.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6aed5c60f69605124a58feb6",
+      "dzen_url": "https://dzen.ru/a/au1cYPaWBRJKWP62",
+      "buffer_post_id": "6aeeecf9d6bbae6fa1781c5b",
+      "with_image": false
     },
     {
       "id": "grimes-gods-dont-give-gifts-ai-film-20261105",
