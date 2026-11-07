@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6aef11f41163a041fcdccfe4",
+      "title": "Thinking Machines выпустила Inkling 2 Small: 594 млрд параметров и обещание открыть вес",
+      "dzen_url": "https://dzen.ru/a/au8R9BFjoEH83M_k",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-07T15:52:08+00:00",
+      "excerpt": "Thinking Machines выпустила Inkling 2 Small: 594 млрд параметров и обещание открыть веса Thinking Machines Lab 5 ноября представила Inkling 2 Small — нейросеть с 594 миллиардами параметров, из которых при обработке каждого токена задействуется около 17 миллиардов. Модель уже доступна на платформе Tinker. Название Small здесь чисто для вида. Модель построена по архитектуре Mixture-of-Experts («смесь экспертов»): для к"
+    },
+    {
       "dzen_id": "6aef11284e9678290424cc6b",
       "title": "Google выпустила Gemini Omni 1.2 Flash: 15 секунд видео и правки в переписке",
       "dzen_url": "https://dzen.ru/a/au8RKE6WeCkEJMxr",
@@ -2568,11 +2579,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 242,
-    "fully_titled_from_archived_public_feed": 187,
+    "total_cataloged_editorial_publications": 243,
+    "fully_titled_from_archived_public_feed": 188,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-07",
-  "coverage": "242 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "243 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
