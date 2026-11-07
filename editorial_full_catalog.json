@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6aef13b598b91805093c855f",
+      "title": "Meta добавила в Muse конструктор мини-приложений: достаточно описать задачу",
+      "dzen_url": "https://dzen.ru/a/au8TtZi5GAUJPIVf",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-07T16:57:00+00:00",
+      "excerpt": "Meta 6 ноября запустила Spaces — конструктор интерактивных пространств внутри ИИ-агента Muse. Пользователь описывает нужный инструмент обычными словами, и агент собирает его прямо в приложении. Так можно сделать планировщик поездки, трекер заказов, семейный органайзер или небольшую игру. Созданное пространство сохраняется в Muse. Его можно открыть позже, продолжить работу или изменить с помощью новых сообщений. Напри"
+    },
+    {
       "dzen_id": "6aef11f41163a041fcdccfe4",
       "title": "Thinking Machines выпустила Inkling 2 Small: 594 млрд параметров и обещание открыть вес",
       "dzen_url": "https://dzen.ru/a/au8R9BFjoEH83M_k",
@@ -2579,11 +2590,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 243,
-    "fully_titled_from_archived_public_feed": 188,
+    "total_cataloged_editorial_publications": 244,
+    "fully_titled_from_archived_public_feed": 189,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-07",
-  "coverage": "243 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "244 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
