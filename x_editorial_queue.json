@@ -558,6 +558,13 @@
       "x_text": "@GoogleDeepMind выпустила Omni 1.2 Flash: видео до 15 секунд, а фон, свет и предметы можно менять прямо в переписке. Генерация 720p через API — $0,07 за секунду, на 30% дешевле. В @GeminiApp доступ к новинке пока развёртывают для подписчиков Ultra.",
       "status": "approved",
       "include_dzen_link": false
+    },
+    {
+      "id": "thinking-machines-inkling-2-small-20261105",
+      "dzen_title": "Thinking Machines выпустила Inkling 2 Small: 594 млрд параметров и обещание открыть веса",
+      "x_text": "@thinkymachines выпустила Inkling 2 Small: 594 млрд параметров, 17 млрд активны при обработке токена. Модель принимает изображения и пишет код. Пока доступна через @tinkerapi; веса под Apache 2.0 обещают на следующей неделе после проверки безопасности. Вот такой «Small».",
+      "status": "approved",
+      "include_dzen_link": false
     }
   ]
 }
