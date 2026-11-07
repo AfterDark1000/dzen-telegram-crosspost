@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6aed5c60f69605124a58feb6",
+      "title": "OpenAI выпустила GPT-6 Cyber: ИИ нашёл 81 опасную уязвимость Firefox",
+      "dzen_url": "https://dzen.ru/a/au1cYPaWBRJKWP62",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-07T08:30:39+00:00",
+      "excerpt": "OpenAI 5 ноября выпустила GPT-6 Cyber — специализированную нейросеть для поиска уязвимостей, проверки способов их эксплуатации и подготовки исправлений. Во время исследования браузера Firefox модель обнаружила..."
+    },
+    {
       "dzen_id": "6aed53785d6def07806b2a87",
       "title": "Сэм Альтман стал Ram Altman после спора об оперативной памяти",
       "dzen_url": "https://dzen.ru/a/au1TeF1t7weAayqH",
@@ -2513,11 +2524,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 237,
-    "fully_titled_from_archived_public_feed": 182,
+    "total_cataloged_editorial_publications": 238,
+    "fully_titled_from_archived_public_feed": 183,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-07",
-  "coverage": "237 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "238 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }

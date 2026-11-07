@@ -3,6 +3,17 @@
   "scope": "public Dzen feed + prepared Instagram covers; not private Dzen schedule",
   "entries": [
     {
+      "key": "dzen:6aed5c60f69605124a58feb6",
+      "dzen_id": "6aed5c60f69605124a58feb6",
+      "title": "OpenAI выпустила GPT-6 Cyber: ИИ нашёл 81 опасную уязвимость Firefox",
+      "title_normalized": "openai выпустила gpt 6 cyber ии нашёл 81 опасную уязвимость firefox",
+      "status": "published",
+      "dzen_url": "https://dzen.ru/a/au1cYPaWBRJKWP62",
+      "published_at_utc": "2026-11-07T08:30:39+00:00",
+      "first_recorded_at_utc": "2026-11-07T09:18:14+00:00",
+      "excerpt": "OpenAI 5 ноября выпустила GPT-6 Cyber — специализированную нейросеть для поиска уязвимостей, проверки способов их эксплуатации и подготовки исправлений. Во время исследования браузера Firefox модель обнаружила..."
+    },
+    {
       "key": "dzen:6aed53785d6def07806b2a87",
       "dzen_id": "6aed53785d6def07806b2a87",
       "title": "Сэм Альтман стал Ram Altman после спора об оперативной памяти",
@@ -2116,6 +2127,6 @@
       "excerpt": "GitHub объявил о полноценном запуске AI Scan — инструмента, который проверяет изменения программного кода на потенциальные уязвимости. В отличие от традиционного анализатора CodeQL, новая система охватывает дополнительные языки и технологии, включая PHP, Bash, Terraform и Dockerfile. Когда разработчик предлагает изменения в проекте, AI Scan может автоматически проверить их, объяснить обнаруженную проблему и предложит"
     }
   ],
-  "updated_at_utc": "2026-11-07T07:18:05+00:00",
+  "updated_at_utc": "2026-11-07T09:18:14+00:00",
   "legacy_seen_ids_count": 238
 }
