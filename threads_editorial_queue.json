@@ -185,8 +185,11 @@
       "id": "australian-universities-chatgpt-edu-20261105",
       "dzen_title": "Четыре университета Австралии внедряют ИИ OpenAI: от ChatGPT Edu до робота-родителя",
       "threads_text": "В АВСТРАЛИИ ChatGPT подключают к университетам.\n\nВ UNSW доступ планируют дать более 80 тысячам студентов и сотрудников; в La Trobe его уже получили 3500 работников.\n\nБудущие парамедики тренируются на клинических сценариях от ИИ, а будущие учителя — на роботе Fletch, который изображает недовольного родителя.\n\nВ опросе по заказу OpenAI 28% из 1018 студентов сообщили, что уже создавали ИИ-агента или помощника.\n\nРобот первым делом научился жаловаться на оценки.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6aedadeb05fe010947b54163",
+      "dzen_url": "https://dzen.ru/a/au2t6wX-AQlHtUFj",
+      "threads_post_id": "18357837877168357"
     },
     {
       "id": "aws-continuum-code-vulnerabilities-20261023",
