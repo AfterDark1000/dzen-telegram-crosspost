@@ -329,8 +329,12 @@
       "id": "meta-muse-realtime-voice-avatar-20261105",
       "dzen_title": "Meta дала Muse голос и мимику: ИИ-агента теперь можно перебивать",
       "x_text": "Meta оживила Muse: агент разговаривает голосом, меняет мимику, жестикулирует и терпит перебивания. На выбор сотни голосов, включая пиратский. Во время беседы, по словам Meta, может выполнять поручения. Пока развёртывают в США на телефонах, в вебе и на Mac.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6aed60e13937a639907b29a1",
+      "dzen_url": "https://dzen.ru/a/au1g4Tk3pjmQeymh",
+      "buffer_post_id": "6aef08fb229bf05daf464477",
+      "with_image": true
     },
     {
       "id": "meta-muse-spaces-20261106",
