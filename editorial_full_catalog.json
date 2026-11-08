@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6aef17a08fe21c4a3f2194b5",
+      "title": "Epic Games поручает ИИ писать код игры с Marvel и Star Wars",
+      "dzen_url": "https://dzen.ru/a/au8XoI_iHEo_IZS1",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-08T07:03:09+00:00",
+      "excerpt": "Epic Games отложила совместную игру с Disney и поручила команде перейти на разработку с приоритетным использованием ИИ. Об этом 12 октября сообщил Bloomberg со ссылкой на людей, знакомых с проектом, и внутреннее сообщение руководителя. По данным издания, речь идёт о шутере с персонажами Marvel и Star Wars. Разработчикам велели использовать инструменты вроде Claude от Anthropic для написания кода, а графику генерирова"
+    },
+    {
       "dzen_id": "6aef173f8c4f2d1ca599743b",
       "title": "NVIDIA показала ИИ, который продолжает виртуальный мир после движения робота",
       "dzen_url": "https://dzen.ru/a/au8XP4xPLRylmXQ7",
@@ -2656,11 +2667,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 250,
-    "fully_titled_from_archived_public_feed": 195,
+    "total_cataloged_editorial_publications": 251,
+    "fully_titled_from_archived_public_feed": 196,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-08",
-  "coverage": "250 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "251 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
