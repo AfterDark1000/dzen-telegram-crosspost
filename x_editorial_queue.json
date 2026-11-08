@@ -166,8 +166,12 @@
       "id": "cosmos3-nano-interactive-worlds-20261105",
       "dzen_title": "NVIDIA показала ИИ, который продолжает виртуальный мир после движения робота",
       "x_text": "У NVIDIA четыре модели Cosmos 3 Nano для виртуальных испытаний: одна продолжает сцену после движения двух рук робота, другие генерируют дорожные виды с камер и LiDAR или видео из физсимулятора. Веса открыты с 20 октября; 5 ноября вышел подробный разбор.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6aef173f8c4f2d1ca599743b",
+      "dzen_url": "https://dzen.ru/a/au8XP4xPLRylmXQ7",
+      "buffer_post_id": "6af0143fd6bbae6fa1cef963",
+      "with_image": false
     },
     {
       "id": "crowdstrike-ai-kill-switch-20261103",
