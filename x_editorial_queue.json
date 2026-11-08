@@ -27,8 +27,12 @@
       "id": "ai-ceo-lawyer-impersonation-fraud-129m-20261105",
       "dzen_title": "Фальшивые директора и юристы: троих обвинили в ИИ-афере на $129 млн",
       "x_text": "«Директор» звонит по секретной сделке. Потом «юрист» объясняет, куда перевести деньги. Голос начальника подделан с помощью ИИ.\n\nПо версии прокуратуры США, так у компаний похитили более $129 млн. Троим предъявлены обвинения. Вину ещё предстоит доказать в суде.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6af01aeb85e02828a2078303",
+      "dzen_url": "https://dzen.ru/a/avAa64XgKCiiB4MD",
+      "buffer_post_id": "6af04c75004e4879a7ad4a1b",
+      "with_image": false
     },
     {
       "id": "ai-stock-selloff-intel-alphabet-nasdaq-20261030",
