@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6af01a4a3bd0ac498feefc51",
+      "title": "MyHeritage выпустила ИИ-генеалога: он ищет предков и проверяет архивы",
+      "dzen_url": "https://dzen.ru/a/avAaSjvQrEmP7vxR",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-08T09:03:15+00:00",
+      "excerpt": "MyHeritage 4 ноября запустила GAIA — ИИ-агента для исследования семейной истории. Пользователь спрашивает, например, что известно о его прадеде, а система составляет план поиска, находит исторические документы, сопоставляет сведения и показывает источники своих выводов. Агент работает с архивными базами MyHeritage и открытыми источниками в интернете. Он ищет записи о рождении, браке и смерти, переписи населения, мигр"
+    },
+    {
       "dzen_id": "6aef28a98c4f2d1ca5b50351",
       "title": "Маск: роботы будут впятеро продуктивнее людей, ИИ уйдёт в космос, а доходы вырастут",
       "dzen_url": "https://dzen.ru/a/au8oqYxPLRyltQNR",
@@ -2678,11 +2689,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 252,
-    "fully_titled_from_archived_public_feed": 197,
+    "total_cataloged_editorial_publications": 253,
+    "fully_titled_from_archived_public_feed": 198,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-08",
-  "coverage": "252 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "253 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
