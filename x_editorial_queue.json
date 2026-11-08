@@ -335,8 +335,12 @@
       "id": "grok-api-output-watermarking-20261107",
       "dzen_title": "Grok начал вшивать невидимые метки в ответы через API",
       "x_text": "У @SpaceXAI с 7 ноября невидимые метки в ответах семи моделей Grok через API. Они меняют выбор токенов, а не добавляют символы. Админы могут отключить маркировку для части моделей. Обнаружение статистическое: стопроцентной гарантии нет.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6af01deac2ff502188f8d4e9",
+      "dzen_url": "https://dzen.ru/a/avAd6sL_UCGI-NTp",
+      "buffer_post_id": "6af076a5004e4879a7bbca96",
+      "with_image": true
     },
     {
       "id": "grok-bot-data-bot-analytics-70-hours-20261102",
