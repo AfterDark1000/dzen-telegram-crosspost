@@ -404,8 +404,12 @@
       "id": "musk-baron-robots-orbital-ai-20261106",
       "dzen_title": "Маск: роботы будут впятеро продуктивнее людей, ИИ уйдёт в космос, а доходы вырастут",
       "x_text": "@elonmusk за один разговор расписал будущее: гуманоиды @Tesla пашут без выходных, @SpaceX отправляет ИИ-серверы на орбиту, а пропускная способность Starlink вырастет в 100 раз. И людям обещан высокий доход. Осталось всё это построить. 🚀",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6aef28a98c4f2d1ca5b50351",
+      "dzen_url": "https://dzen.ru/a/au8oqYxPLRyltQNR",
+      "buffer_post_id": "6af030509214322f683eaf0e",
+      "with_image": false
     },
     {
       "id": "myheritage-gaia-genealogy-20261104",
