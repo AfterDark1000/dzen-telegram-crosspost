@@ -269,8 +269,11 @@
       "id": "censys-artex-exposed-servers-20261105",
       "dzen_title": "Censys нашла 1465 серверов с ИИ-инструментом ARTEX. Некоторые раскрыли и файлы операторов",
       "threads_text": "ИИ-инструмент ARTEX помогает искать УЯЗВИМОСТИ. А исследователи Censys нашли 32 сервера с ARTEX, где наружу торчали папки с инструментами взлома и файлами операторов.\n\nВ целом обнаружили 1465 серверов с открытой консолью. Среди них могут быть легальные тестировщики; одинаковые конфигурации заметно раздувают счётчик.\n\nИИ прокачали, папки оставили нараспашку. 📂",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6aef14f28c4f2d1ca595b520",
+      "dzen_url": "https://dzen.ru/a/au8U8oxPLRyllbUg",
+      "threads_post_id": "18020936012949307"
     },
     {
       "id": "cert-in-crafty-falcon-ai-attacks-20261104",
