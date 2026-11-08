@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6af01aeb85e02828a2078303",
+      "title": "Фальшивые директора и юристы: троих обвинили в ИИ-афере на $129 млн",
+      "dzen_url": "https://dzen.ru/a/avAa64XgKCiiB4MD",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-08T10:01:33+00:00",
+      "excerpt": "Прокуратура Южного округа Нью-Йорка 5 ноября сообщила об обвинениях против трёх человек по делу о международном мошенничестве с использованием искусственного интеллекта. По версии следствия, с 2024 по 2026 год преступная группа похитила у компаний по всему миру более 129 миллионов долларов, подделывая голоса и изображения руководителей и юристов. Схема начиналась с письма от имени генерального директора. Сотруднику п"
+    },
+    {
       "dzen_id": "6af01a4a3bd0ac498feefc51",
       "title": "MyHeritage выпустила ИИ-генеалога: он ищет предков и проверяет архивы",
       "dzen_url": "https://dzen.ru/a/avAaSjvQrEmP7vxR",
@@ -2689,11 +2700,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 253,
-    "fully_titled_from_archived_public_feed": 198,
+    "total_cataloged_editorial_publications": 254,
+    "fully_titled_from_archived_public_feed": 199,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-08",
-  "coverage": "253 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "254 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
