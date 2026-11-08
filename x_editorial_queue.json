@@ -312,8 +312,12 @@
       "id": "grimes-gods-dont-give-gifts-ai-film-20261105",
       "dzen_title": "Граймс появится в ИИ-фильме, который выйдет в кино 4 декабря",
       "x_text": "У @Grimezsz теперь есть киногероиня с её внешностью: певица сама записала реплики, а изображение сделали с ИИ. Gods Don’t Give Gifts от @Gossip_Goblin выходит в кинотеатрах США 4 декабря. Звезда настоящая, тело цифровое.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6aef16c762f9883e3871eb60",
+      "dzen_url": "https://dzen.ru/a/au8Wx2L5iD44cetg",
+      "buffer_post_id": "6aeff81851492b796e17d1fc",
+      "with_image": false
     },
     {
       "id": "grok-api-output-watermarking-20261107",
