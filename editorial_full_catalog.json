@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6af01c042cf2b509a489afe0",
+      "title": "Хакеры взломали OpenAI с помощью Claude. Теперь они её партнёры",
+      "dzen_url": "https://dzen.ru/a/avAcBCzytQmkia_g",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-08T11:02:56+00:00",
+      "excerpt": "OpenAI 6 ноября объявила о партнёрстве с Hacktron — командой исследователей, которая летом с помощью нейросети Claude проникла в её системы и получила доступ к аккаунтам сотрудников. Теперь эти же специалисты будут искать уязвимости вместе с инженерами компании. 25 июля исследователи использовали цепочку из двух уязвимостей. Первая находилась в обработке изображений на форуме OpenAI, работавшем на платформе Discourse"
+    },
+    {
       "dzen_id": "6af01aeb85e02828a2078303",
       "title": "Фальшивые директора и юристы: троих обвинили в ИИ-афере на $129 млн",
       "dzen_url": "https://dzen.ru/a/avAa64XgKCiiB4MD",
@@ -2700,11 +2711,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 254,
-    "fully_titled_from_archived_public_feed": 199,
+    "total_cataloged_editorial_publications": 255,
+    "fully_titled_from_archived_public_feed": 200,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-08",
-  "coverage": "254 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "255 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
