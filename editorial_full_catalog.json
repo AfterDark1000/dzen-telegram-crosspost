@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6af01deac2ff502188f8d4e9",
+      "title": "Grok начал вшивать невидимые метки в ответы через API",
+      "dzen_url": "https://dzen.ru/a/avAd6sL_UCGI-NTp",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-08T13:03:17+00:00",
+      "excerpt": "С 7 ноября Grok начал маркировать текстовые ответы семи своих моделей через API. Метка незаметна для читателя: никаких специальных символов в тексте не появляется. Разработчик Grok, компания SpaceXSI (ранее xAI), объясняет, что маркировка создаётся непосредственно во время генерации. Нейросеть немного изменяет выбор токенов — фрагментов текста, из которых складывается ответ. По этим статистическим особенностям поздне"
+    },
+    {
       "dzen_id": "6af01c81c2ff502188f6ce62",
       "title": "ChatGPT и Codex посадят на один лимит. OpenAI меняет правила подписки с декабря",
       "dzen_url": "https://dzen.ru/a/avAcgcL_UCGI9s5i",
@@ -2722,11 +2733,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 256,
-    "fully_titled_from_archived_public_feed": 201,
+    "total_cataloged_editorial_publications": 257,
+    "fully_titled_from_archived_public_feed": 202,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-08",
-  "coverage": "256 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "257 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
