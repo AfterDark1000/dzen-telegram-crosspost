@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6aef16f385e02828a2d93ed0",
+      "title": "ИИ использовали при создании более 80% самых популярных игр Roblox",
+      "dzen_url": "https://dzen.ru/a/au8W84XgKCii2T7Q",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-08T05:03:19+00:00",
+      "excerpt": "Разработчики более 80 из ста самых популярных игр Roblox использовали искусственный интеллект. Компания сообщила об этом 29 октября в отчёте за третий квартал 2026 года. Игры ранжировали по суммарному времени, проведённому в них пользователями, а применение ИИ оценивали за последний месяц. Нейросети помогают авторам писать код, создавать графику и трёхмерные объекты. В Roblox Studio есть встроенный ИИ-помощник, а чер"
+    },
+    {
       "dzen_id": "6aef16c762f9883e3871eb60",
       "title": "Граймс появится в ИИ-фильме, который выйдет в кино 4 декабря",
       "dzen_url": "https://dzen.ru/a/au8Wx2L5iD44cetg",
@@ -2634,11 +2645,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 248,
-    "fully_titled_from_archived_public_feed": 193,
+    "total_cataloged_editorial_publications": 249,
+    "fully_titled_from_archived_public_feed": 194,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-08",
-  "coverage": "248 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "249 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
