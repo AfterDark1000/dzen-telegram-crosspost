@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6af01c81c2ff502188f6ce62",
+      "title": "ChatGPT и Codex посадят на один лимит. OpenAI меняет правила подписки с декабря",
+      "dzen_url": "https://dzen.ru/a/avAcgcL_UCGI9s5i",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-08T12:00:53+00:00",
+      "excerpt": "OpenAI с декабря 2026 года объединит лимиты использования ChatGPT и Codex для подписчиков Plus, Pro и Business. Сложные задачи в чате и работа программирующего ИИ-агента начнут расходовать общий ресурс. Часть объединения уже действует: ChatGPT Work и Codex используют одну квоту. В декабре к ним присоединится обычный ChatGPT. При этом разговоры в режиме Instant общий токенный лимит расходовать не будут. Расход станут"
+    },
+    {
       "dzen_id": "6af01c042cf2b509a489afe0",
       "title": "Хакеры взломали OpenAI с помощью Claude. Теперь они её партнёры",
       "dzen_url": "https://dzen.ru/a/avAcBCzytQmkia_g",
@@ -2711,11 +2722,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 255,
-    "fully_titled_from_archived_public_feed": 200,
+    "total_cataloged_editorial_publications": 256,
+    "fully_titled_from_archived_public_feed": 201,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-08",
-  "coverage": "255 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "256 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
