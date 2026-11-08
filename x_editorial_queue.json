@@ -415,8 +415,12 @@
       "id": "myheritage-gaia-genealogy-20261104",
       "dzen_title": "MyHeritage выпустила ИИ-генеалога: он ищет предков и проверяет архивы",
       "x_text": "«Найди моего прадеда» — теперь запрос к ИИ-агенту. @MyHeritage запустила GAIA: ищет архивные записи, сверяет противоречия и показывает источники. Находки добавляются в семейное дерево только с согласия владельца. Пока сервис работает по-английски.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6af01a4a3bd0ac498feefc51",
+      "dzen_url": "https://dzen.ru/a/avAaSjvQrEmP7vxR",
+      "buffer_post_id": "6af03ec5d6bbae6fa1db808b",
+      "with_image": true
     },
     {
       "id": "openai-altman-adipec-scientists-office-work-20261102",
