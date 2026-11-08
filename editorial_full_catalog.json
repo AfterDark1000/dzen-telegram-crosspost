@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6aef28a98c4f2d1ca5b50351",
+      "title": "Маск: роботы будут впятеро продуктивнее людей, ИИ уйдёт в космос, а доходы вырастут",
+      "dzen_url": "https://dzen.ru/a/au8oqYxPLRyltQNR",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-08T08:01:44+00:00",
+      "excerpt": "Илон Маск 6 ноября рассказал, каким видит будущее искусственного интеллекта: роботы-гуманоиды будут производить за неделю в пять раз больше человека, вычислительные центры переедут на орбиту, а товары и медицинская помощь станут доступны практически каждому. Эти прогнозы прозвучали на Baron Investment Conference в Нью-Йорке, где Маск по видеосвязи беседовал с инвестором Роном Бароном. За час разговора предприниматель"
+    },
+    {
       "dzen_id": "6aef17a08fe21c4a3f2194b5",
       "title": "Epic Games поручает ИИ писать код игры с Marvel и Star Wars",
       "dzen_url": "https://dzen.ru/a/au8XoI_iHEo_IZS1",
@@ -2667,11 +2678,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 251,
-    "fully_titled_from_archived_public_feed": 196,
+    "total_cataloged_editorial_publications": 252,
+    "fully_titled_from_archived_public_feed": 197,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-08",
-  "coverage": "251 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "252 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
