@@ -525,8 +525,12 @@
       "id": "openai-hacktron-security-partnership-20261106",
       "dzen_title": "Хакеры взломали OpenAI с помощью Claude. Теперь они её партнёры",
       "x_text": "@HacktronAI с помощью @claudeai получила доступ к аккаунтам сотрудников @OpenAI и через Codex доказала доступ к внутреннему репозиторию. А 6 ноября OpenAI пригласила команду вместе искать уязвимости на стыке своих систем со сторонними сервисами. 🔐",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6af01c042cf2b509a489afe0",
+      "dzen_url": "https://dzen.ru/a/avAcBCzytQmkia_g",
+      "buffer_post_id": "6af05a7e229bf05dafa950f9",
+      "with_image": true
     },
     {
       "id": "openai-images-2-6-gif-20261104",
