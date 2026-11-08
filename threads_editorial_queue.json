@@ -559,8 +559,11 @@
       "id": "epic-disney-marvel-star-wars-ai-first-20261012",
       "dzen_title": "Epic Games поручает ИИ писать код игры с Marvel и Star Wars",
       "threads_text": "Epic переводит разработку игры Disney на ИИ. По данным Bloomberg от 12 октября, команде велели использовать Claude и отказаться от РУЧНОГО КОДА. Речь о шутере с героями Marvel и Star Wars.\n\nТим Суини подтвердил масштабную перестройку Epic ради ускорения разработки с ИИ. Сам проект отложили.\n\nДа пребудет с ними хотя бы дедлайн. 🌌",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6aef17a08fe21c4a3f2194b5",
+      "dzen_url": "https://dzen.ru/a/au8XoI_iHEo_IZS1",
+      "threads_post_id": "18039727370909220"
     },
     {
       "id": "epoch-ai-glm53-firefox-patch-gap-20261029",
