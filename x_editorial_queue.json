@@ -596,8 +596,12 @@
       "id": "roblox-top-100-games-ai-20261029",
       "dzen_title": "ИИ использовали при создании более 80% самых популярных игр Roblox",
       "x_text": "ИИ уже в хитах Roblox: при создании более 80 из 100 самых популярных игр использовали нейросети. А Break and Steal an Egg и Huss Valley, почти полностью сделанные с ИИ, вошли в топ-20 по числу одновременных игроков. 🎮",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6aef16f385e02828a2d93ed0",
+      "dzen_url": "https://dzen.ru/a/au8W84XgKCii2T7Q",
+      "buffer_post_id": "6af006259214322f6832fda5",
+      "with_image": true
     },
     {
       "id": "sam-altman-ram-altman-dram-20261104",
