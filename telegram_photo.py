@@ -13,6 +13,18 @@ import urllib.request
 
 from PIL import Image, ImageOps, UnidentifiedImageError
 
+class PhotoPreparationError(RuntimeError):
+    """Photo was not sent: local preparation/download failed."""
+
+
+class TelegramUploadRejected(RuntimeError):
+    """Telegram explicitly rejected the upload (safe to use text fallback)."""
+
+
+class TelegramUploadUncertain(RuntimeError):
+    """Upload request may have reached Telegram; never send again automatically."""
+
+
 MAX_DOWNLOAD_BYTES = 20 * 1024 * 1024
 MAX_TELEGRAM_BYTES = 9 * 1024 * 1024
 Image.MAX_IMAGE_PIXELS = 30_000_000
@@ -46,7 +58,12 @@ def download_photo(url):
 
 
 def send_photo_upload(token, chat_id, caption, url):
-    photo = download_photo(url)
+    try:
+        photo = download_photo(url)
+    except Exception as exc:
+        raise PhotoPreparationError(
+            "Cannot prepare photo before Telegram request: " + type(exc).__name__
+        ) from exc
     boundary = "tgphoto-" + uuid.uuid4().hex
     parts = []
     for name, value in (("chat_id", chat_id), ("caption", caption), ("parse_mode", "HTML")):
@@ -69,11 +86,20 @@ def send_photo_upload(token, chat_id, caption, url):
         with urllib.request.urlopen(request, timeout=65) as response:
             answer = json.load(response)
     except urllib.error.HTTPError as exc:
-        try:
-            description = json.loads(exc.read().decode("utf-8")).get("description", "")
-        except (ValueError, UnicodeError):
-            description = ""
-        raise RuntimeError(f"Telegram multipart upload HTTP {exc.code}: {description[:250]}") from None
-    if not answer.get("ok"):
-        raise RuntimeError("Telegram did not confirm multipart photo upload")
+        # 400 / 413 / 422 are explicit rejections, not an ambiguous timeout.
+        # 429 and 5xx can be received after Telegram accepted the request:
+        # never risk a duplicate fallback on those outcomes.
+        if exc.code in (400, 413, 422):
+            raise TelegramUploadRejected(
+                f"Telegram explicitly rejected multipart photo: HTTP {exc.code}"
+            ) from None
+        raise TelegramUploadUncertain(
+            f"Telegram multipart outcome unknown: HTTP {exc.code}"
+        ) from None
+    except Exception as exc:
+        raise TelegramUploadUncertain(
+            "Telegram multipart outcome unknown: " + type(exc).__name__
+        ) from exc
+    if not isinstance(answer, dict) or not answer.get("ok"):
+        raise TelegramUploadUncertain("Telegram multipart response not confirmed")
     return answer
