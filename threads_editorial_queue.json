@@ -763,8 +763,11 @@
       "id": "grok-api-output-watermarking-20261107",
       "dzen_title": "Grok начал вшивать невидимые метки в ответы через API",
       "threads_text": "GROK начал оставлять невидимую метку в текстах, которые выдаёт через API.\n\nС 7 ноября маркировка предусмотрена для семи моделей. Никаких скрытых букв: ИИ слегка меняет выбор фрагментов текста. Проверка потом статистическая и может дать неопределённый результат.\n\nАдминистратор команды может отключить метку для разрешённых моделей. Но некоторые отключать нельзя.\n\nГрафологам пора учить статистику. 😏",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6af01deac2ff502188f8d4e9",
+      "dzen_url": "https://dzen.ru/a/avAd6sL_UCGI-NTp",
+      "threads_post_id": "18128877331935768"
     },
     {
       "id": "grok-bot-data-bot-analytics-70-hours-20261102",
@@ -1210,8 +1213,11 @@
       "id": "openai-chatgpt-codex-shared-limits-20261107",
       "dzen_title": "ChatGPT и Codex посадят на один лимит. OpenAI меняет правила подписки с декабря",
       "threads_text": "С декабря ChatGPT и Codex посадят на ОДИН лимит. 🪙\n\nСейчас Work и Codex делят общий ресурс, а сложные диалоги в обычном ChatGPT учитываются отдельно. С декабря у Plus, Pro и Business появится общий токенный счётчик: мощная модель и долгая задача потратят больше.\n\nInstant этот лимит расходовать не будет. Сколько токенов включат в подписку, OpenAI пока не сказала.\n\nУ ИИ теперь семейный бюджет: программист и собеседник делят одну копилку. 🐷",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6af01c81c2ff502188f6ce62",
+      "dzen_url": "https://dzen.ru/a/avAcgcL_UCGI9s5i",
+      "threads_post_id": "17993395746111135"
     },
     {
       "id": "openai-chatgpt-signals-165-work-tasks-20261027",
