@@ -682,8 +682,11 @@
       "id": "google-elephant-goldfish-model-20261106",
       "dzen_title": "Google представила Elephant-Goldfish: ИИ-агенты проверяют друг друга перед написанием кода",
       "threads_text": "GOOGLE придумала «слона» и «золотых рыбок» для разработки программ. 🐘🐠\n\nСлон помнит требования и пишет технический план. Рыбки получают только готовый документ, не видят предыдущий разговор и ищут ошибки, прежде чем начнётся программирование.\n\n6 ноября вышла версия 0.1.1: добавили нового рецензента и экспериментальную поддержку Cursor, OpenCode и GitHub Copilot.\n\nУ золотой рыбки теперь официальная должность: душнила проекта.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6af1b1e598b918050983e33c",
+      "dzen_url": "https://dzen.ru/a/avGx5Zi5GAUJg-M8",
+      "threads_post_id": "18072565943603791"
     },
     {
       "id": "google-gemini-inline-file-editing-20261029",
