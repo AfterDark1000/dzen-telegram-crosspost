@@ -777,6 +777,13 @@
       "dzen_url": "https://dzen.ru/a/auq3GQqB4lxXYf--",
       "buffer_post_id": "6aeadc44e478396c27452050",
       "with_image": false
+    },
+    {
+      "id": "google-elephant-goldfish-model-20261106",
+      "dzen_title": "Google представила Elephant-Goldfish: ИИ-агенты проверяют друг друга перед написанием кода",
+      "x_text": "@GoogleOSS выпустила Elephant-Goldfish: «слон» помнит проект и пишет спецификацию, «рыбки» читают её с чистого листа и ищут ошибки до написания кода. В версии от 6 ноября — TRIZ-рецензент и экспериментальная поддержка Cursor, OpenCode и GitHub Copilot. 🐠",
+      "status": "approved",
+      "include_dzen_link": false
     }
   ]
 }
