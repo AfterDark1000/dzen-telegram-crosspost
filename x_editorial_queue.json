@@ -657,8 +657,12 @@
       "id": "seti-ai-agents-radio-telescope-20261030",
       "dzen_title": "ИИ отправили искать инопланетян. Теперь он сам управляет радиотелескопом",
       "x_text": "У @SETIInstitute ИИ-агенты уже рулят радиотелескопом: по текстовой команде двигают антенны и проверяют сигналы. @NVIDIAAI заявляет до 2,4 Тбит/с. Пока ловили пульсар, а не инопланетян. Идея найти чужой ИИ с помощью земного — занятная. 👽",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6af1462d67618b6b190e49e1",
+      "dzen_url": "https://dzen.ru/a/avFGLWdhi2sZDknh",
+      "buffer_post_id": "6af1579ecac9d7525f6d3aa1",
+      "with_image": false
     },
     {
       "id": "skyfall-sky-001-20261019",
