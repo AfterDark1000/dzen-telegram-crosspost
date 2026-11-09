@@ -14,6 +14,7 @@ import state_checkpoint as cp
 def fixture():
     return {
         "seen_articles.json": ["old-tg"],
+        "telegram_delivery_uncertain.json": [],
         "seen_vk_articles.json": ["old-vk"],
         "seen_instagram_articles.json": ["old-ig"],
         "seen_threads_articles.json": ["old-thread"],
@@ -96,11 +97,16 @@ class MergeTests(unittest.TestCase):
             "dzen_title": "A completely separate editor headline",
             "threads_text": "Approved after runner started.", "status": "approved"})
         remote["seen_articles.json"].append("new-editor-tg")
+        local["telegram_delivery_uncertain.json"].append("unknown-local")
+        remote["telegram_delivery_uncertain.json"].append("unknown-remote")
         remote["instagram_cover_inbox.json"]["covers"]["cover-key"] = {
             "title": "Example image", "file": "instagram_covers/abc-5.jpg"}
         local["instagram_cover_inbox.json"]["offset"] = 50
         merged = cp.merge_states(base, local, remote)
         self.assertEqual(merged["seen_articles.json"], ["new-editor-tg", "old-tg"])
+        self.assertEqual(merged["telegram_delivery_uncertain.json"],
+                         ["unknown-local", "unknown-remote"])
+        self.assertNotIn("unknown-local", merged["seen_articles.json"])
         self.assertIn("new-thread", merged["seen_threads_articles.json"])
         self.assertEqual(len(merged["threads_editorial_queue.json"]["items"]), 2)
         self.assertEqual(merged["instagram_cover_inbox.json"]["offset"], 50)
