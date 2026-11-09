@@ -20,7 +20,8 @@ ROOT = Path(__file__).resolve().parent
 CACHE = Path(os.getenv("RUNNER_TEMP", tempfile.gettempdir())) / "hpi-state"
 IDS = ("seen_articles.json", "seen_vk_articles.json",
        "seen_instagram_articles.json", "seen_threads_articles.json")
-FILES = IDS + ("instagram_pending_articles.json", "instagram_cover_inbox.json",
+TELEGRAM_UNCERTAIN = "telegram_delivery_uncertain.json"
+FILES = IDS + (TELEGRAM_UNCERTAIN, "instagram_pending_articles.json", "instagram_cover_inbox.json",
                "threads_editorial_queue.json", "x_editorial_queue.json",
                "editorial_archive.json", "editorial_full_catalog.json",
                "meta_token_refresh_state.json")
@@ -123,7 +124,10 @@ def checked_ids(states, filename):
 
 def merge_states(base, local, remote):
     states = (base, local, remote)
-    out = {name: checked_ids(states, name) for name in IDS}
+    # Delivery-uncertain IDs are *not* considered published. Keep their hold
+    # set monotonic across concurrent state checkpoints so no runner retries
+    # an unconfirmed Telegram request behind the editor's back.
+    out = {name: checked_ids(states, name) for name in IDS + (TELEGRAM_UNCERTAIN,)}
 
     name = "instagram_pending_articles.json"
     out[name] = sorted(
@@ -246,7 +250,7 @@ def conflict_recovery(base, local, remote, recovery, why):
     """Don't overwrite editorial edits: save *delivery evidence* and flag conflict."""
     merged = json.loads(json.dumps(remote))
     states = (base, local, remote)
-    for name in IDS:
+    for name in IDS + (TELEGRAM_UNCERTAIN,):
         merged[name] = checked_ids(states, name)
     local_delivered = {
         str(row["dzen_id"])
