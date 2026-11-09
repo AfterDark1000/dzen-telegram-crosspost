@@ -58,7 +58,8 @@ class TelegramDeliveryTests(unittest.TestCase):
             self.assertEqual(api.call_count, 1)
 
     def test_definite_photo_rejections_allow_one_text_fallback(self):
-        with patch.object(crosspost, "api_call", side_effect=[rejection(), {"ok":True}]) as api, \
+        with patch.dict(os.environ, {"TELEGRAM_BOT_TOKEN": "fake-test-token"}), \
+             patch.object(crosspost, "api_call", side_effect=[rejection(), {"ok":True}]) as api, \
              patch.object(crosspost, "send_photo_upload",
                           side_effect=telegram_photo.PhotoPreparationError("image download failed")):
             crosspost.send_article(article())
