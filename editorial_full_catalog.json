@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6af16ec76208361f4594b0c8",
+      "title": "В США центр проверки ИИ остался без руководителя",
+      "dzen_url": "https://dzen.ru/a/avFux2IINh9FlLDI",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-09T09:21:33+00:00",
+      "excerpt": "Американский Центр инноваций и стандартов сверхинтеллекта (CAISSI) остался без постоянного руководителя. Более того, его сотрудников недавно попросили неформально отчитываться перед одним из подразделений Белого дома. Об этом 8 ноября сообщило Associated Press, ссылаясь на двух бывших государственных чиновников, знакомых с ситуацией. CAISSI входит в состав Национального института стандартов и технологий США (NIST). Е"
+    },
+    {
       "dzen_id": "6af16d8aa7caeb1e926d8908",
       "title": "Голос Элвиса и песни Эминема: против Suno подали два новых иска",
       "dzen_url": "https://dzen.ru/a/avFtiqfK6x6SbYkI",
@@ -2755,11 +2766,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 259,
-    "fully_titled_from_archived_public_feed": 204,
+    "total_cataloged_editorial_publications": 260,
+    "fully_titled_from_archived_public_feed": 205,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-09",
-  "coverage": "259 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "260 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
