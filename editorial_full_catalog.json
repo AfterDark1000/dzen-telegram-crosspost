@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6af1462d67618b6b190e49e1",
+      "title": "ИИ отправили искать инопланетян. Теперь он сам управляет радиотелескопом",
+      "dzen_url": "https://dzen.ru/a/avFGLWdhi2sZDknh",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-09T05:16:41+00:00",
+      "excerpt": "SETI Institute и проект Breakthrough Listen подключили ИИ-агентов к радиотелескопам Allen Telescope Array в Северной Калифорнии. Теперь нейросети могут управлять антеннами, настраивать оборудование, отслеживать ошибки и обрабатывать поступающие радиосигналы. Исследователю достаточно сформулировать задачу на обычном языке. О работающей системе 30 октября рассказала NVIDIA. Её платформа Holoscan позволяет обрабатывать"
+    },
+    {
       "dzen_id": "6af01deac2ff502188f8d4e9",
       "title": "Grok начал вшивать невидимые метки в ответы через API",
       "dzen_url": "https://dzen.ru/a/avAd6sL_UCGI-NTp",
@@ -2733,11 +2744,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 257,
-    "fully_titled_from_archived_public_feed": 202,
+    "total_cataloged_editorial_publications": 258,
+    "fully_titled_from_archived_public_feed": 203,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
-  "generated_date": "2026-11-08",
-  "coverage": "257 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "generated_date": "2026-11-09",
+  "coverage": "258 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
