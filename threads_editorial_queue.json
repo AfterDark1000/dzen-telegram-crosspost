@@ -1265,8 +1265,11 @@
       "id": "nvidia-gr00t-2-robot-few-shot-learning-20261109",
       "dzen_title": "NVIDIA научила роботов новым трюкам всего за пять попыток!",
       "threads_text": "NVIDIA нашла ученика, которому хватает ПЯТИ ПОКАЗОВ.\n\nGR00T 2 учит роботов работать руками. В испытании на 50 задачах пять коротких демонстраций и получасовая донастройка дали среднюю успешность 95%.\n\nМодель учится по видео людей, а потом собирает игрушки и вставляет кабели. Код обещают открыть в декабре.\n\nФраза «я тебе уже пять раз показывал» теряет воспитательную силу. 🦾",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6af2f01dc39de244cb187726",
+      "dzen_url": "https://dzen.ru/a/avLwHcOd4kTLGHcm",
+      "threads_post_id": "18048222557832102"
     },
     {
       "id": "nvidia-huang-espionage-investigation-20261108",
