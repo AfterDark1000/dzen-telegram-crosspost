@@ -1823,6 +1823,13 @@
       "dzen_id": "6adb0b290e1ecf632f3637f2",
       "dzen_url": "https://dzen.ru/a/atsLKQ4ez2MvNjfy",
       "threads_post_id": "17986790595095235"
+    },
+    {
+      "id": "lg-k-exaone-25-free-api-20261109",
+      "dzen_title": "LG открыла бесплатный API K-EXAONE 2.5 для разработчиков",
+      "threads_text": "LG открыла БЕСПЛАТНЫЙ API своей модели K-EXAONE 2.5.\n\nМожно получить ключ и подключить нейросеть к собственному приложению. Она работает с текстом, кодом и задачами ИИ-агентов.\n\nВ тесте AutomationBench модель набрала 74,6 балла против 74,9 у DeepSeek V4.1 Flash. Правда, оценивала её сама LG.\n\nДоступ бесплатный, но ограничения на запросы есть. 🔑",
+      "status": "approved",
+      "include_dzen_link": false
     }
   ]
 }
