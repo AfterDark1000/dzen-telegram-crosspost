@@ -209,8 +209,11 @@
       "id": "asahi-linux-gpl-llm-code-laundering-20261107",
       "dzen_title": "Asahi Linux меняет лицензию из-за «отмывания» кода через ИИ",
       "threads_text": "ASAHI LINUX меняет лицензию из-за попыток «отмыть» код через ИИ.\n\nРазработчики утверждают, что сторонние проекты забирали их незавершённые функции, а иногда прогоняли код через LLM, чтобы скрыть происхождение.\n\nТеперь команда переходит с MIT на GPLv2+: распространять производные работы с закрытыми исходниками станет гораздо сложнее.\n\nНейросетевой химчистке объявили санитарный день. 🧼",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6af2e5bea8a0411d5776f24c",
+      "dzen_url": "https://dzen.ru/a/avLlvqigQR1XdvJM",
+      "threads_post_id": "17953740486349185"
     },
     {
       "id": "atria-dawn-open-weights-20261026",

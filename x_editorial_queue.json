@@ -85,8 +85,12 @@
       "id": "asahi-linux-gpl-llm-code-laundering-20261107",
       "dzen_title": "Asahi Linux меняет лицензию из-за «отмывания» кода через ИИ",
       "x_text": "@AsahiLinux объявила переход с MIT на GPLv2+. Команда утверждает, что сторонние разработчики забирали её код из рабочих веток и порой переписывали через LLM, скрывая происхождение. Обвиняемые не названы, независимого подтверждения нет.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6af2e5bea8a0411d5776f24c",
+      "dzen_url": "https://dzen.ru/a/avLlvqigQR1XdvJM",
+      "buffer_post_id": "6af327c03fb3e0f9eade15b8",
+      "with_image": false
     },
     {
       "id": "australian-universities-chatgpt-edu-20261105",
