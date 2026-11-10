@@ -49,8 +49,12 @@
       "id": "alex-stamos-ai-cybersecurity-dark-age-20261107",
       "dzen_title": "Алекс Стамос предупредил о «тёмной эпохе» кибербезопасности из-за ИИ",
       "x_text": "Алекс Стамос (@alexstamos) из @cognition предупреждает о «тёмной эпохе» кибербезопасности: ИИ удешевляет поиск уязвимостей и автоматизацию атак. Защитникам тоже нужны агенты — но с ограничениями, иначе такой охранник может заблокировать собственную компанию.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6af2bc5c728c7625b74dca19",
+      "dzen_url": "https://dzen.ru/a/avK8XHKMdiW3TcoZ",
+      "buffer_post_id": "6af2d38005af22d726176ac2",
+      "with_image": true
     },
     {
       "id": "anthropic-recursive-self-improvement-risk-20261102",
