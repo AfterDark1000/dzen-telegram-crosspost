@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6af2eeed80f8703a3a59a9bd",
+      "title": "«Ищите женщину»: глава NVIDIA оказался в центре шпионского скандала",
+      "dzen_url": "https://dzen.ru/a/avLu7YD4cDo6Wam9",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-10T15:03:40+00:00",
+      "excerpt": "Совет директоров NVIDIA 8 ноября объявил о независимом расследовании после сообщений о том, что глава компании Дженсен Хуанг мог стать целью иностранной разведки. Проверку проведёт специальный комитет независимых директоров с привлечением внешних юристов. Поводом стали публикации The New York Times и Financial Times о связях Хуанга с китайской предпринимательницей Алисой Хуанг. По данным журналистов, американские спе"
+    },
+    {
       "dzen_id": "6af2e5bea8a0411d5776f24c",
       "title": "Asahi Linux меняет лицензию из-за «отмывания» кода через ИИ",
       "dzen_url": "https://dzen.ru/a/avLlvqigQR1XdvJM",
@@ -2854,11 +2865,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 268,
-    "fully_titled_from_archived_public_feed": 213,
+    "total_cataloged_editorial_publications": 269,
+    "fully_titled_from_archived_public_feed": 214,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-10",
-  "coverage": "268 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "269 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
