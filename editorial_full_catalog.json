@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6af2e54afbd16748b0a9f91d",
+      "title": "Claude Code сливал email пользователей чужим сайтам!",
+      "dzen_url": "https://dzen.ru/a/avLlSvvRZ0iwqfkd",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-10T12:51:47+00:00",
+      "excerpt": "ИИ-помощник Claude Code иногда передавал электронную почту владельца сторонним сайтам без его разрешения. 5 ноября пользователь GitHub под ником taylor-edwards сообщил об этом в репозитории Anthropic. Адрес попадал в служебный HTTP-заголовок `User-Agent`, когда агент самостоятельно выполнял запросы к сайтам. Выяснилось, что Anthropic сама добавляла адрес электронной почты авторизованного пользователя в контекст нейро"
+    },
+    {
       "dzen_id": "6af2e47c08c95d6913a113a1",
       "title": "OpenMOSS представила MOSS-Live: ИИ разговаривает, пока выполняет задания",
       "dzen_url": "https://dzen.ru/a/avLkfAjJXWkToROh",
@@ -2832,11 +2843,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 266,
-    "fully_titled_from_archived_public_feed": 211,
+    "total_cataloged_editorial_publications": 267,
+    "fully_titled_from_archived_public_feed": 212,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-10",
-  "coverage": "266 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "267 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
