@@ -314,8 +314,12 @@
       "id": "disney-adobe-firefly-foundry-alliance-20261109",
       "dzen_title": "Микки-Мауса доверили нейросети: Disney расширяет союз с Adobe",
       "x_text": "@Disney и @Adobe заключили многолетний союз по ИИ. Firefly Foundry настраивают под персонажей и стиль Disney: в Imagineering уже превращают эскизы в концепт-арт парков. Дальше — инструменты для спецэффектов киностудии и ESPN. Модели — для внутренних команд.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6af2f0c819d7f91c244e3e0d",
+      "dzen_url": "https://dzen.ru/a/avLwyBnX-RwkTj4N",
+      "buffer_post_id": "6af3600694964d984f0b451f",
+      "with_image": false
     },
     {
       "id": "elon-musk-grok-bot-costs-limits-20261101",

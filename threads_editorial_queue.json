@@ -588,8 +588,11 @@
       "id": "disney-adobe-firefly-foundry-alliance-20261109",
       "dzen_title": "Микки-Мауса доверили нейросети: Disney расширяет союз с Adobe",
       "threads_text": "МИККИ-МАУС официально отправился в обучение ИИ. 🐭\n\nDisney и Adobe расширили сотрудничество: на Firefly Foundry настраивают закрытые модели под персонажей, локации и стиль Disney.\n\nВ Imagineering такая система уже превращает наброски в концепт-арт для парков. Дальше — спецэффекты киностудии и проекты ESPN.\n\nДаже нейросети придётся помнить, какие у Микки уши.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6af2f0c819d7f91c244e3e0d",
+      "dzen_url": "https://dzen.ru/a/avLwyBnX-RwkTj4N",
+      "threads_post_id": "18192744730408458"
     },
     {
       "id": "doubleai-maxwell-20261021",
