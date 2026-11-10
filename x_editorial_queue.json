@@ -863,6 +863,13 @@
       "dzen_url": "https://dzen.ru/a/auq3GQqB4lxXYf--",
       "buffer_post_id": "6aeadc44e478396c27452050",
       "with_image": false
+    },
+    {
+      "id": "nvidia-gr00t-2-robot-few-shot-learning-20261109",
+      "dzen_title": "NVIDIA научила роботов новым трюкам всего за пять попыток!",
+      "x_text": "@NVIDIARobotics представила GR00T 2 для роботов. В тесте на 50 новых задачах после одной демонстрации и донастройки — 71% успешных попыток; после пяти — 95%. Модель учится по видео людей, прогнозирует движения и управляет манипуляторами. Код обещают в декабре.",
+      "status": "approved",
+      "include_dzen_link": false
     }
   ]
 }
