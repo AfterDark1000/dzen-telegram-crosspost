@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6af2e5bea8a0411d5776f24c",
+      "title": "Asahi Linux меняет лицензию из-за «отмывания» кода через ИИ",
+      "dzen_url": "https://dzen.ru/a/avLlvqigQR1XdvJM",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-10T14:01:35+00:00",
+      "excerpt": "Разработчики Asahi Linux решили ужесточить условия использования своего кода после того, как сторонние проекты начали присваивать их наработки, скрывая заимствования с помощью нейросетей. 7 ноября команда объявила о начале перехода на лицензию GPLv2+. Asahi Linux занимается адаптацией Linux для компьютеров Apple с процессорами серии M. Значительную часть работы приходится выполнять практически с нуля: изучать устройс"
+    },
+    {
       "dzen_id": "6af2e54afbd16748b0a9f91d",
       "title": "Claude Code сливал email пользователей чужим сайтам!",
       "dzen_url": "https://dzen.ru/a/avLlSvvRZ0iwqfkd",
@@ -2843,11 +2854,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 267,
-    "fully_titled_from_archived_public_feed": 212,
+    "total_cataloged_editorial_publications": 268,
+    "fully_titled_from_archived_public_feed": 213,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-10",
-  "coverage": "267 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "268 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
