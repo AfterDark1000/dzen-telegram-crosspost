@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6af2bd280e259d5111896bfd",
+      "title": "Perplexity запустила Teammates: личные ИИ-агенты теперь работают командой",
+      "dzen_url": "https://dzen.ru/a/avK9KA4lnVERiWv9",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-10T08:52:16+00:00",
+      "excerpt": "Perplexity 4 ноября представила Teammates — систему персональных ИИ-агентов, которым можно поручить постоянную работу. Они следят за задачами, помнят предыдущие решения, взаимодействуют друг с другом и возвращаются к человеку, когда требуется проверка результата или новое указание. 6 ноября функция вошла в официальный журнал обновлений компании. Предположим, нужно регулярно следить за конкурентами. Пользователь созда"
+    },
+    {
       "dzen_id": "6af2bc5c728c7625b74dca19",
       "title": "Алекс Стамос предупредил о «тёмной эпохе» кибербезопасности из-за ИИ",
       "dzen_url": "https://dzen.ru/a/avK8XHKMdiW3TcoZ",
@@ -2799,11 +2810,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 263,
-    "fully_titled_from_archived_public_feed": 208,
+    "total_cataloged_editorial_publications": 264,
+    "fully_titled_from_archived_public_feed": 209,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-10",
-  "coverage": "263 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "264 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
