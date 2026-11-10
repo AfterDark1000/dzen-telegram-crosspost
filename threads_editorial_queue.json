@@ -387,8 +387,11 @@
       "id": "claude-code-email-user-agent-leak-20261105",
       "dzen_title": "Claude Code сливал email пользователей чужим сайтам!",
       "threads_text": "Claude Code РАСКРЫВАЛ email пользователей сторонним сайтам.\n\nКогда ИИ сам писал команду curl, он иногда вписывал почту владельца в User-Agent — как контакт для сайта. Адрес заранее добавляла в контекст сама Anthropic.\n\nЗащиту ввели с версии 2.1.317, но она перекрывает лишь часть способов передачи. Разработчики обещают убрать email из контекста.\n\nУслужливость дошла до раздачи чужих визиток. 📇",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6af2e54afbd16748b0a9f91d",
+      "dzen_url": "https://dzen.ru/a/avLlSvvRZ0iwqfkd",
+      "threads_post_id": "18659434714001836"
     },
     {
       "id": "claude-watercolor-robot-night-painting-20261106",
