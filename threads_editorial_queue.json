@@ -863,8 +863,11 @@
       "id": "google-tpu-8tx-8i-max-20261109",
       "dzen_title": "Google показала два новых TPU: один для секретов, другой вдвое мощнее",
       "threads_text": "Google собрала ДВА ЧИПА в один корпус — так появилась TPU 8i Max для ИИ-агентов с огромным контекстом. По сравнению с обычной TPU 8i здесь вдвое больше вычислений и пропускной способности памяти.\n\nА TPU 8tx создана для работы с конфиденциальными данными: аппаратная защита действует и во время вычислений.\n\nКажется, у ИИ-агентов вместо офисных столов скоро будут серверные стойки. 🗄️",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6af2ef52c39de244cb16e843",
+      "dzen_url": "https://dzen.ru/a/avLvUsOd4kTLFuhD",
+      "threads_post_id": "18111526484252676"
     },
     {
       "id": "gpt-6-cyber-firefox-81-vulnerabilities-20261105",
