@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6af2ef52c39de244cb16e843",
+      "title": "Google показала два новых TPU: один для секретов, другой вдвое мощнее",
+      "dzen_url": "https://dzen.ru/a/avLvUsOd4kTLFuhD",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-10T16:01:44+00:00",
+      "excerpt": "Google 9 ноября представила две новые системы для искусственного интеллекта — TPU 8tx и TPU 8i Max. Первая предназначена для работы с конфиденциальными данными, вторая объединяет два ИИ-чипа в одном корпусе и рассчитана на задачи, требующие особенно большой вычислительной мощности и памяти. TPU — специализированные ускорители Google, на которых обучают и запускают нейросети, включая Gemini. В новых системах компания"
+    },
+    {
       "dzen_id": "6af2eeed80f8703a3a59a9bd",
       "title": "«Ищите женщину»: глава NVIDIA оказался в центре шпионского скандала",
       "dzen_url": "https://dzen.ru/a/avLu7YD4cDo6Wam9",
@@ -2865,11 +2876,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 269,
-    "fully_titled_from_archived_public_feed": 214,
+    "total_cataloged_editorial_publications": 270,
+    "fully_titled_from_archived_public_feed": 215,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-10",
-  "coverage": "269 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "270 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
