@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6af214ff846805642772e2d3",
+      "title": "«Мама, это я! Срочно нужны деньги!» Как проверить знакомый голос, если его мог подделать ИИ",
+      "dzen_url": "https://dzen.ru/a/avIU_4RoBWQncuLT",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-10T06:40:14+00:00",
+      "excerpt": "— Мам, это я. Только не пугайся. Я попал в аварию. Мне срочно нужны деньги. Голос знакомый до мелочей: интонации сына, манера растягивать слова, даже привычная хрипотца. Следом — сумма, номер карты и просьба никому пока не звонить. «Потом всё объясню». Так может начинаться мошеннический звонок с поддельным голосом. Пока человек пытается понять, действительно ли с близким случилась беда, его уже подталкивают к перевод"
+    },
+    {
       "dzen_id": "6af1b1e598b918050983e33c",
       "title": "Google представила Elephant-Goldfish: ИИ-агенты проверяют друг друга перед написанием кода",
       "dzen_url": "https://dzen.ru/a/avGx5Zi5GAUJg-M8",
@@ -2777,11 +2788,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 261,
-    "fully_titled_from_archived_public_feed": 206,
+    "total_cataloged_editorial_publications": 262,
+    "fully_titled_from_archived_public_feed": 207,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
-  "generated_date": "2026-11-09",
-  "coverage": "261 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "generated_date": "2026-11-10",
+  "coverage": "262 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
