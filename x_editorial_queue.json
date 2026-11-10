@@ -816,6 +816,13 @@
       "dzen_url": "https://dzen.ru/a/auq3GQqB4lxXYf--",
       "buffer_post_id": "6aeadc44e478396c27452050",
       "with_image": false
+    },
+    {
+      "id": "moss-live-voice-multitasking-20261107",
+      "dzen_title": "OpenMOSS представила MOSS-Live: ИИ разговаривает, пока выполняет задания",
+      "x_text": "У @Open_MOSS голосовой ИИ теперь работает, пока болтает с вами.\n\nMOSS-Live ищет гостиницы, отвечает на вопросы, терпит перебивания и видит происходящее через камеру.\n\nВ собственном тесте разработчиков успешно выполнен 51% заданий с инструментами.",
+      "status": "approved",
+      "include_dzen_link": false
     }
   ]
 }
