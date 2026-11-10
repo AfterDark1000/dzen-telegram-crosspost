@@ -681,8 +681,12 @@
       "id": "perplexity-teammates-ai-agents-20261104",
       "dzen_title": "Perplexity запустила Teammates: личные ИИ-агенты теперь работают командой",
       "x_text": "@perplexity_ai запустила Teammates: ИИ-агентам можно поручить постоянную работу. Они помнят задачи, передают дела друг другу и могут писать коллегам в Slack. Пока только веб и Max за $200/мес. Должностные инструкции пишете вы — работники уже виртуальные.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6af2bd280e259d5111896bfd",
+      "dzen_url": "https://dzen.ru/a/avK9KA4lnVERiWv9",
+      "buffer_post_id": "6af2e16e69951ef15d5c69bd",
+      "with_image": false
     },
     {
       "id": "pika-h3-flex-fast-video-20261029",
