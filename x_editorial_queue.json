@@ -394,6 +394,13 @@
       "with_image": true
     },
     {
+      "id": "lg-k-exaone-25-free-api-20261109",
+      "dzen_title": "LG открыла бесплатный API K-EXAONE 2.5 для разработчиков",
+      "x_text": "LG AI Research бесплатно открыла API K-EXAONE 2.5. Модель работает с текстом, кодом и агентными задачами, API совместим с форматом OpenAI. В AutomationBench — 74,6 балла против 74,9 у DeepSeek V4.1 Flash. Оценка внутренняя, лимиты запросов есть.",
+      "status": "approved",
+      "include_dzen_link": false
+    },
+    {
       "id": "mattt-anyspeechrecognizer-anydecisionmodel-20261029",
       "dzen_title": "На Mac час записи расшифровали за 20–40 секунд!",
       "x_text": "На Mac Studio M4 Max Parakeet расшифровала час аудио за 20–40 секунд — в тесте разработчика Mattt.\n\nОн выпустил AnySpeechRecognizer для локальной расшифровки и разделения до 4 говорящих, а также AnyDecisionModel для решений с вероятностями. Это Swift-библиотеки, не приложение.",
@@ -809,13 +816,6 @@
       "dzen_url": "https://dzen.ru/a/auq3GQqB4lxXYf--",
       "buffer_post_id": "6aeadc44e478396c27452050",
       "with_image": false
-    },
-    {
-      "id": "lg-k-exaone-25-free-api-20261109",
-      "dzen_title": "LG открыла бесплатный API K-EXAONE 2.5 для разработчиков",
-      "x_text": "LG AI Research бесплатно открыла API K-EXAONE 2.5. Модель работает с текстом, кодом и агентными задачами, API совместим с форматом OpenAI. В AutomationBench — 74,6 балла против 74,9 у DeepSeek V4.1 Flash. Оценка внутренняя, лимиты запросов есть.",
-      "status": "approved",
-      "include_dzen_link": false
     }
   ]
 }
