@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6af2e41bfbd16748b0a74613",
+      "title": "LG открыла бесплатный API K-EXAONE 2.5 для разработчиков",
+      "dzen_url": "https://dzen.ru/a/avLkG_vRZ0iwp0YT",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-10T10:34:51+00:00",
+      "excerpt": "LG AI Research 9 ноября открыла бесплатный доступ к API собственной модели K-EXAONE 2.5. Разработчики, стартапы, компании и исследовательские организации могут получить ключ на платформе EXAONE и подключить нейросеть к своим проектам. K-EXAONE 2.5 — экспериментальная версия корейской модели, дополнительно обученная на основе августовского выпуска. Она предназначена для работы с текстом, программирования и задач ИИ-аг"
+    },
+    {
       "dzen_id": "6af2bd280e259d5111896bfd",
       "title": "Perplexity запустила Teammates: личные ИИ-агенты теперь работают командой",
       "dzen_url": "https://dzen.ru/a/avK9KA4lnVERiWv9",
@@ -2810,11 +2821,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 264,
-    "fully_titled_from_archived_public_feed": 209,
+    "total_cataloged_editorial_publications": 265,
+    "fully_titled_from_archived_public_feed": 210,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-10",
-  "coverage": "264 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "265 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
