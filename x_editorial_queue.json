@@ -471,8 +471,12 @@
       "id": "lg-k-exaone-25-free-api-20261109",
       "dzen_title": "LG открыла бесплатный API K-EXAONE 2.5 для разработчиков",
       "x_text": "LG AI Research бесплатно открыла API K-EXAONE 2.5. Модель работает с текстом, кодом и агентными задачами, API совместим с форматом OpenAI. В AutomationBench — 74,6 балла против 74,9 у DeepSeek V4.1 Flash. Оценка внутренняя, лимиты запросов есть.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6af2e41bfbd16748b0a74613",
+      "dzen_url": "https://dzen.ru/a/avLkG_vRZ0iwp0YT",
+      "buffer_post_id": "6af2fd8767f99540fd962825",
+      "with_image": true
     },
     {
       "id": "mattt-anyspeechrecognizer-anydecisionmodel-20261029",
