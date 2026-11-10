@@ -1,10 +1,12 @@
 {
   "instagram": {
-    "last_success": "2026-10-19T00:00:00+00:00",
-    "last_attempt": "2026-11-09T00:18:15+00:00"
+    "last_success": "2026-11-10T01:18:05+00:00",
+    "last_attempt": "2026-11-10T01:18:05+00:00",
+    "last_expires_in_seconds": 5107129
   },
   "threads": {
-    "last_success": "2026-10-19T00:00:00+00:00",
-    "last_attempt": "2026-11-09T00:18:15+00:00"
+    "last_success": "2026-11-10T01:18:05+00:00",
+    "last_attempt": "2026-11-10T01:18:05+00:00",
+    "last_expires_in_seconds": 5106432
   }
 }
