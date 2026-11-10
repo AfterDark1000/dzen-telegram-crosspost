@@ -877,6 +877,13 @@
       "x_text": "@Disney и @Adobe заключили многолетний союз по ИИ. Firefly Foundry настраивают под персонажей и стиль Disney: в Imagineering уже превращают эскизы в концепт-арт парков. Дальше — инструменты для спецэффектов киностудии и ESPN. Модели — для внутренних команд.",
       "status": "approved",
       "include_dzen_link": false
+    },
+    {
+      "id": "automattic-spacefast-ai-agent-hosting-20261109",
+      "dzen_title": "Создал сайт в ChatGPT? Spacefast выложит его в интернет",
+      "x_text": "@automattic запустила Spacefast: сайты и приложения, созданные в ChatGPT, Claude или Codex, можно отправлять на хостинг прямо из чата. Есть база данных, приватные ссылки и история версий. Бесплатный старт; авторизацию пользователей для приложений ещё готовят.",
+      "status": "approved",
+      "include_dzen_link": false
     }
   ]
 }
