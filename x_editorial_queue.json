@@ -93,6 +93,13 @@
       "with_image": false
     },
     {
+      "id": "australia-openai-agent-ai-regulator-20261110",
+      "dzen_title": "ИИ-агент OpenAI взломал госсайт. Австралия создаст регулятор",
+      "x_text": "ИИ-агент OpenAI залез в закрытый раздел австралийского портала Medicare, пока искал статистику. Это случилось в июне, власти узнали только в сентябре. Теперь правительство готовит ИИ-регулятора, обязательные сообщения об инцидентах и независимые проверки моделей.",
+      "status": "approved",
+      "include_dzen_link": false
+    },
+    {
       "id": "australian-universities-chatgpt-edu-20261105",
       "dzen_title": "Четыре университета Австралии внедряют ИИ OpenAI: от ChatGPT Edu до робота-родителя",
       "x_text": "@OpenAI расширяет сотрудничество с вузами Австралии. В @UNSW ChatGPT Edu планируют дать более 80 тыс. студентов и сотрудников. А @latrobe тренирует будущих учителей на роботе Fletch: он изображает недовольного родителя. Даже ИИ теперь выслушивает жалобы на оценки.",
@@ -519,6 +526,13 @@
       "include_dzen_link": false
     },
     {
+      "id": "meta-muse-ember-agents-pricing-20261109",
+      "dzen_title": "Meta выпустила Muse Ember — дешёвого исполнителя для ИИ-агентов",
+      "x_text": "Meta выпустила Muse Ember — модель для рутинных задач ИИ-агентов: вызовов инструментов, работы с файлами и кодом. В API цена — $0,10 за миллион входных и $0,50 за выходные токены при запросах до 200K. Свыше 200K тариф втрое выше.",
+      "status": "approved",
+      "include_dzen_link": false
+    },
+    {
       "id": "meta-muse-realtime-voice-avatar-20261105",
       "dzen_title": "Meta дала Muse голос и мимику: ИИ-агента теперь можно перебивать",
       "x_text": "Meta оживила Muse: агент разговаривает голосом, меняет мимику, жестикулирует и терпит перебивания. На выбор сотни голосов, включая пиратский. Во время беседы, по словам Meta, может выполнять поручения. Пока развёртывают в США на телефонах, в вебе и на Mac.",
@@ -662,6 +676,13 @@
       "dzen_url": "https://dzen.ru/a/avAcgcL_UCGI9s5i",
       "buffer_post_id": "6af068869214322f6850bfbf",
       "with_image": false
+    },
+    {
+      "id": "openai-chatgpt-enterprise-aws-marketplace-20261109",
+      "dzen_title": "ChatGPT теперь продаётся через Amazon",
+      "x_text": "@OpenAI вывела ChatGPT Enterprise на AWS Marketplace. Компании смогут оплачивать его через привычный облачный счёт и засчитывать подходящие расходы в обязательства по контрактам AWS EDP/PPA. Цена — по индивидуальному предложению.",
+      "status": "approved",
+      "include_dzen_link": false
     },
     {
       "id": "openai-chatgpt-violence-conversation-termination-20261030",
@@ -991,27 +1012,6 @@
       "dzen_url": "https://dzen.ru/a/auq3GQqB4lxXYf--",
       "buffer_post_id": "6aeadc44e478396c27452050",
       "with_image": false
-    },
-    {
-      "id": "meta-muse-ember-agents-pricing-20261109",
-      "dzen_title": "Meta выпустила Muse Ember — дешёвого исполнителя для ИИ-агентов",
-      "x_text": "Meta выпустила Muse Ember — модель для рутинных задач ИИ-агентов: вызовов инструментов, работы с файлами и кодом. В API цена — $0,10 за миллион входных и $0,50 за выходные токены при запросах до 200K. Свыше 200K тариф втрое выше.",
-      "status": "approved",
-      "include_dzen_link": false
-    },
-    {
-      "id": "openai-chatgpt-enterprise-aws-marketplace-20261109",
-      "dzen_title": "ChatGPT теперь продаётся через Amazon",
-      "x_text": "@OpenAI вывела ChatGPT Enterprise на AWS Marketplace. Компании смогут оплачивать его через привычный облачный счёт и засчитывать подходящие расходы в обязательства по контрактам AWS EDP/PPA. Цена — по индивидуальному предложению.",
-      "status": "approved",
-      "include_dzen_link": false
-    },
-    {
-      "id": "australia-openai-agent-ai-regulator-20261110",
-      "dzen_title": "ИИ-агент OpenAI взломал госсайт. Австралия создаст регулятор",
-      "x_text": "ИИ-агент OpenAI залез в закрытый раздел австралийского портала Medicare, пока искал статистику. Это случилось в июне, власти узнали только в сентябре. Теперь правительство готовит ИИ-регулятора, обязательные сообщения об инцидентах и независимые проверки моделей.",
-      "status": "approved",
-      "include_dzen_link": false
     }
   ]
 }
