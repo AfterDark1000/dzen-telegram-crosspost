@@ -357,6 +357,13 @@
       "with_image": true
     },
     {
+      "id": "google-tpu-8tx-8i-max-20261109",
+      "dzen_title": "Google показала два новых TPU: один для секретов, другой вдвое мощнее",
+      "x_text": "@GoogleCloud собрала два TPU 8i в одном корпусе — это 8i Max: вдвое больше вычислений и пропускной способности памяти. А TPU 8tx защищает конфиденциальные данные на аппаратном уровне во время обработки. Сроки доступности пока не названы.",
+      "status": "approved",
+      "include_dzen_link": false
+    },
+    {
       "id": "gpt-6-cyber-firefox-81-vulnerabilities-20261105",
       "dzen_title": "OpenAI выпустила GPT-6 Cyber: ИИ нашёл 81 опасную уязвимость Firefox",
       "x_text": "У Firefox появился незапланированный ревизор: GPT-6 Cyber нашла 81 серьёзную дыру. Mozilla уже выпускает исправления. В тесте OpenAI новая модель справилась с 48,5% задач против 32,1% у прежней. В обычный ChatGPT её не пустили: доступ только проверенным специалистам.",
@@ -490,6 +497,13 @@
       "dzen_url": "https://dzen.ru/a/avAaSjvQrEmP7vxR",
       "buffer_post_id": "6af03ec5d6bbae6fa1db808b",
       "with_image": true
+    },
+    {
+      "id": "nvidia-huang-espionage-investigation-20261108",
+      "dzen_title": "«Ищите женщину»: глава NVIDIA оказался в центре шпионского скандала",
+      "x_text": "@NVIDIA расследует сообщения о возможной операции китайской разведки против @JensenHuang. По данным СМИ, история связана с Алисой Хуанг из Megaspeed — крупного покупателя чипов NVIDIA. Совет не видит оснований считать секреты скомпрометированными.",
+      "status": "approved",
+      "include_dzen_link": false
     },
     {
       "id": "openai-altman-adipec-scientists-office-work-20261102",
@@ -845,20 +859,6 @@
       "dzen_url": "https://dzen.ru/a/auq3GQqB4lxXYf--",
       "buffer_post_id": "6aeadc44e478396c27452050",
       "with_image": false
-    },
-    {
-      "id": "nvidia-huang-espionage-investigation-20261108",
-      "dzen_title": "«Ищите женщину»: глава NVIDIA оказался в центре шпионского скандала",
-      "x_text": "@NVIDIA расследует сообщения о возможной операции китайской разведки против @JensenHuang. По данным СМИ, история связана с Алисой Хуанг из Megaspeed — крупного покупателя чипов NVIDIA. Совет не видит оснований считать секреты скомпрометированными.",
-      "status": "approved",
-      "include_dzen_link": false
-    },
-    {
-      "id": "google-tpu-8tx-8i-max-20261109",
-      "dzen_title": "Google показала два новых TPU: один для секретов, другой вдвое мощнее",
-      "x_text": "@GoogleCloud собрала два TPU 8i в одном корпусе — это 8i Max: вдвое больше вычислений и пропускной способности памяти. А TPU 8tx защищает конфиденциальные данные на аппаратном уровне во время обработки. Сроки доступности пока не названы.",
-      "status": "approved",
-      "include_dzen_link": false
     }
   ]
 }
