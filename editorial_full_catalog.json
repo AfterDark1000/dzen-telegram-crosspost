@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6af2e47c08c95d6913a113a1",
+      "title": "OpenMOSS представила MOSS-Live: ИИ разговаривает, пока выполняет задания",
+      "dzen_url": "https://dzen.ru/a/avLkfAjJXWkToROh",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-10T11:42:16+00:00",
+      "excerpt": "Команда OpenMOSS 7 ноября представила MOSS-Live — голосовую систему, которая продолжает беседу, пока в фоновом режиме выполняются поисковые запросы и другие поручения. Ассистента можно перебить, попросить уточнить ответ или изменить задачу на ходу. Он продолжает слушать собеседника даже во время собственной речи. Для этого разработчики разделили работу системы на две связанные части. Первая отвечает за разговор: слуш"
+    },
+    {
       "dzen_id": "6af2e41bfbd16748b0a74613",
       "title": "LG открыла бесплатный API K-EXAONE 2.5 для разработчиков",
       "dzen_url": "https://dzen.ru/a/avLkG_vRZ0iwp0YT",
@@ -2821,11 +2832,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 265,
-    "fully_titled_from_archived_public_feed": 210,
+    "total_cataloged_editorial_publications": 266,
+    "fully_titled_from_archived_public_feed": 211,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-10",
-  "coverage": "265 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "266 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
