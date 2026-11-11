@@ -555,8 +555,12 @@
       "id": "ioan-gruffudd-ai-deepfake-romance-20261109",
       "dzen_title": "Звезда «Фантастической четвёрки» узнал о годовом «романе» с фанаткой",
       "x_text": "Йоан Гриффит из «Фантастической четвёрки» сообщил: поклонница год верила в «роман» с ним. Кто-то писал ей через Telegram и присылал сотни ИИ-фото и видео. Актёр узнал об этом на встрече с фанатами. Деньги у женщины не просили — это и укрепляло доверие.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6af2ff34c39de244cb36418f",
+      "dzen_url": "https://dzen.ru/a/avL_NMOd4kTLNkGP",
+      "buffer_post_id": "6af432df33d9422c21bb1ff6",
+      "with_image": true
     },
     {
       "id": "lg-k-exaone-25-free-api-20261109",
