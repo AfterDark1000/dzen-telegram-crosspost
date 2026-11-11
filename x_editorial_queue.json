@@ -602,8 +602,12 @@
       "id": "mit-flex-robots-human-intent-20261109",
       "dzen_title": "MIT научил роботов понимать намёки человека",
       "x_text": "@MIT и исследователи NYU представили FLEX: если предупредить робота «не пролей кофе на ноутбук», система на базе GPT-4o выводит более общее правило — держаться подальше от электроники. Проверяли на виртуальном манипуляторе; разработка экспериментальная.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6af2fcfbaa0d9d40fd1f484d",
+      "dzen_url": "https://dzen.ru/a/avL8-6oNnUD9H0hN",
+      "buffer_post_id": "6af3fab3ffe2872794f4d7e2",
+      "with_image": true
     },
     {
       "id": "mit-worldparticle-physics-simulator-20261109",
