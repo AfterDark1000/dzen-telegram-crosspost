@@ -1022,8 +1022,12 @@
       "id": "tetsuo-131-ai-agents-music-video-20261108",
       "dzen_title": "131 ИИ-агент и 23 тысячи запросов ради одного музыкального клипа!",
       "x_text": "@tetsuoai опубликовал клип «Attention Is All You Need» длиной 5:26. По его подсчётам, производство заняло 26 ч 51 мин: 131 ИИ-агент, 23 354 вызова моделей и 10,1 млрд токенов. Пианино автор написал сам, финальную песню довёл в Suno. Масштаб за кулисами побольше самого клипа.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6af2fde26275f93a7e441fbc",
+      "dzen_url": "https://dzen.ru/a/avL94mJ1-Tp-RB-8",
+      "buffer_post_id": "6af416c77ffe799078db813f",
+      "with_image": true
     },
     {
       "id": "thinking-machines-inkling-2-small-20261105",

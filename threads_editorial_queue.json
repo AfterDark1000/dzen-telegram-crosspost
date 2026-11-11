@@ -1986,8 +1986,11 @@
       "id": "tetsuo-131-ai-agents-music-video-20261108",
       "dzen_title": "131 ИИ-агент и 23 тысячи запросов ради одного музыкального клипа!",
       "threads_text": "131 ИИ-АГЕНТ трудился над одним музыкальным клипом!\n\nАвтор Tetsuo сообщил: 26 часов 51 минута работы, 23 354 вызова моделей и 10,1 млрд токенов. На выходе — видео длиной 5 минут 26 секунд, 84 плана и 29 переходов.\n\nВ конвейере были Claude, Grok, Seedance, Qwen, Blender и другие инструменты. Фортепианную партию автор написал сам, песню доделал в Suno.\n\nПятиминутному клипу устроили целый цифровой съёмочный павильон. 🎬",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6af2fde26275f93a7e441fbc",
+      "dzen_url": "https://dzen.ru/a/avL94mJ1-Tp-RB-8",
+      "threads_post_id": "18134561437828004"
     },
     {
       "id": "thinking-machines-inkling-2-small-20261105",
