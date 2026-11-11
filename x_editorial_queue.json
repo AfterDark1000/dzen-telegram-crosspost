@@ -223,8 +223,12 @@
       "id": "claude-watercolor-robot-night-painting-20261106",
       "dzen_title": "Инженер лёг спать. Claude сам смешал краски и нарисовал акварель",
       "x_text": "@dhvanil оставил Claude рисовать осеннее дерево на ночь. По словам инженера, около 4 утра ИИ сам начал смешивать недостающие оттенки на другой палитре. Утром — акварель из 303 мазков; весь процесс занял 4,5 часа. Художественные муки автоматизированы. 🎨",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6af2fd8bd7e7c818f2b00727",
+      "dzen_url": "https://dzen.ru/a/avL9i9fnyBjysAcn",
+      "buffer_post_id": "6af408bd1da76fd3d2c5e095",
+      "with_image": false
     },
     {
       "id": "clement-delangue-hugging-face-ai-doom-agents-20261104",

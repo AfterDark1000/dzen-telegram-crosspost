@@ -424,8 +424,11 @@
       "id": "claude-watercolor-robot-night-painting-20261106",
       "dzen_title": "Инженер лёг спать. Claude сам смешал краски и нарисовал акварель",
       "threads_text": "Инженер лёг спать, оставив Claude рисовать ОСЕННЕЕ ДЕРЕВО.\n\nК четырём утра ИИ, по словам автора, обнаружил, что не хватает оттенков, и начал разбавлять краски на дополнительной палитре, сверяясь с фотографией.\n\nУтром ждала акварель: 303 мазка за 4,5 часа. Работал роботизированный художник под управлением Claude.\n\nВот кому удалось провести ночь у мольберта и не пожаловаться на вдохновение. 🎨",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6af2fd8bd7e7c818f2b00727",
+      "dzen_url": "https://dzen.ru/a/avL9i9fnyBjysAcn",
+      "threads_post_id": "18136086997708255"
     },
     {
       "id": "clement-delangue-hugging-face-ai-doom-agents-20261104",
