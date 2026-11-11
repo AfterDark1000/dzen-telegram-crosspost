@@ -601,8 +601,11 @@
       "id": "dimension9-claude-live-horror-game-20261106",
       "dzen_title": "ИИ пишет хоррор прямо во время игры. Даже автор не знает, что дальше!",
       "threads_text": "В хорроре Dimension9 НОВЫЕ КОМНАТЫ, по словам автора, придумывает сам ИИ.\n\nРазработчик apek создал браузерную игру по мотивам Backrooms. Он утверждает, что Claude Opus 5.5 непрерывно добавляет помещения, персонажей и события — поэтому даже сам создатель не знает, что случится дальше.\n\nНа сайте уже есть карта, фонарик и журнал. Заявлен мультиплеер с голосовым чатом поблизости.\n\nОсобенно пугает перспектива заблудиться там, где ещё вчера коридора не было. 🔦",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6af2feca819c5c472e0e7f7d",
+      "dzen_url": "https://dzen.ru/a/avL-yoGcXEcuDn99",
+      "threads_post_id": "17950024650074531"
     },
     {
       "id": "disney-adobe-firefly-foundry-alliance-20261109",
