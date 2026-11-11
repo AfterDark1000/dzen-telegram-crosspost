@@ -81,8 +81,12 @@
       "id": "anthropic-fable-mythos-52-black-holes-20261109",
       "dzen_title": "Anthropic выпустила два новых Claude и заявила о решении задач физики чёрных дыр",
       "x_text": "Anthropic выпустила Fable 5.2 и Mythos 5.2 — одну базовую модель с разными ограничениями. Компания заявила о двух результатах в теории чёрных дыр; опубликованы препринты без независимого рецензирования. Fable доступна в Claude и API, Mythos — проверенным организациям.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6af40d92ed32a9381876f689",
+      "dzen_url": "https://dzen.ru/a/avQNku0yqTgYdvaJ",
+      "buffer_post_id": "6af4b17810a0de950dacfc87",
+      "with_image": true
     },
     {
       "id": "anthropic-ipo-price-range-20261110",
