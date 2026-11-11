@@ -545,6 +545,13 @@
       "with_image": false
     },
     {
+      "id": "helsing-european-military-ai-palantir-20261110",
+      "dzen_title": "Европа хочет свой ИИ для поиска военных целей: Helsing бросает вызов Palantir",
+      "x_text": "В Европе решили: военный ИИ лучше держать дома. @HelsingAI готовит соперника Maven от @PalantirTech — системы для анализа боевой обстановки. Причина не только в технологиях: европейские армии не хотят зависеть от ПО из США. Показ назначен на 11 ноября.",
+      "status": "approved",
+      "include_dzen_link": false
+    },
+    {
       "id": "ietf-ai-training-preference-four-companies-20261030",
       "dzen_title": "OpenAI, Google, Microsoft и Anthropic разрешат сайтам запрещать обучение ИИ",
       "x_text": "@OpenAI, @Google, @Microsoft и @AnthropicAI договорились: две строки в robots.txt позволят попросить не обучать ИИ на текстах сайта.\n\nПока это проект, и внедрять будут постепенно: @Microsoft — с февраля 2027-го, @Google — в 2027-м.\n\nОдин знак «Не трогать» на всех. 🪧",
@@ -594,6 +601,13 @@
       "dzen_url": "https://dzen.ru/a/auWqnantRAIj2gAy",
       "buffer_post_id": "6ae81d34c60bdbcc33d7de9c",
       "with_image": false
+    },
+    {
+      "id": "mercor-series-d-750m-20b-valuation-20261110",
+      "dzen_title": "Mercor привлекла $750 млн: инвесторы оценили бизнес на обучении ИИ в $20 млрд",
+      "x_text": "Пока ИИ учится работать, люди ставят ему оценки. @mercor объявила раунд на $750 млн при оценке $20 млрд: её эксперты проверяют, как агенты справляются с реальными задачами. Среди инвесторов — @nvidia, @salesforce и @Zoom.",
+      "status": "approved",
+      "include_dzen_link": false
     },
     {
       "id": "meta-instagram-ai-teen-age-global-20261109",
@@ -1121,20 +1135,6 @@
       "id": "zyphra-zonos3-mini-voice-cloning-20261109",
       "dzen_title": "Zyphra выпустила ZONOS3-Mini: клонирует голос и работает прямо в браузере",
       "x_text": "@ZyphraAI выпустила ZONOS3-Mini: голосовая модель копирует голос по образцу, меняет интонации и умеет шептать отдельные слова. Из ~800 млн параметров активны ~100 млн. Запускается локально, включая WebGPU-браузер; есть русский. Веса — Apache 2.0.",
-      "status": "approved",
-      "include_dzen_link": false
-    },
-    {
-      "id": "helsing-european-military-ai-palantir-20261110",
-      "dzen_title": "Европа хочет свой ИИ для поиска военных целей: Helsing бросает вызов Palantir",
-      "x_text": "В Европе решили: военный ИИ лучше держать дома. @HelsingAI готовит соперника Maven от @PalantirTech — системы для анализа боевой обстановки. Причина не только в технологиях: европейские армии не хотят зависеть от ПО из США. Показ назначен на 11 ноября.",
-      "status": "approved",
-      "include_dzen_link": false
-    },
-    {
-      "id": "mercor-series-d-750m-20b-valuation-20261110",
-      "dzen_title": "Mercor привлекла $750 млн: инвесторы оценили бизнес на обучении ИИ в $20 млрд",
-      "x_text": "Пока ИИ учится работать, люди ставят ему оценки. @mercor объявила раунд на $750 млн при оценке $20 млрд: её эксперты проверяют, как агенты справляются с реальными задачами. Среди инвесторов — @nvidia, @salesforce и @Zoom.",
       "status": "approved",
       "include_dzen_link": false
     }
