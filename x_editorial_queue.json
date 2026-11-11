@@ -602,8 +602,12 @@
       "id": "mit-worldparticle-physics-simulator-20261109",
       "dzen_title": "MIT научил ИИ предсказывать поведение песка, воды и белков",
       "x_text": "@MIT и @UBC показали WorldParticle: общая нейросетевая архитектура для 6 типов физики — от песка и воды до движения атомов белка. В исследовании отдельную модель обучали для каждого типа процессов. Код и демонстрации уже опубликованы.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6af2fc9c4692d94ef31fc63e",
+      "dzen_url": "https://dzen.ru/a/avL8nEaS2U7zH8Y-",
+      "buffer_post_id": "6af3eca06a689e197d22edf6",
+      "with_image": false
     },
     {
       "id": "moss-live-voice-multitasking-20261107",
