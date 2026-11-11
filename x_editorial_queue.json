@@ -150,6 +150,13 @@
       "include_dzen_link": false
     },
     {
+      "id": "beeble-switchx-3-dynamic-video-backgrounds-20261110",
+      "dzen_title": "Beeble выпустила SwitchX 3.0: ИИ меняет декорации в готовом видео",
+      "x_text": "У @beeble_ai новая SwitchX 3.0: снимите актёра один раз, а потом меняйте окружение. ИИ добавляет движущиеся декорации, освещение и события по команде, сохраняя исходную игру человека. До 4K на тарифе Pro, максимум 360 кадров на ролик.",
+      "status": "approved",
+      "include_dzen_link": false
+    },
+    {
       "id": "binance-internal-ai-tool-hack-20261029",
       "dzen_title": "Взлом Binance на $6,34 млрд: хакеры использовали внутренний ИИ биржи",
       "x_text": "У @binance украли криптовалюту на миллиарды. Началось с фальшивого собеседования и вредоносного «тестового задания» для инженера. Позже хакеры использовали внутренний ИИ-инструмент биржи. Всего затронуто $6,34 млрд активов. Как именно работал ИИ, пока не раскрыто.",
@@ -430,6 +437,13 @@
       "dzen_url": "https://dzen.ru/a/avGx5Zi5GAUJg-M8",
       "buffer_post_id": "6af1d6362f9380f8d4810695",
       "with_image": true
+    },
+    {
+      "id": "google-gemini-for-healthcare-20261110",
+      "dzen_title": "Google представила Gemini для больниц: ИИ разберёт медкарты и страховки",
+      "x_text": "@GoogleCloud представила Gemini for healthcare: ИИ-агент собирает историю болезни из разных медсистем, готовит документы для страховщиков и черновики апелляций. Медкарты он читает, но не переписывает. Пока предварительный доступ в США для организаций.",
+      "status": "approved",
+      "include_dzen_link": false
     },
     {
       "id": "google-gemini-inline-file-editing-20261029",
@@ -1087,20 +1101,6 @@
       "dzen_url": "https://dzen.ru/a/auq3GQqB4lxXYf--",
       "buffer_post_id": "6aeadc44e478396c27452050",
       "with_image": false
-    },
-    {
-      "id": "google-gemini-for-healthcare-20261110",
-      "dzen_title": "Google представила Gemini для больниц: ИИ разберёт медкарты и страховки",
-      "x_text": "@GoogleCloud представила Gemini for healthcare: ИИ-агент собирает историю болезни из разных медсистем, готовит документы для страховщиков и черновики апелляций. Медкарты он читает, но не переписывает. Пока предварительный доступ в США для организаций.",
-      "status": "approved",
-      "include_dzen_link": false
-    },
-    {
-      "id": "beeble-switchx-3-dynamic-video-backgrounds-20261110",
-      "dzen_title": "Beeble выпустила SwitchX 3.0: ИИ меняет декорации в готовом видео",
-      "x_text": "У @beeble_ai новая SwitchX 3.0: снимите актёра один раз, а потом меняйте окружение. ИИ добавляет движущиеся декорации, освещение и события по команде, сохраняя исходную игру человека. До 4K на тарифе Pro, максимум 360 кадров на ролик.",
-      "status": "approved",
-      "include_dzen_link": false
     },
     {
       "id": "zyphra-zonos3-mini-voice-cloning-20261109",
