@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6af40969aa622c65a2f124dd",
+      "title": "Instagram ищет подростков даже среди «взрослых» аккаунтов",
+      "dzen_url": "https://dzen.ru/a/avQJaapiLGWi8STd",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-11T12:01:42+00:00",
+      "excerpt": "Meta 9 ноября объявила о глобальном расширении системы ИИ-проверки возраста в Instagram. Нейросеть ищет аккаунты, которые предположительно принадлежат подросткам 13–17 лет, даже если при регистрации был указан взрослый возраст. Такие профили автоматически переводятся в защищённый режим Teen Accounts. Компания рассчитывает распространить дополнительные ограничения ещё на миллионы подростковых аккаунтов по всему миру."
+    },
+    {
       "dzen_id": "6af4090c70a94a2d460212ff",
       "title": "ИИ-робот нырнул на 4 км за металлами. Улов — 450 граммов",
       "dzen_url": "https://dzen.ru/a/avQJDHCpSi1GAhL_",
@@ -2997,11 +3008,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 281,
-    "fully_titled_from_archived_public_feed": 226,
+    "total_cataloged_editorial_publications": 282,
+    "fully_titled_from_archived_public_feed": 227,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-11",
-  "coverage": "281 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "282 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
