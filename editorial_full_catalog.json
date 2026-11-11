@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6af2fd8bd7e7c818f2b00727",
+      "title": "Инженер лёг спать. Claude сам смешал краски и нарисовал акварель",
+      "dzen_url": "https://dzen.ru/a/avL9i9fnyBjysAcn",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-11T06:01:41+00:00",
+      "excerpt": "Инженер Нил, работающий в компании Glif, 6 ноября рассказал о необычном ночном эксперименте. Перед сном он поручил Claude нарисовать осеннее дерево, а утром обнаружил готовую акварель. По подсчётам автора, работа заняла четыре с половиной часа и потребовала 303 мазков кистью. Речь идёт о настоящих красках и физическом рисунке, который создаёт роботизированная система под управлением ИИ. Самое интересное случилось при"
+    },
+    {
       "dzen_id": "6af2fcfbaa0d9d40fd1f484d",
       "title": "MIT научил роботов понимать намёки человека",
       "dzen_url": "https://dzen.ru/a/avL8-6oNnUD9H0hN",
@@ -2931,11 +2942,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 275,
-    "fully_titled_from_archived_public_feed": 220,
+    "total_cataloged_editorial_publications": 276,
+    "fully_titled_from_archived_public_feed": 221,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-11",
-  "coverage": "275 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "276 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
