@@ -566,6 +566,13 @@
       "include_dzen_link": false
     },
     {
+      "id": "higgsfield-miracle-realtime-video-editing-20261106",
+      "dzen_title": "Куртка меняет цвет прямо во время видео: Higgsfield анонсировала Miracle",
+      "x_text": "Хочется поменять цвет куртки в готовом видео, не переснимая сцену? @higgsfield обещает это в Miracle — прямо во время просмотра. Пока закрытый тест, замеров скорости нет. Позже обещана интеграция с @claudeai через Higgsfield MCP.",
+      "include_dzen_link": false,
+      "status": "approved"
+    },
+    {
       "id": "ietf-ai-training-preference-four-companies-20261030",
       "dzen_title": "OpenAI, Google, Microsoft и Anthropic разрешат сайтам запрещать обучение ИИ",
       "x_text": "@OpenAI, @Google, @Microsoft и @AnthropicAI договорились: две строки в robots.txt позволят попросить не обучать ИИ на текстах сайта.\n\nПока это проект, и внедрять будут постепенно: @Microsoft — с февраля 2027-го, @Google — в 2027-м.\n\nОдин знак «Не трогать» на всех. 🪧",
@@ -1166,13 +1173,6 @@
       "x_text": "@ZyphraAI выпустила ZONOS3-Mini: голосовая модель копирует голос по образцу, меняет интонации и умеет шептать отдельные слова. Из ~800 млн параметров активны ~100 млн. Запускается локально, включая WebGPU-браузер; есть русский. Веса — Apache 2.0.",
       "status": "approved",
       "include_dzen_link": false
-    },
-    {
-      "id": "higgsfield-miracle-realtime-video-editing-20261106",
-      "dzen_title": "Куртка меняет цвет прямо во время видео: Higgsfield анонсировала Miracle",
-      "x_text": "Хочется поменять цвет куртки в готовом видео, не переснимая сцену? @higgsfield обещает это в Miracle — прямо во время просмотра. Пока закрытый тест, замеров скорости нет. Позже обещана интеграция с @claudeai через Higgsfield MCP.",
-      "include_dzen_link": false,
-      "status": "approved"
     }
   ]
 }
