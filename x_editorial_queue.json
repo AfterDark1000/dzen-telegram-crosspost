@@ -74,8 +74,12 @@
       "id": "anthropic-claude-agents-os-eight-days-20261109",
       "dzen_title": "Тысяча ИИ-агентов Claude за восемь дней создала операционную систему",
       "x_text": "У @AnthropicAI более тысячи субагентов Claude Fable 5.2 восемь дней разрабатывали ОС с нуля. Получились собственное ядро, драйверы, окна и установщик. Компания показала запуск на ноутбуке. Внутрь системы ещё и Claude встроили.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6af40f9a80f8703a3ac9d99c",
+      "dzen_url": "https://dzen.ru/a/avQPmoD4cDo6ydmc",
+      "buffer_post_id": "6af4bf8480cc5d8ca323aad4",
+      "with_image": false
     },
     {
       "id": "anthropic-fable-mythos-52-black-holes-20261109",
