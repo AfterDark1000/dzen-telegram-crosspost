@@ -678,8 +678,12 @@
       "id": "meta-muse-ember-agents-pricing-20261109",
       "dzen_title": "Meta выпустила Muse Ember — дешёвого исполнителя для ИИ-агентов",
       "x_text": "Meta выпустила Muse Ember — модель для рутинных задач ИИ-агентов: вызовов инструментов, работы с файлами и кодом. В API цена — $0,10 за миллион входных и $0,50 за выходные токены при запросах до 200K. Свыше 200K тариф втрое выше.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6af4161e4acd6179544e0be5",
+      "dzen_url": "https://dzen.ru/a/avQWHkrNYXlUTgvl",
+      "buffer_post_id": "6af4cd91b459c6001d4c9a63",
+      "with_image": true
     },
     {
       "id": "meta-muse-realtime-voice-avatar-20261105",
