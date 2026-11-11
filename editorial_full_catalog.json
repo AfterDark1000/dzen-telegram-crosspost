@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6af2feca819c5c472e0e7f7d",
+      "title": "ИИ пишет хоррор прямо во время игры. Даже автор не знает, что дальше!",
+      "dzen_url": "https://dzen.ru/a/avL-yoGcXEcuDn99",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-11T08:02:19+00:00",
+      "excerpt": "Разработчик под ником apek 6 ноября представил Dimension9 — браузерную хоррор-игру, события которой непрерывно придумывает Claude Opus 5.5. Модель создаёт новые комнаты, персонажей и существ прямо по ходу исследования игрового мира. Проект вдохновлён вселенной Backrooms — интернет-хоррором о бесконечных пустых помещениях, коридорах и лабиринтах, из которых трудно выбраться. В Dimension9 искусственный интеллект получи"
+    },
+    {
       "dzen_id": "6af2fde26275f93a7e441fbc",
       "title": "131 ИИ-агент и 23 тысячи запросов ради одного музыкального клипа!",
       "dzen_url": "https://dzen.ru/a/avL94mJ1-Tp-RB-8",
@@ -2953,11 +2964,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 277,
-    "fully_titled_from_archived_public_feed": 222,
+    "total_cataloged_editorial_publications": 278,
+    "fully_titled_from_archived_public_feed": 223,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-11",
-  "coverage": "277 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "278 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
