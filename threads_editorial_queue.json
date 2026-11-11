@@ -253,8 +253,11 @@
       "id": "automattic-spacefast-ai-agent-hosting-20261109",
       "dzen_title": "Создал сайт в ChatGPT? Spacefast выложит его в интернет",
       "threads_text": "САЙТ, сделанный с ИИ, теперь можно отправить в интернет прямо из чата.\n\nAutomattic, компания за WordPress.com, запустила Spacefast: подключаешь Claude, ChatGPT или Codex, просишь опубликовать проект — и получаешь ссылку.\n\nХостинг, база данных, история версий и комментарии команды уже есть. Начать можно бесплатно.\n\nУ нейросетевых самоделок появилась своя служба заселения. 🏠",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6af2f141b5493806a7c3a30a",
+      "dzen_url": "https://dzen.ru/a/avLxQbVJOAanw6MK",
+      "threads_post_id": "18098811257673629"
     },
     {
       "id": "ava-duvernay-14th-ai-archive-animation-20261108",
