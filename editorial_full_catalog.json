@@ -10,6 +10,50 @@
   ],
   "entries": [
     {
+      "dzen_id": "6af4161e4acd6179544e0be5",
+      "title": "Meta выпустила Muse Ember — дешёвого исполнителя для ИИ-агентов",
+      "dzen_url": "https://dzen.ru/a/avQWHkrNYXlUTgvl",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-11T17:03:11+00:00",
+      "excerpt": "Meta 9 ноября представила Muse Ember — самую компактную модель в семействе Muse. Её задача — выполнять небольшие поручения внутри больших систем ИИ-агентов: разбирать документы, вызывать инструменты, искать информацию, проверять код и исправлять ошибки. Стоимость через API начинается с 10 центов за миллион входных токенов. Компания предлагает распределять работу между моделями. Например, Muse Wonder составляет план и"
+    },
+    {
+      "dzen_id": "6af40f9a80f8703a3ac9d99c",
+      "title": "Тысяча ИИ-агентов Claude за восемь дней создала операционную систему",
+      "dzen_url": "https://dzen.ru/a/avQPmoD4cDo6ydmc",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-11T16:03:06+00:00",
+      "excerpt": "Anthropic 9 ноября сообщила, что Claude Fable 5.2 за восемь дней с помощью более тысячи ИИ-субагентов разработала прототип операционной системы. Получившаяся ОС загружается на ноутбуке и имеет собственное ядро, драйверы и графический интерфейс. Эксперимент начался с задания от одного инженера Anthropic и пустой папки проекта. Claude самостоятельно координировала работу более тысячи субагентов, которые круглосуточно п"
+    },
+    {
+      "dzen_id": "6af40d92ed32a9381876f689",
+      "title": "Anthropic выпустила два новых Claude и заявила о решении задач физики чёрных дыр",
+      "dzen_url": "https://dzen.ru/a/avQNku0yqTgYdvaJ",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-11T15:02:45+00:00",
+      "excerpt": "Anthropic 9 ноября представила Claude Fable 5.2 и Claude Mythos 5.2 — обновлённые версии своих самых мощных моделей для сложных технических задач. Компания утверждает, что во время предварительных испытаний Claude решил две открытые проблемы теоретической физики, связанные с чёрными дырами, спроектировал три работающих электронных устройства и научился лучше управлять роботами. За двумя названиями скрывается одна баз"
+    },
+    {
+      "dzen_id": "6af40cae4acd6179543e48f8",
+      "title": "Распознавание речи на 22 языках Индии уместили в файлы по 30 МБ",
+      "dzen_url": "https://dzen.ru/a/avQMrkrNYXlUPkj4",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-11T14:03:34+00:00",
+      "excerpt": "Разработчик Джитеш К. Прасад из Udgam Labs 8 ноября представил Shruti — семейство из 22 небольших ИИ-моделей, которые превращают человеческую речь в текст. Каждая занимает менее 30 МБ и способна работать на смартфоне без подключения к интернету. Разработчики проверили технологию на Samsung Galaxy F62, выпущенном ещё в 2021 году. Распознавание речи работало в 6–13 раз быстрее реального времени в зависимости от языка."
+    },
+    {
       "dzen_id": "6af40a8d70a94a2d4604c736",
       "title": "NVIDIA соединит свои GPU с корейскими ИИ-чипами. Первые системы — в 2028 году",
       "dzen_url": "https://dzen.ru/a/avQKjXCpSi1GBMc2",
@@ -3019,11 +3063,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 283,
-    "fully_titled_from_archived_public_feed": 228,
+    "total_cataloged_editorial_publications": 287,
+    "fully_titled_from_archived_public_feed": 232,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-11",
-  "coverage": "283 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "287 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
