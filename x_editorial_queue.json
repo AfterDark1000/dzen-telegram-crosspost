@@ -1050,6 +1050,13 @@
       "dzen_url": "https://dzen.ru/a/auq3GQqB4lxXYf--",
       "buffer_post_id": "6aeadc44e478396c27452050",
       "with_image": false
+    },
+    {
+      "id": "amazon-ring-drone-rover-cam-20261110",
+      "dzen_title": "Amazon отправит дроны патрулировать квартиры",
+      "x_text": "Amazon отправляет камеры в самостоятельный патруль: Ring Drone Cam летает по квартире и снимает в 2K, Rover Cam на колёсах объезжает магазины с 4K-камерой и сиреной. Цены в США — $249,99 и $999,99. Дрон ещё ждёт разрешения FCC.",
+      "status": "approved",
+      "include_dzen_link": false
     }
   ]
 }
