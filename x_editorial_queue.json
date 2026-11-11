@@ -631,8 +631,12 @@
       "id": "meta-instagram-ai-teen-age-global-20261109",
       "dzen_title": "Instagram ищет подростков даже среди «взрослых» аккаунтов",
       "x_text": "@Meta расширяет ИИ-проверку возраста в @instagram на весь мир. Даже если указан возраст 18+, система может определить владельца как подростка и включить настройки Teen Accounts. Учитывают публикации, комментарии и визуальные признаки. Threads — на очереди до конца 2026-го.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6af40969aa622c65a2f124dd",
+      "dzen_url": "https://dzen.ru/a/avQJaapiLGWi8STd",
+      "buffer_post_id": "6af45d5924197454719a4bbb",
+      "with_image": false
     },
     {
       "id": "meta-muse-ember-agents-pricing-20261109",
