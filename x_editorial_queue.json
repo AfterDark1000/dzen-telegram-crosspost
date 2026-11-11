@@ -854,8 +854,12 @@
       "id": "openai-chatgpt-enterprise-aws-marketplace-20261109",
       "dzen_title": "ChatGPT теперь продаётся через Amazon",
       "x_text": "@OpenAI вывела ChatGPT Enterprise на AWS Marketplace. Компании смогут оплачивать его через привычный облачный счёт и засчитывать подходящие расходы в обязательства по контрактам AWS EDP/PPA. Цена — по индивидуальному предложению.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6af4166eed32a93818863367",
+      "dzen_url": "https://dzen.ru/a/avQWbu0yqTgYhjNn",
+      "buffer_post_id": "6af4db8838da815779d54c3e",
+      "with_image": false
     },
     {
       "id": "openai-chatgpt-violence-conversation-termination-20261030",
