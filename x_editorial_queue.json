@@ -468,6 +468,13 @@
       "with_image": false
     },
     {
+      "id": "google-gemini-robotics-2-5-mercedes-20261110",
+      "dzen_title": "Google испытала Gemini Robotics 2.5 на заводах Mercedes-Benz: 96% удачных операций",
+      "x_text": "@GoogleDeepMind вместе с @Apptronik испытала Gemini Robotics 2.5 на заводах @MercedesBenz. Гуманоид Apollo 2 раскладывал автодетали по комплектам — 96% успешных операций, по данным Google. Новую модель пока предоставляют партнёрам.",
+      "status": "approved",
+      "include_dzen_link": false
+    },
+    {
       "id": "google-project-suncatcher-gemma4-orbit-haiku-20261030",
       "dzen_title": "Google отправила ИИ в космос. Нейросеть ответила с орбиты!",
       "x_text": "Google получила с орбиты ответ Gemma 4: модель на TPU спутника Project Suncatcher сочинила хокку о космосе. Ответ приняли над Шпицбергеном.\n\nСпутник запущен 1 октября. Дальше — проверки чипов на радиацию и температуру, в 2027 году — испытания двух связанных спутников.",
@@ -1110,13 +1117,6 @@
       "id": "zyphra-zonos3-mini-voice-cloning-20261109",
       "dzen_title": "Zyphra выпустила ZONOS3-Mini: клонирует голос и работает прямо в браузере",
       "x_text": "@ZyphraAI выпустила ZONOS3-Mini: голосовая модель копирует голос по образцу, меняет интонации и умеет шептать отдельные слова. Из ~800 млн параметров активны ~100 млн. Запускается локально, включая WebGPU-браузер; есть русский. Веса — Apache 2.0.",
-      "status": "approved",
-      "include_dzen_link": false
-    },
-    {
-      "id": "google-gemini-robotics-2-5-mercedes-20261110",
-      "dzen_title": "Google испытала Gemini Robotics 2.5 на заводах Mercedes-Benz: 96% удачных операций",
-      "x_text": "@GoogleDeepMind вместе с @Apptronik испытала Gemini Robotics 2.5 на заводах @MercedesBenz. Гуманоид Apollo 2 раскладывал автодетали по комплектам — 96% успешных операций, по данным Google. Новую модель пока предоставляют партнёрам.",
       "status": "approved",
       "include_dzen_link": false
     }
