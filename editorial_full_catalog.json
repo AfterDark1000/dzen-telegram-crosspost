@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6af2fcfbaa0d9d40fd1f484d",
+      "title": "MIT научил роботов понимать намёки человека",
+      "dzen_url": "https://dzen.ru/a/avL8-6oNnUD9H0hN",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-11T05:01:00+00:00",
+      "excerpt": "MIT и Нью-Йоркский университет разработали FLEX — систему, которая помогает роботам понимать скрытый смысл человеческих указаний. Вместо запоминания отдельных запретов нейросеть пытается разобраться, чего человек на самом деле хочет избежать. 9 ноября MIT рассказал об исследовании на примере робота, который несёт чашку кофе через заставленный предметами стол. Человек пишет ему: «Не пролей кофе на ноутбук!» Обычный ал"
+    },
+    {
       "dzen_id": "6af2fc9c4692d94ef31fc63e",
       "title": "MIT научил ИИ предсказывать поведение песка, воды и белков",
       "dzen_url": "https://dzen.ru/a/avL8nEaS2U7zH8Y-",
@@ -2920,11 +2931,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 274,
-    "fully_titled_from_archived_public_feed": 219,
+    "total_cataloged_editorial_publications": 275,
+    "fully_titled_from_archived_public_feed": 220,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-11",
-  "coverage": "274 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "275 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
