@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6af4166eed32a93818863367",
+      "title": "ChatGPT теперь продаётся через Amazon",
+      "dzen_url": "https://dzen.ru/a/avQWbu0yqTgYhjNn",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-11T18:02:10+00:00",
+      "excerpt": "OpenAI 9 ноября начала продавать корпоративную версию ChatGPT Enterprise через Amazon Web Services (AWS). Теперь крупные компании смогут покупать ChatGPT там же, где оплачивают серверы, хранилища данных и другие облачные услуги. Для бизнеса это удобнее, чем кажется. У многих крупных клиентов Amazon есть долгосрочные договоры: компания обязуется потратить на облачные услуги определённую сумму, а взамен получает скидки"
+    },
+    {
       "dzen_id": "6af4161e4acd6179544e0be5",
       "title": "Meta выпустила Muse Ember — дешёвого исполнителя для ИИ-агентов",
       "dzen_url": "https://dzen.ru/a/avQWHkrNYXlUTgvl",
@@ -3063,11 +3074,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 287,
-    "fully_titled_from_archived_public_feed": 232,
+    "total_cataloged_editorial_publications": 288,
+    "fully_titled_from_archived_public_feed": 233,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-11",
-  "coverage": "287 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "288 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
