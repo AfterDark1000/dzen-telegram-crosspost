@@ -566,8 +566,12 @@
       "id": "impossible-metals-eureka-deep-sea-mining-20261109",
       "dzen_title": "ИИ-робот нырнул на 4 км за металлами. Улов — 450 граммов",
       "x_text": "Impossible Metals: робот Eureka сам спустился глубже 4 км в Тихом океане и поднял 450 г конкреций с металлами. Компания утверждает, что ИИ позволяет выбирать камни без видимых морских организмов. Это научный опыт; для промышленной добычи ещё нужны разрешения.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6af4090c70a94a2d460212ff",
+      "dzen_url": "https://dzen.ru/a/avQJDHCpSi1GAhL_",
+      "buffer_post_id": "6af44f1c6a8034856eabf803",
+      "with_image": true
     },
     {
       "id": "ioan-gruffudd-ai-deepfake-romance-20261109",
