@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6af2fde26275f93a7e441fbc",
+      "title": "131 ИИ-агент и 23 тысячи запросов ради одного музыкального клипа!",
+      "dzen_url": "https://dzen.ru/a/avL94mJ1-Tp-RB-8",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-11T07:04:00+00:00",
+      "excerpt": "Автор под псевдонимом Tetsuo 8 ноября опубликовал музыкальный клип Attention Is All You Need. Видео длится 5 минут 26 секунд. А вот его создание, по подсчётам автора, потребовало 131 ИИ-агента, 23 354 обращения к моделям и 10,1 миллиарда токенов. От первых строк песни до готового видео прошло 26 часов 51 минута. Tetsuo использовал собственную систему автоматизации AgenC, которая объединяла множество нейросетей и граф"
+    },
+    {
       "dzen_id": "6af2fd8bd7e7c818f2b00727",
       "title": "Инженер лёг спать. Claude сам смешал краски и нарисовал акварель",
       "dzen_url": "https://dzen.ru/a/avL9i9fnyBjysAcn",
@@ -2942,11 +2953,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 276,
-    "fully_titled_from_archived_public_feed": 221,
+    "total_cataloged_editorial_publications": 277,
+    "fully_titled_from_archived_public_feed": 222,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-11",
-  "coverage": "276 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "277 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
