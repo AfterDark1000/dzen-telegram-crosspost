@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6af4184b6275f93a7eca4597",
+      "title": "Anthropic назвала цену акций: компанию могут оценить в $1,3 трлн",
+      "dzen_url": "https://dzen.ru/a/avQYS2J1-Tp-ykWX",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-12T04:03:11+00:00",
+      "excerpt": "Anthropic 10 ноября раскрыла условия выхода на биржу. Разработчик Claude собирается продать 825 миллионов акций по цене от 70 до 78 долларов за штуку. Если инвесторы согласятся на среднюю цену в $74, общая стоимость выставленных акций составит около $61 млрд. При этом всю Anthropic могут оценить примерно в $1,3 трлн. Это уже деньги совершенно другого порядка. Разница объясняется просто: на бирже собираются продать ли"
+    },
+    {
       "dzen_id": "6af4180362a8a4174801c14b",
       "title": "Google проверила шифрование Signal с помощью ИИ",
       "dzen_url": "https://dzen.ru/a/avQYA2KopBdIAcFL",
@@ -3096,11 +3107,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 290,
-    "fully_titled_from_archived_public_feed": 235,
+    "total_cataloged_editorial_publications": 291,
+    "fully_titled_from_archived_public_feed": 236,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-12",
-  "coverage": "290 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "291 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
