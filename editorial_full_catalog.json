@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6af42a640e259d5111a36cf0",
+      "title": "Adobe научила Photoshop менять ракурс, а Premiere — генерировать видео",
+      "dzen_url": "https://dzen.ru/a/avQqZA4lnVERo2zw",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-12T07:01:03+00:00",
+      "excerpt": "Adobe 10 ноября на конференции Adobe MAX 2026 представила новые ИИ-инструменты для Photoshop, Premiere и Firefly. Теперь можно менять ракурс готового изображения, генерировать недостающие кадры прямо во время видеомонтажа и поручать часть творческой работы ИИ-агентам. Она позволяет выбрать другую точку обзора готовой картинки. Generative Recompose перестраивает композицию под новый формат кадра, а Convert to Text Lay"
+    },
+    {
       "dzen_id": "6af42a00500b723595060c7d",
       "title": "Корейских школьников поймали на списывании через ИИ-очки",
       "dzen_url": "https://dzen.ru/a/avQqAFALcjWVBgx9",
@@ -3129,11 +3140,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 293,
-    "fully_titled_from_archived_public_feed": 238,
+    "total_cataloged_editorial_publications": 294,
+    "fully_titled_from_archived_public_feed": 239,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-12",
-  "coverage": "293 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "294 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
