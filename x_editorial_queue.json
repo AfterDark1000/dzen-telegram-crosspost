@@ -27,8 +27,12 @@
       "id": "adobe-max-photoshop-premiere-firefly-20261110",
       "dzen_title": "Adobe научила Photoshop менять ракурс, а Premiere — генерировать видео",
       "x_text": "@Adobe обновила творческий арсенал: Photoshop в бете меняет ракурс фотографии и извлекает текст в редактируемый слой. Premiere генерирует видео и звук прямо на монтажной дорожке. В 2027-м обещают доступ сторонних ИИ-агентов к проектам.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6af42a640e259d5111a36cf0",
+      "dzen_url": "https://dzen.ru/a/avQqZA4lnVERo2zw",
+      "buffer_post_id": "6af5684815999d2da11a2d83",
+      "with_image": false
     },
     {
       "id": "ai-ceo-lawyer-impersonation-fraud-129m-20261105",
