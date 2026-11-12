@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6af42a00500b723595060c7d",
+      "title": "Корейских школьников поймали на списывании через ИИ-очки",
+      "dzen_url": "https://dzen.ru/a/avQqAFALcjWVBgx9",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-12T06:01:45+00:00",
+      "excerpt": "Министерство образования Южной Кореи 9 ноября сообщило о четырёх школьниках, которые использовали очки с искусственным интеллектом для списывания на экзаменах. Всех поймали, а работы оценили в ноль. Устройства позволяли получать подсказки во время испытаний, но обнаружить их помогли обычные наблюдения преподавателей. В одной из школ Сеула ученик пришёл на экзамен в очках, хотя обычно их не носил. Во время работы он п"
+    },
+    {
       "dzen_id": "6af429b7b5493806a7a73b52",
       "title": "Amazon отправит дроны патрулировать квартиры",
       "dzen_url": "https://dzen.ru/a/avQpt7VJOAanpztS",
@@ -3118,11 +3129,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 292,
-    "fully_titled_from_archived_public_feed": 237,
+    "total_cataloged_editorial_publications": 293,
+    "fully_titled_from_archived_public_feed": 238,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-12",
-  "coverage": "292 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "293 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
