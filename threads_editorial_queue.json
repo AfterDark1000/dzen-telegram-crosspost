@@ -79,8 +79,11 @@
       "id": "amazon-ring-drone-rover-cam-20261110",
       "dzen_title": "Amazon отправит дроны патрулировать квартиры",
       "threads_text": "Сработал датчик — ДРОН вылетел проверять квартиру. 🛸\n\nAmazon представила Ring Drone Cam: он летает по комнатам, обходит препятствия, снимает в 2K и возвращается на зарядку. В воздухе держится до 8 минут.\n\nДля магазинов и офисов — Ring Rover Cam на колёсах, с 4K-камерой, сиреной и голосовой связью. В США устройства обещают по $249,99 и $999,99.\n\nЛюстре придётся привыкать к новому соседу. 💡",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6af429b7b5493806a7a73b52",
+      "dzen_url": "https://dzen.ru/a/avQpt7VJOAanpztS",
+      "threads_post_id": "17887377951625030"
     },
     {
       "id": "anthropic-agent-skills-foundation-20261023",
