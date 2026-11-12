@@ -808,8 +808,11 @@
       "id": "google-alphaproof-code-signal-verification-20261110",
       "dzen_title": "Google проверила шифрование Signal с помощью ИИ",
       "threads_text": "Google устроила Signal МАТЕМАТИЧЕСКИЙ ЭКЗАМЕН. 📐\n\nИИ-агенты DeepMind за четыре недели проверили криптографический код личной переписки Signal вплоть до машинных инструкций. Получилось 6,5 млн строк доказательств на Lean, которые автоматически проверила специальная программа.\n\nПотом в тестовый код вернули две давно исправленные ошибки — система обнаружила обе.\n\nУ Signal теперь зачётка толщиной в 6,5 млн строк. 📚",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6af4180362a8a4174801c14b",
+      "dzen_url": "https://dzen.ru/a/avQYA2KopBdIAcFL",
+      "threads_post_id": "18028538657871209"
     },
     {
       "id": "google-confidential-g4-blackwell-20261022",

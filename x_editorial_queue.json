@@ -468,8 +468,12 @@
       "id": "google-alphaproof-code-signal-verification-20261110",
       "dzen_title": "Google проверила шифрование Signal с помощью ИИ",
       "x_text": "ИИ-агенты Google DeepMind за четыре недели математически проверили криптографический код Signal — вплоть до машинных инструкций. Написали 6,5 млн строк доказательств на Lean. Затем вернули в тестовый код две давно исправленные уязвимости: система выявила обе.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6af4180362a8a4174801c14b",
+      "dzen_url": "https://dzen.ru/a/avQYA2KopBdIAcFL",
+      "buffer_post_id": "6af53000cb4c7286fd0ebaae",
+      "with_image": false
     },
     {
       "id": "google-elephant-goldfish-model-20261106",
