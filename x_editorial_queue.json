@@ -96,8 +96,12 @@
       "id": "anthropic-ipo-price-range-20261110",
       "dzen_title": "Anthropic назвала цену акций: компанию могут оценить в $1,3 трлн",
       "x_text": "Anthropic раскрыла условия IPO: 825 млн акций по $70–78. При цене $74 выставленный пакет обойдётся инвесторам примерно в $61 млрд, а оценка всей компании может составить около $1,3 трлн. 10 ноября начались встречи с инвесторами. Планируемый тикер Nasdaq — ANT.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6af4184b6275f93a7eca4597",
+      "dzen_url": "https://dzen.ru/a/avQYS2J1-Tp-ykWX",
+      "buffer_post_id": "6af53e14cb4c7286fd12fd7d",
+      "with_image": true
     },
     {
       "id": "anthropic-recursive-self-improvement-risk-20261102",
