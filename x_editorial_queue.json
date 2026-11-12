@@ -523,8 +523,12 @@
       "id": "google-gemini-for-healthcare-20261110",
       "dzen_title": "Google представила Gemini для больниц: ИИ разберёт медкарты и страховки",
       "x_text": "@GoogleCloud представила Gemini for healthcare: ИИ-агент собирает историю болезни из разных медсистем, готовит документы для страховщиков и черновики апелляций. Медкарты он читает, но не переписывает. Пока предварительный доступ в США для организаций.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6af4391dfbd16748b0c7e996",
+      "dzen_url": "https://dzen.ru/a/avQ5HfvRZ0iwx-mW",
+      "buffer_post_id": "6af5766497798e85b9f183a3",
+      "with_image": true
     },
     {
       "id": "google-gemini-inline-file-editing-20261029",
