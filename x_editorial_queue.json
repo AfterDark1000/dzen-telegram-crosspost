@@ -282,6 +282,13 @@
       "status": "approved"
     },
     {
+      "id": "cisco-claude-mythos-ai-defense-20261109",
+      "dzen_title": "Cisco поручит Claude искать способы взлома корпоративных ИИ-агентов",
+      "x_text": "Cisco нашла для Claude легальную работу хакера: Mythos будет придумывать атаки на корпоративных ИИ-агентов через AI Defense. Только разрешённые цели, ответственный сотрудник и журнал действий. Пока это анонс для ограниченного круга компаний.",
+      "status": "approved",
+      "include_dzen_link": false
+    },
+    {
       "id": "cisco-talos-volta-autodoxer-ai-dossier-20261031",
       "dzen_title": "Вирус крадёт пароли, а ИИ оценивает, сколько стоит жертва",
       "x_text": "Cisco Talos нашла VOLTA-AUTODOXER — вредонос, который собирает пароли, токены, платежные данные и чеки, а потом просит ИИ оценить ценность жертвы.\n\nВ коде предусмотрены Claude Opus 4.6, Kimi K2 и Gemini 2.5 Flash. Применение программы в реальных атаках пока не подтверждено.",
@@ -496,6 +503,13 @@
       "dzen_url": "https://dzen.ru/a/auwv0JL-EAlBhLFm",
       "buffer_post_id": "6aed470586fe9b83796c8dc9",
       "with_image": true
+    },
+    {
+      "id": "google-alphagenome-2-cell-variants-20261111",
+      "dzen_title": "Google научила ИИ искать причины болезней в отдельных клетках",
+      "x_text": "У клеток одна ДНК, а проблемы — по разным адресам. @GoogleDeepMind показала AlphaGenome 2: модель ищет, в каком типе клеток мутация меняет работу генов. В испытании на иммунных клетках — 30% найденных причинных вариантов против 16% у первой версии.",
+      "status": "approved",
+      "include_dzen_link": false
     },
     {
       "id": "google-alphaproof-code-signal-verification-20261110",
@@ -1293,20 +1307,6 @@
       "id": "zyphra-zonos3-mini-voice-cloning-20261109",
       "dzen_title": "Zyphra выпустила ZONOS3-Mini: клонирует голос и работает прямо в браузере",
       "x_text": "@ZyphraAI выпустила ZONOS3-Mini: голосовая модель копирует голос по образцу, меняет интонации и умеет шептать отдельные слова. Из ~800 млн параметров активны ~100 млн. Запускается локально, включая WebGPU-браузер; есть русский. Веса — Apache 2.0.",
-      "status": "approved",
-      "include_dzen_link": false
-    },
-    {
-      "id": "cisco-claude-mythos-ai-defense-20261109",
-      "dzen_title": "Cisco поручит Claude искать способы взлома корпоративных ИИ-агентов",
-      "x_text": "Cisco нашла для Claude легальную работу хакера: Mythos будет придумывать атаки на корпоративных ИИ-агентов через AI Defense. Только разрешённые цели, ответственный сотрудник и журнал действий. Пока это анонс для ограниченного круга компаний.",
-      "status": "approved",
-      "include_dzen_link": false
-    },
-    {
-      "id": "google-alphagenome-2-cell-variants-20261111",
-      "dzen_title": "Google научила ИИ искать причины болезней в отдельных клетках",
-      "x_text": "У клеток одна ДНК, а проблемы — по разным адресам. @GoogleDeepMind показала AlphaGenome 2: модель ищет, в каком типе клеток мутация меняет работу генов. В испытании на иммунных клетках — 30% найденных причинных вариантов против 16% у первой версии.",
       "status": "approved",
       "include_dzen_link": false
     }
