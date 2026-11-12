@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6af429b7b5493806a7a73b52",
+      "title": "Amazon отправит дроны патрулировать квартиры",
+      "dzen_url": "https://dzen.ru/a/avQpt7VJOAanpztS",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-12T05:00:48+00:00",
+      "excerpt": "Amazon 10 ноября представила двух необычных охранников: летающую камеру для квартир и колёсного робота для магазинов и офисов. Оба устройства разработала принадлежащая Amazon компания Ring, а управлять их передвижениями будет искусственный интеллект. Ring Drone Cam — небольшой дрон с камерой, который самостоятельно облетает комнаты. Владелец может отправить его проверить окно, дверь или другую точку квартиры прямо со"
+    },
+    {
       "dzen_id": "6af4184b6275f93a7eca4597",
       "title": "Anthropic назвала цену акций: компанию могут оценить в $1,3 трлн",
       "dzen_url": "https://dzen.ru/a/avQYS2J1-Tp-ykWX",
@@ -3107,11 +3118,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 291,
-    "fully_titled_from_archived_public_feed": 236,
+    "total_cataloged_editorial_publications": 292,
+    "fully_titled_from_archived_public_feed": 237,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-12",
-  "coverage": "291 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "292 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
