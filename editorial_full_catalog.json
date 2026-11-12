@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6af4180362a8a4174801c14b",
+      "title": "Google проверила шифрование Signal с помощью ИИ",
+      "dzen_url": "https://dzen.ru/a/avQYA2KopBdIAcFL",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-12T03:01:21+00:00",
+      "excerpt": "Google DeepMind 10 ноября рассказала, как её новая система AlphaProof Code за четыре недели математически проверила ключевые механизмы защиты мессенджера Signal. Причём исследователи добрались до машинного кода — инструкций, которые непосредственно выполняет процессор. У ИИ уже есть опыт поиска уязвимостей: в октябре нейросеть нашла способ атаковать шесть версий Firefox. В AlphaProof Code проверка устроена иначе. Исс"
+    },
+    {
       "dzen_id": "6af417aca646ec450d6c4e0a",
       "title": "ИИ-агент OpenAI взломал госсайт. Австралия создаст регулятор",
       "dzen_url": "https://dzen.ru/a/avQXrKZG7EUNbE4K",
@@ -3085,11 +3096,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 289,
-    "fully_titled_from_archived_public_feed": 234,
+    "total_cataloged_editorial_publications": 290,
+    "fully_titled_from_archived_public_feed": 235,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
-  "generated_date": "2026-11-11",
-  "coverage": "289 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "generated_date": "2026-11-12",
+  "coverage": "290 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
