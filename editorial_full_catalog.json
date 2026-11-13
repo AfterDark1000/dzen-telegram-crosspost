@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6af698f5c39de244cb70c210",
+      "title": "TSMC вложит до миллиарда в OpenAI и Anthropic",
+      "dzen_url": "https://dzen.ru/a/avaY9cOd4kTLcMIQ",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-13T17:02:27+00:00",
+      "excerpt": "Тайваньская TSMC 10 ноября одобрила инвестиции до $1 млрд в разработчиков искусственного интеллекта OpenAI и Anthropic. Совет директоров крупнейшего контрактного производителя микросхем разрешил потратить на акции каждой компании не более $500 млн. TSMC выпускает чипы по заказам других компаний, в том числе NVIDIA. Именно на таких процессорах работают мощные ИИ-серверы. Теперь тайваньский гигант хочет стать совладель"
+    },
+    {
       "dzen_id": "6af69874a8a0411d57c49192",
       "title": "Создатель Cyanogen замахнулся на Windows. В его Linux поселят ИИ",
       "dzen_url": "https://dzen.ru/a/avaYdKigQR1XxJGS",
@@ -3283,11 +3294,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 307,
-    "fully_titled_from_archived_public_feed": 252,
+    "total_cataloged_editorial_publications": 308,
+    "fully_titled_from_archived_public_feed": 253,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-13",
-  "coverage": "307 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "308 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
