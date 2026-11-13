@@ -1175,7 +1175,11 @@
       "dzen_title": "«ИИ научили варить металл. Теперь ему хотят доверить целый завод — и дали на это $300 млн»",
       "x_text": "У @PathRobotics теперь $300 млн на планы покрупнее сварочного шва. Раунд возглавила Georgian, оценка компании — $2,45 млрд. Её ИИ Obsidian уже управляет сваркой, а @AndrewLonsberry хочет распространить подход на другие заводские операции.",
       "include_dzen_link": false,
-      "status": "approved"
+      "status": "queued",
+      "dzen_id": "6af6965880f8703a3ac4811f",
+      "dzen_url": "https://dzen.ru/a/avaWWID4cDo6xIEf",
+      "buffer_post_id": "6af70018d414da1f7da41870",
+      "with_image": true
     },
     {
       "id": "perplexity-teammates-ai-agents-20261104",
