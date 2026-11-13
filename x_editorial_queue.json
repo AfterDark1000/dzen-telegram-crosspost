@@ -808,8 +808,12 @@
       "id": "mercor-series-d-750m-20b-valuation-20261110",
       "dzen_title": "Mercor привлекла $750 млн: инвесторы оценили бизнес на обучении ИИ в $20 млрд",
       "x_text": "Пока ИИ учится работать, люди ставят ему оценки. @mercor объявила раунд на $750 млн при оценке $20 млрд: её эксперты проверяют, как агенты справляются с реальными задачами. Среди инвесторов — @nvidia, @salesforce и @Zoom.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6af69511fbd16748b04a5e41",
+      "dzen_url": "https://dzen.ru/a/avaVEfvRZ0iwSl5B",
+      "buffer_post_id": "6af6d5da4a7c38f164b776c4",
+      "with_image": false
     },
     {
       "id": "meta-instagram-ai-teen-age-global-20261109",
