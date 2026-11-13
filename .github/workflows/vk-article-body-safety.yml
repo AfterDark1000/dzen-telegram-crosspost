@@ -1,0 +1,32 @@
+name: VK full-text cleanup safety (no posting)
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'vk_article_body.py'
+      - 'vk_crosspost.py'
+      - 'tests/test_vk_article_body.py'
+      - '.github/workflows/vk-article-body-safety.yml'
+  pull_request:
+    paths:
+      - 'vk_article_body.py'
+      - 'vk_crosspost.py'
+      - 'tests/test_vk_article_body.py'
+      - '.github/workflows/vk-article-body-safety.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Syntax-check VK publisher
+        run: python3 -m py_compile vk_article_body.py vk_crosspost.py
+      - name: Verify Dzen article card cleaning without posting anywhere
+        run: python3 -m unittest discover -s tests -p 'test_vk_article_body.py' -v
