@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6af697f0ed32a93818574b9d",
+      "title": "Во Франции предложили отключить у ИИ «режим подхалима»",
+      "dzen_url": "https://dzen.ru/a/avaX8O0yqTgYV0ud",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-13T15:02:57+00:00",
+      "excerpt": "Французский Совет по ИИ и цифровым технологиям (CIANum) 10 ноября предложил по умолчанию отключать у чат-ботов механизмы лести и поддакивания. А функции, которые специально вызывают эмоциональную привязанность к нейросети, эксперты хотят запретить. Доклад с 18 рекомендациями передали президенту Эмманюэлю Макрону. Авторы изучили, как ИИ-помощники влияют на поведение людей и почему некоторые пользователи начинают слишк"
+    },
+    {
       "dzen_id": "6af6979f70a94a2d464af620",
       "title": "Китайцы пошли за покупками к ИИ",
       "dzen_url": "https://dzen.ru/a/avaXn3CpSi1GSvYg",
@@ -3261,11 +3272,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 305,
-    "fully_titled_from_archived_public_feed": 250,
+    "total_cataloged_editorial_publications": 306,
+    "fully_titled_from_archived_public_feed": 251,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-13",
-  "coverage": "305 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "306 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
