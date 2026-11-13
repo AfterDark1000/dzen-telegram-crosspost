@@ -243,7 +243,11 @@
       "dzen_title": "«Остальное не трогай»: ByteDance показала 100 правок одной картинки в Seedream 5.5",
       "x_text": "Знакомая боль: попросил исправить букву, а ИИ поменял полкартинки.\n\n@ByteDanceSeed_ показала Seedream 5.5: 100 последовательных правок с сохранением нетронутых областей на уровне пикселей.\n\nДля @capcutapp международный запуск модели ещё впереди.",
       "include_dzen_link": false,
-      "status": "approved"
+      "status": "queued",
+      "dzen_id": "6af695e4a6f32b4dfb7b6c02",
+      "dzen_url": "https://dzen.ru/a/avaV5KbzK037e2wC",
+      "buffer_post_id": "6af6f20bbd1182b0d3ebfd8e",
+      "with_image": false
     },
     {
       "id": "caissi-no-permanent-director-20261108",
