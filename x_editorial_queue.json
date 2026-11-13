@@ -1409,6 +1409,13 @@
       "dzen_url": "https://dzen.ru/a/avaTGlALcjWVeERd",
       "buffer_post_id": "6af6abc5c1a0010a5b01a317",
       "with_image": true
+    },
+    {
+      "id": "google-gemini-live-apple-carplay-20261111",
+      "dzen_title": "Google запустила Gemini в Apple CarPlay — теперь почту можно разбирать за рулём",
+      "x_text": "У @Google теперь свой голос в CarPlay от @Apple. 🚗\n\nGemini Live может пересказать длинную переписку из Gmail, проверить календарь и продолжить беседу на iPhone после поездки.\n\nТолько сначала открой Live на телефоне — без знакомства в машину не пустят.",
+      "status": "approved",
+      "include_dzen_link": false
     }
   ]
 }
