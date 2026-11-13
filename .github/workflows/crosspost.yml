@@ -44,7 +44,8 @@ jobs:
         env:
           VK_ACCESS_TOKEN: ${{ secrets.VK_ACCESS_TOKEN }}
         run: |
-          python3 -m py_compile vk_crosspost.py
+          python3 -m py_compile vk_article_body.py vk_crosspost.py
+          python3 -m unittest discover -s tests -p 'test_vk_article_body.py' -v
           python3 vk_crosspost.py
       - name: Checkpoint delivered Telegram and VK IDs
         id: early_checkpoint
