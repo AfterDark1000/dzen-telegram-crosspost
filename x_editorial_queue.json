@@ -1362,6 +1362,13 @@
       "x_text": "У новой Qwen4-Max-Preview от @Alibaba_Qwen уже есть дата отключения: 25 ноября. Контекст — 1 млн токенов, понимание изображений и видео, вызов инструментов. API пока только по Token Plan, без разовой оплаты. Даже флагману выписали двухнедельный контракт.",
       "status": "approved",
       "include_dzen_link": false
+    },
+    {
+      "id": "google-gemini-decision-1-20261111",
+      "dzen_title": "Google выпустила ИИ, который отвечает на тысячу вопросов без слов",
+      "x_text": "@Google и @GoogleDeepMind выпустили Gemini Decision 1 в @GoogleAIStudio: до 1000 проверок за запрос, ответы — вероятности вместо текста. Заявленные 150–250 мс измерены Google на меньших наборах вопросов. Цена — $0,10 за 1 млн входных токенов.",
+      "status": "approved",
+      "include_dzen_link": false
     }
   ]
 }
