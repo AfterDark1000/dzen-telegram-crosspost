@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6af69511fbd16748b04a5e41",
+      "title": "Mercor привлекла $750 млн: инвесторы оценили бизнес на обучении ИИ в $20 млрд",
+      "dzen_url": "https://dzen.ru/a/avaVEfvRZ0iwSl5B",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-13T09:01:56+00:00",
+      "excerpt": "Американская Mercor 10 ноября объявила о привлечении $750 млн в инвестиционном раунде Series D. Компанию оценили в $20 млрд — вдвое дороже, чем в октябре прошлого года. Среди инвесторов оказались NVIDIA, Salesforce, Zoom, Benchmark и другие крупные фонды. Mercor начинала как платформа для подбора сотрудников. Теперь её основной бизнес — помогать разработчикам искусственного интеллекта обучать модели и проверять их сп"
+    },
+    {
       "dzen_id": "6af694c04692d94ef3403345",
       "title": "Европа хочет свой ИИ для поиска военных целей: Helsing бросает вызов Palantir",
       "dzen_url": "https://dzen.ru/a/avaUwEaS2U7zQDNF",
@@ -3195,11 +3206,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 299,
-    "fully_titled_from_archived_public_feed": 244,
+    "total_cataloged_editorial_publications": 300,
+    "fully_titled_from_archived_public_feed": 245,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-13",
-  "coverage": "299 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "300 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
