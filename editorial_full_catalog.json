@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6af6965880f8703a3ac4811f",
+      "title": "ИИ научили варить металл. Теперь ему хотят доверить целый завод — и дали на это $300 млн",
+      "dzen_url": "https://dzen.ru/a/avaWWID4cDo6xIEf",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-13T12:02:17+00:00",
+      "excerpt": "Американская компания Path Robotics 10 ноября объявила о привлечении $300 млн в инвестиционном раунде Series E. После сделки её оценили в $2,45 млрд. Деньги пойдут на расширение производства роботизированных сварочных систем и разработку ИИ для других заводских операций. Раунд возглавила инвестиционная компания Georgian. Path Robotics начинала со сварки — одной из самых сложных производственных задач для автоматизаци"
+    },
+    {
       "dzen_id": "6af695e4a6f32b4dfb7b6c02",
       "title": "«Остальное не трогай»: ByteDance показала 100 правок одной картинки в Seedream 5.5",
       "dzen_url": "https://dzen.ru/a/avaV5KbzK037e2wC",
@@ -3228,11 +3239,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 302,
-    "fully_titled_from_archived_public_feed": 247,
+    "total_cataloged_editorial_publications": 303,
+    "fully_titled_from_archived_public_feed": 248,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-13",
-  "coverage": "302 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "303 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
