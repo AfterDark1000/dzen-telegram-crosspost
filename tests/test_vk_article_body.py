@@ -38,7 +38,7 @@ class VKArticleBodyTests(unittest.TestCase):
         self.assertNotIn("Хроники Пикирующего ИИ\n3 дня назад", cleaned)
         self.assertEqual(cleaned.count(TITLE), 1)
         self.assertIn("Насколько хорошо роботы обучаются?", cleaned)
-        self.assertIn("После", cleaned + " После")  # body after preview preserved
+        self.assertIn("Исследователи проверили GR00T 2 на 50 заданиях.", cleaned)
 
     def test_unmapped_widget_is_removed_not_replaced_by_fake_url(self):
         cleaned, count = clean_dzen_embeds(ARTICLE_BODY, {})
