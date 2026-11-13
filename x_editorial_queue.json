@@ -298,7 +298,11 @@
       "dzen_title": "Китайцы пошли за покупками к ИИ",
       "x_text": "Чат-бот Doubao обеспечил 4,3% продаж в выборке 15 магазинов на Douyin. На витаминах и спецоборудовании доля доходила до 20%, выяснила WPIC. У @JD_Corporate помощник Dongdong собрал почти 80 млн пользователей за распродажу. Магазины борются за место в ответах ИИ.",
       "include_dzen_link": false,
-      "status": "approved"
+      "status": "queued",
+      "dzen_id": "6af6979f70a94a2d464af620",
+      "dzen_url": "https://dzen.ru/a/avaXn3CpSi1GSvYg",
+      "buffer_post_id": "6af71c304f78da1d8ba912e9",
+      "with_image": true
     },
     {
       "id": "cisco-claude-mythos-ai-defense-20261109",
