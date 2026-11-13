@@ -1431,7 +1431,11 @@
       "dzen_title": "TSMC вложит до миллиарда в OpenAI и Anthropic",
       "x_text": "TSMC одобрила до $500 млн на акции @OpenAI и столько же — на @AnthropicAI. Производитель чипов решил обзавестись долями в разработчиках моделей, а на собственные мощности выделил ещё $40,9 млрд. Участвовать в гонке и поставлять для неё моторы — удобно.",
       "include_dzen_link": false,
-      "status": "approved"
+      "status": "queued",
+      "dzen_id": "6af698f5c39de244cb70c210",
+      "dzen_url": "https://dzen.ru/a/avaY9cOd4kTLcMIQ",
+      "buffer_post_id": "6af7466cf27e6d8921446463",
+      "with_image": false
     },
     {
       "id": "umich-prism-robot-motion-20261110",
