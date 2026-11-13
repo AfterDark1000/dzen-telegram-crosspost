@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6af683d608c95d6913e99465",
+      "title": "Beeble выпустила SwitchX 3.0: ИИ меняет декорации в готовом видео",
+      "dzen_url": "https://dzen.ru/a/avaD1gjJXWkT6ZRl",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-13T03:29:00+00:00",
+      "excerpt": "Beeble 10 ноября выпустила SwitchX 3.0 — обновлённую нейросеть для замены декораций и освещения в уже снятом видео. Теперь искусственный интеллект умеет создавать движущийся фон, который следует за камерой, сохраняя движения и мимику настоящего актёра. В демонстрациях компании пустая площадь заполняется прохожими, на горном склоне начинается снегопад, а за мотоциклистом появляется целый подводный мир с акулой. В друг"
+    },
+    {
       "dzen_id": "6af4391dfbd16748b0c7e996",
       "title": "Google представила Gemini для больниц: ИИ разберёт медкарты и страховки",
       "dzen_url": "https://dzen.ru/a/avQ5HfvRZ0iwx-mW",
@@ -3151,11 +3162,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 295,
-    "fully_titled_from_archived_public_feed": 240,
+    "total_cataloged_editorial_publications": 296,
+    "fully_titled_from_archived_public_feed": 241,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
-  "generated_date": "2026-11-12",
-  "coverage": "295 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "generated_date": "2026-11-13",
+  "coverage": "296 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
