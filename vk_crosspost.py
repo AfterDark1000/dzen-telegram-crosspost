@@ -14,6 +14,7 @@ from state_checkpoint import atomic_json
 from playwright.async_api import async_playwright, Error as PlaywrightError
 from crosspost import fetch_articles
 from site_utm import load_site_catalog, tagged_site_url
+from vk_article_body import clean_dzen_embeds, known_related_links
 
 STATE = Path("seen_vk_articles.json")
 GROUP_ID = 242308928
@@ -34,7 +35,7 @@ def make_message(title, body):
     return message
 
 
-async def read_full_article(page, item):
+async def read_full_article(page, item, related_links=None):
     """Read the actual Dzen article body, never fall back to its feed preview."""
     last_error = None
     for attempt in range(1, 4):
@@ -48,7 +49,12 @@ async def read_full_article(page, item):
                         if (!root) return null;
                         return {
                             text: (root.innerText || '').trim(),
-                            paragraphCount: root.querySelectorAll('p').length
+                            paragraphCount: root.querySelectorAll('p').length,
+                            links: Array.from(root.querySelectorAll('a[href]')).slice(0, 100)
+                                .map(a => ({
+                                    url: a.href,
+                                    title: (a.innerText || a.textContent || '').split('\\n')[0].trim()
+                                }))
                         };
                     }""")
                 except PlaywrightError:
@@ -64,7 +70,12 @@ async def read_full_article(page, item):
                 # Require evidence the extracted body is substantially longer.
                 if teaser and len(normalized) <= len(teaser) + 60:
                     raise RuntimeError("Dzen body may be incomplete: no longer than feed preview")
-                return make_message(item["title"], body)
+                cleaned, removed = clean_dzen_embeds(
+                    body, related_links, dom_links=content.get("links", []))
+                if removed:
+                    print(f"VK_DZEN_EMBED_CLEANED: {item['title']} "
+                          f"widgets={removed}", flush=True)
+                return make_message(item["title"], cleaned)
             raise RuntimeError("Full article body not found on page")
         except (PlaywrightError, RuntimeError) as exc:
             last_error = exc
@@ -122,12 +133,13 @@ async def main():
     if not pending:
         return
     catalog = load_site_catalog()
+    related_links = known_related_links(catalog)
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=True, args=["--no-sandbox"])
         try:
             page = await browser.new_page(locale="ru-RU", timezone_id="Europe/Moscow")
             for item in pending:
-                message = await read_full_article(page, item)
+                message = await read_full_article(page, item, related_links)
                 site_url = tagged_site_url(item, catalog, "vk")
                 if site_url:
                     extra = "\n\nЧитать на сайте ХПИИ: " + site_url
