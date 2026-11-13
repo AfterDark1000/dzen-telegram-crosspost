@@ -2468,6 +2468,13 @@
       "dzen_id": "6af6931a500b72359578445d",
       "dzen_url": "https://dzen.ru/a/avaTGlALcjWVeERd",
       "threads_post_id": "18144182137613085"
+    },
+    {
+      "id": "salesforce-sfr-autord-ai-model-improvement-20261111",
+      "dzen_title": "ИИ Salesforce улучшил другую нейросеть за 80 часов",
+      "threads_text": "В Salesforce нейросети ставят ОПЫТЫ над нейросетями. 🧪\n\n80 часов ИИ-агенты меняли код и способы обучения модели, которая ищет нужные документы. По тестам компании качество поиска выросло на 6,13 пункта. Люди задали цели и ограничения.\n\nНейронка, прокачай кореша! 💪",
+      "status": "approved",
+      "include_dzen_link": false
     }
   ]
 }
