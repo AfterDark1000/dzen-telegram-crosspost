@@ -542,7 +542,11 @@
       "dzen_title": "Во Франции предложили отключить у ИИ «режим подхалима»",
       "x_text": "Во Франции предложили отключить у ИИ «режим подхалима»: по умолчанию убрать лесть, поддакивание и имитацию близости. Для чат-ботов вроде ChatGPT от @OpenAI хотят усилить правила, особенно для детей. Доклад CIANum — рекомендации, запрета пока нет.",
       "include_dzen_link": false,
-      "status": "approved"
+      "status": "queued",
+      "dzen_id": "6af697f0ed32a93818574b9d",
+      "dzen_url": "https://dzen.ru/a/avaX8O0yqTgYV0ud",
+      "buffer_post_id": "6af72a3688f57d6580d2c5ad",
+      "with_image": false
     },
     {
       "id": "geoffrey-hinton-ai-chernobyl-20261103",
