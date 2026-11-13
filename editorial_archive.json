@@ -3,6 +3,17 @@
   "scope": "public Dzen feed + prepared Instagram covers; not private Dzen schedule",
   "entries": [
     {
+      "key": "dzen:6af6947ed2ba2924ba1ac8d3",
+      "dzen_id": "6af6947ed2ba2924ba1ac8d3",
+      "title": "Google испытала Gemini Robotics 2.5 на заводах Mercedes-Benz: 96% удачных операций",
+      "title_normalized": "google испытала gemini robotics 2 5 на заводах mercedes benz 96 удачных операций",
+      "status": "published",
+      "dzen_url": "https://dzen.ru/a/avaUftK6KSS6GsjT",
+      "published_at_utc": "2026-11-13T06:41:28+00:00",
+      "first_recorded_at_utc": "2026-11-13T07:18:05+00:00",
+      "excerpt": "Google DeepMind 10 ноября представила Gemini Robotics 2.5 — новую модель искусственного интеллекта для управления роботами. Её уже испытали на действующих заводах Mercedes-Benz в Германии и Венгрии. Гуманоиды Apollo 2 компании Apptronik сортировали автодетали, успешно справившись с 96% операций, по данным Google. Задача выглядела вполне буднично: достать металлические кронштейны из общего контейнера и разложить по ло"
+    },
+    {
       "key": "dzen:6af6931a500b72359578445d",
       "dzen_id": "6af6931a500b72359578445d",
       "title": "Zyphra выпустила ZONOS3-Mini: клонирует голос и работает прямо в браузере",
@@ -2776,6 +2787,6 @@
       "excerpt": "GitHub объявил о полноценном запуске AI Scan — инструмента, который проверяет изменения программного кода на потенциальные уязвимости. В отличие от традиционного анализатора CodeQL, новая система охватывает дополнительные языки и технологии, включая PHP, Bash, Terraform и Dockerfile. Когда разработчик предлагает изменения в проекте, AI Scan может автоматически проверить их, объяснить обнаруженную проблему и предложит"
     }
   ],
-  "updated_at_utc": "2026-11-13T06:18:14+00:00",
+  "updated_at_utc": "2026-11-13T07:18:05+00:00",
   "legacy_seen_ids_count": 298
 }

@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6af6947ed2ba2924ba1ac8d3",
+      "title": "Google испытала Gemini Robotics 2.5 на заводах Mercedes-Benz: 96% удачных операций",
+      "dzen_url": "https://dzen.ru/a/avaUftK6KSS6GsjT",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-13T06:41:28+00:00",
+      "excerpt": "Google DeepMind 10 ноября представила Gemini Robotics 2.5 — новую модель искусственного интеллекта для управления роботами. Её уже испытали на действующих заводах Mercedes-Benz в Германии и Венгрии. Гуманоиды Apollo 2 компании Apptronik сортировали автодетали, успешно справившись с 96% операций, по данным Google. Задача выглядела вполне буднично: достать металлические кронштейны из общего контейнера и разложить по ло"
+    },
+    {
       "dzen_id": "6af6931a500b72359578445d",
       "title": "Zyphra выпустила ZONOS3-Mini: клонирует голос и работает прямо в браузере",
       "dzen_url": "https://dzen.ru/a/avaTGlALcjWVeERd",
@@ -3173,11 +3184,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 297,
-    "fully_titled_from_archived_public_feed": 242,
+    "total_cataloged_editorial_publications": 298,
+    "fully_titled_from_archived_public_feed": 243,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-13",
-  "coverage": "297 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "298 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
