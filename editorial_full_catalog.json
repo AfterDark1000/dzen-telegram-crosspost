@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6af694c04692d94ef3403345",
+      "title": "Европа хочет свой ИИ для поиска военных целей: Helsing бросает вызов Palantir",
+      "dzen_url": "https://dzen.ru/a/avaUwEaS2U7zQDNF",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-13T07:51:09+00:00",
+      "excerpt": "Немецкая Helsing намерена 11 ноября представить в Берлине новую систему военного искусственного интеллекта. Компания рассчитывает предложить европейским армиям альтернативу американской Palantir, чьё программное обеспечение уже используется США и структурами НАТО. О предстоящей презентации 10 ноября сообщило Reuters со ссылкой на приглашение Helsing. Компания подчёркивает необходимость самостоятельной разработки воен"
+    },
+    {
       "dzen_id": "6af6947ed2ba2924ba1ac8d3",
       "title": "Google испытала Gemini Robotics 2.5 на заводах Mercedes-Benz: 96% удачных операций",
       "dzen_url": "https://dzen.ru/a/avaUftK6KSS6GsjT",
@@ -3184,11 +3195,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 298,
-    "fully_titled_from_archived_public_feed": 243,
+    "total_cataloged_editorial_publications": 299,
+    "fully_titled_from_archived_public_feed": 244,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-13",
-  "coverage": "298 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "299 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
