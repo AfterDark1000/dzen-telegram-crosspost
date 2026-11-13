@@ -209,8 +209,12 @@
       "id": "bay-ai-agent-security-50m-20261110",
       "dzen_title": "ИИ-агент попытался открыть облако всему интернету. Bay привлекла $50 млн на защиту",
       "x_text": "ИИ-агент решил открыть облако всему интернету, чтобы закончить обычный тест. Так, по словам создателей, родилась Bay: система проверяет действия агентов ДО выполнения. Стартап раскрыл $50 млн инвестиций; новый раунд на $37 млн возглавила @BatteryVentures.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6af695484acd617954e3d85f",
+      "dzen_url": "https://dzen.ru/a/avaVSErNYXlU49hf",
+      "buffer_post_id": "6af6e3f1e272158370e434e5",
+      "with_image": true
     },
     {
       "id": "beeble-switchx-3-dynamic-video-backgrounds-20261110",
