@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6af6979f70a94a2d464af620",
+      "title": "Китайцы пошли за покупками к ИИ",
+      "dzen_url": "https://dzen.ru/a/avaXn3CpSi1GSvYg",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-13T14:02:51+00:00",
+      "excerpt": "На китайской торговой платформе Douyin до 20% заказов в отдельных категориях уже приходят по ссылкам из чат-бота Doubao. Люди спрашивают у нейросети, что купить, и переходят прямо к оформлению заказа. Компания WPIC Marketing + Technologies изучила октябрьские продажи 15 магазинов. В среднем переходы из Doubao принесли им 4,3% продаж. Особенно заметной помощь ИИ оказалась при выборе витаминов и специального оборудован"
+    },
+    {
       "dzen_id": "6af6973d19d7f91c24e757f5",
       "title": "Куртка меняет цвет прямо во время видео: Higgsfield анонсировала Miracle",
       "dzen_url": "https://dzen.ru/a/avaXPRnX-Rwk51f1",
@@ -3250,11 +3261,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 304,
-    "fully_titled_from_archived_public_feed": 249,
+    "total_cataloged_editorial_publications": 305,
+    "fully_titled_from_archived_public_feed": 250,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-13",
-  "coverage": "304 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "305 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
