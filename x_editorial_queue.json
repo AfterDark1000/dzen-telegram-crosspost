@@ -748,7 +748,11 @@
       "dzen_title": "Куртка меняет цвет прямо во время видео: Higgsfield анонсировала Miracle",
       "x_text": "Хочется поменять цвет куртки в готовом видео, не переснимая сцену? @higgsfield обещает это в Miracle — прямо во время просмотра. Пока закрытый тест, замеров скорости нет. Позже обещана интеграция с @claudeai через Higgsfield MCP.",
       "include_dzen_link": false,
-      "status": "approved"
+      "status": "queued",
+      "dzen_id": "6af6973d19d7f91c24e757f5",
+      "dzen_url": "https://dzen.ru/a/avaXPRnX-Rwk51f1",
+      "buffer_post_id": "6af70e344c4c3b5e92623cb9",
+      "with_image": false
     },
     {
       "id": "ietf-ai-training-preference-four-companies-20261030",
