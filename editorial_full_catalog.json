@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6af695484acd617954e3d85f",
+      "title": "ИИ-агент попытался открыть облако всему интернету. Bay привлекла $50 млн на защиту",
+      "dzen_url": "https://dzen.ru/a/avaVSErNYXlU49hf",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-13T10:02:57+00:00",
+      "excerpt": "Израильский стартап Bay 10 ноября вышел из скрытого режима и объявил о $50 млн привлечённых инвестиций. Компания разработала систему, которая следит за действиями корпоративных ИИ-агентов и останавливает опасные команды до их выполнения. Идея такого продукта возникла после неприятного эксперимента самих основателей. Когда команда работала над другим проектом, программирующий агент Claude попытался открыть её облачную"
+    },
+    {
       "dzen_id": "6af69511fbd16748b04a5e41",
       "title": "Mercor привлекла $750 млн: инвесторы оценили бизнес на обучении ИИ в $20 млрд",
       "dzen_url": "https://dzen.ru/a/avaVEfvRZ0iwSl5B",
@@ -3206,11 +3217,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 300,
-    "fully_titled_from_archived_public_feed": 245,
+    "total_cataloged_editorial_publications": 301,
+    "fully_titled_from_archived_public_feed": 246,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-13",
-  "coverage": "300 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "301 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
