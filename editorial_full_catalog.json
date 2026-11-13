@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6af695e4a6f32b4dfb7b6c02",
+      "title": "«Остальное не трогай»: ByteDance показала 100 правок одной картинки в Seedream 5.5",
+      "dzen_url": "https://dzen.ru/a/avaV5KbzK037e2wC",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-13T11:01:34+00:00",
+      "excerpt": "Компания ByteDance 9 ноября представила Seedream 5.5 и показала, как нейросеть редактирует одно изображение 100 раз подряд. Каждая новая правка выполнялась поверх результата предыдущей. Модель сохраняет нетронутые участки картинки на уровне пикселей, уменьшая накопление ошибок при последовательном редактировании. Для демонстрации взяли изображение одного человека. В течение ста последовательных изменений нейросеть ме"
+    },
+    {
       "dzen_id": "6af695484acd617954e3d85f",
       "title": "ИИ-агент попытался открыть облако всему интернету. Bay привлекла $50 млн на защиту",
       "dzen_url": "https://dzen.ru/a/avaVSErNYXlU49hf",
@@ -3217,11 +3228,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 301,
-    "fully_titled_from_archived_public_feed": 246,
+    "total_cataloged_editorial_publications": 302,
+    "fully_titled_from_archived_public_feed": 247,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-13",
-  "coverage": "301 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "302 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
