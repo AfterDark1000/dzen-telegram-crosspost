@@ -714,8 +714,12 @@
       "id": "helsing-european-military-ai-palantir-20261110",
       "dzen_title": "Европа хочет свой ИИ для поиска военных целей: Helsing бросает вызов Palantir",
       "x_text": "В Европе решили: военный ИИ лучше держать дома. @HelsingAI готовит соперника Maven от @PalantirTech — системы для анализа боевой обстановки. Причина не только в технологиях: европейские армии не хотят зависеть от ПО из США. Показ назначен на 11 ноября.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6af694c04692d94ef3403345",
+      "dzen_url": "https://dzen.ru/a/avaUwEaS2U7zQDNF",
+      "buffer_post_id": "6af6c7f0fb90ccefdd2b5e50",
+      "with_image": true
     },
     {
       "id": "higgsfield-miracle-realtime-video-editing-20261106",
