@@ -68,6 +68,13 @@
       "with_image": true
     },
     {
+      "id": "alibaba-qwen4-max-preview-20261111",
+      "dzen_title": "Alibaba показала Qwen 4 Max — и сразу назначила дату отключения",
+      "x_text": "У новой Qwen4-Max-Preview от @Alibaba_Qwen уже есть дата отключения: 25 ноября. Контекст — 1 млн токенов, понимание изображений и видео, вызов инструментов. API пока только по Token Plan, без разовой оплаты. Даже флагману выписали двухнедельный контракт.",
+      "status": "approved",
+      "include_dzen_link": false
+    },
+    {
       "id": "alibaba-t-head-ipo-hong-kong-20261110",
       "dzen_title": "Alibaba два месяца держала в секрете планы вывести своего производителя ИИ-чипов на биржу",
       "x_text": "@AlibabaGroup раскрыла план IPO своего чипмейкера T-Head: заявку в Гонконге подали ещё 11 сентября, но сообщили об этом 10 ноября. Биржа разрешила двигаться дальше по процедуре выделения. Оценка, объём и сроки IPO не определены; Alibaba планирует сохранить контроль.",
@@ -543,6 +550,13 @@
       "dzen_url": "https://dzen.ru/a/avGx5Zi5GAUJg-M8",
       "buffer_post_id": "6af1d6362f9380f8d4810695",
       "with_image": true
+    },
+    {
+      "id": "google-gemini-decision-1-20261111",
+      "dzen_title": "Google выпустила ИИ, который отвечает на тысячу вопросов без слов",
+      "x_text": "@Google и @GoogleDeepMind выпустили Gemini Decision 1 в @GoogleAIStudio: до 1000 проверок за запрос, ответы — вероятности вместо текста. Заявленные 150–250 мс измерены Google на меньших наборах вопросов. Цена — $0,10 за 1 млн входных токенов.",
+      "status": "approved",
+      "include_dzen_link": false
     },
     {
       "id": "google-gemini-for-healthcare-20261110",
@@ -1278,6 +1292,13 @@
       "with_image": true
     },
     {
+      "id": "tier-iv-autoware-five-models-20261111",
+      "dzen_title": "Японцы открыли пять ИИ-моделей для беспилотных машин",
+      "x_text": "Японская @tier_iv_global открыла пять ИИ-моделей для @AutowareFdn: от систем на камерах до вариантов с лидарами и HD-картами. Есть и @NVIDIA Alpamayo 2 Edge. Код доступен, но это инструменты для разработчиков, а не автопилот «скачал — поехал».",
+      "status": "approved",
+      "include_dzen_link": false
+    },
+    {
       "id": "triggerdev-client-env-incident-20261101",
       "dzen_title": "Взломали Trigger.dev: под угрозой ключи и пароли пользователей",
       "x_text": "СЕКРЕТЫ под угрозой! 🔑\n\n@triggerdotdev признала взлом: злоумышленник получил доступ к переменным окружения части клиентов. Там могут храниться API-ключи и токены для внешних сервисов.\n\nУязвимость закрыта, пострадавших уведомили. Масштаб пока неизвестен.",
@@ -1346,27 +1367,6 @@
       "id": "zyphra-zonos3-mini-voice-cloning-20261109",
       "dzen_title": "Zyphra выпустила ZONOS3-Mini: клонирует голос и работает прямо в браузере",
       "x_text": "@ZyphraAI выпустила ZONOS3-Mini: голосовая модель копирует голос по образцу, меняет интонации и умеет шептать отдельные слова. Из ~800 млн параметров активны ~100 млн. Запускается локально, включая WebGPU-браузер; есть русский. Веса — Apache 2.0.",
-      "status": "approved",
-      "include_dzen_link": false
-    },
-    {
-      "id": "tier-iv-autoware-five-models-20261111",
-      "dzen_title": "Японцы открыли пять ИИ-моделей для беспилотных машин",
-      "x_text": "Японская @tier_iv_global открыла пять ИИ-моделей для @AutowareFdn: от систем на камерах до вариантов с лидарами и HD-картами. Есть и @NVIDIA Alpamayo 2 Edge. Код доступен, но это инструменты для разработчиков, а не автопилот «скачал — поехал».",
-      "status": "approved",
-      "include_dzen_link": false
-    },
-    {
-      "id": "alibaba-qwen4-max-preview-20261111",
-      "dzen_title": "Alibaba показала Qwen 4 Max — и сразу назначила дату отключения",
-      "x_text": "У новой Qwen4-Max-Preview от @Alibaba_Qwen уже есть дата отключения: 25 ноября. Контекст — 1 млн токенов, понимание изображений и видео, вызов инструментов. API пока только по Token Plan, без разовой оплаты. Даже флагману выписали двухнедельный контракт.",
-      "status": "approved",
-      "include_dzen_link": false
-    },
-    {
-      "id": "google-gemini-decision-1-20261111",
-      "dzen_title": "Google выпустила ИИ, который отвечает на тысячу вопросов без слов",
-      "x_text": "@Google и @GoogleDeepMind выпустили Gemini Decision 1 в @GoogleAIStudio: до 1000 проверок за запрос, ответы — вероятности вместо текста. Заявленные 150–250 мс измерены Google на меньших наборах вопросов. Цена — $0,10 за 1 млн входных токенов.",
       "status": "approved",
       "include_dzen_link": false
     }
