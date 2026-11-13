@@ -585,6 +585,13 @@
       "with_image": true
     },
     {
+      "id": "google-gemini-4-hydrogen-20261112",
+      "dzen_title": "Google выпустила Gemini 4 Hydrogen даже для бесплатных пользователей",
+      "x_text": "@Google выпустила Gemini 4 Hydrogen. В приложении Gemini её получат и бесплатные пользователи, но подключаться модель будет по решению сервиса. Платные подписчики могут выбрать её вручную. Разработчикам доступны AI Studio и API.",
+      "status": "approved",
+      "include_dzen_link": false
+    },
+    {
       "id": "google-gemini-decision-1-20261111",
       "dzen_title": "Google выпустила ИИ, который отвечает на тысячу вопросов без слов",
       "x_text": "@Google и @GoogleDeepMind выпустили Gemini Decision 1 в @GoogleAIStudio: до 1000 проверок за запрос, ответы — вероятности вместо текста. Заявленные 150–250 мс измерены Google на меньших наборах вопросов. Цена — $0,10 за 1 млн входных токенов.",
@@ -965,6 +972,13 @@
       "dzen_url": "https://dzen.ru/a/avLwHcOd4kTLGHcm",
       "buffer_post_id": "6af351fe341cea4af622fad4",
       "with_image": true
+    },
+    {
+      "id": "nvidia-huang-ceo-resignation-20261112",
+      "dzen_title": "Дженсен Хуанг ушёл с поста главы NVIDIA на фоне шпионского скандала",
+      "x_text": "Совет @NVIDIA 8 ноября публично поддерживал Дженсена Хуанга на фоне расследования. Уже 11-го принял его отставку. Временным CEO стала финансовый директор Колетт Кресс. Официальной причины ухода компания не назвала.",
+      "status": "approved",
+      "include_dzen_link": false
     },
     {
       "id": "nvidia-huang-espionage-investigation-20261108",
@@ -1454,20 +1468,6 @@
       "dzen_url": "https://dzen.ru/a/avaTGlALcjWVeERd",
       "buffer_post_id": "6af6abc5c1a0010a5b01a317",
       "with_image": true
-    },
-    {
-      "id": "nvidia-huang-ceo-resignation-20261112",
-      "dzen_title": "Дженсен Хуанг ушёл с поста главы NVIDIA на фоне шпионского скандала",
-      "x_text": "Совет @NVIDIA 8 ноября публично поддерживал Дженсена Хуанга на фоне расследования. Уже 11-го принял его отставку. Временным CEO стала финансовый директор Колетт Кресс. Официальной причины ухода компания не назвала.",
-      "status": "approved",
-      "include_dzen_link": false
-    },
-    {
-      "id": "google-gemini-4-hydrogen-20261112",
-      "dzen_title": "Google выпустила Gemini 4 Hydrogen даже для бесплатных пользователей",
-      "x_text": "@Google выпустила Gemini 4 Hydrogen. В приложении Gemini её получат и бесплатные пользователи, но подключаться модель будет по решению сервиса. Платные подписчики могут выбрать её вручную. Разработчикам доступны AI Studio и API.",
-      "status": "approved",
-      "include_dzen_link": false
     }
   ]
 }
