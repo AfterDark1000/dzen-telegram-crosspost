@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6af69874a8a0411d57c49192",
+      "title": "Создатель Cyanogen замахнулся на Windows. В его Linux поселят ИИ",
+      "dzen_url": "https://dzen.ru/a/avaYdKigQR1XxJGS",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-13T16:01:31+00:00",
+      "excerpt": "Кирт Макмастер, сооснователь Cyanogen, 10 ноября представил KORA — новую операционную систему на базе Linux. Его компания KORA Systems хочет встроить нейросети прямо в ОС, чтобы они могли работать с файлами и помогать пользователю в разных программах. Выпуск запланирован на 2027 год. Одна из главных особенностей KORA — общая память для ИИ-помощников. Например, можно начать писать программу с помощью Codex, а затем пе"
+    },
+    {
       "dzen_id": "6af697f0ed32a93818574b9d",
       "title": "Во Франции предложили отключить у ИИ «режим подхалима»",
       "dzen_url": "https://dzen.ru/a/avaX8O0yqTgYV0ud",
@@ -3272,11 +3283,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 306,
-    "fully_titled_from_archived_public_feed": 251,
+    "total_cataloged_editorial_publications": 307,
+    "fully_titled_from_archived_public_feed": 252,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-13",
-  "coverage": "306 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "307 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
