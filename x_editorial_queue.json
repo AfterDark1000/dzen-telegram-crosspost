@@ -1374,8 +1374,12 @@
       "id": "zyphra-zonos3-mini-voice-cloning-20261109",
       "dzen_title": "Zyphra выпустила ZONOS3-Mini: клонирует голос и работает прямо в браузере",
       "x_text": "@ZyphraAI выпустила ZONOS3-Mini: голосовая модель копирует голос по образцу, меняет интонации и умеет шептать отдельные слова. Из ~800 млн параметров активны ~100 млн. Запускается локально, включая WebGPU-браузер; есть русский. Веса — Apache 2.0.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6af6931a500b72359578445d",
+      "dzen_url": "https://dzen.ru/a/avaTGlALcjWVeERd",
+      "buffer_post_id": "6af6abc5c1a0010a5b01a317",
+      "with_image": true
     }
   ]
 }
