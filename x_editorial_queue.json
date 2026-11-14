@@ -1539,8 +1539,12 @@
       "id": "united-airlines-ai-agents-booking-ban-20261111",
       "dzen_title": "United Airlines запретила ИИ-агентам покупать билеты за пассажиров",
       "x_text": "У @united для ИИ-агентов теперь красный свет. ✈️\n\nБез разрешения авиакомпании ботам нельзя оформлять и менять брони, даже через посредников. United опасается утечек паролей, случайных покупок и того, что ИИ начнёт отвечать за багаж вместо пассажира.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6af82a86f8ad2a1742724f36",
+      "dzen_url": "https://dzen.ru/a/avgqhvitKhdCck82",
+      "buffer_post_id": "6af889d976c23bf1c727dd51",
+      "with_image": true
     },
     {
       "id": "usda-ai-crop-forecast-validation-20261110",
