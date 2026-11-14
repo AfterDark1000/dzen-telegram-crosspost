@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6af82b83ce20cc07c97f8a2e",
+      "title": "В приложениях Grok нашли пароли и данные пациентов",
+      "dzen_url": "https://dzen.ru/a/avgrg84gzAfJf4ou",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-14T16:03:27+00:00",
+      "excerpt": "Claroc Research 10 ноября обнаружила 35 578 приложений, созданных с помощью Grok Build, которые открывались посторонним без входа в аккаунт. Большинство из них — обычные игры, калькуляторы и небольшие сайты. Но среди открытых страниц исследователи нашли вещи, которые явно не предназначались для чужих глаз. В одном приложении лежала медицинская сводка о пациенте реанимации: результаты анализов и сведения об аппарате и"
+    },
+    {
       "dzen_id": "6af82acdb33b505d7ad58070",
       "title": "Дженсен Хуанг ушёл с поста главы NVIDIA на фоне шпионского скандала",
       "dzen_url": "https://dzen.ru/a/avgqzbM7UF161YBw",
@@ -3393,11 +3404,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 317,
-    "fully_titled_from_archived_public_feed": 262,
+    "total_cataloged_editorial_publications": 318,
+    "fully_titled_from_archived_public_feed": 263,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-14",
-  "coverage": "317 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "318 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
