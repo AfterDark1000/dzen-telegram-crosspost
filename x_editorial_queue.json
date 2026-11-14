@@ -1028,8 +1028,12 @@
       "id": "nvidia-huang-ceo-resignation-20261112",
       "dzen_title": "Дженсен Хуанг ушёл с поста главы NVIDIA на фоне шпионского скандала",
       "x_text": "Совет @NVIDIA 8 ноября публично поддерживал Дженсена Хуанга на фоне расследования. Уже 11-го принял его отставку. Временным CEO стала финансовый директор Колетт Кресс. Официальной причины ухода компания не назвала.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6af82acdb33b505d7ad58070",
+      "dzen_url": "https://dzen.ru/a/avgqzbM7UF161YBw",
+      "buffer_post_id": "6af84384bb36d0090906e29d",
+      "with_image": false
     },
     {
       "id": "nvidia-huang-espionage-investigation-20261108",
