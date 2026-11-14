@@ -1513,8 +1513,12 @@
       "id": "usda-ai-crop-forecast-validation-20261110",
       "dzen_title": "Минсельхоз США ошибся с прогнозом кукурузы и посадил ИИ перепроверять свои расчёты",
       "x_text": "Американский @USDA ошибся в расчётах урожая кукурузы: в одном файле неправильно свели данные с поливных и неполивных полей. Проверили старые цифры своим ИИ — он заметил сбой. 10 ноября инструмент подключили к новому отчёту. Нейросеть теперь проверяет кукурузу.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6af82913c6c38d2040b17329",
+      "dzen_url": "https://dzen.ru/a/avgpE8bDjSBAsXMp",
+      "buffer_post_id": "6af85183d8bd2962e42b323a",
+      "with_image": true
     },
     {
       "id": "voice-deepfake-family-money-scam-guide-20261109",

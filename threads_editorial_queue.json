@@ -162,8 +162,11 @@
       "id": "anthropic-claude-meetings-20261110",
       "dzen_title": "Claude выполняет поручения, пока коллеги совещаются",
       "threads_text": "Claude позвали на СОВЕЩАНИЕ. 🪑\n\nAnthropic представила Claude Meetings: ИИ сможет подключаться к Google Meet, отвечать в чате и готовить планы по ходу разговора. Пока сотрудники обсуждают задачи, он уже берётся за работу.\n\nПравда, в официальном анонсе функция пока «скоро появится». Даже ИИ приходится ждать приглашения.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6af82955e004c376348cb545",
+      "dzen_url": "https://dzen.ru/a/avgpVeAEw3Y0jLVF",
+      "threads_post_id": "18222553396360092"
     },
     {
       "id": "anthropic-claude-russian-passport-suspension-20261029",
