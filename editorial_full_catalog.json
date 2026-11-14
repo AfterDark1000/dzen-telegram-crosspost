@@ -21,6 +21,17 @@
       "excerpt": "Дженсен Хуанг спустя 33 года во главе NVIDIA покинул пост генерального директора, должность президента и совет директоров компании. Отставку приняли 11 ноября, следует из документа NVIDIA для американской Комиссии по ценным бумагам. Публично компания объявила об этом 12 ноября. Временно NVIDIA возглавила Колетт Кресс, которая с 2013 года руководит её финансами. Она сохранит обе должности, пока совет директоров ищет п"
     },
     {
+      "dzen_id": "6af82a2921ceec0258599e3e",
+      "title": "Google запустила Gemini в Apple CarPlay — теперь почту можно разбирать за рулём",
+      "dzen_url": "https://dzen.ru/a/avgqKSHO7AJYWZ4-",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-14T14:01:54+00:00",
+      "excerpt": "Google 11 ноября начала развёртывание Gemini Live в Apple CarPlay: теперь с нейросетью можно разговаривать прямо через экран автомобиля, не доставая iPhone. Во время утренней поездки водитель может попросить ИИ пересказать непрочитанные письма из Gmail, проверить расписание в Google Календаре или помочь подготовиться к предстоящему совещанию. По дороге в незнакомый город можно спросить, где поблизости перекусить или"
+    },
+    {
       "dzen_id": "6af829d5e4152a6870470922",
       "title": "Claude теперь сам собирает таблицы с формулами прямо в чате",
       "dzen_url": "https://dzen.ru/a/avgp1eQVKmhwRwki",
@@ -3371,11 +3382,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 315,
-    "fully_titled_from_archived_public_feed": 260,
+    "total_cataloged_editorial_publications": 316,
+    "fully_titled_from_archived_public_feed": 261,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-14",
-  "coverage": "315 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "316 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
