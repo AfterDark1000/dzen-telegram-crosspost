@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6af82bded5e88120c5eaa7dc",
+      "title": "Google выпустила Gemini 4 Hydrogen даже для бесплатных пользователей",
+      "dzen_url": "https://dzen.ru/a/avgr3tXogSDF6qfc",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-14T17:01:19+00:00",
+      "excerpt": "Google 12 ноября представила Gemini 4 Hydrogen Модель начали подключать к приложению Gemini, поиску Google и инструментам разработчиков по всему миру. Попробовать новинку смогут и пользователи без платной подписки. Правда, на бесплатном тарифе Gemini сама решает, когда подключать Hydrogen к запросу. Выбрать эту модель вручную смогут платные подписчики. В семействе уже есть Gemini 4 Carbon и Gemini 4 Argon — мощные мо"
+    },
+    {
       "dzen_id": "6af82b83ce20cc07c97f8a2e",
       "title": "В приложениях Grok нашли пароли и данные пациентов",
       "dzen_url": "https://dzen.ru/a/avgrg84gzAfJf4ou",
@@ -3404,11 +3415,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 318,
-    "fully_titled_from_archived_public_feed": 263,
+    "total_cataloged_editorial_publications": 319,
+    "fully_titled_from_archived_public_feed": 264,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-14",
-  "coverage": "318 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "319 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }

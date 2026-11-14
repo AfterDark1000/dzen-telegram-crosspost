@@ -3,6 +3,17 @@
   "scope": "public Dzen feed + prepared Instagram covers; not private Dzen schedule",
   "entries": [
     {
+      "key": "dzen:6af82bded5e88120c5eaa7dc",
+      "dzen_id": "6af82bded5e88120c5eaa7dc",
+      "title": "Google выпустила Gemini 4 Hydrogen даже для бесплатных пользователей",
+      "title_normalized": "google выпустила gemini 4 hydrogen даже для бесплатных пользователей",
+      "status": "published",
+      "dzen_url": "https://dzen.ru/a/avgr3tXogSDF6qfc",
+      "published_at_utc": "2026-11-14T17:01:19+00:00",
+      "first_recorded_at_utc": "2026-11-14T17:17:47+00:00",
+      "excerpt": "Google 12 ноября представила Gemini 4 Hydrogen Модель начали подключать к приложению Gemini, поиску Google и инструментам разработчиков по всему миру. Попробовать новинку смогут и пользователи без платной подписки. Правда, на бесплатном тарифе Gemini сама решает, когда подключать Hydrogen к запросу. Выбрать эту модель вручную смогут платные подписчики. В семействе уже есть Gemini 4 Carbon и Gemini 4 Argon — мощные мо"
+    },
+    {
       "key": "dzen:6af82b83ce20cc07c97f8a2e",
       "dzen_id": "6af82b83ce20cc07c97f8a2e",
       "title": "В приложениях Grok нашли пароли и данные пациентов",
@@ -3007,6 +3018,6 @@
       "excerpt": "GitHub объявил о полноценном запуске AI Scan — инструмента, который проверяет изменения программного кода на потенциальные уязвимости. В отличие от традиционного анализатора CodeQL, новая система охватывает дополнительные языки и технологии, включая PHP, Bash, Terraform и Dockerfile. Когда разработчик предлагает изменения в проекте, AI Scan может автоматически проверить их, объяснить обнаруженную проблему и предложит"
     }
   ],
-  "updated_at_utc": "2026-11-14T16:18:03+00:00",
+  "updated_at_utc": "2026-11-14T17:17:47+00:00",
   "legacy_seen_ids_count": 319
 }
