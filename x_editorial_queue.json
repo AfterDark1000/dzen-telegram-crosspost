@@ -111,8 +111,12 @@
       "id": "anthropic-claude-meetings-20261110",
       "dzen_title": "Claude выполняет поручения, пока коллеги совещаются",
       "x_text": "Claude записали в участники совещания. Anthropic представила Claude Meetings: помощник будет готовить планы и работать с документами прямо во время звонка в Google Meet. В официальном анонсе дата появления функции пока не названа.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6af82955e004c376348cb545",
+      "dzen_url": "https://dzen.ru/a/avgpVeAEw3Y0jLVF",
+      "buffer_post_id": "6af85f8d918fe79d2e7e5dbf",
+      "with_image": false
     },
     {
       "id": "anthropic-claude-sheets-whiteboards-data-20261110",

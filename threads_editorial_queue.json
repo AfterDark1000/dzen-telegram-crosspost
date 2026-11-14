@@ -182,8 +182,11 @@
       "id": "anthropic-claude-sheets-whiteboards-data-20261110",
       "dzen_title": "Claude теперь сам собирает таблицы с формулами прямо в чате",
       "threads_text": "Claude получил собственные ТАБЛИЦЫ. 📊\n\nПопросите составить бюджет — ИИ соберёт лист с формулами, а затем будет править ячейки вместе с вами. Anthropic также выпустила общие доски Whiteboards и вывела аналитические панели Claude Data из беты.\n\nSheets пока проще Excel: без сводных таблиц и макросов.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6af829d5e4152a6870470922",
+      "dzen_url": "https://dzen.ru/a/avgp1eQVKmhwRwki",
+      "threads_post_id": "18135087382769035"
     },
     {
       "id": "anthropic-fable-mythos-52-black-holes-20261109",
