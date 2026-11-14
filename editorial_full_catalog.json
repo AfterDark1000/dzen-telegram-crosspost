@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6af6b43862a8a417482011b6",
+      "title": "Китайский вуз из чёрного списка США купил NVIDIA H200. Объявление исчезло",
+      "dzen_url": "https://dzen.ru/a/ava0OGKopBdIIBG2",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-14T03:03:07+00:00",
+      "excerpt": "Северо-Западный политехнический университет в китайском Сиане закупил два ИИ-ускорителя NVIDIA H200 за 874 700 юаней (около $123 тысяч), хотя находится в американском экспортном чёрном списке. Документ о покупке появился на сайте университета 21 октября. После расследования Reuters, опубликованного 11 ноября, страница перестала открываться. Закупку оформил факультет управления. Продавцом указана китайская компания Sh"
+    },
+    {
       "dzen_id": "6af698f5c39de244cb70c210",
       "title": "TSMC вложит до миллиарда в OpenAI и Anthropic",
       "dzen_url": "https://dzen.ru/a/avaY9cOd4kTLcMIQ",
@@ -3294,11 +3305,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 308,
-    "fully_titled_from_archived_public_feed": 253,
+    "total_cataloged_editorial_publications": 309,
+    "fully_titled_from_archived_public_feed": 254,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
-  "generated_date": "2026-11-13",
-  "coverage": "308 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "generated_date": "2026-11-14",
+  "coverage": "309 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
