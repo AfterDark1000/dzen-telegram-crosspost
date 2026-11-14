@@ -723,7 +723,11 @@
       "dzen_title": "Стартап получил $35 млн, чтобы ИИ научился помнить вчерашние разговоры",
       "x_text": "@GraphonAI привлекла $35 млн на долгую память для ИИ-агентов. Система связывает разговоры, документы, фото и видео и помогает находить сведения из прошлых задач. Инвесторы — RRE Ventures, HP и другие. У фразы «мы же это обсуждали» теперь есть финансирование.",
       "include_dzen_link": false,
-      "status": "approved"
+      "status": "queued",
+      "dzen_id": "6af828c0e7c3d9558a41660c",
+      "dzen_url": "https://dzen.ru/a/avgowOfD2VWKQWYM",
+      "buffer_post_id": "6af83575bb36d0090902468d",
+      "with_image": true
     },
     {
       "id": "grimes-gods-dont-give-gifts-ai-film-20261105",
