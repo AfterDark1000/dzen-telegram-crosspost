@@ -10,6 +10,28 @@
   ],
   "entries": [
     {
+      "dzen_id": "6af82acdb33b505d7ad58070",
+      "title": "Дженсен Хуанг ушёл с поста главы NVIDIA на фоне шпионского скандала",
+      "dzen_url": "https://dzen.ru/a/avgqzbM7UF161YBw",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-14T09:35:30+00:00",
+      "excerpt": "Дженсен Хуанг спустя 33 года во главе NVIDIA покинул пост генерального директора, должность президента и совет директоров компании. Отставку приняли 11 ноября, следует из документа NVIDIA для американской Комиссии по ценным бумагам. Публично компания объявила об этом 12 ноября. Временно NVIDIA возглавила Колетт Кресс, которая с 2013 года руководит её финансами. Она сохранит обе должности, пока совет директоров ищет п"
+    },
+    {
+      "dzen_id": "6af828c0e7c3d9558a41660c",
+      "title": "Стартап получил $35 млн, чтобы ИИ научился помнить вчерашние разговоры",
+      "dzen_url": "https://dzen.ru/a/avgowOfD2VWKQWYM",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-14T09:25:30+00:00",
+      "excerpt": "Американская Graphon Labs привлекла $35 млн на борьбу с забывчивостью ИИ-агентов. Компания разрабатывает для них долговременную память, которая связывает разговоры, документы, фотографии и видео. Чтобы помощник мог вспомнить нужную деталь даже спустя недели. Основатель стартапа Арбааз Хан приводит пример с интернет-магазином. В одних правилах написано: товар можно вернуть в течение 30 дней. В других уточняется, что н"
+    },
+    {
       "dzen_id": "6af6b501a646ec450d5b0f45",
       "title": "Alibaba два месяца держала в секрете планы вывести своего производителя ИИ-чипов на биржу",
       "dzen_url": "https://dzen.ru/a/ava1AaZG7EUNWw9F",
@@ -3316,11 +3338,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 310,
-    "fully_titled_from_archived_public_feed": 255,
+    "total_cataloged_editorial_publications": 312,
+    "fully_titled_from_archived_public_feed": 257,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-14",
-  "coverage": "310 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "312 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
