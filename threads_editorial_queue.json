@@ -999,8 +999,11 @@
       "id": "google-gemini-4-hydrogen-20261112",
       "dzen_title": "Google выпустила Gemini 4 Hydrogen даже для бесплатных пользователей",
       "threads_text": "Google открыла Gemini 4 Hydrogen БЕЗ ПОДПИСКИ. Только выбирать её будете не вы. 🧪\n\nС 12 ноября модель приходит в Gemini, Поиск и инструменты разработчиков. Бесплатное приложение само решает, когда подключить Hydrogen; на платных тарифах её можно выбрать вручную.\n\nВодород бесплатный, вентиль — у Google.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6af82bded5e88120c5eaa7dc",
+      "dzen_url": "https://dzen.ru/a/avgr3tXogSDF6qfc",
+      "threads_post_id": "18119275604015651"
     },
     {
       "id": "google-gemini-decision-1-20261111",
