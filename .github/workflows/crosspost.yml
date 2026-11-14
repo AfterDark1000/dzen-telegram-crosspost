@@ -14,6 +14,8 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 20
     env:
+      # VK now imports published site RSS with cover images; keep the legacy Dzen-to-VK sender disabled.
+      VK_CROSSPOST_ENABLED: 'false'
       # Instagram feed is intentionally paused; keep Threads and all other routes active.
       INSTAGRAM_FEED_ENABLED: 'false'
       # Set to the UTC UNIX time of an explicit future resumption; never replay backlog.
@@ -39,8 +41,8 @@ jobs:
         run: |
           test -n "$TELEGRAM_BOT_TOKEN" || { echo "Missing TELEGRAM_BOT_TOKEN GitHub Actions secret"; exit 1; }
           python3 crosspost.py
-      - name: Post full-text articles to VK
-        if: ${{ !cancelled() && steps.state_init.outcome == 'success' && steps.install.outcome == 'success' }}
+      - name: Post full-text articles to VK (legacy — disabled; RSS owns VK)
+        if: ${{ env.VK_CROSSPOST_ENABLED == 'true' && !cancelled() && steps.state_init.outcome == 'success' && steps.install.outcome == 'success' }}
         env:
           VK_ACCESS_TOKEN: ${{ secrets.VK_ACCESS_TOKEN }}
         run: |
