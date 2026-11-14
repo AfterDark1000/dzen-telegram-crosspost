@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6af82c63f38bf42a8fcd9449",
+      "title": "Китайские ИИ-компании спешат занять зарубежные серверы NVIDIA из-за угрозы нового запрета США",
+      "dzen_url": "https://dzen.ru/a/avgsY_OL9CqPzZRJ",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-14T18:01:39+00:00",
+      "excerpt": "Китайские ИИ-компании пытаются застолбить вычислительные мощности NVIDIA за рубежом: они опасаются, что США перекроют им доступ к передовым чипам даже через иностранные дата-центры. Крупный китайский облачный провайдер обсуждал резервирование таких мощностей внутри компании, другие разработчики уже связывались с операторами дата-центров, а небольшие лаборатории рассматривают предложения в Юго-Восточной Азии. Американ"
+    },
+    {
       "dzen_id": "6af82bded5e88120c5eaa7dc",
       "title": "Google выпустила Gemini 4 Hydrogen даже для бесплатных пользователей",
       "dzen_url": "https://dzen.ru/a/avgr3tXogSDF6qfc",
@@ -3415,11 +3426,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 319,
-    "fully_titled_from_archived_public_feed": 264,
+    "total_cataloged_editorial_publications": 320,
+    "fully_titled_from_archived_public_feed": 265,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-14",
-  "coverage": "319 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "320 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
