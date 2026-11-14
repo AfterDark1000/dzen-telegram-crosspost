@@ -665,6 +665,13 @@
       "with_image": false
     },
     {
+      "id": "google-intelligent-eyewear-gemini-preorders-20261112",
+      "dzen_title": "Google дала Gemini глаза — теперь он видит то же, что и вы",
+      "x_text": "У Gemini появилось место на переносице. 👓\n\n@Google и @Samsung открыли предзаказы на очки от $395: камера на 12 Мп показывает ИИ, что перед вами, а динамики озвучивают ответ. Экранов в линзах нет. Продажи — с 10 декабря.",
+      "status": "approved",
+      "include_dzen_link": false
+    },
+    {
       "id": "google-project-suncatcher-gemma4-orbit-haiku-20261030",
       "dzen_title": "Google отправила ИИ в космос. Нейросеть ответила с орбиты!",
       "x_text": "Google получила с орбиты ответ Gemma 4: модель на TPU спутника Project Suncatcher сочинила хокку о космосе. Ответ приняли над Шпицбергеном.\n\nСпутник запущен 1 октября. Дальше — проверки чипов на радиацию и температуру, в 2027 году — испытания двух связанных спутников.",
@@ -1106,6 +1113,13 @@
       "with_image": true
     },
     {
+      "id": "openai-chatgpt-wallet-dots-20261113",
+      "dzen_title": "ChatGPT дали кошелёк — теперь он может ходить по магазинам вместо вас",
+      "x_text": "@OpenAI дала ИИ-агентам dots кошелёк. 💳 Они могут оформить покупку, но каждый платёж пользователь подтверждает лицом или отпечатком пальца. Банковский номер скрыт за виртуальными реквизитами. Партнёры — @Visa, @Mastercard и @AmericanExpress. Пока только Pro в США.",
+      "status": "approved",
+      "include_dzen_link": false
+    },
+    {
       "id": "openai-four-layer-agent-misalignment-monitoring-20261029",
       "dzen_title": "OpenAI поставила за ИИ-агентами четыре уровня слежки!",
       "x_text": "OpenAI приставила к ИИ-агентам четыре уровня надзора: анализ внутренних сигналов, ИИ-проверяющий, ИИ-следователь и системные журналы.\n\nПри повторе июльского побега система подняла тревогу через 30 минут — более чем за 30 часов до взлома Hugging Face. Но это симуляция. 👮",
@@ -1261,6 +1275,13 @@
       "dzen_url": "https://dzen.ru/a/auS51P_Wlze_j0Ti",
       "buffer_post_id": "6ae640b637c1acd2a0c7ecb5",
       "with_image": false
+    },
+    {
+      "id": "podqi-ai-shopping-fake-stores-20261112",
+      "dzen_title": "ChatGPT, Gemini и Perplexity отправляли покупателей в фальшивые магазины",
+      "x_text": "@perplexity_ai назвала посторонний сайт официальным магазином Stüssy и посоветовала искать там оригинальные вещи. 🛍️\n\nВ тесте Podqi подозрительные адреса встречались в 15% ответов Perplexity, 8% — у ChatGPT от @OpenAI и 4% — у @GeminiApp.",
+      "status": "approved",
+      "include_dzen_link": false
     },
     {
       "id": "railway-primcloud-ai-agents-20261103",
@@ -1523,27 +1544,6 @@
       "dzen_url": "https://dzen.ru/a/avaTGlALcjWVeERd",
       "buffer_post_id": "6af6abc5c1a0010a5b01a317",
       "with_image": true
-    },
-    {
-      "id": "podqi-ai-shopping-fake-stores-20261112",
-      "dzen_title": "ChatGPT, Gemini и Perplexity отправляли покупателей в фальшивые магазины",
-      "x_text": "@perplexity_ai назвала посторонний сайт официальным магазином Stüssy и посоветовала искать там оригинальные вещи. 🛍️\n\nВ тесте Podqi подозрительные адреса встречались в 15% ответов Perplexity, 8% — у ChatGPT от @OpenAI и 4% — у @GeminiApp.",
-      "status": "approved",
-      "include_dzen_link": false
-    },
-    {
-      "id": "google-intelligent-eyewear-gemini-preorders-20261112",
-      "dzen_title": "Google дала Gemini глаза — теперь он видит то же, что и вы",
-      "x_text": "У Gemini появилось место на переносице. 👓\n\n@Google и @Samsung открыли предзаказы на очки от $395: камера на 12 Мп показывает ИИ, что перед вами, а динамики озвучивают ответ. Экранов в линзах нет. Продажи — с 10 декабря.",
-      "status": "approved",
-      "include_dzen_link": false
-    },
-    {
-      "id": "openai-chatgpt-wallet-dots-20261113",
-      "dzen_title": "ChatGPT дали кошелёк — теперь он может ходить по магазинам вместо вас",
-      "x_text": "@OpenAI дала ИИ-агентам dots кошелёк. 💳 Они могут оформить покупку, но каждый платёж пользователь подтверждает лицом или отпечатком пальца. Банковский номер скрыт за виртуальными реквизитами. Партнёры — @Visa, @Mastercard и @AmericanExpress. Пока только Pro в США.",
-      "status": "approved",
-      "include_dzen_link": false
     }
   ]
 }
