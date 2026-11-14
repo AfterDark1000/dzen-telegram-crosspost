@@ -1029,7 +1029,11 @@
       "dzen_title": "Китайский вуз из чёрного списка США купил NVIDIA H200. Объявление исчезло",
       "x_text": "Китайский вуз из чёрного списка США купил два @NVIDIA H200 за $123 тыс. Поставщик — местная фирма. После расследования Reuters страница с закупкой исчезла с сайта вуза, но сохранилась в веб-архиве. Импортный маршрут чипов неизвестен.",
       "include_dzen_link": false,
-      "status": "approved"
+      "status": "queued",
+      "dzen_id": "6af6b43862a8a417482011b6",
+      "dzen_url": "https://dzen.ru/a/ava0OGKopBdIIBG2",
+      "buffer_post_id": "6af7d31497efac0554d5ea2c",
+      "with_image": true
     },
     {
       "id": "openai-altman-adipec-scientists-office-work-20261102",
