@@ -1530,6 +1530,13 @@
       "x_text": "@perplexity_ai назвала посторонний сайт официальным магазином Stüssy и посоветовала искать там оригинальные вещи. 🛍️\n\nВ тесте Podqi подозрительные адреса встречались в 15% ответов Perplexity, 8% — у ChatGPT от @OpenAI и 4% — у @GeminiApp.",
       "status": "approved",
       "include_dzen_link": false
+    },
+    {
+      "id": "google-intelligent-eyewear-gemini-preorders-20261112",
+      "dzen_title": "Google дала Gemini глаза — теперь он видит то же, что и вы",
+      "x_text": "У Gemini появилось место на переносице. 👓\n\n@Google и @Samsung открыли предзаказы на очки от $395: камера на 12 Мп показывает ИИ, что перед вами, а динамики озвучивают ответ. Экранов в линзах нет. Продажи — с 10 декабря.",
+      "status": "approved",
+      "include_dzen_link": false
     }
   ]
 }
