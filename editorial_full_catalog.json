@@ -21,6 +21,17 @@
       "excerpt": "Дженсен Хуанг спустя 33 года во главе NVIDIA покинул пост генерального директора, должность президента и совет директоров компании. Отставку приняли 11 ноября, следует из документа NVIDIA для американской Комиссии по ценным бумагам. Публично компания объявила об этом 12 ноября. Временно NVIDIA возглавила Колетт Кресс, которая с 2013 года руководит её финансами. Она сохранит обе должности, пока совет директоров ищет п"
     },
     {
+      "dzen_id": "6af82955e004c376348cb545",
+      "title": "Claude выполняет поручения, пока коллеги совещаются",
+      "dzen_url": "https://dzen.ru/a/avgpVeAEw3Y0jLVF",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-14T12:03:38+00:00",
+      "excerpt": "Anthropic 10 ноября представила Claude Meetings — функцию, которая позволит ИИ-помощнику Claude подключаться к видеозвонкам в Google Meet в качестве отдельного участника. Он сможет приступать к выполнению поручений прямо во время совещания, пока коллеги ещё обсуждают задачи. По данным TechCrunch, Claude будет следить за ходом разговора, составлять планы, распределять этапы работы по срокам, отвечать на вопросы в чате"
+    },
+    {
       "dzen_id": "6af82913c6c38d2040b17329",
       "title": "Минсельхоз США ошибся с прогнозом кукурузы и посадил ИИ перепроверять свои расчёты",
       "dzen_url": "https://dzen.ru/a/avgpE8bDjSBAsXMp",
@@ -3349,11 +3360,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 313,
-    "fully_titled_from_archived_public_feed": 258,
+    "total_cataloged_editorial_publications": 314,
+    "fully_titled_from_archived_public_feed": 259,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-14",
-  "coverage": "313 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "314 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
