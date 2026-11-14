@@ -1485,6 +1485,13 @@
       "with_image": false
     },
     {
+      "id": "whoop-humans-heartbeat-social-network-20261112",
+      "dzen_title": "WHOOP запустила соцсеть против ИИ-ботов — с проверкой живого пульса",
+      "x_text": "У @WHOOP у каждого аккаунта в новой соцсети должен быть пульс. 🫀\n\nВ Humans делятся сном, тренировками и фото. @willahmed обещает сеть без ИИ-ботов: показатели идут с браслетов.\n\nНо кто на самом деле управляет профилем, пульс не выдаст.",
+      "status": "approved",
+      "include_dzen_link": false
+    },
+    {
       "id": "wired-accenture-personal-claude-code-pentagon-20261029",
       "dzen_title": "Claude Code получил доступ к системе Пентагона",
       "x_text": "WIRED: сотрудник Accenture подключил личный Claude Code к системе Пентагона с правами администратора. Агент якобы работал там два месяца, а пароли могли уйти стороннему сервису.\n\nAccenture отвергает обвинения. Независимого подтверждения утечки и доступа к секретным сетям нет.",
@@ -1516,13 +1523,6 @@
       "dzen_url": "https://dzen.ru/a/avaTGlALcjWVeERd",
       "buffer_post_id": "6af6abc5c1a0010a5b01a317",
       "with_image": true
-    },
-    {
-      "id": "whoop-humans-heartbeat-social-network-20261112",
-      "dzen_title": "WHOOP запустила соцсеть против ИИ-ботов — с проверкой живого пульса",
-      "x_text": "У @WHOOP у каждого аккаунта в новой соцсети должен быть пульс. 🫀\n\nВ Humans делятся сном, тренировками и фото. @willahmed обещает сеть без ИИ-ботов: показатели идут с браслетов.\n\nНо кто на самом деле управляет профилем, пульс не выдаст.",
-      "status": "approved",
-      "include_dzen_link": false
     }
   ]
 }
