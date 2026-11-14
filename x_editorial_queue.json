@@ -632,8 +632,12 @@
       "id": "google-gemini-4-hydrogen-20261112",
       "dzen_title": "Google выпустила Gemini 4 Hydrogen даже для бесплатных пользователей",
       "x_text": "@Google выпустила Gemini 4 Hydrogen. В приложении Gemini её получат и бесплатные пользователи, но подключаться модель будет по решению сервиса. Платные подписчики могут выбрать её вручную. Разработчикам доступны AI Studio и API.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6af82bded5e88120c5eaa7dc",
+      "dzen_url": "https://dzen.ru/a/avgr3tXogSDF6qfc",
+      "buffer_post_id": "6af8a5edc5b364e0620b702e",
+      "with_image": true
     },
     {
       "id": "google-gemini-decision-1-20261111",
