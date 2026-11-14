@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6af6b501a646ec450d5b0f45",
+      "title": "Alibaba два месяца держала в секрете планы вывести своего производителя ИИ-чипов на биржу",
+      "dzen_url": "https://dzen.ru/a/ava1AaZG7EUNWw9F",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-14T04:01:29+00:00",
+      "excerpt": "Китайская Alibaba 10 ноября объявила о планах вывести на Гонконгскую биржу своего разработчика ИИ-чипов T-Head. Оказалось, что компания подала заявку ещё 11 сентября, причём конфиденциально. Теперь биржа разрешила продолжить процедуру выделения подразделения. T-Head основана в 2018 году и занимается разработкой процессоров для дата-центров и искусственного интеллекта. В сентябре компания представила ускоритель Zhenwu"
+    },
+    {
       "dzen_id": "6af6b43862a8a417482011b6",
       "title": "Китайский вуз из чёрного списка США купил NVIDIA H200. Объявление исчезло",
       "dzen_url": "https://dzen.ru/a/ava0OGKopBdIIBG2",
@@ -3305,11 +3316,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 309,
-    "fully_titled_from_archived_public_feed": 254,
+    "total_cataloged_editorial_publications": 310,
+    "fully_titled_from_archived_public_feed": 255,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-14",
-  "coverage": "309 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "310 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
