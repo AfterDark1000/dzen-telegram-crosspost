@@ -526,8 +526,11 @@
       "id": "cisco-claude-mythos-ai-defense-20261109",
       "dzen_title": "Cisco поручит Claude искать способы взлома корпоративных ИИ-агентов",
       "threads_text": "Cisco готовит Claude к учебному ВЗЛОМУ. 🛡️\n\nМодель Mythos будет придумывать атаки на корпоративных ИИ-агентов, чтобы искать дыры в защите. Проверять разрешат только системы, зарегистрированные владельцами. Каждую попытку запишут, за ней закрепят конкретного сотрудника.\n\nЗапуск пока обещан избранным компаниям. Даже цифровому хакеру понадобится именной пропуск.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6af92f191d3b064b6add563f",
+      "dzen_url": "https://dzen.ru/a/avkvGR07Bktq3VY_",
+      "threads_post_id": "18041530172890427"
     },
     {
       "id": "cisco-talos-volta-autodoxer-ai-dossier-20261031",
