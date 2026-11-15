@@ -611,8 +611,12 @@
       "id": "google-alphagenome-2-cell-variants-20261111",
       "dzen_title": "Google научила ИИ искать причины болезней в отдельных клетках",
       "x_text": "У клеток одна ДНК, а проблемы — по разным адресам. @GoogleDeepMind показала AlphaGenome 2: модель ищет, в каком типе клеток мутация меняет работу генов. В испытании на иммунных клетках — 30% найденных причинных вариантов против 16% у первой версии.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6af92f91f5a98257e912b82f",
+      "dzen_url": "https://dzen.ru/a/avkvkfWpglfpErgv",
+      "buffer_post_id": "6af95ccbe86a5789a6f6994a",
+      "with_image": true
     },
     {
       "id": "google-alphaproof-code-signal-verification-20261110",

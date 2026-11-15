@@ -938,8 +938,11 @@
       "id": "google-alphagenome-2-cell-variants-20261111",
       "dzen_title": "Google научила ИИ искать причины болезней в отдельных клетках",
       "threads_text": "ОДНА мутация — разные последствия для разных клеток. 🧬\n\nGoogle показала AlphaGenome 2: нейросеть предсказывает, в каких именно клетках изменение ДНК изменит работу генов. В тесте на иммунных клетках она выявила почти вдвое больше причинных вариантов, чем первая версия: 30% против 16%.\n\nГенетический детектив теперь ищет не только виновника, но и место происшествия.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6af92f91f5a98257e912b82f",
+      "dzen_url": "https://dzen.ru/a/avkvkfWpglfpErgv",
+      "threads_post_id": "17892547389620144"
     },
     {
       "id": "google-alphaproof-code-signal-verification-20261110",
