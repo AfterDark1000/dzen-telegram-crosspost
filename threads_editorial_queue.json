@@ -1133,8 +1133,11 @@
       "id": "google-sensorwm-wearables-health-20261111",
       "dzen_title": "Google научила ИИ заглядывать в будущее вашего здоровья на три месяца вперёд",
       "threads_text": "Часы уже знают, что вы мало спали. СПАСИБО, мы заметили. ⌚\n\nGoogle пошла дальше: её ИИ просчитывает 125 вариантов вашего будущего на 12 недель вперёд. Что изменится, если больше спать, ходить или тренироваться? Для прогноза достаточно двух недель данных с часов.\n\nОк, гугл, начну с понедельника.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6af93034e004c37634dd125c",
+      "dzen_url": "https://dzen.ru/a/avkwNOAEw3Y03RJc",
+      "threads_post_id": "18131629066932094"
     },
     {
       "id": "google-tabletop-20261111",

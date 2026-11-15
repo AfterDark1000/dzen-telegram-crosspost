@@ -735,8 +735,12 @@
       "id": "google-sensorwm-wearables-health-20261111",
       "dzen_title": "Google научила ИИ заглядывать в будущее вашего здоровья на три месяца вперёд",
       "x_text": "Часы: «Ты мало спал». Спасибо, капитан. ⌚ @GoogleResearch учит ИИ отвечать полезнее: как изменятся 20 показателей за 12 недель, если больше спать и ходить. Система сравнивает 125 сценариев, тренеры предпочли её планы в 71,4% оценок. Пока исследование.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6af93034e004c37634dd125c",
+      "dzen_url": "https://dzen.ru/a/avkwNOAEw3Y03RJc",
+      "buffer_post_id": "6af96ac2c5b364e06241fd1a",
+      "with_image": false
     },
     {
       "id": "google-tabletop-20261111",
