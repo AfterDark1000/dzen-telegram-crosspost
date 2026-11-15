@@ -1068,8 +1068,12 @@
       "id": "nvidia-china-chip-tariff-congress-probe-20261112",
       "dzen_title": "Трампа заподозрили в скрытом налоге на экспорт чипов NVIDIA в Китай",
       "x_text": "Зачем чипам @NVIDIA ехать в Китай через США? Там их проверяют и берут пошлину 25%. @RonWyden и @RepRichardNeal заподозрили, что Трамп прячет экспортный налог под импортным тарифом. У Минторга потребовали сохранить документы. Вот такой маршрут с платным поворотом.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6af9331de7c3d9558a4b95f0",
+      "dzen_url": "https://dzen.ru/a/avkzHefD2VWKS5Xw",
+      "buffer_post_id": "6af9bf27c5b364e0625ead53",
+      "with_image": false
     },
     {
       "id": "nvidia-gr00t-2-robot-few-shot-learning-20261109",

@@ -1647,8 +1647,11 @@
       "id": "nvidia-china-chip-tariff-congress-probe-20261112",
       "dzen_title": "Трампа заподозрили в скрытом налоге на экспорт чипов NVIDIA в Китай",
       "threads_text": "ТРАМП придумал для чипов NVIDIA маршрут с ПОШЛИНОЙ 25%: Тайвань → США → Китай. 💸\n\nНа американской остановке чипы проверяют перед экспортом. Сенатор Уайден и конгрессмен Нил начали расследование: подозревают, что импортный тариф маскирует запрещённый Конституцией налог на экспорт.\n\nТаможня открыла платный DLC к географии. 🎮",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6af9331de7c3d9558a4b95f0",
+      "dzen_url": "https://dzen.ru/a/avkzHefD2VWKS5Xw",
+      "threads_post_id": "18221643040351318"
     },
     {
       "id": "nvidia-dsx-pod-20261023",
