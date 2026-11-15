@@ -597,8 +597,12 @@
       "id": "gdc-game-industry-ai-use-opinions-20261112",
       "dzen_title": "Разработчики игр ругают ИИ, но всё чаще им пользуются",
       "x_text": "У @Official_GDC вышел опрос с геймдевным парадоксом: 40% используют ИИ на работе, но 55% считают его вредным для отрасли. Среди пользователей ИИ 73% берут его для поиска идей, лишь 6% — для контента, который увидит игрок. С черновиками дружат, с релизом осторожничают. 🎮",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6af93383f8ad2a1742de3c4d",
+      "dzen_url": "https://dzen.ru/a/avkzg_itKhdC3jxN",
+      "buffer_post_id": "6af9cd4cc5b364e06263d3c0",
+      "with_image": true
     },
     {
       "id": "geoffrey-hinton-ai-chernobyl-20261103",
