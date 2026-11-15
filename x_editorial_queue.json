@@ -1196,8 +1196,12 @@
       "id": "openai-chatgpt-wallet-dots-20261113",
       "dzen_title": "ChatGPT дали кошелёк — теперь он может ходить по магазинам вместо вас",
       "x_text": "@OpenAI дала ИИ-агентам dots кошелёк. 💳 Они могут оформить покупку, но каждый платёж пользователь подтверждает лицом или отпечатком пальца. Банковский номер скрыт за виртуальными реквизитами. Партнёры — @Visa, @Mastercard и @AmericanExpress. Пока только Pro в США.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6af932a38b79156f70e1cb47",
+      "dzen_url": "https://dzen.ru/a/avkyo4t5FW9w4ctH",
+      "buffer_post_id": "6af9b117b9a106584cad91d3",
+      "with_image": true
     },
     {
       "id": "openai-four-layer-agent-misalignment-monitoring-20261029",

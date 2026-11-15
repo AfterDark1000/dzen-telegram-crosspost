@@ -1894,8 +1894,11 @@
       "id": "openai-chatgpt-wallet-dots-20261113",
       "dzen_title": "ChatGPT дали кошелёк — теперь он может ходить по магазинам вместо вас",
       "threads_text": "ChatGPT теперь может ОПЛАЧИВАТЬ покупки за вас. 💳\n\nOpenAI запустила Wallet для ИИ-агентов dots. Агент подбирает товар, оформляет заказ и показывает сумму перед оплатой. Вы подтверждаете её лицом или отпечатком пальца, а номер вашей карты агенту не передают.\n\nЧат-бот дошёл до кассы и попросил приложить палец. ☝️",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6af932a38b79156f70e1cb47",
+      "dzen_url": "https://dzen.ru/a/avkyo4t5FW9w4ctH",
+      "threads_post_id": "18116598157860396"
     },
     {
       "id": "openai-decisions-api-20261023",
