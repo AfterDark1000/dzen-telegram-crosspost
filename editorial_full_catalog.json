@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6af930b29c946433beda9998",
+      "title": "ИИ ускорил расчёты промышленных биореакторов в 10 тысяч раз",
+      "dzen_url": "https://dzen.ru/a/avkwspyUZDO-2pmY",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-15T08:41:18+00:00",
+      "excerpt": "Учёные Технического университета Граца 11 ноября представили CLARA — программу, которая с помощью машинного обучения ускоряет моделирование промышленных биореакторов до 10 000 раз. В больших биореакторах выращивают микроорганизмы, проводят ферментацию и перерабатывают биомассу. Чтобы управлять такими установками, инженерам необходимо понимать, как внутри перемешиваются жидкости и газы, распределяется кислород и проте"
+    },
+    {
       "dzen_id": "6af93034e004c37634dd125c",
       "title": "Google научила ИИ заглядывать в будущее вашего здоровья на три месяца вперёд",
       "dzen_url": "https://dzen.ru/a/avkwNOAEw3Y03RJc",
@@ -3470,11 +3481,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 324,
-    "fully_titled_from_archived_public_feed": 269,
+    "total_cataloged_editorial_publications": 325,
+    "fully_titled_from_archived_public_feed": 270,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-15",
-  "coverage": "324 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "325 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
