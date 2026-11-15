@@ -1591,8 +1591,12 @@
       "id": "umich-prism-robot-motion-20261110",
       "dzen_title": "Учёные научили роботов падать в 6,5 раза реже",
       "x_text": "Роборука стала хватать скотч с 94% успеха вместо 68%. @UMengineering добились этого, заменив один блок нейросети на PRISM. В симуляции гуманоиды с тем же подходом проходили 92,5% тестов без падений вместо 51%. Осталось научить их находить край ленты.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6af9343ff38bf42a8f22d7d7",
+      "dzen_url": "https://dzen.ru/a/avk0P_OL9CqPItfX",
+      "buffer_post_id": "6af9db5e544d0574a92bd8dc",
+      "with_image": false
     },
     {
       "id": "united-airlines-ai-agents-booking-ban-20261111",
