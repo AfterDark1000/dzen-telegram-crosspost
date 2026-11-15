@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6af9331de7c3d9558a4b95f0",
+      "title": "Трампа заподозрили в скрытом налоге на экспорт чипов NVIDIA в Китай",
+      "dzen_url": "https://dzen.ru/a/avkzHefD2VWKS5Xw",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-15T14:02:50+00:00",
+      "excerpt": "Власти США устроили чипам NVIDIA платный крюк по дороге в Китай: пошлина — 25%. 12 ноября сенатор-демократ Рон Уайден и конгрессмен Ричард Нил начали расследование этой схемы. Они подозревают, что администрация президента Дональда Трампа замаскировала под импортную пошлину налог на экспорт, запрещённый Конституцией США. Передовые ИИ-ускорители NVIDIA H200 производят на Тайване. По американской схеме поставок китайски"
+    },
+    {
       "dzen_id": "6af932a38b79156f70e1cb47",
       "title": "ChatGPT дали кошелёк — теперь он может ходить по магазинам вместо вас",
       "dzen_url": "https://dzen.ru/a/avkyo4t5FW9w4ctH",
@@ -3525,11 +3536,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 329,
-    "fully_titled_from_archived_public_feed": 274,
+    "total_cataloged_editorial_publications": 330,
+    "fully_titled_from_archived_public_feed": 275,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-15",
-  "coverage": "329 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "330 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
