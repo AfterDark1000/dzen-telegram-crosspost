@@ -100,8 +100,12 @@
       "id": "answr-dark-sky-films-ai-thriller-20261112",
       "dzen_title": "Бекмамбетов спродюсировал триллер о парне, которого сводит с ума чат-бот",
       "x_text": "@DarkSkyFilms купила права на ANSWR в США. Герой Мойзеса Ариаса («Фоллаут») после тяжёлой утраты привязывается к ИИ-собеседнику и начинает терять связь с реальностью. @DEADLINE пишет: среди продюсеров — Тимур Бекмамбетов. Бот умеет утешать, а дальше уже хоррор.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6af934a398579b1daf12b0b0",
+      "dzen_url": "https://dzen.ru/a/avk0o5hXmx2vErCw",
+      "buffer_post_id": "6af9f76355ad64be504d0384",
+      "with_image": true
     },
     {
       "id": "anthropic-claude-agents-os-eight-days-20261109",
