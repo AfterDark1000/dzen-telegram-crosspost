@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6af932a38b79156f70e1cb47",
+      "title": "ChatGPT дали кошелёк — теперь он может ходить по магазинам вместо вас",
+      "dzen_url": "https://dzen.ru/a/avkyo4t5FW9w4ctH",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-15T13:15:36+00:00",
+      "excerpt": "OpenAI 13 ноября научила своих ИИ-агентов dots оплачивать покупки в интернете. Новый ChatGPT Wallet позволяет помощнику расплачиваться вашей банковской картой, даже не зная её настоящего номера. Теперь агенту можно поручить подобрать свитер, найти подарок или забронировать гостиницу. Он изучит предложения, выберет подходящий вариант и дойдёт до оформления заказа. Владелец карты подключается на последнем этапе — когда"
+    },
+    {
       "dzen_id": "6af9322198579b1daf105ee4",
       "title": "Google дала Gemini глаза — теперь он видит то же, что и вы",
       "dzen_url": "https://dzen.ru/a/avkyIZhXmx2vEF7k",
@@ -3514,11 +3525,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 328,
-    "fully_titled_from_archived_public_feed": 273,
+    "total_cataloged_editorial_publications": 329,
+    "fully_titled_from_archived_public_feed": 274,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-15",
-  "coverage": "328 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "329 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
