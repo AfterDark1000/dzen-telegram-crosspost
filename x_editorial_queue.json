@@ -1360,8 +1360,12 @@
       "id": "podqi-ai-shopping-fake-stores-20261112",
       "dzen_title": "ChatGPT, Gemini и Perplexity отправляли покупателей в фальшивые магазины",
       "x_text": "@perplexity_ai назвала посторонний сайт официальным магазином Stüssy и посоветовала искать там оригинальные вещи. 🛍️\n\nВ тесте Podqi подозрительные адреса встречались в 15% ответов Perplexity, 8% — у ChatGPT от @OpenAI и 4% — у @GeminiApp.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6af9318c6335b45bbe2a9aba",
+      "dzen_url": "https://dzen.ru/a/avkxjGM1tFu-Kpq6",
+      "buffer_post_id": "6af994fee86a5789a60711b8",
+      "with_image": true
     },
     {
       "id": "poland-anna-ai-patient-calls-20261111",
