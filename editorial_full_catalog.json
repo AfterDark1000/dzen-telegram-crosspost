@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6af82cfe8b79156f70976380",
+      "title": "Новые модели OpenAI, Google и Anthropic хотят запретить через суд",
+      "dzen_url": "https://dzen.ru/a/avgs_ot5FW9wl2OA",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-15T03:02:01+00:00",
+      "excerpt": "Предупреждения ИИ-боссов о возможной катастрофе теперь используют против них самих — в суде. Четыре американские общественные организации потребовали остановить разработку самых мощных ИИ-моделей у пяти крупнейших технологических компаний. Иск подали 12 ноября в суд Сан-Франциско. Ответчиками стали OpenAI, Google, Anthropic, Meta и SpaceX Super Intelligence — ИИ-подразделение SpaceX. Истцы — Public Citizen, Irreplace"
+    },
+    {
       "dzen_id": "6af82c63f38bf42a8fcd9449",
       "title": "Китайские ИИ-компании спешат занять зарубежные серверы NVIDIA из-за угрозы нового запрета США",
       "dzen_url": "https://dzen.ru/a/avgsY_OL9CqPzZRJ",
@@ -3426,11 +3437,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 320,
-    "fully_titled_from_archived_public_feed": 265,
+    "total_cataloged_editorial_publications": 321,
+    "fully_titled_from_archived_public_feed": 266,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
-  "generated_date": "2026-11-14",
-  "coverage": "320 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "generated_date": "2026-11-15",
+  "coverage": "321 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
