@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6af92f191d3b064b6add563f",
+      "title": "Cisco поручит Claude искать способы взлома корпоративных ИИ-агентов",
+      "dzen_url": "https://dzen.ru/a/avkvGR07Bktq3VY_",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-15T05:12:57+00:00",
+      "excerpt": "Cisco 9 ноября объявила, что подключит модель Claude Mythos компании Anthropic к системе AI Defense. Нейросеть будет придумывать атаки на корпоративных ИИ-агентов и помогать проверять, можно ли обмануть их защиту или заставить раскрыть конфиденциальные данные. Испытания будут проводить с разрешения владельцев систем, чтобы найти слабые места раньше настоящих злоумышленников. В AI Defense уже есть режим «красной коман"
+    },
+    {
       "dzen_id": "6af82cfe8b79156f70976380",
       "title": "Новые модели OpenAI, Google и Anthropic хотят запретить через суд",
       "dzen_url": "https://dzen.ru/a/avgs_ot5FW9wl2OA",
@@ -3437,11 +3448,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 321,
-    "fully_titled_from_archived_public_feed": 266,
+    "total_cataloged_editorial_publications": 322,
+    "fully_titled_from_archived_public_feed": 267,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-15",
-  "coverage": "321 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "322 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
