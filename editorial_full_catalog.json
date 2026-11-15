@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6af9322198579b1daf105ee4",
+      "title": "Google дала Gemini глаза — теперь он видит то же, что и вы",
+      "dzen_url": "https://dzen.ru/a/avkyIZhXmx2vEF7k",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-15T12:01:57+00:00",
+      "excerpt": "Google создала умные очки, которым можно показать незнакомый предмет и спросить: «Это что такое?» Gemini увидит его через встроенную камеру и ответит прямо в ухо. Телефон доставать не придётся. 12 ноября компания открыла предзаказы на Intelligent Eyewear. Очки стоят от $395, а в продажу поступят 10 декабря. Электронику разработала Samsung, оправы подготовили Warby Parker и Gentle Monster. Покупателям предложили 30 ва"
+    },
+    {
       "dzen_id": "6af9318c6335b45bbe2a9aba",
       "title": "ChatGPT, Gemini и Perplexity отправляли покупателей в фальшивые магазины",
       "dzen_url": "https://dzen.ru/a/avkxjGM1tFu-Kpq6",
@@ -3503,11 +3514,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 327,
-    "fully_titled_from_archived_public_feed": 272,
+    "total_cataloged_editorial_publications": 328,
+    "fully_titled_from_archived_public_feed": 273,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-15",
-  "coverage": "327 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "328 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
