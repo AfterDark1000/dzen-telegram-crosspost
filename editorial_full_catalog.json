@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6af9343ff38bf42a8f22d7d7",
+      "title": "Учёные научили роботов падать в 6,5 раза реже",
+      "dzen_url": "https://dzen.ru/a/avk0P_OL9CqPItfX",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-15T16:02:06+00:00",
+      "excerpt": "Мичиганский университет 10 ноября рассказал о результатах испытаний PRISM — нового модуля управления движениями роботов. В виртуальных тестах человекоподобные машины с ним падали примерно в 6,5 раза реже, чем с обычной нейросетью. За 24 секунды ходьбы робот с прежней системой оставался на ногах в 51% испытаний. С PRISM результат вырос до 92,5%. Исследователи попробовали просто увеличить обычную нейросеть до того же р"
+    },
+    {
       "dzen_id": "6af93383f8ad2a1742de3c4d",
       "title": "Разработчики игр ругают ИИ, но всё чаще им пользуются",
       "dzen_url": "https://dzen.ru/a/avkzg_itKhdC3jxN",
@@ -3547,11 +3558,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 331,
-    "fully_titled_from_archived_public_feed": 276,
+    "total_cataloged_editorial_publications": 332,
+    "fully_titled_from_archived_public_feed": 277,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-15",
-  "coverage": "331 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "332 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
