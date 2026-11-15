@@ -1194,8 +1194,12 @@
       "id": "openai-google-anthropic-frontier-ai-lawsuit-20261112",
       "dzen_title": "Новые модели OpenAI, Google и Anthropic хотят запретить через суд",
       "x_text": "@OpenAI, @Google, @AnthropicAI, @Meta и ИИ-подразделение @SpaceX получили иск: четыре НКО требуют заморозить разработку моделей мощнее нынешних.\n\nВ ход пошли предупреждения самих ИИ-боссов о катастрофических рисках. Суд пока ничего не запретил.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6af82cfe8b79156f70976380",
+      "dzen_url": "https://dzen.ru/a/avgs_ot5FW9wl2OA",
+      "buffer_post_id": "6af92479b9a106584c84b4ca",
+      "with_image": true
     },
     {
       "id": "openai-gpt6-astra-device-20261103",
