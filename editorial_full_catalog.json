@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6af93121e1a9a744f99658f6",
+      "title": "WHOOP запустила соцсеть против ИИ-ботов — с проверкой живого пульса",
+      "dzen_url": "https://dzen.ru/a/avkxIeGpp0T5llj2",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-15T09:52:52+00:00",
+      "excerpt": "WHOOP 12 ноября запустила Humans — социальную сеть для владельцев фитнес-браслетов, где каждый аккаунт связан с данными о сердцебиении. Разработчики решили использовать живой пульс для защиты площадки от ИИ-ботов. Основатель компании Уилл Ахмед объяснил идею: «За каждым аккаунтом стоит реальный человек с подтверждённым сердцебиением». — Уилл Ахмед, основатель и глава WHOOP В Humans можно публиковать фотографии, обсуж"
+    },
+    {
       "dzen_id": "6af930b29c946433beda9998",
       "title": "ИИ ускорил расчёты промышленных биореакторов в 10 тысяч раз",
       "dzen_url": "https://dzen.ru/a/avkwspyUZDO-2pmY",
@@ -3481,11 +3492,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 325,
-    "fully_titled_from_archived_public_feed": 270,
+    "total_cataloged_editorial_publications": 326,
+    "fully_titled_from_archived_public_feed": 271,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-15",
-  "coverage": "325 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "326 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
