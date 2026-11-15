@@ -1611,8 +1611,12 @@
       "id": "whoop-humans-heartbeat-social-network-20261112",
       "dzen_title": "WHOOP запустила соцсеть против ИИ-ботов — с проверкой живого пульса",
       "x_text": "У @WHOOP у каждого аккаунта в новой соцсети должен быть пульс. 🫀\n\nВ Humans делятся сном, тренировками и фото. @willahmed обещает сеть без ИИ-ботов: показатели идут с браслетов.\n\nНо кто на самом деле управляет профилем, пульс не выдаст.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6af93121e1a9a744f99658f6",
+      "dzen_url": "https://dzen.ru/a/avkxIeGpp0T5llj2",
+      "buffer_post_id": "6af986e1b9a106584c9f3ee2",
+      "with_image": false
     },
     {
       "id": "wired-accenture-personal-claude-code-pentagon-20261029",
