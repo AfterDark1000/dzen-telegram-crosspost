@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6af92f91f5a98257e912b82f",
+      "title": "Google научила ИИ искать причины болезней в отдельных клетках",
+      "dzen_url": "https://dzen.ru/a/avkvkfWpglfpErgv",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-15T06:23:33+00:00",
+      "excerpt": "Google DeepMind 11 ноября представила AlphaGenome 2 — исследовательскую модель, которая предсказывает, как изменения ДНК повлияют на работу генов в конкретных типах клеток. Клетка сердца и клетка иммунной системы содержат практически одинаковую ДНК, но используют её по-разному. Поэтому мутация может затронуть один тип клеток и почти не проявиться в другом. ИИ уже помогает генетикам разбираться в мутациях, но новая Al"
+    },
+    {
       "dzen_id": "6af92f191d3b064b6add563f",
       "title": "Cisco поручит Claude искать способы взлома корпоративных ИИ-агентов",
       "dzen_url": "https://dzen.ru/a/avkvGR07Bktq3VY_",
@@ -3448,11 +3459,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 322,
-    "fully_titled_from_archived_public_feed": 267,
+    "total_cataloged_editorial_publications": 323,
+    "fully_titled_from_archived_public_feed": 268,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-15",
-  "coverage": "322 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "323 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
