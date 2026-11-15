@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6af9318c6335b45bbe2a9aba",
+      "title": "ChatGPT, Gemini и Perplexity отправляли покупателей в фальшивые магазины",
+      "dzen_url": "https://dzen.ru/a/avkxjGM1tFu-Kpq6",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-15T11:03:12+00:00",
+      "excerpt": "Исследователи обнаружили 351 поддельный сайт в ответах ChatGPT, Gemini и Perplexity на вопросы о покупках. Нейросети иногда рекомендовали такие адреса как обычные интернет-магазины, а один из них даже назвали официальным сайтом известного бренда. Компания Podqi, занимающаяся защитой торговых марок, проверила 6795 ответов трёх ИИ-сервисов. Тестирование проводили в сентябре 2026 года, а 12 ноября результаты опубликовал"
+    },
+    {
       "dzen_id": "6af93121e1a9a744f99658f6",
       "title": "WHOOP запустила соцсеть против ИИ-ботов — с проверкой живого пульса",
       "dzen_url": "https://dzen.ru/a/avkxIeGpp0T5llj2",
@@ -3492,11 +3503,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 326,
-    "fully_titled_from_archived_public_feed": 271,
+    "total_cataloged_editorial_publications": 327,
+    "fully_titled_from_archived_public_feed": 272,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-15",
-  "coverage": "326 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "327 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
