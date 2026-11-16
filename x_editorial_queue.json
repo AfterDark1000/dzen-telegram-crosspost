@@ -553,8 +553,12 @@
       "id": "elevenlabs-elevenai-meeting-assistant-20261111",
       "dzen_title": "ElevenLabs показала ИИ-секретаря, который раздаёт поручения после совещаний",
       "x_text": "@ElevenLabs показала ElevenAI: записывает рабочие встречи, в том числе очные, с согласия участников и после разговора готовит каждому сводку и список задач. Также есть диктовка и подсказки во время звонка. Пока — заявки на бесплатный ранний доступ.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6afa94991d3b064b6a95be0f",
+      "dzen_url": "https://dzen.ru/a/avqUmR07Bktqlb4P",
+      "buffer_post_id": "6afabc48d7e5fee638af6b87",
+      "with_image": false
     },
     {
       "id": "elon-musk-grok-bot-costs-limits-20261101",

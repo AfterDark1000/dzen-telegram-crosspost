@@ -834,8 +834,11 @@
       "id": "elevenlabs-elevenai-meeting-assistant-20261111",
       "dzen_title": "ElevenLabs показала ИИ-секретаря, который раздаёт поручения после совещаний",
       "threads_text": "ElevenLabs показала ИИ для СОВЕЩАНИЙ. 🗒️\n\nElevenAI слушает даже очные встречи и после них готовит краткий итог и список задач каждому участнику. Во время звонка подсказывает контекст. Для записи нужно согласие всех; пока открыт бесплатный ранний доступ по заявке.\n\nНа планёрке теперь лучше осторожнее с фразой «я могу».",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6afa94991d3b064b6a95be0f",
+      "dzen_url": "https://dzen.ru/a/avqUmR07Bktqlb4P",
+      "threads_post_id": "18129533452920139"
     },
     {
       "id": "elevenlabs-realtime-mini-max-20261023",
