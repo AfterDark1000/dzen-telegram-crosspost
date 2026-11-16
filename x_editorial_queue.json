@@ -1508,8 +1508,12 @@
       "id": "poland-anna-ai-patient-calls-20261111",
       "dzen_title": "В Польше ИИ звонит пациентам — даже без интернета",
       "x_text": "У @elevenlabs и @NVIDIA — польская «Анна»: ИИ с октября звонит пациентам на домашние телефоны с номера 116 117, напоминает о визитах и даёт их отменить. Данные, по словам компаний, остаются на госсерверах. Новые записи бот пока не оформляет. Домашний телефон словил апдейт. ☎️",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6afa96d9253bf86733f96381",
+      "dzen_url": "https://dzen.ru/a/avqW2SU7-Gcz-WOB",
+      "buffer_post_id": "6afb2cc937f32fd42a3b1a50",
+      "with_image": true
     },
     {
       "id": "railway-primcloud-ai-agents-20261103",
