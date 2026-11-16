@@ -1595,8 +1595,12 @@
       "id": "tier-iv-autoware-five-models-20261111",
       "dzen_title": "Японцы открыли пять ИИ-моделей для беспилотных машин",
       "x_text": "Японская @tier_iv_global открыла пять ИИ-моделей для @AutowareFdn: от систем на камерах до вариантов с лидарами и HD-картами. Есть и @NVIDIA Alpamayo 2 Edge. Код доступен, но это инструменты для разработчиков, а не автопилот «скачал — поехал».",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6af9360a1d3b064b6ae3da10",
+      "dzen_url": "https://dzen.ru/a/avk2Ch07Bktq49oQ",
+      "buffer_post_id": "6afa8410a869c35e5bb8623d",
+      "with_image": false
     },
     {
       "id": "triggerdev-client-env-incident-20261101",

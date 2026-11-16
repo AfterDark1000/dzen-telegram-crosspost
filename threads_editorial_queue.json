@@ -2505,8 +2505,11 @@
       "id": "tier-iv-autoware-five-models-20261111",
       "dzen_title": "Японцы открыли пять ИИ-моделей для беспилотных машин",
       "threads_text": "Японцы выложили ПЯТЬ нейросетей для беспилотных машин. 🚗\n\nTIER IV и Autoware предлагают разработчикам разные варианты: одним хватает камер, другим нужны лидары и точные карты. Среди участников — NVIDIA. Код открыт, часть моделей уже встроена в Autoware, остальные ещё доводят до испытаний на машинах.\n\nВодительское удостоверение пока в комплект не входит.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6af9360a1d3b064b6ae3da10",
+      "dzen_url": "https://dzen.ru/a/avk2Ch07Bktq49oQ",
+      "threads_post_id": "18175345825461384"
     },
     {
       "id": "triggerdev-client-env-incident-20261101",
