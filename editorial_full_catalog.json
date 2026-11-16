@@ -10,6 +10,28 @@
   ],
   "entries": [
     {
+      "dzen_id": "6afa97b3ce20cc07c9957be4",
+      "title": "Нейросети устроили шоу: восемь необычных ИИ-экспериментов",
+      "dzen_url": "https://dzen.ru/a/avqXs84gzAfJlXvk",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-16T18:12:13+00:00",
+      "excerpt": "Пользователь дал Claude пустую папку — через 37 минут у него было шесть отделов компании. Другой попросил Gemini показать, что происходит внутри звезды, и получил интерактивную игру за 78 секунд. За несколько ноябрьских дней энтузиасты показали целую коллекцию необычных экспериментов с нейросетями. Собрали самые любопытные. Разработчик под ником meya открыл Claude Code и попросил создать структуру компании. Через 37"
+    },
+    {
+      "dzen_id": "6afa9776efcef467d25f55c2",
+      "title": "Из-за 10 строк кода с ИИ создателям Big Walk пришлось извиняться",
+      "dzen_url": "https://dzen.ru/a/avqXdu_O9GfSX1XC",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-16T17:16:57+00:00",
+      "excerpt": "Создатели Big Walk исправили ошибку с помощью чат-бота. В игре осталось около десяти строк доработанного по его подсказке кода. Этого хватило, чтобы студии пришлось публично оправдываться. 10 ноября австралийская студия House House, известная по хулиганской Untitled Goose Game, рассказала об использовании нейросетей при разработке своей новой игры. Big Walk — кооперативное приключение, в котором игроки исследуют огро"
+    },
+    {
       "dzen_id": "6afa97379c946433be63e2d5",
       "title": "Вы привязались к нейросети — а она к вам нет",
       "dzen_url": "https://dzen.ru/a/avqXN5yUZDO-Y-LV",
@@ -3734,11 +3756,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 348,
-    "fully_titled_from_archived_public_feed": 293,
+    "total_cataloged_editorial_publications": 350,
+    "fully_titled_from_archived_public_feed": 295,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-16",
-  "coverage": "348 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "350 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
