@@ -1795,6 +1795,13 @@
       "dzen_url": "https://dzen.ru/a/avaTGlALcjWVeERd",
       "buffer_post_id": "6af6abc5c1a0010a5b01a317",
       "with_image": true
+    },
+    {
+      "id": "deepseek-ai-assistant-tools-api-20261113",
+      "dzen_title": "DeepSeek разрешила создать своего ИИ-помощника",
+      "x_text": "У @deepseek_ai теперь можно практически собрать свой чат-бот из готовых деталей. 😄\n\nКомпания открыла через API поиск, чтение документов и сайтов, распознавание речи и озвучку. Даже готовый чат-клиент с открытым кодом выложила.\n\nИнструменты платные, русский для озвучки пока не заявлен.",
+      "status": "approved",
+      "include_dzen_link": false
     }
   ]
 }
