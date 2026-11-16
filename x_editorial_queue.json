@@ -546,8 +546,12 @@
       "id": "elevenlabs-elevenagents-memory-routines-20261111",
       "dzen_title": "ElevenLabs научит ИИ-операторов помнить клиентов и самим перезванивать",
       "x_text": "@ElevenLabs анонсировала для ElevenAgents Memory и Routines: голосовой ИИ сможет помнить детали прежних разговоров с подтверждённым клиентом, перезванивать и выполнять действия после звонка. Обе функции пока готовятся к выпуску.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6afa94cce1a9a744f95ca65c",
+      "dzen_url": "https://dzen.ru/a/avqUzOGpp0T5XKZc",
+      "buffer_post_id": "6afacd2ba869c35e5bd22535",
+      "with_image": true
     },
     {
       "id": "elevenlabs-elevenai-meeting-assistant-20261111",
