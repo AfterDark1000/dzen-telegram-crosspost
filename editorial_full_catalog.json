@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6afa952ef8ad2a1742c25438",
+      "title": "Fish Audio научила ИИ отличать «угу» от «подожди!»",
+      "dzen_url": "https://dzen.ru/a/avqVLvitKhdCwlQ4",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-16T10:04:20+00:00",
+      "excerpt": "Fish Audio 10 ноября выпустила Live 3 — голосовую модель, которая умеет слушать собеседника даже во время собственной речи и определять, когда нужно замолчать. Знакомая проблема голосовых помощников: человек говорит «угу», подтверждая, что слушает, а нейросеть воспринимает это как попытку перебить и обрывает объяснение. Live 3 должна различать такие ситуации. Если собеседник произносит короткое «ага» или «угу», ИИ пр"
+    },
+    {
       "dzen_id": "6afa94cce1a9a744f95ca65c",
       "title": "ElevenLabs научит ИИ-операторов помнить клиентов и самим перезванивать",
       "dzen_url": "https://dzen.ru/a/avqUzOGpp0T5XKZc",
@@ -3657,11 +3668,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 341,
-    "fully_titled_from_archived_public_feed": 286,
+    "total_cataloged_editorial_publications": 342,
+    "fully_titled_from_archived_public_feed": 287,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-16",
-  "coverage": "341 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "342 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
