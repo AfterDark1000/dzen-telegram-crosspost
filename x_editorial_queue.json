@@ -955,8 +955,12 @@
       "id": "mbzuai-pan2-world-model-20261110",
       "dzen_title": "ИИ научили снимать будущее",
       "x_text": "@IFM_AI и @mbzuai открыли PAN 2: ИИ по картинке и текстовому действию моделирует до 20 секунд возможных последствий. За видео отвечает диффузионная модель на 29 млрд параметров. На тестах авторов полностью выполнены 34% многошаговых планов. Код и веса открыты.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6af9357bc6c38d204006ff27",
+      "dzen_url": "https://dzen.ru/a/avk1e8bDjSBABv8n",
+      "buffer_post_id": "6afa760eff465c57daccd98b",
+      "with_image": true
     },
     {
       "id": "mercor-series-d-750m-20b-valuation-20261110",
