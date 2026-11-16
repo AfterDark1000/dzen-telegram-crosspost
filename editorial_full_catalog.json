@@ -10,6 +10,28 @@
   ],
   "entries": [
     {
+      "dzen_id": "6afa963bcac9c01ee16d4c3d",
+      "title": "Глава Databricks поручил ИИ собирать плохие новости о своей компании",
+      "dzen_url": "https://dzen.ru/a/avqWO8rJwB7hbUw9",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-16T13:09:47+00:00",
+      "excerpt": "Гендиректор Databricks показал журналистке ИИ, который разбирает неудачные переговоры с клиентами и выясняет, чем недовольны сотрудники. 11 ноября сооснователь Databricks Али Годси открыл перед журналисткой TechCrunch свои настоящие переписки с корпоративным ИИ-помощником Genie. Вместо специально подготовленной демонстрации он показал, как использует систему в работе. Genie проанализировал внутренний опрос удовлетвор"
+    },
+    {
+      "dzen_id": "6afa95e5f8ad2a1742c378f8",
+      "title": "ИИ Salesforce улучшил другую нейросеть за 80 часов",
+      "dzen_url": "https://dzen.ru/a/avqV5fitKhdCw3j4",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-16T12:21:57+00:00",
+      "excerpt": "ИИ-агенты Salesforce за 80 часов улучшили другую нейросеть, самостоятельно подбирая способы обучения и проверяя свои идеи экспериментами. 11 ноября компания представила систему SFR-AutoR&D, которой можно поручить исследовательскую задачу. Человек определяет, что нужно улучшить, сколько вычислительных ресурсов разрешено потратить и как проверять результат. Остальную работу выполняют агенты. Для испытания Salesforce вы"
+    },
+    {
       "dzen_id": "6afa9585e7c3d9558ad24a97",
       "title": "Microsoft спрятала в ИИ опасную команду",
       "dzen_url": "https://dzen.ru/a/avqVhefD2VWK0kqX",
@@ -3679,11 +3701,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 343,
-    "fully_titled_from_archived_public_feed": 288,
+    "total_cataloged_editorial_publications": 345,
+    "fully_titled_from_archived_public_feed": 290,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-16",
-  "coverage": "343 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "345 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
