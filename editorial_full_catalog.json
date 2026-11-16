@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6afa94991d3b064b6a95be0f",
+      "title": "ElevenLabs показала ИИ-секретаря, который раздаёт поручения после совещаний",
+      "dzen_url": "https://dzen.ru/a/avqUmR07Bktqlb4P",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-16T08:17:22+00:00",
+      "excerpt": "ElevenLabs 11 ноября показала ElevenAI — ИИ-помощника, который слушает рабочие встречи и после разговора готовит каждому участнику краткий итог и список поручений. Приложение рассчитано как на видеозвонки, так и на обычные встречи в переговорной. За распознавание речи отвечает новая модель Scribe v3. Участники должны дать согласие на запись; разработчики предусмотрели встроенные механизмы уведомления. ElevenAI также"
+    },
+    {
       "dzen_id": "6afa9454b33b505d7afd84f9",
       "title": "Google придумала ИИ против вечного «куда пойдём?»",
       "dzen_url": "https://dzen.ru/a/avqUVLM7UF16_YT5",
@@ -3635,11 +3646,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 339,
-    "fully_titled_from_archived_public_feed": 284,
+    "total_cataloged_editorial_publications": 340,
+    "fully_titled_from_archived_public_feed": 285,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-16",
-  "coverage": "339 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "340 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
