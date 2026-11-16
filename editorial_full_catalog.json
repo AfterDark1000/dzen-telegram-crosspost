@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6af9360a1d3b064b6ae3da10",
+      "title": "Японцы открыли пять ИИ-моделей для беспилотных машин",
+      "dzen_url": "https://dzen.ru/a/avk2Ch07Bktq49oQ",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-16T04:00:48+00:00",
+      "excerpt": "Японская компания TIER IV 11 ноября открыла доступ к пяти ИИ-моделям для беспилотного вождения. Разработчики автомобилей могут выбирать, какие нейросети использовать: одним достаточно камер, другим нужны лидары, радары и подробные карты дорог. Исходный код опубликован на GitHub, а модели размещены на Hugging Face. Все пять проектов связаны с Autoware — открытой платформой для создания систем автономного управления тр"
+    },
+    {
       "dzen_id": "6af9357bc6c38d204006ff27",
       "title": "ИИ научили снимать будущее",
       "dzen_url": "https://dzen.ru/a/avk1e8bDjSBABv8n",
@@ -3591,11 +3602,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 335,
-    "fully_titled_from_archived_public_feed": 280,
+    "total_cataloged_editorial_publications": 336,
+    "fully_titled_from_archived_public_feed": 281,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-16",
-  "coverage": "335 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "336 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
