@@ -619,8 +619,12 @@
       "id": "fish-audio-live-3-interruptions-20261110",
       "dzen_title": "Fish Audio научила ИИ отличать «угу» от «подожди!»",
       "x_text": "@FishAudio выпустила Live 3 — голосовую модель, которая слушает даже во время собственной речи. «Угу» не прерывает её, а «подожди» заставляет остановиться. По данным компании, короткая реакция возможна за 186 мс. Модель доступна через платформу и API, пока только на английском.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6afa952ef8ad2a1742c25438",
+      "dzen_url": "https://dzen.ru/a/avqVLvitKhdCwlQ4",
+      "buffer_post_id": "6afad87891ba8aa74bc702b4",
+      "with_image": false
     },
     {
       "id": "forever-security-embrace-embedded-browsers-20261029",
