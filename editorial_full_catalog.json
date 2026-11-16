@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6af93797ce20cc07c9d6b959",
+      "title": "Google выпустила ИИ, который отвечает на тысячу вопросов без слов",
+      "dzen_url": "https://dzen.ru/a/avk3l84gzAfJ1rlZ",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-16T06:04:05+00:00",
+      "excerpt": "Google 11 ноября представила Gemini Decision 1 — нейросеть, способную проверить до 1000 вопросов за один запрос. Она анализирует текст, изображения, аудио, видео и PDF-документы, после чего возвращает ответы с оценкой вероятности. У модели есть необычная особенность: она вообще не генерирует текст. Вместо длинных объяснений выбирает из заранее заданных вариантов. В демонстрации Google нейросети показывают фотографию"
+    },
+    {
       "dzen_id": "6af9368ce4152a687099bff2",
       "title": "Alibaba показала Qwen 4 Max — и сразу назначила дату отключения",
       "dzen_url": "https://dzen.ru/a/avk2jOQVKmhwmb_y",
@@ -3613,11 +3624,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 337,
-    "fully_titled_from_archived_public_feed": 282,
+    "total_cataloged_editorial_publications": 338,
+    "fully_titled_from_archived_public_feed": 283,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-16",
-  "coverage": "337 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "338 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
