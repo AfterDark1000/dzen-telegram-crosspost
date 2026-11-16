@@ -63,8 +63,12 @@
       "id": "ai-eight-unusual-experiments-20261115",
       "dzen_title": "Нейросети устроили шоу: восемь необычных ИИ-экспериментов",
       "x_text": "Кружок «Очумелые ручки» у нейросетей: Claude Code собрал 6 виртуальных отделов из пустой папки. Рой из 22 агентов сделал 16 мини-приложений, Gemini — игру о синтезе внутри звезды за 78 секунд. Ещё есть ИИ-барабанщик и меню-книга. Похоже, им пора выдавать дипломы. 🎓",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6afa97b3ce20cc07c9957be4",
+      "dzen_url": "https://dzen.ru/a/avqXs84gzAfJlXvk",
+      "buffer_post_id": "6afb56f0016bcbe7f82256ae",
+      "with_image": false
     },
     {
       "id": "ai-stock-selloff-intel-alphabet-nasdaq-20261030",
