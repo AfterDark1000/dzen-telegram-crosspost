@@ -1556,8 +1556,11 @@
       "id": "microsoft-lazarus-dormant-neurons-20261110",
       "dzen_title": "Microsoft спрятала в ИИ опасную команду",
       "threads_text": "Microsoft спрятала в нейросети тайную команду. Обычные проверки ничего не заметили. 🕵️\n\nИИ работал нормально, но при появлении специальной даты выдавал команду для запуска чужой программы.\n\nДля этого изменили всего 7 внутренних элементов модели. В эксперименте ловушка срабатывала минимум в 98,8% случаев с нужным сигналом.\n\nИдею помог найти Claude Code.\n\nСпящий агент оказался с очень чутким будильником.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6afa9585e7c3d9558ad24a97",
+      "dzen_url": "https://dzen.ru/a/avqVhefD2VWK0kqX",
+      "threads_post_id": "17989216788104047"
     },
     {
       "id": "microsoft-mai-dxo-science-20261023",

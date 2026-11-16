@@ -1091,8 +1091,12 @@
       "id": "microsoft-lazarus-dormant-neurons-20261110",
       "dzen_title": "Microsoft спрятала в ИИ опасную команду",
       "x_text": "@Microsoft показала, как незаметно подменить поведение ИИ: изменить 7 нейронов — и модель будет выдавать чужую команду при секретном сигнале.\n\nОбычные проверки ловушку не замечали. Идею помог найти Claude Code от @AnthropicAI.\n\nПока это эксперимент, не реальная атака.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6afa9585e7c3d9558ad24a97",
+      "dzen_url": "https://dzen.ru/a/avqVhefD2VWK0kqX",
+      "buffer_post_id": "6afae678d2a6b9d4fcb012c9",
+      "with_image": true
     },
     {
       "id": "mit-flex-robots-human-intent-20261109",
