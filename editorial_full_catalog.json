@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6af9368ce4152a687099bff2",
+      "title": "Alibaba показала Qwen 4 Max — и сразу назначила дату отключения",
+      "dzen_url": "https://dzen.ru/a/avk2jOQVKmhwmb_y",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-16T05:03:22+00:00",
+      "excerpt": "Alibaba 11 ноября открыла доступ к Qwen4-Max-Preview — предварительной версии флагманской нейросети нового поколения Qwen 4. Одновременно компания объявила, что уже 25 ноября эту версию отключат. На испытания отвели всего две недели. За это время разработчики смогут проверить новую модель на сложных задачах программирования, анализа документов и управления ИИ-агентами. Qwen4-Max-Preview получила контекстное окно в ми"
+    },
+    {
       "dzen_id": "6af9360a1d3b064b6ae3da10",
       "title": "Японцы открыли пять ИИ-моделей для беспилотных машин",
       "dzen_url": "https://dzen.ru/a/avk2Ch07Bktq49oQ",
@@ -3602,11 +3613,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 336,
-    "fully_titled_from_archived_public_feed": 281,
+    "total_cataloged_editorial_publications": 337,
+    "fully_titled_from_archived_public_feed": 282,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-16",
-  "coverage": "336 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "337 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
