@@ -1540,8 +1540,12 @@
       "id": "salesforce-sfr-autord-ai-model-improvement-20261111",
       "dzen_title": "ИИ Salesforce улучшил другую нейросеть за 80 часов",
       "x_text": "Когда нейросеть тормозит, @salesforce зовёт другую нейросеть.\n\nЗа 9 часов ИИ-агенты перебрали варианты кода: по тестам компании модель стала обрабатывать на 36% больше запросов, а задержка сократилась на 17%.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6afa95e5f8ad2a1742c378f8",
+      "dzen_url": "https://dzen.ru/a/avqV5fitKhdCw3j4",
+      "buffer_post_id": "6afb02afbb37a91bf75f73ee",
+      "with_image": false
     },
     {
       "id": "sam-altman-ram-altman-dram-20261104",
