@@ -2317,8 +2317,11 @@
       "id": "poland-anna-ai-patient-calls-20261111",
       "dzen_title": "В Польше ИИ звонит пациентам — даже без интернета",
       "threads_text": "В ПОЛЬШЕ ИИ «Анна» уже обзванивает пациентов. Причём по домашним телефонам, без смартфона и интернета. ☎️\n\nС номера 116 117 она звонит за неделю и за день до приёма: напоминает о враче, помогает отменить визит. Новые записи пока не оформляет. ElevenLabs и NVIDIA рассказали, что данные и записи разговоров остаются на государственных серверах.\n\nСтационарный телефон получил DLC с нейросетью. 💀",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6afa96d9253bf86733f96381",
+      "dzen_url": "https://dzen.ru/a/avqW2SU7-Gcz-WOB",
+      "threads_post_id": "17968701065982526"
     },
     {
       "id": "prophecy-datagpt-auditable-data-workflows-20261028",

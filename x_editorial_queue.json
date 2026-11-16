@@ -1727,8 +1727,12 @@
       "id": "uk-ofs-ai-free-assessments-20261111",
       "dzen_title": "ИИ пишет за студентов — в Англии хотят экзамены без него",
       "x_text": "У @officestudents и @AdvanceHE вышло исследование: студенты рассказывали, как однокурсники сдавали задания с ИИ за несколько минут и получали похожие оценки. Регулятор Англии хочет больше очных экзаменов и устных защит без ИИ. Кто учился — студент или бот?",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6afa9683f5a98257e9786090",
+      "dzen_url": "https://dzen.ru/a/avqWg_WpglfpeGCQ",
+      "buffer_post_id": "6afb1ec91a0e9d01e789f6f3",
+      "with_image": false
     },
     {
       "id": "umich-prism-robot-motion-20261110",
