@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6afa9585e7c3d9558ad24a97",
+      "title": "Microsoft спрятала в ИИ опасную команду",
+      "dzen_url": "https://dzen.ru/a/avqVhefD2VWK0kqX",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-16T11:04:21+00:00",
+      "excerpt": "Исследователи Microsoft встроили в нейросеть скрытую команду, которая срабатывает при специальном сигнале. Обычные проверки безопасности подмену не обнаружили. Для этого оказалось достаточно изменить всего семь внутренних элементов модели. Переобучать нейросеть целиком не пришлось. Допустим, компания устанавливает на свой сервер нейросеть, которая помогает программистам. Она умеет читать файлы, исправлять ошибки и за"
+    },
+    {
       "dzen_id": "6afa952ef8ad2a1742c25438",
       "title": "Fish Audio научила ИИ отличать «угу» от «подожди!»",
       "dzen_url": "https://dzen.ru/a/avqVLvitKhdCwlQ4",
@@ -3668,11 +3679,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 342,
-    "fully_titled_from_archived_public_feed": 287,
+    "total_cataloged_editorial_publications": 343,
+    "fully_titled_from_archived_public_feed": 288,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-16",
-  "coverage": "342 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "343 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
