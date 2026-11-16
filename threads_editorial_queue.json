@@ -1058,8 +1058,11 @@
       "id": "google-gemini-decision-1-20261111",
       "dzen_title": "Google выпустила ИИ, который отвечает на тысячу вопросов без слов",
       "threads_text": "Google выпустила ИИ, который НЕ ПИШЕТ ТЕКСТ. 🤐\n\nGemini Decision 1 получает фото, видео, запись звонка или PDF и проверяет до 1000 заранее заданных вопросов за один запрос. Вместо сочинений — вероятности, выбор из вариантов и оценки по шкале.\n\nGoogle уже использует её для подбора эмодзи из более чем 200 вариантов.\n\nЛюбителям писать «распиши подробнее» придётся искать другую нейросеть.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6af93797ce20cc07c9d6b959",
+      "dzen_url": "https://dzen.ru/a/avk3l84gzAfJ1rlZ",
+      "threads_post_id": "18133571773800767"
     },
     {
       "id": "google-gemini-for-healthcare-20261110",

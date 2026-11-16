@@ -699,8 +699,12 @@
       "id": "google-gemini-decision-1-20261111",
       "dzen_title": "Google выпустила ИИ, который отвечает на тысячу вопросов без слов",
       "x_text": "@Google и @GoogleDeepMind выпустили Gemini Decision 1 в @GoogleAIStudio: до 1000 проверок за запрос, ответы — вероятности вместо текста. Заявленные 150–250 мс измерены Google на меньших наборах вопросов. Цена — $0,10 за 1 млн входных токенов.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6af93797ce20cc07c9d6b959",
+      "dzen_url": "https://dzen.ru/a/avk3l84gzAfJ1rlZ",
+      "buffer_post_id": "6afaa01f06e1675856cee917",
+      "with_image": false
     },
     {
       "id": "google-gemini-for-healthcare-20261110",
