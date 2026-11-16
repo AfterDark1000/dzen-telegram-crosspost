@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6afa97379c946433be63e2d5",
+      "title": "Вы привязались к нейросети — а она к вам нет",
+      "dzen_url": "https://dzen.ru/a/avqXN5yUZDO-Y-LV",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-16T16:03:19+00:00",
+      "excerpt": "Вы можете скучать по чат-боту. А он по вам — нет, даже если отвечает так, будто тоже скучал. Группа из пяти исследователей предложила теорию, объясняющую, почему люди воспринимают общение с нейросетью как настоящую близость. Работа вышла 2 октября в научном журнале Journal of Advertising, а 10 ноября о ней рассказал Пенсильванский государственный университет (Penn State). Авторы назвали свою теорию HAART — Human–AI A"
+    },
+    {
       "dzen_id": "6afa96d9253bf86733f96381",
       "title": "В Польше ИИ звонит пациентам — даже без интернета",
       "dzen_url": "https://dzen.ru/a/avqW2SU7-Gcz-WOB",
@@ -3723,11 +3734,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 347,
-    "fully_titled_from_archived_public_feed": 292,
+    "total_cataloged_editorial_publications": 348,
+    "fully_titled_from_archived_public_feed": 293,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-16",
-  "coverage": "347 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "348 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
