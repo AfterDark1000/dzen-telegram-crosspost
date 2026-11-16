@@ -527,8 +527,12 @@
       "id": "databricks-genie-unvarnished-truth-20261111",
       "dzen_title": "Глава Databricks поручил ИИ собирать плохие новости о своей компании",
       "x_text": "У @alighodsi из @databricks появился неудобный коллега. Genie разобрал низкие оценки сотрудников и неудачные переговоры с клиентом — глава компании сам показал чаты журналистке. Новую автономную версию обещают в тестах. Корпоративное «всё отлично» под угрозой.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6afa963bcac9c01ee16d4c3d",
+      "dzen_url": "https://dzen.ru/a/avqWO8rJwB7hbUw9",
+      "buffer_post_id": "6afb10a5f6115c16a90f6a0a",
+      "with_image": true
     },
     {
       "id": "deepseek-ai-assistant-tools-api-20261113",
