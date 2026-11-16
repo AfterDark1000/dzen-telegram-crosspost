@@ -96,8 +96,11 @@
       "id": "alibaba-qwen4-max-preview-20261111",
       "dzen_title": "Alibaba показала Qwen 4 Max — и сразу назначила дату отключения",
       "threads_text": "Alibaba выпустила ИИ с ДАТОЙ ОТКЛЮЧЕНИЯ. ⏳\n\nНовая Qwen4-Max-Preview понимает изображения и видео, вызывает инструменты и работает с контекстом до миллиона токенов. Испытать можно сейчас, но 25 ноября эту предварительную версию отключат.\n\nНейросеть уже знает дату собственного увольнения.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6af9368ce4152a687099bff2",
+      "dzen_url": "https://dzen.ru/a/avk2jOQVKmhwmb_y",
+      "threads_post_id": "18057761426811290"
     },
     {
       "id": "alibaba-t-head-ipo-hong-kong-20261110",
