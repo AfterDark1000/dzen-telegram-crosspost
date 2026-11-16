@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6afa9683f5a98257e9786090",
+      "title": "ИИ пишет за студентов — в Англии хотят экзамены без него",
+      "dzen_url": "https://dzen.ru/a/avqWg_WpglfpeGCQ",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-16T14:13:18+00:00",
+      "excerpt": "Нейросеть делает университетское задание за несколько минут. А оценку за него можно получить такую же, как за работу, написанную самостоятельно. Об этом студенты рассказали Office for Students (OfS) — регулятору высшего образования Англии. 11 ноября OfS вместе с организацией Advance HE представил исследование, в котором участвовали более 300 студентов и сотрудников из более 120 учебных заведений. Регулятора беспокоят"
+    },
+    {
       "dzen_id": "6afa963bcac9c01ee16d4c3d",
       "title": "Глава Databricks поручил ИИ собирать плохие новости о своей компании",
       "dzen_url": "https://dzen.ru/a/avqWO8rJwB7hbUw9",
@@ -3701,11 +3712,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 345,
-    "fully_titled_from_archived_public_feed": 290,
+    "total_cataloged_editorial_publications": 346,
+    "fully_titled_from_archived_public_feed": 291,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-16",
-  "coverage": "345 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "346 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
