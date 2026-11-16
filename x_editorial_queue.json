@@ -798,8 +798,12 @@
       "id": "google-tabletop-20261111",
       "dzen_title": "Google придумала ИИ против вечного «куда пойдём?»",
       "x_text": "У @GoogleLabs новый эксперимент для тех, у кого встречи с друзьями застревают на «куда пойдём?». Tabletop по запросу делает общее голосование, маршрут или турнирную сетку. Друзья работают с ними одновременно по ссылке. Пока лист ожидания в США, 18+.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6afa9454b33b505d7afd84f9",
+      "dzen_url": "https://dzen.ru/a/avqUVLM7UF16_YT5",
+      "buffer_post_id": "6afaae2e06e1675856d3a478",
+      "with_image": true
     },
     {
       "id": "google-tpu-8tx-8i-max-20261109",
