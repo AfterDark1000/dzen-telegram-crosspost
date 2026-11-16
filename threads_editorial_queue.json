@@ -1587,8 +1587,11 @@
       "id": "mit-workspace-models-robot-memory-20261110",
       "dzen_title": "Роботам дали «мышечную память» — теперь они справляются с 92% испытаний",
       "threads_text": "Роботу спрятали кубик. Он ЗАПОМНИЛ, в каком ящике. 🧠\n\nУчёные MIT и Carnegie Mellon создали для роботов аналог мышечной памяти. Большой ИИ заранее учит маленькую модель запоминать важные события, чтобы потом не приходилось долго думать над каждым движением.\n\nВ лабораторных испытаниях — около 92% успешных попыток против 67% у конкурента.\n\nПусть теперь объяснит, зачем мы зашли на кухню.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6af93525ce20cc07c9d44d1c",
+      "dzen_url": "https://dzen.ru/a/avk1Jc4gzAfJ1E0c",
+      "threads_post_id": "18111736613244127"
     },
     {
       "id": "mit-worldparticle-physics-simulator-20261109",

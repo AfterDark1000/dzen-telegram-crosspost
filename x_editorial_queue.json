@@ -1046,8 +1046,12 @@
       "id": "mit-workspace-models-robot-memory-20261110",
       "dzen_title": "Роботам дали «мышечную память» — теперь они справляются с 92% испытаний",
       "x_text": "@MIT_CSAIL и @mldcmu отправили тяжёлый ИИ на подготовительные курсы: тот заранее учит роборуку «мышечной памяти». Потом решения принимаются примерно за 49 мс. В лабораторных испытаниях — 91,5% успеха против 66,8% у ближайшего конкурента.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6af93525ce20cc07c9d44d1c",
+      "dzen_url": "https://dzen.ru/a/avk1Jc4gzAfJ1E0c",
+      "buffer_post_id": "6afa67ebd7e5fee638959908",
+      "with_image": false
     },
     {
       "id": "mit-worldparticle-physics-simulator-20261109",
