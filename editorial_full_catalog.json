@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6afa94cce1a9a744f95ca65c",
+      "title": "ElevenLabs научит ИИ-операторов помнить клиентов и самим перезванивать",
+      "dzen_url": "https://dzen.ru/a/avqUzOGpp0T5XKZc",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-16T09:04:54+00:00",
+      "excerpt": "ElevenLabs 11 ноября анонсировала две будущие функции для платформы ElevenAgents: Memory позволит голосовым ИИ-операторам помнить предыдущие разговоры с клиентами, а Routines — самостоятельно выполнять поручения до и после звонков. Разработчики приводят пример с абонентом телефонной компании. В марте человек сообщил, что собирается переезжать. Когда он снова позвонит в апреле, ИИ вспомнит об этом и предложит перенест"
+    },
+    {
       "dzen_id": "6afa94991d3b064b6a95be0f",
       "title": "ElevenLabs показала ИИ-секретаря, который раздаёт поручения после совещаний",
       "dzen_url": "https://dzen.ru/a/avqUmR07Bktqlb4P",
@@ -3646,11 +3657,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 340,
-    "fully_titled_from_archived_public_feed": 285,
+    "total_cataloged_editorial_publications": 341,
+    "fully_titled_from_archived_public_feed": 286,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-16",
-  "coverage": "340 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "341 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
