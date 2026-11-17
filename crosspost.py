@@ -104,7 +104,7 @@ def describe_dzen_failure(*, final_url, http_status, source):
     title = ""
     if title_match:
         title = html.unescape(re.sub(r"<[^>]+>", "", title_match.group(1)))
-        title = re.sub(r"[\x00-\x1f\x7f-\x9f]+", " ", title).strip()[:120]
+        title = re.sub(r"\s+", " ", re.sub(r"[\x00-\x1f\x7f-\x9f]+", " ", title)).strip()[:120]
 
     # Indicators may occur in scripts even on a normal page; never treat
     # them individually as proof of bot protection or an HTTP block.
