@@ -10,6 +10,28 @@
   ],
   "entries": [
     {
+      "dzen_id": "6afa9cbf6335b45bbe217d58",
+      "title": "Agile Robots привлекла $500 млн на производство роботов",
+      "dzen_url": "https://dzen.ru/a/avqcv2M1tFu-IX1Y",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-17T04:03:53+00:00",
+      "excerpt": "Немецкая Agile Robots привлекла $500 млн инвестиций при оценке компании в $8,5 млрд. О завершении сделки производитель промышленных роботов сообщил 12 ноября. Раунд финансирования возглавила японская SoftBank Group. Среди других инвесторов — NVIDIA, Hitachi Group и T.Capital. У Agile Robots уже есть завод во Фюрстенфельдбруке под Мюнхеном, открытый в начале 2026 года. По заявлению компании, его мощности рассчитаны на"
+    },
+    {
+      "dzen_id": "6afa9c59f12a7f2f2ec3d9db",
+      "title": "Режиссёр «Поезда в Пусан» снял триллер о сыне, которого девять лет заменял ИИ",
+      "dzen_url": "https://dzen.ru/a/avqcWfEqfy8uw9nb",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-17T03:02:18+00:00",
+      "excerpt": "Южнокорейский режиссёр Ён Сан-хо, автор «Поезда в Пусан», снял психологический триллер Paradise Lost («Потерянный рай»). В нём мать девять лет общается с ИИ-копией пропавшего сына. А потом настоящий сын возвращается домой — уже взрослым. В интервью Reuters, опубликованном 11 ноября, режиссёр объяснил, почему долгожданное воссоединение превращается в психологический кошмар. По сюжету мальчик Сону исчезает в десятилетн"
+    },
+    {
       "dzen_id": "6afa97b3ce20cc07c9957be4",
       "title": "Нейросети устроили шоу: восемь необычных ИИ-экспериментов",
       "dzen_url": "https://dzen.ru/a/avqXs84gzAfJlXvk",
@@ -3756,11 +3778,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 350,
-    "fully_titled_from_archived_public_feed": 295,
+    "total_cataloged_editorial_publications": 352,
+    "fully_titled_from_archived_public_feed": 297,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
-  "generated_date": "2026-11-16",
-  "coverage": "350 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "generated_date": "2026-11-17",
+  "coverage": "352 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
