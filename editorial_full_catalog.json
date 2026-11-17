@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6afc3c38c324ce2f405a396a",
+      "title": "Runway открыла ИИ для роботов, обученный на обычных видео",
+      "dzen_url": "https://dzen.ru/a/avw8OMMkzi9AWjlq",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-17T13:01:58+00:00",
+      "excerpt": "Компания Runway, известная нейросетями для генерации видео, 11 ноября выпустила Praxis-1 — открытую модель для управления настоящими роботами. Разработчики могут скачать её веса и программный код, чтобы адаптировать систему под собственное оборудование. Впервые Praxis-1 представили ещё в сентябре. Тогда доступ получили лишь избранные партнёры. Теперь модель опубликована для всех желающих по лицензии Apache 2.0, разре"
+    },
+    {
       "dzen_id": "6afc3bfe5d30a00d593acf22",
       "title": "llama.cpp дошла до версии 1.0 и меняет правила обновлений",
       "dzen_url": "https://dzen.ru/a/avw7_l0woA1ZOs8i",
@@ -3789,11 +3800,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 353,
-    "fully_titled_from_archived_public_feed": 298,
+    "total_cataloged_editorial_publications": 354,
+    "fully_titled_from_archived_public_feed": 299,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-17",
-  "coverage": "353 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "354 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
