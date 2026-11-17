@@ -1100,8 +1100,12 @@
       "id": "llama-cpp-1-0-versioning-20261113",
       "dzen_title": "llama.cpp дошла до версии 1.0 и меняет правила обновлений",
       "x_text": "@ggerganov объявил о выходе llama.cpp 1.0.0. Команда @ggml_org теперь будет помечать несовместимые изменения API новой основной версией. В релизе удалили 35 устаревших функций, добавили FP8-кеш и усилили защиту сервера. Это движок локального ИИ, не новая модель.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6afc3bfe5d30a00d593acf22",
+      "dzen_url": "https://dzen.ru/a/avw7_l0woA1ZOs8i",
+      "buffer_post_id": "6afc460e5fd9736b3caf9cf6",
+      "with_image": true
     },
     {
       "id": "mattt-anyspeechrecognizer-anydecisionmodel-20261029",
