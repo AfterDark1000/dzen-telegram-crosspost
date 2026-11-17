@@ -60,8 +60,12 @@
       "id": "ai-ecg-sudden-cardiac-death-risk-20261116",
       "dzen_title": "ИИ нашёл на обычной ЭКГ признак риска внезапной смерти",
       "x_text": "Учёные @UCBerkeley и @oziadias нашли с помощью ИИ на обычной ЭКГ признак риска внезапной сердечной смерти. У 86,1% отмеченных моделью пациентов привычный показатель не указывал на высокий риск. Исследование в @nature вышло в июне; клиническую пользу ещё предстоит проверить.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6afc3c70e4152a6870d45bdb",
+      "dzen_url": "https://dzen.ru/a/avw8cOQVKmhw1Fvb",
+      "buffer_post_id": "6afc70385bbbda0a8916b6db",
+      "with_image": true
     },
     {
       "id": "ai-eight-unusual-experiments-20261115",
