@@ -38,8 +38,12 @@
       "id": "agile-robots-series-f-500m-20261112",
       "dzen_title": "Agile Robots привлекла $500 млн на производство роботов",
       "x_text": "@SoftBank_Group возглавила $500-миллионный раунд немецкой Agile Robots. Среди инвесторов — @nvidia и Hitachi. Компанию оценили в $8,5 млрд. Её завод под Мюнхеном рассчитан на производство до 10 тысяч гуманоидов в год — это проектная мощность.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6afa9cbf6335b45bbe217d58",
+      "dzen_url": "https://dzen.ru/a/avqcv2M1tFu-IX1Y",
+      "buffer_post_id": "6afbe3843e42cd001e540030",
+      "with_image": false
     },
     {
       "id": "ai-ceo-lawyer-impersonation-fraud-129m-20261105",
