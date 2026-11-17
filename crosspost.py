@@ -81,6 +81,54 @@ def extract_items(source):
                     return articles
     raise RuntimeError("Structured article feed not found; nothing will be posted.")
 
+
+def describe_dzen_failure(*, final_url, http_status, source):
+    """Bounded diagnostics, never the raw HTML, query parameters or cookies.
+
+    These are hints about the received page, not a diagnosis of why it failed.
+    This pure function cannot publish, retry or mutate persisted delivery state.
+    """
+    try:
+        parsed = urllib.parse.urlsplit(final_url or "")
+        if parsed.scheme in ("http", "https") and parsed.hostname:
+            # Drop credentials, query and fragment (they may contain tokens).
+            safe_url = f"{parsed.scheme}://{parsed.hostname}{parsed.path[:120]}"
+        else:
+            safe_url = "<unavailable>"
+    except ValueError:
+        safe_url = "<unavailable>"
+
+    source = source or ""
+    title_match = re.search(r"<title\b[^>]*>(.*?)</title\s*>",
+                            source, flags=re.IGNORECASE | re.DOTALL)
+    title = ""
+    if title_match:
+        title = html.unescape(re.sub(r"<[^>]+>", "", title_match.group(1)))
+        title = re.sub(r"\s+", " ", re.sub(r"[\x00-\x1f\x7f-\x9f]+", " ", title)).strip()[:120]
+
+    # Indicators may occur in scripts even on a normal page; never treat
+    # them individually as proof of bot protection or an HTTP block.
+    return {
+        "http_status": http_status if type(http_status) is int else None,
+        "final_url": safe_url,
+        "page_title": title,
+        "html_chars": len(source),
+        "feed_marker_present": bool(re.search(r"feedData", source, re.IGNORECASE)),
+        "article_url_present": "https://dzen.ru/a/" in source,
+        "captcha_hint": bool(re.search(
+            r"captcha|капча|каптча|smartcaptcha|hcaptcha|recaptcha", source,
+            re.IGNORECASE)),
+        "access_denied_hint": bool(re.search(
+            r"access denied|403 forbidden|доступ запрещ[её]н|доступ ограничен",
+            source, re.IGNORECASE)),
+        "challenge_hint": bool(re.search(
+            r"verify you are human|are you human|провер[ьт][еь]е?[, ]+что вы человек|"
+            r"подозрительн\w* активност\w*|challenge-platform|"
+            r"automated traffic|bot detection|security check",
+            source, re.IGNORECASE)),
+    }
+
+
 async def fetch_articles():
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=True, args=["--no-sandbox"])
@@ -88,19 +136,32 @@ async def fetch_articles():
             last_error = None
             for attempt in range(1, 4):
                 page = await browser.new_page(locale="ru-RU", timezone_id="Europe/Moscow")
+                response = None
+                last_source = ""
                 try:
                     print(f"Dzen fetch attempt {attempt}/3", flush=True)
-                    await page.goto(CHANNEL, wait_until="commit", timeout=25000)
+                    response = await page.goto(CHANNEL, wait_until="commit", timeout=25000)
                     for _ in range(25):
                         await page.wait_for_timeout(1000)
                         try:
-                            return extract_items(await page.content())
+                            last_source = await page.content()
+                            return extract_items(last_source)
                         except (RuntimeError, PlaywrightError):
                             pass
                     raise RuntimeError("Dzen page opened but article feed not found")
                 except Exception as error:
                     last_error = error
                     print(f"Attempt {attempt} failed: {type(error).__name__}: {str(error)[:180]}", flush=True)
+                    # Diagnostics are deliberately bounded and never affect retry behavior.
+                    try:
+                        details = describe_dzen_failure(
+                            final_url=page.url,
+                            http_status=getattr(response, "status", None),
+                            source=last_source)
+                        print("DZEN_PAGE_DIAG " + json.dumps(details, ensure_ascii=False),
+                              flush=True)
+                    except Exception:
+                        print("DZEN_PAGE_DIAG unavailable", flush=True)
                     if attempt < 3:
                         await asyncio.sleep(2 * attempt)
                 finally:
