@@ -1638,8 +1638,12 @@
       "id": "runway-praxis-1-open-weights-20261111",
       "dzen_title": "Runway открыла ИИ для роботов, обученный на обычных видео",
       "x_text": "@runwayml открыла Praxis-1 — ИИ для управления роботами, обученный на видео. Модель предсказывает ближайшие кадры и команды движений. В тесте RoboLab-120 от @nvidia — 46,2% успешных попыток из 1200 в симуляции. Веса и код доступны по Apache 2.0.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "queued",
+      "include_dzen_link": false,
+      "dzen_id": "6afc3c38c324ce2f405a396a",
+      "dzen_url": "https://dzen.ru/a/avw8OMMkzi9AWjlq",
+      "buffer_post_id": "6afc54165b6e095529a1af5d",
+      "with_image": false
     },
     {
       "id": "salesforce-sfr-autord-ai-model-improvement-20261111",
