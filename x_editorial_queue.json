@@ -1929,6 +1929,13 @@
       "dzen_url": "https://dzen.ru/a/avaTGlALcjWVeERd",
       "buffer_post_id": "6af6abc5c1a0010a5b01a317",
       "with_image": true
+    },
+    {
+      "id": "google-ask-maps-booking-europe-20261116",
+      "dzen_title": "Google Карты научились звонить в салоны и искать свободную запись. ИИ выходит в 30 стран Европы",
+      "x_text": "Google Maps научились звонить в салоны и автосервисы, чтобы найти свободную запись. 📞\n\nAsk Maps также строит многодневные маршруты и ищет свободные места в сохранённых списках.\n\nGoogle расширяет помощника на 30+ стран Европы. Обзвон компаний пока запускается в США.",
+      "status": "approved",
+      "include_dzen_link": false
     }
   ]
 }
