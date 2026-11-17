@@ -1894,6 +1894,13 @@
       "dzen_url": "https://dzen.ru/a/avaTGlALcjWVeERd",
       "buffer_post_id": "6af6abc5c1a0010a5b01a317",
       "with_image": true
+    },
+    {
+      "id": "recraft-v4-1-flash-v2-20261113",
+      "dzen_title": "Картинка за 1,1 секунды: Recraft ускорила нейросеть и научила её лучше писать текст",
+      "x_text": "@recraftai разогнала генерацию картинок до 1,1 секунды. ⚡\n\nНовая Flash V2 ещё и лучше справляется с надписями на упаковках и вывесках.\n\nВ тесте самой Recraft она обогнала Nano Banana 2 Lite и Grok Imagine. DesignArena отдельно замерила средние 1,5 секунды.",
+      "status": "approved",
+      "include_dzen_link": false
     }
   ]
 }
