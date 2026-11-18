@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6afd273f1f68621720205657",
+      "title": "ByteDance выпустила Seedance 2.5 Flash — вдвое быстрее и на треть дешевле",
+      "dzen_url": "https://dzen.ru/a/av0nPx9oYhcgIFZX",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-18T04:20:59+00:00",
+      "excerpt": "ByteDance выпустила Seedance 2.5 Flash — ускоренную версию своей нейросети для создания видео. По заявлению разработчиков, она генерирует ролики почти вдвое быстрее обычной Seedance 2.5, а обходится на 34% дешевле. Новинку представили 12 ноября через облачную платформу BytePlus. С 15 ноября модель доступна разработчикам через API сервиса ModelArk. За секунду готового ролика в разрешении 720p BytePlus установила цену"
+    },
+    {
       "dzen_id": "6afc3ca78799425881a62b05",
       "title": "Маск уволил 60 сотрудников Grok Imagine",
       "dzen_url": "https://dzen.ru/a/avw8p4eZQliBpisF",
@@ -3822,11 +3833,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 356,
-    "fully_titled_from_archived_public_feed": 301,
+    "total_cataloged_editorial_publications": 357,
+    "fully_titled_from_archived_public_feed": 302,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
-  "generated_date": "2026-11-17",
-  "coverage": "356 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "generated_date": "2026-11-18",
+  "coverage": "357 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
