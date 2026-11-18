@@ -1973,6 +1973,13 @@
       "dzen_url": "https://dzen.ru/a/avaTGlALcjWVeERd",
       "buffer_post_id": "6af6abc5c1a0010a5b01a317",
       "with_image": true
+    },
+    {
+      "id": "sabre-grok-bot-travel-connector-20261117",
+      "dzen_title": "Grok Bot готовят к роли турагента: он сам заметит отмену рейса и предложит замену",
+      "x_text": "@Sabre_Corp показала интеграцию для Grok Bot: ИИ сможет бронировать перелёты и отели, отслеживать падение цен и предлагать другой рейс при отмене старого. ✈️\n\nСервис Sabre Mosaic Travel Connector показали 17 ноября. Бета обещана вскоре.",
+      "status": "approved",
+      "include_dzen_link": false
     }
   ]
 }
