@@ -462,8 +462,11 @@
       "id": "bytedance-seedance-2-5-flash-20261115",
       "dzen_title": "ByteDance выпустила Seedance 2.5 Flash — вдвое быстрее и на треть дешевле",
       "threads_text": "КИТАЙЦЫ УРОНИЛИ ЦЕНУ НА ИИ-ВИДЕО. 🎬\n\nByteDance выпустила Seedance 2.5 Flash: ролик в 720p стоит $0,152 за секунду — на 34% дешевле обычной Seedance 2.5. По заявлению компании, генерация почти вдвое быстрее.\n\nAPI заработал 15 ноября. Видео — до 30 секунд, на вход можно подавать картинки, ролики и звук. Но максимум разрешения — 720p: за 1080p придётся идти к старшей версии.\n\nЭкономят не только деньги, но и пиксели. 💀",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6afd273f1f68621720205657",
+      "dzen_url": "https://dzen.ru/a/av0nPx9oYhcgIFZX",
+      "threads_post_id": "17997004049846611"
     },
     {
       "id": "bytedance-seedream-5-5-100-edits-20261109",
