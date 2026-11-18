@@ -10,6 +10,28 @@
   ],
   "entries": [
     {
+      "dzen_id": "6afd522e499f5e349075e078",
+      "title": "OpenAI выпустила GPT-6.2 Astra и Sol: новая Astra почти догнала Claude",
+      "dzen_url": "https://dzen.ru/a/av1SLkmfXjSQdeB4",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-18T07:23:56+00:00",
+      "excerpt": "OpenAI 17 ноября выпустила две нейросети — GPT-6.2 Astra для сложной профессиональной работы и GPT-6.2 Sol для повседневных задач. В независимом рейтинге Artificial Analysis новая Astra набрала 62 балла против 65 у лидирующей Claude Fable 5.2. При этом стандартное задание в тестах обошлось в $4 против $26,54 у Claude — разница примерно в 6,6 раза. Обе новинки уже доступны в ChatGPT Work, Codex и API. В обычном чате C"
+    },
+    {
+      "dzen_id": "6afd294a5a3b5c41b9e27703",
+      "title": "Хакеры взломали Cursor через чужой ключ и добрались до 5000 пользователей",
+      "dzen_url": "https://dzen.ru/a/av0pSlo7XEG54ncD",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-18T08:03:08+00:00",
+      "excerpt": "Cursor выяснила, как злоумышленники проникли в её системы и сумели подменить расширение Claude Code в магазине редактора. Входом послужил ключ доступа, который компания выдала своему партнёру Fireworks AI для работы с ИИ-моделями. 13 ноября Cursor опубликовала результаты двухнедельного расследования октябрьского взлома. Выяснилось, что история с заражённым расширением была последним звеном гораздо более длинной атаки"
+    },
+    {
       "dzen_id": "6afd28b6d47473154bee6899",
       "title": "DeepSeek разрешила создать своего ИИ-помощника",
       "dzen_url": "https://dzen.ru/a/av0ottR0cxVL7miZ",
@@ -3855,11 +3877,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 359,
-    "fully_titled_from_archived_public_feed": 304,
+    "total_cataloged_editorial_publications": 361,
+    "fully_titled_from_archived_public_feed": 306,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-18",
-  "coverage": "359 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "361 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
