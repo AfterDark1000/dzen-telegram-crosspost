@@ -787,8 +787,11 @@
       "id": "cursor-fireworks-key-incident-20261113",
       "dzen_title": "Хакеры взломали Cursor через чужой ключ и добрались до 5000 пользователей",
       "threads_text": "Взлом Cursor начался с ЧУЖОГО КЛЮЧА. 🔑\n\nКомпания выяснила, что хакер сначала получил доступ к данным через её партнёра Fireworks, нашёл там другие ключи и добрался до магазина расширений. Так появились заражённые версии Claude Code — их могли скачать до 5000 человек.\n\nОдин потерянный ключ открыл хакеру целый торговый центр. 🗝️",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6afd294a5a3b5c41b9e27703",
+      "dzen_url": "https://dzen.ru/a/av0pSlo7XEG54ncD",
+      "threads_post_id": "18139590100577183"
     },
     {
       "id": "cybercartel-carliy0s-multiagent-banks-20261025",
@@ -2171,8 +2174,11 @@
       "id": "openai-gpt-6-2-astra-sol-20261117",
       "dzen_title": "OpenAI выпустила GPT-6.2 Astra и Sol: новая Astra почти догнала Claude",
       "threads_text": "OpenAI выпустила GPT-6.2 Astra и Sol. 🚀\n\nAstra решает сложные задачи, пишет код и собирает презентации и таблицы; Sol — более быстрая и экономичная модель для повседневной работы.\n\nПо тестам OpenAI, новая Astra лучше прошлой, а её API-тарифы снизились на 20%.\n\nМодели уже есть в Work, Codex и API, но не в обычном чате ChatGPT.\n\nОбновили интеллект, а кнопку оставили в другом кабинете. 🫠",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6afd522e499f5e349075e078",
+      "dzen_url": "https://dzen.ru/a/av1SLkmfXjSQdeB4",
+      "threads_post_id": "17886207330527197"
     },
     {
       "id": "openai-gpt6-astra-device-20261103",
