@@ -814,8 +814,11 @@
       "id": "deepseek-ai-assistant-tools-api-20261113",
       "dzen_title": "DeepSeek разрешила создать своего ИИ-помощника",
       "threads_text": "DeepSeek разрешила создавать СВОИХ ИИ-ПОМОЩНИКОВ! 🛠️\n\nКитайцы открыли разработчикам поиск в интернете, работу с документами и голосовые функции. Даже готовый чат-клиент с открытым кодом выложили.\n\nПравда, за использование дополнительных инструментов придётся платить.\n\nСобери сам, заплати как за готовый. 🧾",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6afd28b6d47473154bee6899",
+      "dzen_url": "https://dzen.ru/a/av0ottR0cxVL7miZ",
+      "threads_post_id": "18118364849588344"
     },
     {
       "id": "deepseek-deepinfer-open-source-20261022",
