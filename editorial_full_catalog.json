@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6afd28b6d47473154bee6899",
+      "title": "DeepSeek разрешила создать своего ИИ-помощника",
+      "dzen_url": "https://dzen.ru/a/av0ottR0cxVL7miZ",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-18T07:01:57+00:00",
+      "excerpt": "DeepSeek 13 ноября открыла разработчикам функции своего чат-бота: поиск в интернете, чтение документов и сайтов, распознавание речи и озвучивание ответов. Теперь эти возможности можно подключать к сторонним приложениям через API — интерфейс, позволяющий одной программе обращаться к другой. Раньше разработчик, желавший создать полноценного ИИ-помощника на базе DeepSeek, должен был самостоятельно подбирать и подключать"
+    },
+    {
       "dzen_id": "6afd27deec0bce12d0dbd047",
       "title": "ИИ помог написать полицейский рапорт — суд отпустил подозреваемого",
       "dzen_url": "https://dzen.ru/a/av0n3uwLzhLQ29BH",
@@ -3844,11 +3855,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 358,
-    "fully_titled_from_archived_public_feed": 303,
+    "total_cataloged_editorial_publications": 359,
+    "fully_titled_from_archived_public_feed": 304,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-18",
-  "coverage": "358 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "359 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
