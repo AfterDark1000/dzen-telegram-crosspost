@@ -21,6 +21,17 @@
       "excerpt": "OpenAI 17 ноября выпустила две нейросети — GPT-6.2 Astra для сложной профессиональной работы и GPT-6.2 Sol для повседневных задач. В независимом рейтинге Artificial Analysis новая Astra набрала 62 балла против 65 у лидирующей Claude Fable 5.2. При этом стандартное задание в тестах обошлось в $4 против $26,54 у Claude — разница примерно в 6,6 раза. Обе новинки уже доступны в ChatGPT Work, Codex и API. В обычном чате C"
     },
     {
+      "dzen_id": "6afd498af4a35255c9a8a352",
+      "title": "США и Россия тормозят договор об оружии, которое само выбирает цели",
+      "dzen_url": "https://dzen.ru/a/av1JivSjUlXJqKNS",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-18T16:01:45+00:00",
+      "excerpt": "Кому принимать решение об открытии огня — человеку или машине? В Женеве 16 ноября началась конференция ООН, на которой страны пытаются договориться о международных правилах для автономного оружия. США и Россия выступают против начала переговоров о юридически обязательном договоре. Вашингтон предлагает ещё пять лет разрабатывать необязательные рекомендации. Москва считает, что обсуждать запреты пока рано. Причём росси"
+    },
+    {
       "dzen_id": "6afd490032a89b6bbe604ddc",
       "title": "Картинка за 1,1 секунды: Recraft ускорила нейросеть и научила её лучше писать текст",
       "dzen_url": "https://dzen.ru/a/av1JADKom2u-YE3c",
@@ -3954,11 +3965,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 368,
-    "fully_titled_from_archived_public_feed": 313,
+    "total_cataloged_editorial_publications": 369,
+    "fully_titled_from_archived_public_feed": 314,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-18",
-  "coverage": "368 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "369 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
