@@ -664,8 +664,11 @@
       "id": "claude-saltline-shooter-eight-hours-20261109",
       "dzen_title": "Claude за 8 часов сделал шутер из одного предложения",
       "threads_text": "Claude сделал ЦЕЛЫЙ ШУТЕР за 8 часов! 🎮\n\nСотрудник Anthropic дал нейросети одно предложение: сделай красивый FPS. Без дальнейших подсказок она создала Saltline — порт под дождём, стрельбу, врагов, звуки и графику.\n\nДаже 3D-моделей и картинок в файлах нет: всё рисуется программным кодом.\n\nЦена эксперимента — около $550 по тарифам API.\n\nГеймдизайнеры нервно обновляют резюме. 💀",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6afd2f46d47473154bf62598",
+      "dzen_url": "https://dzen.ru/a/av0vRtR0cxVL9iWY",
+      "threads_post_id": "18151354834582049"
     },
     {
       "id": "claude-watercolor-robot-night-painting-20261106",
