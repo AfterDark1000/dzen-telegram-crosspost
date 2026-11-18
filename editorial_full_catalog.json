@@ -21,6 +21,17 @@
       "excerpt": "OpenAI 17 ноября выпустила две нейросети — GPT-6.2 Astra для сложной профессиональной работы и GPT-6.2 Sol для повседневных задач. В независимом рейтинге Artificial Analysis новая Astra набрала 62 балла против 65 у лидирующей Claude Fable 5.2. При этом стандартное задание в тестах обошлось в $4 против $26,54 у Claude — разница примерно в 6,6 раза. Обе новинки уже доступны в ChatGPT Work, Codex и API. В обычном чате C"
     },
     {
+      "dzen_id": "6afd2a6514fee769439f129b",
+      "title": "Учёные научили холодильник скучать, а цветок — обижаться",
+      "dzen_url": "https://dzen.ru/a/av0qZRT-52lDnxKb",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-18T09:02:33+00:00",
+      "excerpt": "Исследователи Университета Карнеги — Меллона превратили обычные домашние предметы в подобие тамагочи. Теперь холодильник может скучать без внимания, цветок — грустить от недостатка воды, а гантеля — расстраиваться, если хозяин забросил тренировки. Система называется OATs (Object-Agent Twins). Разработчица проекта Дэхва Ким придумала небольшое устройство с экраном на электронных чернилах — как у электронных книг. Его"
+    },
+    {
       "dzen_id": "6afd294a5a3b5c41b9e27703",
       "title": "Хакеры взломали Cursor через чужой ключ и добрались до 5000 пользователей",
       "dzen_url": "https://dzen.ru/a/av0pSlo7XEG54ncD",
@@ -3877,11 +3888,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 361,
-    "fully_titled_from_archived_public_feed": 306,
+    "total_cataloged_editorial_publications": 362,
+    "fully_titled_from_archived_public_feed": 307,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-18",
-  "coverage": "361 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "362 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
