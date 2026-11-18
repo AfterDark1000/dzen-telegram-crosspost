@@ -1460,6 +1460,13 @@
       "with_image": true
     },
     {
+      "id": "openai-gpt-6-2-astra-sol-20261117",
+      "dzen_title": "OpenAI выпустила GPT-6.2 Astra и Sol: новая Astra почти догнала Claude",
+      "x_text": "@OpenAI выпустила GPT-6.2 Astra и Sol. 🚀\n\nAstra — для сложных задач, кода и документов; Sol — для повседневной работы. Astra подешевела в API на 20% за токен.\n\nДоступны в ChatGPT Work, Codex и API. В обычном чате ChatGPT их пока нет.",
+      "status": "approved",
+      "include_dzen_link": false
+    },
+    {
       "id": "openai-gpt6-astra-device-20261103",
       "dzen_title": "GPT-6 Astra спроектировала гаджет. Его уже изготовили на заводе",
       "x_text": "@OpenAI вместе с GPT-6 Astra за неделю спроектировала гаджет для общения с Codex — с корпусом, платой и прошивкой. Завод меньше чем за месяц изготовил прототипы.\n\nНа производстве понадобились доработки: ИИ не всё рассчитал по допускам.\n\nУ завода тоже есть правки. 🔧",
@@ -1659,6 +1666,13 @@
       "dzen_url": "https://dzen.ru/a/avw8OMMkzi9AWjlq",
       "buffer_post_id": "6afc54165b6e095529a1af5d",
       "with_image": false
+    },
+    {
+      "id": "sabre-grok-bot-travel-connector-20261117",
+      "dzen_title": "Grok Bot готовят к роли турагента: он сам заметит отмену рейса и предложит замену",
+      "x_text": "@Sabre_Corp показала интеграцию для Grok Bot: ИИ сможет бронировать перелёты и отели, отслеживать падение цен и предлагать другой рейс при отмене старого. ✈️\n\nСервис Sabre Mosaic Travel Connector показали 17 ноября. Бета обещана вскоре.",
+      "status": "approved",
+      "include_dzen_link": false
     },
     {
       "id": "salesforce-sfr-autord-ai-model-improvement-20261111",
@@ -1973,20 +1987,6 @@
       "dzen_url": "https://dzen.ru/a/avaTGlALcjWVeERd",
       "buffer_post_id": "6af6abc5c1a0010a5b01a317",
       "with_image": true
-    },
-    {
-      "id": "sabre-grok-bot-travel-connector-20261117",
-      "dzen_title": "Grok Bot готовят к роли турагента: он сам заметит отмену рейса и предложит замену",
-      "x_text": "@Sabre_Corp показала интеграцию для Grok Bot: ИИ сможет бронировать перелёты и отели, отслеживать падение цен и предлагать другой рейс при отмене старого. ✈️\n\nСервис Sabre Mosaic Travel Connector показали 17 ноября. Бета обещана вскоре.",
-      "status": "approved",
-      "include_dzen_link": false
-    },
-    {
-      "id": "openai-gpt-6-2-astra-sol-20261117",
-      "dzen_title": "OpenAI выпустила GPT-6.2 Astra и Sol: новая Astra почти догнала Claude",
-      "x_text": "@OpenAI выпустила GPT-6.2 Astra и Sol. 🚀\n\nAstra — для сложных задач, кода и документов; Sol — для повседневной работы. Astra подешевела в API на 20% за токен.\n\nДоступны в ChatGPT Work, Codex и API. В обычном чате ChatGPT их пока нет.",
-      "status": "approved",
-      "include_dzen_link": false
     }
   ]
 }
