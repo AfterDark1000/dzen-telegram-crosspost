@@ -1594,8 +1594,11 @@
       "id": "listen-to-meh-higgsfield-film-prize-20261110",
       "dzen_title": "Овца на крыше принесла фильму приз в $500 тысяч",
       "threads_text": "ОВЦА НА КРЫШЕ принесла создателям фильма приз в $500 ТЫСЯЧ! 🐑\n\nАргентинская PURGA Studio сняла с помощью ИИ короткометражку Listen to MEH: пастух снова и снова прогоняет овцу с крыши, а та упрямо возвращается.\n\nПочти 5000 других фильмов остались без главного приза Higgsfield.\n\nОвце — крышу. Авторам — полмиллиона. 💸",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6afd47baffa5a7641f42275e",
+      "dzen_url": "https://dzen.ru/a/av1Huv-lp2QfQide",
+      "threads_post_id": "18111572141353794"
     },
     {
       "id": "llama-cpp-1-0-versioning-20261113",
