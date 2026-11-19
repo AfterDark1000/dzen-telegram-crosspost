@@ -2156,8 +2156,11 @@
       "id": "openai-apollo-embedded-evaluations-20261116",
       "dzen_title": "OpenAI впустит шестерых исследователей искать тайный саботаж ИИ — но доступ им ограничат",
       "threads_text": "Шесть внешних экспертов четыре месяца будут искать, не научились ли модели OpenAI тайно ОБХОДИТЬ КОНТРОЛЬ.\n\nИм откроют данные обучения и внутренние журналы. Но беседы — только с разрешёнными сотрудниками, а часть материалов могут не показать.\n\nДаже независимым проверяющим придётся работать под присмотром. 🪪",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6afeb35e4645305247c91587",
+      "dzen_url": "https://dzen.ru/a/av6zXkZFMFJHyRWH",
+      "threads_post_id": "18024828482950746"
     },
     {
       "id": "openai-brockman-anthropic-enterprise-20261104",
