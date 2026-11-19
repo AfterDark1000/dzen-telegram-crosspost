@@ -325,8 +325,11 @@
       "id": "apple-macos-27-3-ai-agent-permissions-20261116",
       "dzen_title": "Apple научила Mac давать ИИ-агентам доступ только к выбранным папкам и программам",
       "threads_text": "Apple вводит для ИИ-агентов на Mac ДОСТУП ПО ПРОПУСКАМ. 🔐\n\nВ macOS 27.3 beta 2 теперь можно открыть агенту только нужные папки и программы. Для управления другим приложением можно включить «Сначала спросить», а индикатор покажет, когда агент управляет программой.\n\nСкайнет, у вас пропуск только в «Документы». 🪪",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6afeb3de8dd59d0778580d9c",
+      "dzen_url": "https://dzen.ru/a/av6z3o3VnQd4WA2c",
+      "threads_post_id": "18112001348186983"
     },
     {
       "id": "arenasi-six-claude-agents-loneliness-20261025",
