@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6afea2fdd47473154b365e43",
+      "title": "Grok Bot готовят к роли турагента: он сам заметит отмену рейса и предложит замену",
+      "dzen_url": "https://dzen.ru/a/av6i_dR0cxVLNl5D",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-19T09:33:21+00:00",
+      "excerpt": "Sabre, один из крупнейших поставщиков технологий для туристической отрасли, 17 ноября показала подключение для Grok Bot, которое позволит искусственному интеллекту бронировать авиабилеты и отели, а затем самостоятельно отслеживать проблемы с уже оформленной поездкой. Если рейс отменят, система сможет сообщить об этом ИИ-агенту, подобрать альтернативный перелёт и предложить пассажиру перебронировать билет. Разработку"
+    },
+    {
       "dzen_id": "6afd522e499f5e349075e078",
       "title": "OpenAI выпустила GPT-6.2 Astra и Sol: новая Astra почти догнала Claude",
       "dzen_url": "https://dzen.ru/a/av1SLkmfXjSQdeB4",
@@ -4053,11 +4064,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 377,
-    "fully_titled_from_archived_public_feed": 322,
+    "total_cataloged_editorial_publications": 378,
+    "fully_titled_from_archived_public_feed": 323,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-19",
-  "coverage": "377 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "378 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
