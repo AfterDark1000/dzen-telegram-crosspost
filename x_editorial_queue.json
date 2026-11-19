@@ -2064,6 +2064,13 @@
       "dzen_url": "https://dzen.ru/a/avaTGlALcjWVeERd",
       "buffer_post_id": "6af6abc5c1a0010a5b01a317",
       "with_image": true
+    },
+    {
+      "id": "nvidia-megaspeed-chips-export-investigation-20261117",
+      "dzen_title": "Таможня насчитала на 50 тысяч ИИ-чипов NVIDIA больше, чем сама NVIDIA. США ведут расследование",
+      "x_text": "@TheJusticeDept и @CommerceGov подтвердили расследование Megaspeed — партнёра @NVIDIA — с 2024 года. Bloomberg нашёл расхождение примерно в 50 тыс. ИИ-чипов между таможенными данными и учётом NVIDIA. Компания позднее сообщила о проверке дополнительных складов.",
+      "status": "approved",
+      "include_dzen_link": false
     }
   ]
 }
