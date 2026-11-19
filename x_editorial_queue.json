@@ -1271,6 +1271,13 @@
       "include_dzen_link": false
     },
     {
+      "id": "microsoft-mai-cyber-2-flash-20261117",
+      "dzen_title": "Microsoft создала ИИ для поиска уязвимостей: в тесте он обошёл GPT-6 Astra при затратах в 50 раз ниже",
+      "x_text": "@Microsoft представила MAI Cyber 2 Flash для поиска уязвимостей. В тесте она выполнила 92,3% заданий против 91,5% у GPT-6 Astra от @OpenAI — при затратах менее 2% от конкурента. Для проверенных клиентов Microsoft Security — с середины декабря.",
+      "status": "approved",
+      "include_dzen_link": false
+    },
+    {
       "id": "mit-flex-robots-human-intent-20261109",
       "dzen_title": "MIT научил роботов понимать намёки человека",
       "x_text": "@MIT и исследователи NYU представили FLEX: если предупредить робота «не пролей кофе на ноутбук», система на базе GPT-4o выводит более общее правило — держаться подальше от электроники. Проверяли на виртуальном манипуляторе; разработка экспериментальная.",
@@ -1594,6 +1601,13 @@
       "dzen_url": "https://dzen.ru/a/auxfoJL-EAlB7Skz",
       "buffer_post_id": "6aec9036bfdb27db17f39129",
       "with_image": true
+    },
+    {
+      "id": "openai-nato-cyber-defense-daybreak-20261117",
+      "dzen_title": "НАТО уже использует до 300 миллиардов токенов OpenAI в месяц для защиты своих сетей",
+      "x_text": "@NATO уже использует модели @OpenAI для защиты своих сетей через @NATO_NCIA — до 300 млрд входных и выходных токенов за месяц. На учениях Crossed Swords в Таллине участники создавали и испытывали ИИ-агентов с Daybreak под контролем специалистов.",
+      "status": "approved",
+      "include_dzen_link": false
     },
     {
       "id": "openai-pando-codex-scaling-git-20261102",
@@ -2050,20 +2064,6 @@
       "dzen_url": "https://dzen.ru/a/avaTGlALcjWVeERd",
       "buffer_post_id": "6af6abc5c1a0010a5b01a317",
       "with_image": true
-    },
-    {
-      "id": "microsoft-mai-cyber-2-flash-20261117",
-      "dzen_title": "Microsoft создала ИИ для поиска уязвимостей: в тесте он обошёл GPT-6 Astra при затратах в 50 раз ниже",
-      "x_text": "@Microsoft представила MAI Cyber 2 Flash для поиска уязвимостей. В тесте она выполнила 92,3% заданий против 91,5% у GPT-6 Astra от @OpenAI — при затратах менее 2% от конкурента. Для проверенных клиентов Microsoft Security — с середины декабря.",
-      "status": "approved",
-      "include_dzen_link": false
-    },
-    {
-      "id": "openai-nato-cyber-defense-daybreak-20261117",
-      "dzen_title": "НАТО уже использует до 300 миллиардов токенов OpenAI в месяц для защиты своих сетей",
-      "x_text": "@NATO уже использует модели @OpenAI для защиты своих сетей через @NATO_NCIA — до 300 млрд входных и выходных токенов за месяц. На учениях Crossed Swords в Таллине участники создавали и испытывали ИИ-агентов с Daybreak под контролем специалистов.",
-      "status": "approved",
-      "include_dzen_link": false
     }
   ]
 }
