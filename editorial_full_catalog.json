@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6afeb5854c30af749936ed54",
+      "title": "Google открыла Gemini 4 Carbon платным пользователям и показала «рой» ИИ-агентов",
+      "dzen_url": "https://dzen.ru/a/av61hUwwr3SZNu1U",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-19T16:38:04+00:00",
+      "excerpt": "Google 10 ноября открыла Gemini 4 Carbon для платных разработчиков, корпоративных клиентов и подписчиков Google AI Ultra. До этого модель была доступна лишь участникам специальной программы по кибербезопасности. Теперь Carbon можно подключать через платный API и продукты Google. Бесплатного доступа к ней в приложении Gemini компания не объявляла. Одновременно компания показала в среде разработки Google Antigravity эк"
+    },
+    {
       "dzen_id": "6afeb50b97093c1e3fbd46c0",
       "title": "ИИ-двойники перестали махать руками невпопад: HeyGen выпустила Avatar 6",
       "dzen_url": "https://dzen.ru/a/av61C5cJPB4_vUbA",
@@ -4119,11 +4130,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 383,
-    "fully_titled_from_archived_public_feed": 328,
+    "total_cataloged_editorial_publications": 384,
+    "fully_titled_from_archived_public_feed": 329,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-19",
-  "coverage": "383 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "384 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
