@@ -2078,6 +2078,13 @@
       "x_text": "@IsomorphicLabs, созданная на основе разработок @GoogleDeepMind, привлекла $5 млрд инвестиций на разработку лекарств с ИИ. С учётом раунда в мае — $7,1 млрд за полгода. Кандидаты в препараты пока проходят доклиническую работу; дату первых испытаний на людях не назвали.",
       "status": "approved",
       "include_dzen_link": false
+    },
+    {
+      "id": "google-gemini-4-neon-20261118",
+      "dzen_title": "Google выпустила Gemini 4 Neon: обогнала Claude Opus 5.5 и GPT-6.2 Sol в тестах",
+      "x_text": "@GoogleDeepMind выпустила Gemini 4 Neon. В Artificial Analysis она получила 61 балл (xhigh) против 59 у Claude Opus 5.5 и 57 у GPT-6.2 Sol.\n\nGoogle заявляет, что при high задача обходится на 32% дешевле Carbon. Хотя по тарифу API за токены Neon пока дороже.",
+      "status": "approved",
+      "include_dzen_link": false
     }
   ]
 }
