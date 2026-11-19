@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6afeb50b97093c1e3fbd46c0",
+      "title": "ИИ-двойники перестали махать руками невпопад: HeyGen выпустила Avatar 6",
+      "dzen_url": "https://dzen.ru/a/av61C5cJPB4_vUbA",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-19T15:22:30+00:00",
+      "excerpt": "Зрители ошибочно выбирали сгенерированное видео, принимая его за настоящую съёмку. HeyGen 17 ноября выпустила Avatar 6 — нейросеть, которая создаёт говорящих цифровых двойников из фотографии и аудиозаписи. Новая модель научилась подбирать мимику и жесты под смысл произносимых слов. Раньше аватары могли повторять одни и те же движения независимо от текста. Теперь цифровой ведущий реагирует на то, о чём рассказывает. В"
+    },
+    {
       "dzen_id": "6afeb4c02cbc0d52dfc624d3",
       "title": "Google обнаружила ИИ-хакера, который превращает исправления программ в новые атаки",
       "dzen_url": "https://dzen.ru/a/av60wCy8DVLfxiTT",
@@ -4108,11 +4119,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 382,
-    "fully_titled_from_archived_public_feed": 327,
+    "total_cataloged_editorial_publications": 383,
+    "fully_titled_from_archived_public_feed": 328,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-19",
-  "coverage": "382 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "383 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
