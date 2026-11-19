@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6afeb35e4645305247c91587",
+      "title": "OpenAI впустит шестерых исследователей искать тайный саботаж ИИ — но доступ им ограничат",
+      "dzen_url": "https://dzen.ru/a/av6zXkZFMFJHyRWH",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-19T10:43:43+00:00",
+      "excerpt": "Шесть специалистов Apollo Research проведут четыре месяца внутри OpenAI: изучат данные обучения нейросетей, промежуточные версии моделей и работу систем наблюдения. Их задача — выяснить, не пытаются ли ИИ-системы скрытно обходить установленные разработчиками ограничения. 16 ноября OpenAI объявила о соглашениях с четырьмя независимыми организациями: Apollo Research, METR, Transluce и Goodfire. Проверяющие получат дост"
+    },
+    {
       "dzen_id": "6afea2fdd47473154b365e43",
       "title": "Grok Bot готовят к роли турагента: он сам заметит отмену рейса и предложит замену",
       "dzen_url": "https://dzen.ru/a/av6i_dR0cxVLNl5D",
@@ -4064,11 +4075,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 378,
-    "fully_titled_from_archived_public_feed": 323,
+    "total_cataloged_editorial_publications": 379,
+    "fully_titled_from_archived_public_feed": 324,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-19",
-  "coverage": "378 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "379 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
