@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6afeb5cc3965384d0f0843a4",
+      "title": "Правообладатели Элвиса нашли семь его песен в одном треке Suno",
+      "dzen_url": "https://dzen.ru/a/av61zDllOE0PCEOk",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-19T17:47:17+00:00",
+      "excerpt": "Правообладатели Элвиса Пресли требуют от Suno 128,85 млн долларов. 13 ноября они дополнили иск ещё 114 записями, созданными музыкальной нейросетью. Раньше истцы представили 50 примеров предполагаемых нарушений. Теперь их 164. Из новых записей 42 относятся к произведениям, перечисленным в иске. Ещё 72 — к другим песням, которые исполнял Пресли, но которые не входят в нынешние требования правообладателей. В одной из за"
+    },
+    {
       "dzen_id": "6afeb5854c30af749936ed54",
       "title": "Google открыла Gemini 4 Carbon платным пользователям и показала «рой» ИИ-агентов",
       "dzen_url": "https://dzen.ru/a/av61hUwwr3SZNu1U",
@@ -4130,11 +4141,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 384,
-    "fully_titled_from_archived_public_feed": 329,
+    "total_cataloged_editorial_publications": 385,
+    "fully_titled_from_archived_public_feed": 330,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-19",
-  "coverage": "384 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "385 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
