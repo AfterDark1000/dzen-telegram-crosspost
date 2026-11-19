@@ -2036,6 +2036,13 @@
       "dzen_url": "https://dzen.ru/a/avaTGlALcjWVeERd",
       "buffer_post_id": "6af6abc5c1a0010a5b01a317",
       "with_image": true
+    },
+    {
+      "id": "google-gemini-tasks-free-calls-shopping-20261117",
+      "dzen_title": "Google сделала ИИ-исполнителя бесплатным: он сам звонит в компании и оформляет покупки",
+      "x_text": "@GeminiApp открывает Tasks бесплатно в 6 странах: Gemini выполняет многоэтапные поручения в фоне. В США он может обзванивать компании и готовить покупки через Google Pay. Перед оплатой запрашивает подтверждение владельца. Запуск начался 17 ноября.",
+      "status": "approved",
+      "include_dzen_link": false
     }
   ]
 }
