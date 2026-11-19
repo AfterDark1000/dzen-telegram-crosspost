@@ -2071,6 +2071,13 @@
       "dzen_url": "https://dzen.ru/a/avaTGlALcjWVeERd",
       "buffer_post_id": "6af6abc5c1a0010a5b01a317",
       "with_image": true
+    },
+    {
+      "id": "isomorphic-labs-5b-ai-medicines-20261117",
+      "dzen_title": "ИИ ищет лекарства от рака. Инвесторы вложили $5 млрд",
+      "x_text": "@IsomorphicLabs, созданная на основе разработок @GoogleDeepMind, привлекла $5 млрд инвестиций на разработку лекарств с ИИ. С учётом раунда в мае — $7,1 млрд за полгода. Кандидаты в препараты пока проходят доклиническую работу; дату первых испытаний на людях не назвали.",
+      "status": "approved",
+      "include_dzen_link": false
     }
   ]
 }
