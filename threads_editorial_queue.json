@@ -2640,8 +2640,11 @@
       "id": "sabre-grok-bot-travel-connector-20261117",
       "dzen_title": "Grok Bot готовят к роли турагента: он сам заметит отмену рейса и предложит замену",
       "threads_text": "Grok Bot готовят к БРОНИРОВАНИЮ билетов. ✈️\n\nВместе с Sabre он сможет искать рейсы и отели, оформлять поездки, а при отмене рейса — сам получить сигнал и предложить замену. Система также отслеживает снижение цен.\n\n17 ноября показали демонстрацию, бета ещё впереди.\n\nЖдём уведомление «Ваш отпуск признан неэффективным». 🏖️",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6afea2fdd47473154b365e43",
+      "dzen_url": "https://dzen.ru/a/av6i_dR0cxVLNl5D",
+      "threads_post_id": "18132906586874722"
     },
     {
       "id": "salesforce-sfr-autord-ai-model-improvement-20261111",
