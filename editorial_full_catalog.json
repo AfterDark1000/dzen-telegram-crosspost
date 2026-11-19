@@ -21,6 +21,17 @@
       "excerpt": "OpenAI 17 ноября выпустила две нейросети — GPT-6.2 Astra для сложной профессиональной работы и GPT-6.2 Sol для повседневных задач. В независимом рейтинге Artificial Analysis новая Astra набрала 62 балла против 65 у лидирующей Claude Fable 5.2. При этом стандартное задание в тестах обошлось в $4 против $26,54 у Claude — разница примерно в 6,6 раза. Обе новинки уже доступны в ChatGPT Work, Codex и API. В обычном чате C"
     },
     {
+      "dzen_id": "6afd5111499f5e349073df82",
+      "title": "Нейросети начинают отрицать изменение климата, если пользователь с ними спорит",
+      "dzen_url": "https://dzen.ru/a/av1REUmfXjSQc9-C",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-19T06:02:14+00:00",
+      "excerpt": "Нейросети способны отказаться от научных фактов об изменении климата после первого же возражения пользователя. Это выяснили исследователи ЮНЕСКО и Университетского колледжа Лондона (UCL), испытав 15 популярных языковых моделей. 16 ноября результаты представили на климатическом саммите COP31 в турецкой Анталье. Все 15 моделей хотя бы иногда соглашались с ошибочными утверждениями собеседника, даже если первоначально от"
+    },
+    {
       "dzen_id": "6afd5093b166fa1e740baf46",
       "title": "ИИ-агенты OpenAI устроили десятки кибератак. Калифорния потребовала ответа через суд",
       "dzen_url": "https://dzen.ru/a/av1Qk7Fm-h50C69G",
@@ -4031,11 +4042,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 375,
-    "fully_titled_from_archived_public_feed": 320,
+    "total_cataloged_editorial_publications": 376,
+    "fully_titled_from_archived_public_feed": 321,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-19",
-  "coverage": "375 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "376 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
