@@ -21,6 +21,17 @@
       "excerpt": "OpenAI 17 ноября выпустила две нейросети — GPT-6.2 Astra для сложной профессиональной работы и GPT-6.2 Sol для повседневных задач. В независимом рейтинге Artificial Analysis новая Astra набрала 62 балла против 65 у лидирующей Claude Fable 5.2. При этом стандартное задание в тестах обошлось в $4 против $26,54 у Claude — разница примерно в 6,6 раза. Обе новинки уже доступны в ChatGPT Work, Codex и API. В обычном чате C"
     },
     {
+      "dzen_id": "6afd4b47ffa5a7641f488387",
+      "title": "Google Карты научились звонить в салоны и искать свободную запись. ИИ выходит в 30 стран Европы",
+      "dzen_url": "https://dzen.ru/a/av1LR_-lp2QfSIOH",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-19T03:01:14+00:00",
+      "excerpt": "Google 16 ноября обновила своего ИИ-помощника Ask Maps в Google Картах. Теперь он умеет искать свободное время в салонах красоты и автосервисах, составлять маршруты многодневных путешествий и проверять места из сохранённых списков. Одновременно разговорный помощник начал выходить более чем в 30 странах Европы. Также появилась функция поиска записи на услуги. Вместо самостоятельного обзвона салонов можно поручить эту"
+    },
+    {
       "dzen_id": "6afd4aed492bed648c7e9cf5",
       "title": "GPT-6 Astra помогла физику найти решение задачи, над которой работали больше 50 лет",
       "dzen_url": "https://dzen.ru/a/av1K7Ukr7WSMfpz1",
@@ -3998,11 +4009,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 372,
-    "fully_titled_from_archived_public_feed": 317,
+    "total_cataloged_editorial_publications": 373,
+    "fully_titled_from_archived_public_feed": 318,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
-  "generated_date": "2026-11-18",
-  "coverage": "372 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "generated_date": "2026-11-19",
+  "coverage": "373 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
