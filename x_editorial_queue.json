@@ -2149,6 +2149,14 @@
       "status": "queued",
       "include_dzen_link": false,
       "with_image": true
+    },
+    {
+      "id": "google-genie4-project-genie-access-20261118",
+      "dzen_title": "Google открыла Genie 4: меняйте погоду и населяйте виртуальные миры одной фразой",
+      "x_text": "@GoogleDeepMind открыла Genie 4 подписчикам AI Ultra, а разработчикам — через API и @GoogleAIStudio. В созданных ИИ-мирах погода, персонажи и события меняются по текстовой команде прямо во время прогулки. В галерее уже есть муравейник глазами муравья. 🐜",
+      "status": "queued",
+      "include_dzen_link": false,
+      "with_image": true
     }
   ]
 }
