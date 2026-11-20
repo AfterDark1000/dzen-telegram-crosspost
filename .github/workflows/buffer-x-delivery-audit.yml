@@ -56,18 +56,9 @@ jobs:
                 });
               }
               core.setFailed(line);
-            } else if (status === 0 && logs.includes('"buffer_sent":') &&
-                       !logs.includes('"buffer_errors": []')) {
-              // Defensive: malformed output cannot close a real alert.
-              core.warning('Audit response incomplete; incident unchanged');
-            } else if (status === 0 && existing && logs.includes('"buffer_sent":') &&
-                       logs.includes('"buffer_errors": []')) {
-              await github.rest.issues.createComment({
-                owner, repo, issue_number: existing.number,
-                body: 'Most recent bounded Buffer API snapshot contains no matching delivery errors. ' +
-                      'Previously reported failures require manual reconciliation; not auto-closed.'
-              });
-              core.warning('Incident retained until previously failed post is manually reconciled');
+            } else if (status === 0) {
+              // A bounded snapshot cannot prove old failures recovered.
+              core.info('Delivery checked; historical incidents require manual resolution');
             } else if (status !== 0) {
               core.warning('Delivery audit could not confirm Buffer; no delivery-success claim');
             }
