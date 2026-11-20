@@ -42,6 +42,7 @@ def record_rate_limit(queue, error, now):
     wait = max(wait, retry_seconds(error.retry_after, now))
     queue["buffer_rate_limit_strikes"] = strikes
     queue["buffer_cooldown_until"] = int(now + wait)
+    queue["buffer_rate_limit_active"] = True
     save_queue(queue)
     print("X BUFFER RATE LIMIT: cooldown until " +
           datetime.fromtimestamp(queue["buffer_cooldown_until"], timezone.utc).isoformat() +
@@ -184,6 +185,14 @@ async def main():
     # Include in-flight posts in duplicate recovery before ANY new write.
     pending = remote_posts(org, ch, ["scheduled", "sending"])
     sent = remote_posts(org, ch, ["sent"])
+    # A successful authenticated remote read proves the 429 has cleared,
+    # but does NOT prove a particular post reached X.
+    if queue.get("buffer_rate_limit_active"):
+        queue["buffer_rate_limit_active"] = False
+        queue["buffer_rate_limit_strikes"] = 0
+        queue["buffer_cooldown_until"] = 0
+        queue["buffer_last_api_ok_at"] = int(time.time())
+        save_queue(queue)
     remote_by_text = {x["text"].strip(): x for x in pending + sent}
     for article, entry in matches[:MAX_PER_RUN]:
         message = delivery_text(entry, article)
