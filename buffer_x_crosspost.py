@@ -16,6 +16,7 @@ from x_editorial_queue import load_queue, matching_approved, delivery_text, mark
 EXPECTED_NAME = "iipike_ai"
 MAX_REMOTE_QUEUE = 8  # Buffer Free has 10 scheduled slots. Keep two slots for manual use.
 MAX_PER_RUN = 1
+CHANNEL_CACHE_SECONDS = 12 * 3600
 RATE_LIMIT_INITIAL_COOLDOWN = 6 * 3600
 RATE_LIMIT_MAX_COOLDOWN = 24 * 3600
 
@@ -113,7 +114,7 @@ def remote_posts(org_id, channel_id, statuses, max_pages=8):
             "query { posts(first: 100" + paging + ", input: {organizationId: " +
             json.dumps(org_id) + ", filter: {status: [" + ",".join(statuses) +
             "], channelIds: [" + json.dumps(channel_id) + "]}}) {" +
-            " edges { node { id text assets { id mimeType } } } pageInfo { hasNextPage endCursor } } }"
+            " edges { node { id text status assets { id mimeType } } } pageInfo { hasNextPage endCursor } } }"
         )
         result = graphql(query).get("posts")
         if not isinstance(result, dict) or not isinstance(result.get("edges"), list):
@@ -122,7 +123,8 @@ def remote_posts(org_id, channel_id, statuses, max_pages=8):
             node = edge.get("node") if isinstance(edge, dict) else None
             if (not isinstance(node, dict) or not node.get("id")
                     or not isinstance(node.get("text"), str)
-                    or not isinstance(node.get("assets"), list)):
+                    or not isinstance(node.get("assets"), list)
+                    or str(node.get("status", "")).lower() not in {"sent", "scheduled", "sending", "error"}):
                 raise RuntimeError("Buffer remote post entry incomplete; no X posts sent")
             found.append(node)
         page = result.get("pageInfo")
@@ -179,12 +181,30 @@ async def main():
     if not matches:
         print("X: no current matching approved Dzen headlines; nothing to queue", flush=True)
         return
-    channel = find_channel()
+    cached = queue.get("buffer_channel_cache")
+    if (isinstance(cached, dict) and
+            isinstance(cached.get("id"), str) and cached.get("id") and
+            isinstance(cached.get("org_id"), str) and cached.get("org_id") and
+            isinstance(cached.get("verified_at"), int) and
+            0 <= now - cached["verified_at"] < CHANNEL_CACHE_SECONDS):
+        channel = cached
+    else:
+        channel = find_channel()
+        # The cache is recorded only after an authenticated remote lookup.
+        cache_pending = {"id": channel["id"], "org_id": channel["org_id"],
+                         "verified_at": now}
     org, ch = channel["org_id"], channel["id"]
     # An immediate post can remain "sending" while the worker delivers it.
     # Include in-flight posts in duplicate recovery before ANY new write.
-    pending = remote_posts(org, ch, ["scheduled", "sending"])
-    sent = remote_posts(org, ch, ["sent"])
+    # One pagination stream rather than separate pending/sent queries.
+    # Includes errors so a failed Buffer post is never blindly recreated.
+    all_remote = remote_posts(org, ch, ["scheduled", "sending", "sent", "error"])
+    pending = [p for p in all_remote if p["status"].lower() in {"scheduled", "sending"}]
+    sent = [p for p in all_remote if p["status"].lower() == "sent"]
+    failed = [p for p in all_remote if p["status"].lower() == "error"]
+    if "cache_pending" in locals():
+        queue["buffer_channel_cache"] = cache_pending
+        save_queue(queue)
     # A successful authenticated remote read proves the 429 has cleared,
     # but does NOT prove a particular post reached X.
     if queue.get("buffer_rate_limit_active"):
@@ -193,7 +213,7 @@ async def main():
         queue["buffer_cooldown_until"] = 0
         queue["buffer_last_api_ok_at"] = int(time.time())
         save_queue(queue)
-    remote_by_text = {x["text"].strip(): x for x in pending + sent}
+    remote_by_text = {x["text"].strip(): x for x in pending + sent + failed}
     for article, entry in matches[:MAX_PER_RUN]:
         message = delivery_text(entry, article)
         with_image = attach_cover_next(queue)
@@ -204,6 +224,8 @@ async def main():
             continue
         if message in remote_by_text:
             existing = remote_by_text[message]
+            if existing["status"].lower() == "error":
+                raise RuntimeError("Buffer rejected an identical X post; hold for manual review")
             if is_image_post(existing) != with_image:
                 raise RuntimeError(
                     "Existing X post has different image state; hold for editorial review")
