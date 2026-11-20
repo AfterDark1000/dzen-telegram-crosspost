@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6b0009b48ab6443165813771",
+      "title": "НАТО уже использует до 300 миллиардов токенов OpenAI в месяц для защиты своих сетей",
+      "dzen_url": "https://dzen.ru/a/awAJtIq2RDFlgTdx",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-20T12:00:58+00:00",
+      "excerpt": "До 300 миллиардов токенов за месяц используют структуры НАТО при работе с нейросетями OpenAI для киберзащиты. 17 ноября компания объявила о сотрудничестве с Агентством связи и информации НАТО (NCIA). Через него основные структуры альянса получают доступ к передовым ИИ-моделям для защиты компьютерных сетей. В статистику входят как входные, так и выходные токены — небольшие единицы текста, из которых складываются запро"
+    },
+    {
       "dzen_id": "6b00092416c3835672d0f764",
       "title": "Google выпустила Gemini 4 Neon: обогнала Claude Opus 5.5 и GPT-6.2 Sol в тестах",
       "dzen_url": "https://dzen.ru/a/awAJJBbDg1Zy0Pdk",
@@ -4229,11 +4240,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 393,
-    "fully_titled_from_archived_public_feed": 338,
+    "total_cataloged_editorial_publications": 394,
+    "fully_titled_from_archived_public_feed": 339,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-20",
-  "coverage": "393 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "394 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
