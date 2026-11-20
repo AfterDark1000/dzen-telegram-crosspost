@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6afeb73a97093c1e3fc1d4ab",
+      "title": "ИИ положил в корзину 72 яйца. Покупатель узнал об этом после доставки",
+      "dzen_url": "https://dzen.ru/a/av63OpcJPB4_wdSr",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-20T03:41:53+00:00",
+      "excerpt": "72 яйца обнаружил Мэтт Смит в доставке продуктов, собранных с помощью ИИ-агента. В списке покупок яиц не было. 10 ноября Смит опубликовал в X переписку с помощником. Тот сообщил, что добавил в корзину четыре упаковки Vital Farms по 18 яиц. Заказ оформил сам Смит, не заметив лишнего товара. Смит спросил, почему агент выбрал яйца. Помощник сначала предположил, что неверно прочитал фотографию списка покупок. Смит ответи"
+    },
+    {
       "dzen_id": "6afeb69b41f1b507684d2ad8",
       "title": "Блогер пришёл к ИИ-рекрутеру с кроссовком на голове",
       "dzen_url": "https://dzen.ru/a/av62m0HxtQdoTSrY",
@@ -4163,11 +4174,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 387,
-    "fully_titled_from_archived_public_feed": 332,
+    "total_cataloged_editorial_publications": 388,
+    "fully_titled_from_archived_public_feed": 333,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-20",
-  "coverage": "387 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "388 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
