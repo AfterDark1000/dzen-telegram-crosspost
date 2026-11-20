@@ -2483,8 +2483,11 @@
       "id": "openai-nato-cyber-defense-daybreak-20261117",
       "dzen_title": "НАТО уже использует до 300 миллиардов токенов OpenAI в месяц для защиты своих сетей",
       "threads_text": "НАТО уже использует ИИ OpenAI для киберзащиты своих сетей. 🛡️\n\nДо 300 МИЛЛИАРДОВ токенов за месяц — такой объём работы с моделями назвала OpenAI. Через агентство NCIA доступ получают структуры альянса.\n\nА на учениях в Таллине специалисты из более чем 40 стран создавали и испытывали ИИ-агентов с Daybreak.\n\n«Просто проверь пару файлов», — сказали 300 миллиардов токенов назад. 💀",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6b0009b48ab6443165813771",
+      "dzen_url": "https://dzen.ru/a/awAJtIq2RDFlgTdx",
+      "threads_post_id": "17928739725201137"
     },
     {
       "id": "openai-oracle-ai-workspace-chatgpt-20261028",
