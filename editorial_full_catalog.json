@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6afeced18dd59d077891981f",
+      "title": "Microsoft заявила, что её ИИ-программист почти сравнялся с Claude Opus при затратах в 20 раз ниже",
+      "dzen_url": "https://dzen.ru/a/av7O0Y3VnQd4kZgf",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-20T06:02:47+00:00",
+      "excerpt": "Microsoft утверждает, что её новая нейросеть MAI Code 2 выполняет задачи программистов почти на уровне Claude Opus 5.5, расходуя всего 5% его стоимости. Модель представили 17 ноября на конференции Ignite вместе с облегчённой версией MAI Code 2 Flash. Обе уже подключили к GitHub Copilot — ИИ-помощнику для программистов. Основная модель рассчитана на сложную работу с кодом: искать и исправлять ошибки, менять сразу неск"
+    },
+    {
       "dzen_id": "6afece813965384d0faea36e",
       "title": "Google сделала ИИ-исполнителя бесплатным: он сам звонит в компании и оформляет покупки",
       "dzen_url": "https://dzen.ru/a/av7OgTllOE0PrqNu",
@@ -4185,11 +4196,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 389,
-    "fully_titled_from_archived_public_feed": 334,
+    "total_cataloged_editorial_publications": 390,
+    "fully_titled_from_archived_public_feed": 335,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-20",
-  "coverage": "389 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "390 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
