@@ -12,17 +12,18 @@ API = "https://api.buffer.com"
 class BufferRateLimitError(RuntimeError):
     """Explicit, non-secret diagnostic for a Buffer HTTP 429."""
 
-    def __init__(self, retry_after=None, remaining=None, reset=None):
+    def __init__(self, retry_after=None, remaining=None, reset=None, rate_limit=None):
         self.retry_after = retry_after
         self.remaining = remaining
         self.reset = reset
+        self.rate_limit = rate_limit
         detail = []
         for key, value in (("Retry-After", retry_after),
                            ("RateLimit-Remaining", remaining),
-                           ("RateLimit-Reset", reset)):
+                           ("RateLimit-Reset", reset), ("RateLimit", rate_limit)):
             if value is not None:
                 # Headers are remote input. Keep annotations on one line.
-                detail.append(key + "=" + str(value).replace("\\n", " ")[:80])
+                detail.append(key + "=" + str(value).replace("\n", " ").replace("\r", " ")[:80])
         super().__init__("Buffer HTTP 429 rate limit exceeded" +
                          (" (" + ", ".join(detail) + ")" if detail else
                           " (server did not supply retry/reset headers)"))
@@ -45,6 +46,7 @@ def graphql(query, variables=None):
                 retry_after=headers.get("Retry-After"),
                 remaining=headers.get("RateLimit-Remaining") or headers.get("X-RateLimit-Remaining"),
                 reset=headers.get("RateLimit-Reset") or headers.get("X-RateLimit-Reset"),
+                rate_limit=headers.get("RateLimit"),
             ) from None
         raise RuntimeError("Buffer API request failed: HTTP " + str(exc.code)) from None
     except (urllib.error.URLError, TimeoutError):
