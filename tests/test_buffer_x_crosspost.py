@@ -138,6 +138,22 @@ class RuntimeTests(unittest.TestCase):
             posts.assert_not_called()
             send.assert_not_called()
 
+    def test_expired_rate_limit_clears_with_read_only_check_when_no_approval(self):
+        queue = {"schema_version": 1, "items": [],
+                 "buffer_rate_limit_active": True,
+                 "buffer_cooldown_until": 100,
+                 "buffer_rate_limit_strikes": 3}
+        data, p = self.setup(queue=queue)
+        with p[0], p[1] as fetch, p[2] as channel, p[3] as remote, \
+                p[4] as save, p[5] as send, p[6], p[7]:
+            asyncio.run(x.main())
+            channel.assert_called_once()
+            fetch.assert_not_awaited()
+            remote.assert_not_called()
+            send.assert_not_called()
+            save.assert_called_once()
+            self.assertFalse(data["buffer_rate_limit_active"])
+
     def test_queue_one_approved_message(self):
         data, p = self.setup()
         with p[0], p[1], p[2], p[3], p[4] as save, p[5] as send, p[6], p[7]:
