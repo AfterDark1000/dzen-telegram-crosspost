@@ -251,6 +251,7 @@ class RateLimitTests(unittest.TestCase):
         headers = Message()
         headers["Retry-After"] = "3600"
         headers["RateLimit-Remaining"] = "0"
+        headers["RateLimit"] = '"1000-in-30d"; r=0; t=86400'
         exc = urllib.error.HTTPError("https://api.buffer.com", 429, "Too Many Requests",
                                      headers, None)
         with patch.dict("os.environ", {"BUFFER_API_KEY": "top-secret"}):
@@ -258,6 +259,7 @@ class RateLimitTests(unittest.TestCase):
                 with self.assertRaises(check.BufferRateLimitError) as ctx:
                     check.graphql("query { account { organizations { id } } }")
         self.assertEqual(ctx.exception.retry_after, "3600")
+        self.assertIn("30d", str(ctx.exception))
         self.assertIn("HTTP 429", str(ctx.exception))
         self.assertNotIn("top-secret", str(ctx.exception))
 
