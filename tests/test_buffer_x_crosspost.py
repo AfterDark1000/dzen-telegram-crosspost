@@ -2,10 +2,13 @@
 import asyncio
 import copy
 import json
+import urllib.error
+from email.message import Message
 from unittest.mock import AsyncMock, patch
 import unittest
 
 import buffer_x_crosspost as x
+import buffer_x_check as check
 import x_editorial_queue as q
 
 ARTICLE = {
@@ -216,6 +219,54 @@ class RuntimeTests(unittest.TestCase):
             save.assert_not_called()
             self.assertEqual(data["items"][0]["status"], "approved")
 
+
+
+class RateLimitTests(unittest.TestCase):
+    def test_http_429_exposes_available_headers_without_credentials(self):
+        headers = Message()
+        headers["Retry-After"] = "3600"
+        headers["RateLimit-Remaining"] = "0"
+        exc = urllib.error.HTTPError("https://api.buffer.com", 429, "Too Many Requests",
+                                     headers, None)
+        with patch.dict("os.environ", {"BUFFER_API_KEY": "top-secret"}):
+            with patch.object(check.urllib.request, "urlopen", side_effect=exc):
+                with self.assertRaises(check.BufferRateLimitError) as ctx:
+                    check.graphql("query { account { organizations { id } } }")
+        self.assertEqual(ctx.exception.retry_after, "3600")
+        self.assertIn("HTTP 429", str(ctx.exception))
+        self.assertNotIn("top-secret", str(ctx.exception))
+
+    def test_backoff_persists_and_doubles_without_external_requests(self):
+        queue = copy.deepcopy(QUEUE)
+        error = check.BufferRateLimitError(retry_after="120", remaining="0")
+        with patch.object(x, "save_queue") as save:
+            x.record_rate_limit(queue, error, 100000)
+            self.assertEqual(queue["buffer_rate_limit_strikes"], 1)
+            self.assertEqual(queue["buffer_cooldown_until"], 100000 + 6 * 3600)
+            x.record_rate_limit(queue, error, 100000 + 6 * 3600)
+            self.assertEqual(queue["buffer_rate_limit_strikes"], 2)
+            self.assertEqual(queue["buffer_cooldown_until"], 100000 + 18 * 3600)
+            self.assertEqual(save.call_count, 2)
+
+    def test_retry_after_longer_than_local_backoff_is_respected(self):
+        queue = copy.deepcopy(QUEUE)
+        with patch.object(x, "save_queue"):
+            x.record_rate_limit(queue, check.BufferRateLimitError(retry_after="172800"), 10000)
+        self.assertEqual(queue["buffer_cooldown_until"], 10000 + 172800)
+        self.assertEqual(x.retry_seconds("garbage", 10000), 0)
+
+    def test_cooldown_prevents_all_network_calls(self):
+        queue = copy.deepcopy(QUEUE)
+        queue["buffer_cooldown_until"] = 1793300200
+        with patch.object(x, "load_queue", return_value=queue), \
+                patch.object(x, "fetch_articles", new_callable=AsyncMock) as fetch, \
+                patch.object(x, "find_channel") as find, \
+                patch.object(x, "save_queue") as save, \
+                patch.object(x.time, "time", return_value=1793300100):
+            asyncio.run(x.main())
+            fetch.assert_not_awaited()
+            find.assert_not_called()
+            save.assert_not_called()
 
 if __name__ == "__main__":
     unittest.main()
