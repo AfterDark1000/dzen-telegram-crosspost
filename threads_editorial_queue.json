@@ -1648,8 +1648,11 @@
       "id": "isomorphic-labs-5b-ai-medicines-20261117",
       "dzen_title": "ИИ ищет лекарства от рака. Инвесторы вложили $5 млрд",
       "threads_text": "За полгода компания Демиса Хассабиса собрала $7,1 МЛРД на разработку лекарств с ИИ. 💊\n\nIsomorphic Labs только что привлекла ещё $5 млрд. Её нейросети подбирают молекулы для лечения рака и иммунных заболеваний; дальше — испытания на людях.\n\nПрепараты пока на доклинической стадии, даты первых испытаний нет.\n\nТаблеток ещё нет, чек уже на миллиарды.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6b000b2e4c30af749939460a",
+      "dzen_url": "https://dzen.ru/a/awALLkwwr3SZOUYK",
+      "threads_post_id": "18134671826506559"
     },
     {
       "id": "java4shell-codex-openjdk-20261117",
@@ -2106,8 +2109,11 @@
       "id": "nvidia-megaspeed-chips-export-investigation-20261117",
       "dzen_title": "Таможня насчитала на 50 тысяч ИИ-чипов NVIDIA больше, чем сама NVIDIA. США ведут расследование",
       "threads_text": "В отчётах NVIDIA потерялись 50 ТЫСЯЧ ИИ-чипов. 🧮\n\nBloomberg сопоставил таможенные данные с инвентаризацией для властей США: разница — около 50 тысяч ускорителей. NVIDIA потом сообщила о находках на дополнительных складах, но сколько именно нашла — не сказала.\n\nТеперь Минюст США подтвердил: Megaspeed расследуют ещё с 2024 года.\n\nПохоже, даже Excel попросил адвоката. ⚖️",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6b000a5597093c1e3f136965",
+      "dzen_url": "https://dzen.ru/a/awAKVZcJPB4_E2ll",
+      "threads_post_id": "17914019073577815"
     },
     {
       "id": "nvidia-mission-control-25-gpu-recovery-20261027",
@@ -2203,8 +2209,11 @@
       "id": "omnilert-doritos-school-police-lawsuit-20261117",
       "dzen_title": "ИИ принял Doritos за пистолет — школьников задержали после отмены тревоги, теперь они судятся",
       "threads_text": "Тревогу ИИ об оружии в школе ОТМЕНИЛИ через две минуты. А спустя ещё десять минут директор передала старый снимок полицейскому.\n\nВ итоге к четырём подросткам, ждавшим родителей после тренировки, приехали вооружённые патрули: школьников поставили на колени, заковали в наручники и обыскали. «Пистолетом» оказался пакет Doritos.\n\nТеперь подростки судятся с полицией, школой и разработчиком Omnilert.\n\nВооружён и очень хрустит. 🧀",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6b000bef9ad69e39f176e4d8",
+      "dzen_url": "https://dzen.ru/a/awAL75rWnjnxduTY",
+      "threads_post_id": "18122634382993360"
     },
     {
       "id": "openai-agents-monitoring-incidents-20261022",
