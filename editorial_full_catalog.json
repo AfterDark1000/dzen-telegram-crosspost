@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6afeb69b41f1b507684d2ad8",
+      "title": "Блогер пришёл к ИИ-рекрутеру с кроссовком на голове",
+      "dzen_url": "https://dzen.ru/a/av62m0HxtQdoTSrY",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-20T02:32:16+00:00",
+      "excerpt": "Парень без футболки, с кроссовком на голове, приходит на собеседование в Burger King. Встречает его виртуальная сотрудница по имени Карен. Кандидат представляется Крангеусом Макбаскетболом и просит зарплату 725 тысяч долларов в год. Карен предлагает четыре доллара в час и возмущается поведением соискателя. Кандидат продолжает издеваться над вопросами. Видео разошлось по соцсетям, а зрители начали спорить, действитель"
+    },
+    {
       "dzen_id": "6afeb6458fe97b246aea84e2",
       "title": "Инвесторы испугались ИИ-пузыря: такого разворота от техакций не было 20 лет",
       "dzen_url": "https://dzen.ru/a/av62RY_peyRq6oTi",
@@ -4152,11 +4163,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 386,
-    "fully_titled_from_archived_public_feed": 331,
+    "total_cataloged_editorial_publications": 387,
+    "fully_titled_from_archived_public_feed": 332,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
-  "generated_date": "2026-11-19",
-  "coverage": "386 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "generated_date": "2026-11-20",
+  "coverage": "387 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
