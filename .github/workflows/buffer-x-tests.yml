@@ -26,6 +26,8 @@ jobs:
       - uses: actions/checkout@v4
         with:
           persist-credentials: false
+      - name: Install import dependency (NO browser download)
+        run: python3 -m pip install playwright
       - name: Compile and test Buffer X without any API access
         run: |
           python3 -m py_compile buffer_x_check.py buffer_x_crosspost.py x_editorial_queue.py
