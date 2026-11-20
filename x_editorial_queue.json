@@ -1,5 +1,8 @@
 {
   "schema_version": 1,
+  "buffer_rate_limit_strikes": 1,
+  "buffer_cooldown_until": 1795932244,
+  "buffer_rate_limit_active": true,
   "items": [
     {
       "id": "8vc-safer-human-medicine-macaques-20261027",
