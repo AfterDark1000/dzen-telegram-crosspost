@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """Publish ONLY approved short X texts through Buffer, with remote duplicate recovery."""
 import asyncio
+from datetime import datetime, timezone
+from email.utils import parsedate_to_datetime
 import ipaddress
 import json
 import os
@@ -8,12 +10,45 @@ import sys
 import time
 from urllib.parse import urlsplit
 from crosspost import fetch_articles
-from buffer_x_check import graphql, connected_x_channel
+from buffer_x_check import graphql, connected_x_channel, BufferRateLimitError
 from x_editorial_queue import load_queue, matching_approved, delivery_text, mark_queued, save_queue
 
 EXPECTED_NAME = "iipike_ai"
 MAX_REMOTE_QUEUE = 8  # Buffer Free has 10 scheduled slots. Keep two slots for manual use.
 MAX_PER_RUN = 1
+CHANNEL_CACHE_SECONDS = 12 * 3600
+RATE_LIMIT_INITIAL_COOLDOWN = 6 * 3600
+RATE_LIMIT_MAX_COOLDOWN = 24 * 3600
+
+
+def retry_seconds(value, now):
+    if not value:
+        return 0
+    try:
+        return max(0, int(float(value)))
+    except (ValueError, TypeError):
+        try:
+            when = parsedate_to_datetime(str(value))
+            if when.tzinfo is None:
+                return 0
+            return max(0, int(when.timestamp() - now))
+        except (ValueError, TypeError, OverflowError, IndexError):
+            return 0
+
+
+def record_rate_limit(queue, error, now):
+    """Durably back off on 429 so hourly Actions do not burn another request."""
+    strikes = min(4, max(0, int(queue.get("buffer_rate_limit_strikes", 0))) + 1)
+    wait = min(RATE_LIMIT_MAX_COOLDOWN, RATE_LIMIT_INITIAL_COOLDOWN * (2 ** (strikes - 1)))
+    wait = max(wait, retry_seconds(error.retry_after, now))
+    queue["buffer_rate_limit_strikes"] = strikes
+    queue["buffer_cooldown_until"] = int(now + wait)
+    queue["buffer_rate_limit_active"] = True
+    save_queue(queue)
+    print("X BUFFER RATE LIMIT: cooldown until " +
+          datetime.fromtimestamp(queue["buffer_cooldown_until"], timezone.utc).isoformat() +
+          "; retry only after cooldown; delivery NOT confirmed", file=sys.stderr, flush=True)
+
 
 
 def attach_cover_next(queue):
@@ -22,7 +57,8 @@ def attach_cover_next(queue):
     Count confirmed queued editorial records, not hourly runs or incoming news:
     rejected media and stale or unmatched headlines never change the sequence.
     """
-    return sum(row["status"] == "queued" for row in queue["items"]) % 2 == 0
+    return sum(row["status"] == "queued" and bool(row.get("buffer_post_id")) and bool(row.get("dzen_id"))
+               for row in queue["items"]) % 2 == 0
 
 
 def verified_cover_url(article):
@@ -79,7 +115,7 @@ def remote_posts(org_id, channel_id, statuses, max_pages=8):
             "query { posts(first: 100" + paging + ", input: {organizationId: " +
             json.dumps(org_id) + ", filter: {status: [" + ",".join(statuses) +
             "], channelIds: [" + json.dumps(channel_id) + "]}}) {" +
-            " edges { node { id text assets { id mimeType } } } pageInfo { hasNextPage endCursor } } }"
+            " edges { node { id text status assets { id mimeType } } } pageInfo { hasNextPage endCursor } } }"
         )
         result = graphql(query).get("posts")
         if not isinstance(result, dict) or not isinstance(result.get("edges"), list):
@@ -88,7 +124,8 @@ def remote_posts(org_id, channel_id, statuses, max_pages=8):
             node = edge.get("node") if isinstance(edge, dict) else None
             if (not isinstance(node, dict) or not node.get("id")
                     or not isinstance(node.get("text"), str)
-                    or not isinstance(node.get("assets"), list)):
+                    or not isinstance(node.get("assets"), list)
+                    or str(node.get("status", "")).lower() not in {"sent", "scheduled", "sending", "error"}):
                 raise RuntimeError("Buffer remote post entry incomplete; no X posts sent")
             found.append(node)
         page = result.get("pageInfo")
@@ -129,8 +166,26 @@ def create_immediate_post(channel_id, text, cover_url=None):
 
 async def main():
     queue = load_queue()
+    now = int(time.time())
+    if int(queue.get("buffer_cooldown_until", 0)) > now:
+        print("X BUFFER RATE LIMIT: paused until " +
+              datetime.fromtimestamp(queue["buffer_cooldown_until"], timezone.utc).isoformat() +
+              "; no Buffer API calls", flush=True)
+        return
     if not any(row["status"] == "approved" for row in queue["items"]):
-        print("X: no approved editorial posts; no API writes or historic backfill", flush=True)
+        # An earlier 429 can remain active after all drafts leave the queue.
+        # One authenticated read after cooldown clears only API health,
+        # never claims an X post was delivered and never creates a post.
+        if queue.get("buffer_rate_limit_active"):
+            find_channel()
+            queue["buffer_rate_limit_active"] = False
+            queue["buffer_rate_limit_strikes"] = 0
+            queue["buffer_cooldown_until"] = 0
+            queue["buffer_last_api_ok_at"] = int(time.time())
+            save_queue(queue)
+            print("X BUFFER API RECOVERED: no approved posts; no publishing", flush=True)
+        else:
+            print("X: no approved editorial posts; no API writes or historic backfill", flush=True)
         return
     if not os.getenv("BUFFER_API_KEY"):
         raise RuntimeError("BUFFER_API_KEY missing; X paused")
@@ -139,13 +194,39 @@ async def main():
     if not matches:
         print("X: no current matching approved Dzen headlines; nothing to queue", flush=True)
         return
-    channel = find_channel()
+    cached = queue.get("buffer_channel_cache")
+    if (isinstance(cached, dict) and
+            isinstance(cached.get("id"), str) and cached.get("id") and
+            isinstance(cached.get("org_id"), str) and cached.get("org_id") and
+            isinstance(cached.get("verified_at"), int) and
+            0 <= now - cached["verified_at"] < CHANNEL_CACHE_SECONDS):
+        channel = cached
+    else:
+        channel = find_channel()
+        # The cache is recorded only after an authenticated remote lookup.
+        cache_pending = {"id": channel["id"], "org_id": channel["org_id"],
+                         "verified_at": now}
     org, ch = channel["org_id"], channel["id"]
     # An immediate post can remain "sending" while the worker delivers it.
     # Include in-flight posts in duplicate recovery before ANY new write.
-    pending = remote_posts(org, ch, ["scheduled", "sending"])
-    sent = remote_posts(org, ch, ["sent"])
-    remote_by_text = {x["text"].strip(): x for x in pending + sent}
+    # One pagination stream rather than separate pending/sent queries.
+    # Includes errors so a failed Buffer post is never blindly recreated.
+    all_remote = remote_posts(org, ch, ["scheduled", "sending", "sent", "error"])
+    pending = [p for p in all_remote if p["status"].lower() in {"scheduled", "sending"}]
+    sent = [p for p in all_remote if p["status"].lower() == "sent"]
+    failed = [p for p in all_remote if p["status"].lower() == "error"]
+    if "cache_pending" in locals():
+        queue["buffer_channel_cache"] = cache_pending
+        save_queue(queue)
+    # A successful authenticated remote read proves the 429 has cleared,
+    # but does NOT prove a particular post reached X.
+    if queue.get("buffer_rate_limit_active"):
+        queue["buffer_rate_limit_active"] = False
+        queue["buffer_rate_limit_strikes"] = 0
+        queue["buffer_cooldown_until"] = 0
+        queue["buffer_last_api_ok_at"] = int(time.time())
+        save_queue(queue)
+    remote_by_text = {x["text"].strip(): x for x in pending + sent + failed}
     for article, entry in matches[:MAX_PER_RUN]:
         message = delivery_text(entry, article)
         with_image = attach_cover_next(queue)
@@ -156,6 +237,8 @@ async def main():
             continue
         if message in remote_by_text:
             existing = remote_by_text[message]
+            if existing["status"].lower() == "error":
+                raise RuntimeError("Buffer rejected an identical X post; hold for manual review")
             if is_image_post(existing) != with_image:
                 raise RuntimeError(
                     "Existing X post has different image state; hold for editorial review")
@@ -175,6 +258,15 @@ async def main():
 if __name__ == "__main__":
     try:
         asyncio.run(main())
+    except BufferRateLimitError as exc:
+        # Persist cooldown via the ordinary crosspost state checkpoint.
+        # Never retry a potentially accepted post or blindly resubmit backlog.
+        try:
+            record_rate_limit(load_queue(), exc, int(time.time()))
+        except Exception as save_error:
+            print("X COOLDOWN STATE ERROR:", save_error, file=sys.stderr)
+        print("X PUBLISH ERROR:", exc, file=sys.stderr)
+        sys.exit(1)
     except RuntimeError as exc:
         print("X PUBLISH ERROR:", exc, file=sys.stderr)
         sys.exit(1)

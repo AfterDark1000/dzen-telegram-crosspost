@@ -16,6 +16,19 @@ QUEUE = {"schema_version": 1, "items": [
 ]}
 
 class EditorialQueueTests(unittest.TestCase):
+    def test_queued_is_staging_not_approval(self):
+        queue = {"schema_version": 1, "items": [{
+            "id": "staged-entry-20261120",
+            "dzen_title": "A staged headline for later editorial approval",
+            "threads_text": "Not approved for publishing.",
+            "status": "queued",
+        }]}
+        ed.validate_queue(queue)
+        article = {"id": "story1", "title": queue["items"][0]["dzen_title"], "date": 1795000000}
+        self.assertEqual(ed.eligible_matches([article], queue, set()), [])
+        with self.assertRaisesRegex(RuntimeError, "unapproved"):
+            ed.compose_delivery_text(queue["items"][0], article)
+
     def test_normalized_headline_matches_without_fuzzy_guessing(self):
         entries = ed.eligible_matches([ARTICLE], QUEUE, set())
         self.assertEqual(len(entries), 1)
