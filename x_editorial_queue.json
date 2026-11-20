@@ -796,6 +796,13 @@
       "with_image": true
     },
     {
+      "id": "google-ai-studio-android-firebase-play-20261117",
+      "dzen_title": "Google научила ИИ делать Android-приложения, которые вас помнят",
+      "x_text": "У @GoogleAIStudio Android-приложения теперь сохраняют данные в Firebase, поддерживают вход через Google и защищённое подключение Gemini.\n\n@GoogleDevs добавила установку готовой программы на телефон через личную библиотеку Play. Пока только в США.",
+      "status": "approved",
+      "include_dzen_link": false
+    },
+    {
       "id": "google-alphagenome-2-cell-variants-20261111",
       "dzen_title": "Google научила ИИ искать причины болезней в отдельных клетках",
       "x_text": "У клеток одна ДНК, а проблемы — по разным адресам. @GoogleDeepMind показала AlphaGenome 2: модель ищет, в каком типе клеток мутация меняет работу генов. В испытании на иммунных клетках — 30% найденных причинных вариантов против 16% у первой версии.",
