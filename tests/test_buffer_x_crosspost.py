@@ -57,8 +57,12 @@ class QueueValidationTests(unittest.TestCase):
         self.assertEqual(result["status"], "queued")
         self.assertIs(result["with_image"], False)
         q.validate_queue({"schema_version": 1, "items": [result]})
-        with self.assertRaisesRegex(RuntimeError, "delivery evidence"):
-            q.validate_queue({"schema_version": 1, "items": [{**ENTRY, "status": "queued"}]})
+        staged = {**ENTRY, "status": "queued"}
+        q.validate_queue({"schema_version": 1, "items": [staged]})
+        self.assertTrue(x.attach_cover_next({"items": [staged]}))
+        self.assertFalse(staged.get("buffer_post_id"))
+        self.assertEqual(q.matching_approved([ARTICLE], {"schema_version": 1, "items": [staged]},
+                                             1793300100), [])
 
 
 class RemoteTests(unittest.TestCase):
