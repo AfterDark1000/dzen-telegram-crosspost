@@ -2092,6 +2092,13 @@
       "dzen_url": "https://dzen.ru/a/avaTGlALcjWVeERd",
       "buffer_post_id": "6af6abc5c1a0010a5b01a317",
       "with_image": true
+    },
+    {
+      "id": "anthropic-record-ipo-81b-nasdaq-20261119",
+      "dzen_title": "Anthropic провела крупнейшее IPO в истории — $81 млрд. А Nasdaq всё равно упал на 2,3%",
+      "x_text": "@AnthropicAI провела крупнейшее IPO в истории — $81,34 млрд. Вдобавок @Google и @NVIDIA договорились вложить ещё по $10 млрд в отдельном размещении.\n\n19 ноября акции Anthropic закрылись на 17% выше цены IPO. А Nasdaq потерял 2,25%.",
+      "status": "approved",
+      "include_dzen_link": false
     }
   ]
 }
