@@ -2141,6 +2141,14 @@
       "dzen_url": "https://dzen.ru/a/avaTGlALcjWVeERd",
       "buffer_post_id": "6af6abc5c1a0010a5b01a317",
       "with_image": true
+    },
+    {
+      "id": "citibank-ai-agent-liability-20261120",
+      "dzen_title": "Доверили ИИ деньги? Банк решил, что за его ошибки заплатите вы",
+      "x_text": "@Citi обновил условия: если ваш ИИ-агент сольёт банковский пароль, действия с ним банк сочтёт вашими. @PNCBank запретил отдавать ботам логины и проводить платежи без спецразрешения. Федеральная защита от несанкционированных переводов при этом сохраняется.",
+      "status": "queued",
+      "include_dzen_link": false,
+      "with_image": true
     }
   ]
 }
