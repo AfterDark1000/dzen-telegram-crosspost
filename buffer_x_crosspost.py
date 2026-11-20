@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """Publish ONLY approved short X texts through Buffer, with remote duplicate recovery."""
 import asyncio
+from datetime import datetime, timezone
+from email.utils import parsedate_to_datetime
 import ipaddress
 import json
 import os
@@ -8,12 +10,43 @@ import sys
 import time
 from urllib.parse import urlsplit
 from crosspost import fetch_articles
-from buffer_x_check import graphql, connected_x_channel
+from buffer_x_check import graphql, connected_x_channel, BufferRateLimitError
 from x_editorial_queue import load_queue, matching_approved, delivery_text, mark_queued, save_queue
 
 EXPECTED_NAME = "iipike_ai"
 MAX_REMOTE_QUEUE = 8  # Buffer Free has 10 scheduled slots. Keep two slots for manual use.
 MAX_PER_RUN = 1
+RATE_LIMIT_INITIAL_COOLDOWN = 6 * 3600
+RATE_LIMIT_MAX_COOLDOWN = 24 * 3600
+
+
+def retry_seconds(value, now):
+    if not value:
+        return 0
+    try:
+        return max(0, int(float(value)))
+    except (ValueError, TypeError):
+        try:
+            when = parsedate_to_datetime(str(value))
+            if when.tzinfo is None:
+                return 0
+            return max(0, int(when.timestamp() - now))
+        except (ValueError, TypeError, OverflowError, IndexError):
+            return 0
+
+
+def record_rate_limit(queue, error, now):
+    """Durably back off on 429 so hourly Actions do not burn another request."""
+    strikes = min(4, max(0, int(queue.get("buffer_rate_limit_strikes", 0))) + 1)
+    wait = min(RATE_LIMIT_MAX_COOLDOWN, RATE_LIMIT_INITIAL_COOLDOWN * (2 ** (strikes - 1)))
+    wait = max(wait, retry_seconds(error.retry_after, now))
+    queue["buffer_rate_limit_strikes"] = strikes
+    queue["buffer_cooldown_until"] = int(now + wait)
+    save_queue(queue)
+    print("X BUFFER RATE LIMIT: cooldown until " +
+          datetime.fromtimestamp(queue["buffer_cooldown_until"], timezone.utc).isoformat() +
+          "; retry only after cooldown; delivery NOT confirmed", file=sys.stderr, flush=True)
+
 
 
 def attach_cover_next(queue):
@@ -129,6 +162,12 @@ def create_immediate_post(channel_id, text, cover_url=None):
 
 async def main():
     queue = load_queue()
+    now = int(time.time())
+    if int(queue.get("buffer_cooldown_until", 0)) > now:
+        print("X BUFFER RATE LIMIT: paused until " +
+              datetime.fromtimestamp(queue["buffer_cooldown_until"], timezone.utc).isoformat() +
+              "; no Buffer API calls", flush=True)
+        return
     if not any(row["status"] == "approved" for row in queue["items"]):
         print("X: no approved editorial posts; no API writes or historic backfill", flush=True)
         return
@@ -175,6 +214,15 @@ async def main():
 if __name__ == "__main__":
     try:
         asyncio.run(main())
+    except BufferRateLimitError as exc:
+        # Persist cooldown via the ordinary crosspost state checkpoint.
+        # Never retry a potentially accepted post or blindly resubmit backlog.
+        try:
+            record_rate_limit(load_queue(), exc, int(time.time()))
+        except Exception as save_error:
+            print("X COOLDOWN STATE ERROR:", save_error, file=sys.stderr)
+        print("X PUBLISH ERROR:", exc, file=sys.stderr)
+        sys.exit(1)
     except RuntimeError as exc:
         print("X PUBLISH ERROR:", exc, file=sys.stderr)
         sys.exit(1)
