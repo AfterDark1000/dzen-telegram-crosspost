@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6afecfb3270b29709a2aeac6",
+      "title": "ИИ взламывал программы по их заплаткам: Berkeley насчитал 20 успехов из 100",
+      "dzen_url": "https://dzen.ru/a/av7PsycLKXCaKurG",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-20T10:01:13+00:00",
+      "excerpt": "ИИ-агент Codex с GPT-5.6 Sol добился 20 успешных взломов в 100 лабораторных задачах. Он получил только старые и исправленные версии программ. Результат зафиксирован в CyberBinGym — тесте исследователей нескольких университетов, включая Калифорнийский университет в Беркли. Агентам выдавали два исполняемых файла: уязвимую программу и сборку с установленной заплаткой. Исходного кода, описания ошибки и готового примера а"
+    },
+    {
       "dzen_id": "6afecf5e8fe97b246a1d2eec",
       "title": "Microsoft создала ИИ для поиска уязвимостей: в тесте он обошёл GPT-6 Astra при затратах в 50 раз ниже",
       "dzen_url": "https://dzen.ru/a/av7PXo_peyRqHS7s",
@@ -4207,11 +4218,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 391,
-    "fully_titled_from_archived_public_feed": 336,
+    "total_cataloged_editorial_publications": 392,
+    "fully_titled_from_archived_public_feed": 337,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-20",
-  "coverage": "391 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "392 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
