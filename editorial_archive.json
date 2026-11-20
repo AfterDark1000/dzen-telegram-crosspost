@@ -3,6 +3,17 @@
   "scope": "public Dzen feed + prepared Instagram covers; not private Dzen schedule",
   "entries": [
     {
+      "key": "dzen:6b00092416c3835672d0f764",
+      "dzen_id": "6b00092416c3835672d0f764",
+      "title": "Google выпустила Gemini 4 Neon: обогнала Claude Opus 5.5 и GPT-6.2 Sol в тестах",
+      "title_normalized": "google выпустила gemini 4 neon обогнала claude opus 5 5 и gpt 6 2 sol в тестах",
+      "status": "published",
+      "dzen_url": "https://dzen.ru/a/awAJJBbDg1Zy0Pdk",
+      "published_at_utc": "2026-11-20T11:03:05+00:00",
+      "first_recorded_at_utc": "2026-11-20T11:17:49+00:00",
+      "excerpt": "Новая Gemini обошла Claude и GPT-6.2 Sol в независимых тестах. И умудрилась быть дороже и дешевле собственной предшественницы одновременно. Google 18 ноября представила Gemini 4 Neon. В индексе Artificial Analysis модель набрала 61 балл — против 59 у Claude Opus 5.5 и 57 у GPT-6.2 Sol. Результат получен при максимальном уровне рассуждений xhigh. На стандартном high — 60 баллов. В семействе Gemini 4 новинка заняла мес"
+    },
+    {
       "key": "dzen:6afecfb3270b29709a2aeac6",
       "dzen_id": "6afecfb3270b29709a2aeac6",
       "title": "ИИ взламывал программы по их заплаткам: Berkeley насчитал 20 успехов из 100",
@@ -3821,6 +3832,6 @@
       "excerpt": "GitHub объявил о полноценном запуске AI Scan — инструмента, который проверяет изменения программного кода на потенциальные уязвимости. В отличие от традиционного анализатора CodeQL, новая система охватывает дополнительные языки и технологии, включая PHP, Bash, Terraform и Dockerfile. Когда разработчик предлагает изменения в проекте, AI Scan может автоматически проверить их, объяснить обнаруженную проблему и предложит"
     }
   ],
-  "updated_at_utc": "2026-11-20T10:17:59+00:00",
+  "updated_at_utc": "2026-11-20T11:17:49+00:00",
   "legacy_seen_ids_count": 393
 }

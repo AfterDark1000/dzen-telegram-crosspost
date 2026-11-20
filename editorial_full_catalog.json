@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6b00092416c3835672d0f764",
+      "title": "Google выпустила Gemini 4 Neon: обогнала Claude Opus 5.5 и GPT-6.2 Sol в тестах",
+      "dzen_url": "https://dzen.ru/a/awAJJBbDg1Zy0Pdk",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-20T11:03:05+00:00",
+      "excerpt": "Новая Gemini обошла Claude и GPT-6.2 Sol в независимых тестах. И умудрилась быть дороже и дешевле собственной предшественницы одновременно. Google 18 ноября представила Gemini 4 Neon. В индексе Artificial Analysis модель набрала 61 балл — против 59 у Claude Opus 5.5 и 57 у GPT-6.2 Sol. Результат получен при максимальном уровне рассуждений xhigh. На стандартном high — 60 баллов. В семействе Gemini 4 новинка заняла мес"
+    },
+    {
       "dzen_id": "6afecfb3270b29709a2aeac6",
       "title": "ИИ взламывал программы по их заплаткам: Berkeley насчитал 20 успехов из 100",
       "dzen_url": "https://dzen.ru/a/av7PsycLKXCaKurG",
@@ -4218,11 +4229,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 392,
-    "fully_titled_from_archived_public_feed": 337,
+    "total_cataloged_editorial_publications": 393,
+    "fully_titled_from_archived_public_feed": 338,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-20",
-  "coverage": "392 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "393 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
