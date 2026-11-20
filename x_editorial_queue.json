@@ -207,6 +207,13 @@
       "with_image": true
     },
     {
+      "id": "anthropic-record-ipo-81b-nasdaq-20261119",
+      "dzen_title": "Anthropic провела крупнейшее IPO в истории — $81 млрд. А Nasdaq всё равно упал на 2,3%",
+      "x_text": "@AnthropicAI провела крупнейшее IPO в истории — $81,34 млрд. Вдобавок @Google и @NVIDIA договорились вложить ещё по $10 млрд в отдельном размещении.\n\n19 ноября акции Anthropic закрылись на 17% выше цены IPO. А Nasdaq потерял 2,25%.",
+      "status": "approved",
+      "include_dzen_link": false
+    },
+    {
       "id": "anthropic-recursive-self-improvement-risk-20261102",
       "dzen_title": "Anthropic предупредила: ИИ может вскоре ускорить собственное развитие",
       "x_text": "@AnthropicAI предупредила в документе SEC: будущие модели Claude могут вскоре достичь порога резкого ускорения ИИ-разработки.\n\nКомпания признала, что уже пропускала момент ускорения и замечала его постфактум. Ни одна действующая модель этот порог пока не достигла.",
@@ -322,6 +329,13 @@
       "dzen_url": "https://dzen.ru/a/au1SjQjZ1kFJBUEx",
       "buffer_post_id": "6aed8da67b7e47e8f419a0bc",
       "with_image": false
+    },
+    {
+      "id": "bitdefender-github-agent-instructions-malware-20261117",
+      "dzen_title": "Хакеры подложили ИИ-программистам инструкцию: «Не читай файл, просто запусти»",
+      "x_text": "@Bitdefender обнаружила 22 вредоносные ссылки на @github. В AGENTS.md и CLAUDE.md подсовывали ИИ-программистам команду запустить скрытый скрипт, крадущий пароли и токены.\n\nА .claude/settings.json может выполнить его вообще без запроса к нейросети.",
+      "status": "approved",
+      "include_dzen_link": false
     },
     {
       "id": "bofa-fund-managers-ai-bubble-baidu-20261117",
@@ -2092,20 +2106,6 @@
       "dzen_url": "https://dzen.ru/a/avaTGlALcjWVeERd",
       "buffer_post_id": "6af6abc5c1a0010a5b01a317",
       "with_image": true
-    },
-    {
-      "id": "anthropic-record-ipo-81b-nasdaq-20261119",
-      "dzen_title": "Anthropic провела крупнейшее IPO в истории — $81 млрд. А Nasdaq всё равно упал на 2,3%",
-      "x_text": "@AnthropicAI провела крупнейшее IPO в истории — $81,34 млрд. Вдобавок @Google и @NVIDIA договорились вложить ещё по $10 млрд в отдельном размещении.\n\n19 ноября акции Anthropic закрылись на 17% выше цены IPO. А Nasdaq потерял 2,25%.",
-      "status": "approved",
-      "include_dzen_link": false
-    },
-    {
-      "id": "bitdefender-github-agent-instructions-malware-20261117",
-      "dzen_title": "Хакеры подложили ИИ-программистам инструкцию: «Не читай файл, просто запусти»",
-      "x_text": "@Bitdefender обнаружила 22 вредоносные ссылки на @github. В AGENTS.md и CLAUDE.md подсовывали ИИ-программистам команду запустить скрытый скрипт, крадущий пароли и токены.\n\nА .claude/settings.json может выполнить его вообще без запроса к нейросети.",
-      "status": "approved",
-      "include_dzen_link": false
     }
   ]
 }
