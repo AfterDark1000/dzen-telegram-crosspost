@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6b000b2e4c30af749939460a",
+      "title": "ИИ ищет лекарства от рака. Инвесторы вложили $5 млрд",
+      "dzen_url": "https://dzen.ru/a/awALLkwwr3SZOUYK",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-20T14:04:09+00:00",
+      "excerpt": "Лекарства ещё не испытывали на людях, а инвесторы уже вложили $5 млрд. Эти деньги получила Isomorphic Labs — компания нобелевского лауреата Демиса Хассабиса, которая разрабатывает препараты с помощью искусственного интеллекта. В мае ей уже выделили $2,1 млрд. Всего за полгода набралось 7,1 миллиарда долларов. О новом раунде финансирования объявили 17 ноября. Деньги пойдут на дальнейшую разработку лекарств и подготовк"
+    },
+    {
       "dzen_id": "6b000a5597093c1e3f136965",
       "title": "Таможня насчитала на 50 тысяч ИИ-чипов NVIDIA больше, чем сама NVIDIA. США ведут расследование",
       "dzen_url": "https://dzen.ru/a/awAKVZcJPB4_E2ll",
@@ -4251,11 +4262,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 395,
-    "fully_titled_from_archived_public_feed": 340,
+    "total_cataloged_editorial_publications": 396,
+    "fully_titled_from_archived_public_feed": 341,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-20",
-  "coverage": "395 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "396 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
