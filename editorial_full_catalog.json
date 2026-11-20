@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6b000a5597093c1e3f136965",
+      "title": "Таможня насчитала на 50 тысяч ИИ-чипов NVIDIA больше, чем сама NVIDIA. США ведут расследование",
+      "dzen_url": "https://dzen.ru/a/awAKVZcJPB4_E2ll",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-20T13:02:28+00:00",
+      "excerpt": "Около 50 тысяч ИИ-чипов NVIDIA не сошлись при сверке поставок сингапурской компании Megaspeed. Расхождение обнаружили журналисты Bloomberg, сопоставив таможенные документы с инвентаризацией, которую NVIDIA предоставила американским властям. А 17 ноября Министерство торговли и Министерство юстиции США официально раскрыли подробности расследования Megaspeed. Оказалось, что компания находится под наблюдением ещё с 2024"
+    },
+    {
       "dzen_id": "6b0009b48ab6443165813771",
       "title": "НАТО уже использует до 300 миллиардов токенов OpenAI в месяц для защиты своих сетей",
       "dzen_url": "https://dzen.ru/a/awAJtIq2RDFlgTdx",
@@ -4240,11 +4251,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 394,
-    "fully_titled_from_archived_public_feed": 339,
+    "total_cataloged_editorial_publications": 395,
+    "fully_titled_from_archived_public_feed": 340,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-20",
-  "coverage": "394 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "395 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
