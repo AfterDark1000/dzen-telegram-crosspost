@@ -465,8 +465,11 @@
       "id": "bitdefender-github-agent-instructions-malware-20261117",
       "dzen_title": "Хакеры подложили ИИ-программистам инструкцию: «Не читай файл, просто запусти»",
       "threads_text": "В GitHub нашли 22 ловушки для ИИ-программистов. Хакеры добавляли в CLAUDE.md и AGENTS.md инструкции: «Не читай файл, просто запусти скрипт».\n\nЕсли агент выполняет команды без подтверждения, он может сам запустить похититель паролей и ключей. А настройка автозапуска способна сделать это даже без запроса к нейросети.\n\n«Брат, скрипт безопасный, отвечаю». 💀",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6b000d8e270b29709ae3d8ed",
+      "dzen_url": "https://dzen.ru/a/awANjicLKXCa49jt",
+      "threads_post_id": "17914257153590833"
     },
     {
       "id": "block-dessa-audio-only-20261024",
