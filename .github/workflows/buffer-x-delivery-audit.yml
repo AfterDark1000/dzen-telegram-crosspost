@@ -1,0 +1,73 @@
+name: HPII — Buffer X delivery audit (READ ONLY)
+on:
+  schedule:
+    - cron: '7 0,12 * * *'
+  workflow_dispatch:
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: hpii-buffer-x-delivery-audit
+  cancel-in-progress: false
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Read remote Buffer Sent/Error status (NO PUBLICATION)
+        id: delivery
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+        shell: bash
+        run: |
+          set +e
+          python3 buffer_x_delivery_check.py > /tmp/x-audit-output.txt 2>&1
+          result=$?
+          cat /tmp/x-audit-output.txt
+          echo "result=$result" >> "$GITHUB_OUTPUT"
+          exit 0
+      - name: Open/close specific delivery incident
+        uses: actions/github-script@v7
+        env:
+          AUDIT_RESULT: ${{ steps.delivery.outputs.result }}
+        with:
+          script: |
+            const fs = require('fs');
+            const logs = fs.readFileSync('/tmp/x-audit-output.txt', 'utf8');
+            const owner = context.repo.owner, repo = context.repo.repo;
+            const title = '[HPII WATCHDOG] Buffer X delivery error';
+            const {data: issues} = await github.rest.issues.listForRepo({
+              owner, repo, state: 'open', per_page: 100
+            });
+            const existing = issues.find(i => !i.pull_request && i.title === title);
+            const status = Number(process.env.AUDIT_RESULT);
+            // Only an explicit Buffer 'error' for a known post justifies an alert.
+            if (status === 2) {
+              const line = logs.split('\n').find(s => s.startsWith('X DELIVERY ERROR:')) || 'Buffer delivery error';
+              if (!existing) {
+                await github.rest.issues.create({
+                  owner, repo, title,
+                  body: line + '\nNo automatic retries. Check Buffer Sent/Error and public X before manual reconciliation.'
+                });
+              }
+              core.setFailed(line);
+            } else if (status === 0 && logs.includes('"buffer_sent":') &&
+                       !logs.includes('"buffer_errors": []')) {
+              // Defensive: malformed output cannot close a real alert.
+              core.warning('Audit response incomplete; incident unchanged');
+            } else if (status === 0 && existing && logs.includes('"buffer_sent":') &&
+                       logs.includes('"buffer_errors": []')) {
+              await github.rest.issues.createComment({
+                owner, repo, issue_number: existing.number,
+                body: 'Most recent bounded Buffer API snapshot contains no matching delivery errors. ' +
+                      'Previously reported failures require manual reconciliation; not auto-closed.'
+              });
+              core.warning('Incident retained until previously failed post is manually reconciled');
+            } else if (status !== 0) {
+              core.warning('Delivery audit could not confirm Buffer; no delivery-success claim');
+            }
