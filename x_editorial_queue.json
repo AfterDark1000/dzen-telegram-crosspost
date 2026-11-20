@@ -2099,6 +2099,13 @@
       "x_text": "@AnthropicAI провела крупнейшее IPO в истории — $81,34 млрд. Вдобавок @Google и @NVIDIA договорились вложить ещё по $10 млрд в отдельном размещении.\n\n19 ноября акции Anthropic закрылись на 17% выше цены IPO. А Nasdaq потерял 2,25%.",
       "status": "approved",
       "include_dzen_link": false
+    },
+    {
+      "id": "bitdefender-github-agent-instructions-malware-20261117",
+      "dzen_title": "Хакеры подложили ИИ-программистам инструкцию: «Не читай файл, просто запусти»",
+      "x_text": "@Bitdefender обнаружила 22 вредоносные ссылки на @github. В AGENTS.md и CLAUDE.md подсовывали ИИ-программистам команду запустить скрытый скрипт, крадущий пароли и токены.\n\nА .claude/settings.json может выполнить его вообще без запроса к нейросети.",
+      "status": "approved",
+      "include_dzen_link": false
     }
   ]
 }
