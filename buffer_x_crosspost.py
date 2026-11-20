@@ -173,7 +173,19 @@ async def main():
               "; no Buffer API calls", flush=True)
         return
     if not any(row["status"] == "approved" for row in queue["items"]):
-        print("X: no approved editorial posts; no API writes or historic backfill", flush=True)
+        # An earlier 429 can remain active after all drafts leave the queue.
+        # One authenticated read after cooldown clears only API health,
+        # never claims an X post was delivered and never creates a post.
+        if queue.get("buffer_rate_limit_active"):
+            find_channel()
+            queue["buffer_rate_limit_active"] = False
+            queue["buffer_rate_limit_strikes"] = 0
+            queue["buffer_cooldown_until"] = 0
+            queue["buffer_last_api_ok_at"] = int(time.time())
+            save_queue(queue)
+            print("X BUFFER API RECOVERED: no approved posts; no publishing", flush=True)
+        else:
+            print("X: no approved editorial posts; no API writes or historic backfill", flush=True)
         return
     if not os.getenv("BUFFER_API_KEY"):
         raise RuntimeError("BUFFER_API_KEY missing; X paused")
