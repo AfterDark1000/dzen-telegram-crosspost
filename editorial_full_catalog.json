@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6afecf5e8fe97b246a1d2eec",
+      "title": "Microsoft создала ИИ для поиска уязвимостей: в тесте он обошёл GPT-6 Astra при затратах в 50 раз ниже",
+      "dzen_url": "https://dzen.ru/a/av7PXo_peyRqHS7s",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-20T07:02:04+00:00",
+      "excerpt": "Microsoft представила нейросеть MAI Cyber 2 Flash, которая справилась с поиском уязвимостей лучше GPT-6 Astra, потратив на задания меньше 2% стоимости конкурента. Новинку показали 17 ноября на конференции Ignite. Она предназначена для поиска ошибок безопасности в программном коде, проверки обнаруженных уязвимостей и помощи специалистам в подготовке исправлений. В тесте CyberGym-E2E модель успешно выполнила 92,3% зада"
+    },
+    {
       "dzen_id": "6afeced18dd59d077891981f",
       "title": "Microsoft заявила, что её ИИ-программист почти сравнялся с Claude Opus при затратах в 20 раз ниже",
       "dzen_url": "https://dzen.ru/a/av7O0Y3VnQd4kZgf",
@@ -4196,11 +4207,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 390,
-    "fully_titled_from_archived_public_feed": 335,
+    "total_cataloged_editorial_publications": 391,
+    "fully_titled_from_archived_public_feed": 336,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-20",
-  "coverage": "390 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "391 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
