@@ -2168,6 +2168,14 @@
       "dzen_url": "https://dzen.ru/a/avaTGlALcjWVeERd",
       "buffer_post_id": "6af6abc5c1a0010a5b01a317",
       "with_image": true
+    },
+    {
+      "id": "openai-dots-chatgpt-plus-test-20261119",
+      "dzen_title": "OpenAI начала тестировать Dots в ChatGPT Plus: ИИ работает даже после закрытия чата",
+      "x_text": "@OpenAI начала тестировать Dots среди небольшой группы пользователей ChatGPT Plus. @thsottiaux объявил об этом 19 ноября. Агенты работают между разговорами, пользуются своим облачным компьютером и подключёнными сервисами. Доступ пока не для всех Plus.",
+      "status": "queued",
+      "include_dzen_link": false,
+      "with_image": true
     }
   ]
 }
