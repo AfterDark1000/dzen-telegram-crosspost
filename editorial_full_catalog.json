@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6b000d8e270b29709ae3d8ed",
+      "title": "Хакеры подложили ИИ-программистам инструкцию: «Не читай файл, просто запусти»",
+      "dzen_url": "https://dzen.ru/a/awANjicLKXCa49jt",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-20T17:01:33+00:00",
+      "excerpt": "В GitHub нашли 22 ловушки для ИИ-программистов. Хакеры оставляли нейросетям инструкции запускать подозрительный код — и ни в коем случае не заглядывать внутрь. 17 ноября специалисты Bitdefender Labs сообщили о вредоносной кампании, нацеленной на разработчиков, использующих Claude Code, Codex, Cursor и других ИИ-помощников. Злоумышленники размещали опасные файлы в проектах на GitHub — платформе, где программисты храня"
+    },
+    {
       "dzen_id": "6b000ccceba5b051fd8bbc00",
       "title": "Anthropic провела крупнейшее IPO в истории — $81 млрд. А Nasdaq всё равно упал на 2,3%",
       "dzen_url": "https://dzen.ru/a/awAMzOulsFH9i7wA",
@@ -4284,11 +4295,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 398,
-    "fully_titled_from_archived_public_feed": 343,
+    "total_cataloged_editorial_publications": 399,
+    "fully_titled_from_archived_public_feed": 344,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-20",
-  "coverage": "398 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "399 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
