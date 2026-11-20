@@ -90,9 +90,9 @@ class RemoteTests(unittest.TestCase):
 
     def test_remote_pagination_required_before_any_writes(self):
         with patch.object(x, "graphql", side_effect=[
-            {"posts": {"edges": [{"node": {"id": "old", "text": "previous", "assets": []}}],
+            {"posts": {"edges": [{"node": {"id": "old", "text": "previous", "status": "sent", "assets": []}}],
                        "pageInfo": {"hasNextPage": True, "endCursor": "cursor1"}}},
-            {"posts": {"edges": [{"node": {"id": "next", "text": "another", "assets": []}}],
+            {"posts": {"edges": [{"node": {"id": "next", "text": "another", "status": "sent", "assets": []}}],
                        "pageInfo": {"hasNextPage": False, "endCursor": None}}},
         ]) as client:
             posts = x.remote_posts("organization", "channel", ["sent"])
@@ -107,14 +107,17 @@ class RemoteTests(unittest.TestCase):
 class RuntimeTests(unittest.TestCase):
     def setup(self, queue=None, scheduled=None, sent=None):
         base = copy.deepcopy(queue if queue is not None else QUEUE)
+        base["buffer_channel_cache"] = {"id": "channel", "org_id": "organization",
+                                        "verified_at": 1793300000}
         mocks = [
             patch.object(x, "load_queue", return_value=base),
             patch.object(x, "fetch_articles", new_callable=AsyncMock,
                          return_value=[ARTICLE]),
             patch.object(x, "find_channel", return_value={
                 "org_id": "organization", "id": "channel", "name": "iipike_ai"}),
-            patch.object(x, "remote_posts", side_effect=[
-                [] if scheduled is None else scheduled, [] if sent is None else sent]),
+            patch.object(x, "remote_posts", return_value=[
+                {**p, "status": "sending"} for p in (scheduled or [])] + [
+                {**p, "status": "sent"} for p in (sent or [])]),
             patch.object(x, "save_queue"),
             patch.object(x, "create_immediate_post", return_value="buffer123"),
             patch.dict("os.environ", {"BUFFER_API_KEY": "dummy"}),
@@ -184,7 +187,7 @@ class RuntimeTests(unittest.TestCase):
                                          "assets": [{"id": "asset", "mimeType": "image/jpeg"}]}])
         with p[0], p[1], p[2], p[3] as posts, p[4] as save, p[5] as send, p[6], p[7]:
             asyncio.run(x.main())
-            self.assertEqual(posts.call_args_list[0].args[2], ["scheduled", "sending"])
+            self.assertEqual(posts.call_args_list[0].args[2], ["scheduled", "sending", "sent", "error"])
             send.assert_not_called()
             self.assertEqual(data["items"][0]["buffer_post_id"], "sending123")
             save.assert_called_once()
@@ -209,6 +212,24 @@ class RuntimeTests(unittest.TestCase):
             send.assert_not_called()
             self.assertEqual(data["items"][0]["buffer_post_id"], "already-created")
             save.assert_called_once()
+
+    def test_known_remote_error_holds_without_resending(self):
+        data, p = self.setup()
+        failed = [{"id": "old-error", "text": ENTRY["x_text"],
+                   "status": "error", "assets": [{"id":"a", "mimeType":"image/jpeg"}]}]
+        with p[0], p[1], p[2], patch.object(x, "remote_posts", return_value=failed), \
+                p[4] as save, p[5] as send, p[6], p[7]:
+            with self.assertRaisesRegex(RuntimeError, "rejected an identical"):
+                asyncio.run(x.main())
+            send.assert_not_called()
+            save.assert_not_called()
+            self.assertEqual(data["items"][0]["status"], "approved")
+
+    def test_cached_channel_saves_two_auth_queries(self):
+        data, p = self.setup()
+        with p[0], p[1], p[2] as lookup, p[3], p[4], p[5], p[6], p[7]:
+            asyncio.run(x.main())
+            lookup.assert_not_called()
 
     def test_buffer_queue_near_limit_pauses(self):
         data, p = self.setup(scheduled=[{"id":str(i),"text":str(i)}
