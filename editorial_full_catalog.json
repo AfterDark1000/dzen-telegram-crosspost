@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6b000bef9ad69e39f176e4d8",
+      "title": "ИИ принял Doritos за пистолет — школьников задержали после отмены тревоги, теперь они судятся",
+      "dzen_url": "https://dzen.ru/a/awAL75rWnjnxduTY",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-20T15:02:36+00:00",
+      "excerpt": "Сигнал ИИ о пистолете отменили ещё до приезда полиции. Четверых подростков всё равно поставили на колени и заковали в наручники. 17 ноября четверо учеников американской школы Kenwood High School подали иск против полиции, школьных властей и компании Omnilert, разработавшей систему обнаружения оружия с помощью искусственного интеллекта. История произошла 20 октября 2025 года в штате Мэриленд. После футбольной трениров"
+    },
+    {
       "dzen_id": "6b000b2e4c30af749939460a",
       "title": "ИИ ищет лекарства от рака. Инвесторы вложили $5 млрд",
       "dzen_url": "https://dzen.ru/a/awALLkwwr3SZOUYK",
@@ -4262,11 +4273,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 396,
-    "fully_titled_from_archived_public_feed": 341,
+    "total_cataloged_editorial_publications": 397,
+    "fully_titled_from_archived_public_feed": 342,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-20",
-  "coverage": "396 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "397 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
