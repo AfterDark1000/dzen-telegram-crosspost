@@ -57,7 +57,8 @@ def attach_cover_next(queue):
     Count confirmed queued editorial records, not hourly runs or incoming news:
     rejected media and stale or unmatched headlines never change the sequence.
     """
-    return sum(row["status"] == "queued" for row in queue["items"]) % 2 == 0
+    return sum(row["status"] == "queued" and bool(row.get("buffer_post_id")) and bool(row.get("dzen_id"))
+               for row in queue["items"]) % 2 == 0
 
 
 def verified_cover_url(article):
