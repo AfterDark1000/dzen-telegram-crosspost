@@ -14,7 +14,7 @@ from urllib.parse import urlsplit
 
 QUEUE_FILE = Path("threads_editorial_queue.json")
 TEXT_LIMIT = 500  # Threads API limit; published posts must never exceed this.
-ALLOWED_STATUSES = {"approved", "published", "on_hold"}
+ALLOWED_STATUSES = {"approved", "published", "on_hold", "queued"}  # queued is editorial staging, NEVER publishing approval
 
 
 def title_key(text):
