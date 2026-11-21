@@ -21,6 +21,17 @@
       "excerpt": "OpenAI начала открывать некоторым подписчикам ChatGPT Plus доступ к ИИ-помощнику, который продолжает работать, даже когда хозяин закрыл чат. 19 ноября руководитель разработки ChatGPT и Codex Тибо Соттьо написал в X: «Мы начинаем тестировать Dots с небольшим числом пользователей ChatGPT Plus». — Тибо Соттьо, перевод с английского Пока это небольшой эксперимент. Но ещё недавно за такими помощниками приходилось идти на"
     },
     {
+      "dzen_id": "6b018705c454d13298a591cb",
+      "title": "Microsoft устроила ИИ-агентов на работу: выдала им почту и начальника",
+      "dzen_url": "https://dzen.ru/a/awGHBcRU0TKYpZHL",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-21T18:03:12+00:00",
+      "excerpt": "ИИ-сотрудник отправит письмо, накосячит, а отвечать за него будет живой человек. Microsoft 19 ноября показала, как компании используют автономных агентов на платформе Foundry. У них собственные корпоративные учётные записи. Они выполняют поручения коллег и работают с документами без постоянного присмотра. Внутри Microsoft уже используют более 30 шаблонов таких помощников. У агента Autopilot собственная учётная запись"
+    },
+    {
       "dzen_id": "6b0186191de56a6a5c508ca0",
       "title": "Google открыла Genie 4: меняйте погоду и населяйте виртуальные миры одной фразой",
       "dzen_url": "https://dzen.ru/a/awGGGR3lampcUIyg",
@@ -4372,11 +4383,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 406,
-    "fully_titled_from_archived_public_feed": 351,
+    "total_cataloged_editorial_publications": 407,
+    "fully_titled_from_archived_public_feed": 352,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-21",
-  "coverage": "406 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "407 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
