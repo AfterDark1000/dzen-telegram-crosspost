@@ -21,6 +21,17 @@
       "excerpt": "OpenAI начала открывать некоторым подписчикам ChatGPT Plus доступ к ИИ-помощнику, который продолжает работать, даже когда хозяин закрыл чат. 19 ноября руководитель разработки ChatGPT и Codex Тибо Соттьо написал в X: «Мы начинаем тестировать Dots с небольшим числом пользователей ChatGPT Plus». — Тибо Соттьо, перевод с английского Пока это небольшой эксперимент. Но ещё недавно за такими помощниками приходилось идти на"
     },
     {
+      "dzen_id": "6b01845ecd21ad0860e89a65",
+      "title": "США разрешили, а NVIDIA остановила поставки ИИ-чипов в Китай",
+      "dzen_url": "https://dzen.ru/a/awGEXs0hrQhg6Jpl",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-21T13:01:48+00:00",
+      "excerpt": "NVIDIA за квартал отгрузила в Китай ИИ-чипов на $2,4 млрд — и остановила поставки, хотя американские власти выдавали разрешения на их экспорт. Об этом 17 ноября сообщила временная глава компании Колетт Кресс во время разговора с инвесторами. Речь об ускорителях семейства Hopper, включая H200 — мощные процессоры, на которых обучают и запускают большие нейросети. Продажи на $2,4 млрд пришлись на квартал, завершившийся"
+    },
+    {
       "dzen_id": "6b018422a4264217ceaa7da1",
       "title": "В ИИ-пакет Microsoft подложили вирус — он сам воровал пароли",
       "dzen_url": "https://dzen.ru/a/awGEIqQmQhfOqn2h",
@@ -4317,11 +4328,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 401,
-    "fully_titled_from_archived_public_feed": 346,
+    "total_cataloged_editorial_publications": 402,
+    "fully_titled_from_archived_public_feed": 347,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-21",
-  "coverage": "401 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "402 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
