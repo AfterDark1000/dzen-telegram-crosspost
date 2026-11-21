@@ -5,6 +5,9 @@ on:
     paths:
       - 'buffer_x_check.py'
       - 'buffer_x_crosspost.py'
+      - 'typefully_x_failover.py'
+      - 'x_dispatch.py'
+      - 'tests/test_typefully_x_failover.py'
       - 'x_editorial_queue.py'
       - 'tests/test_buffer_x_crosspost.py'
       - 'buffer_x_delivery_check.py'
@@ -15,6 +18,9 @@ on:
     paths:
       - 'buffer_x_check.py'
       - 'buffer_x_crosspost.py'
+      - 'typefully_x_failover.py'
+      - 'x_dispatch.py'
+      - 'tests/test_typefully_x_failover.py'
       - 'x_editorial_queue.py'
       - 'tests/test_buffer_x_crosspost.py'
       - '.github/workflows/buffer-x-tests.yml'
@@ -32,6 +38,7 @@ jobs:
         run: python3 -m pip install playwright pillow pynacl
       - name: Compile and test Buffer X without any API access
         run: |
-          python3 -m py_compile buffer_x_check.py buffer_x_crosspost.py x_editorial_queue.py
+          python3 -m py_compile buffer_x_check.py buffer_x_crosspost.py typefully_x_failover.py x_dispatch.py x_editorial_queue.py
           python3 -m unittest discover -s tests -p 'test_buffer_x_crosspost.py' -v
+          python3 -m unittest discover -s tests -p 'test_typefully_x_failover.py' -v
           python3 -m unittest discover -s tests -p 'test_buffer_x_delivery_check.py' -v
