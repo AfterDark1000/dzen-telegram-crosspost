@@ -2248,6 +2248,13 @@
       "dzen_url": "https://dzen.ru/a/avaTGlALcjWVeERd",
       "buffer_post_id": "6af6abc5c1a0010a5b01a317",
       "with_image": true
+    },
+    {
+      "id": "artcraft-photocraft-ai-photoshop-prototype-20261112",
+      "dzen_title": "Аналог Photoshop за сутки: разработчик показал, что собрал с ИИ",
+      "x_text": "@echelon из @get_artcraft рассказал, как с ИИ собрали первый прототип аналога @Adobe Photoshop за 24 часа. PhotoCraft открыт и бесплатен, но совпадение функций сам автор оценивает пока примерно в 60%. У проекта уже 17 открытых программ.",
+      "status": "approved",
+      "include_dzen_link": false
     }
   ]
 }
