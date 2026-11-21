@@ -91,23 +91,25 @@ jobs:
           python3 -m py_compile threads_crosspost.py threads_editorial_queue.py
           python3 -m unittest discover -s tests -p 'test_threads_editorial_queue.py' -v
           python3 threads_crosspost.py
-      - name: Queue approved X posts via Buffer (max one per run; 2 UTC windows daily)
+      - name: Publish approved X via Buffer or guarded Typefully fallback (2 daily windows)
         if: ${{ !cancelled() && steps.state_init.outcome == 'success' && steps.install.outcome == 'success' && steps.cover_checkpoint.outcome == 'success' }}
         continue-on-error: true
         env:
           BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+          TYPEFULLY_API_KEY: ${{ secrets.TYPEFULLY_API_KEY }}
+          TYPEFULLY_SOCIAL_SET_ID: ${{ vars.TYPEFULLY_SOCIAL_SET_ID }}
+          TYPEFULLY_FAILOVER_ENABLED: ${{ vars.TYPEFULLY_FAILOVER_ENABLED }}
         run: |
-          # Buffer Free has a shared rolling 30-day API budget.
-          # The Dzen/Telegram workflow still runs hourly; only Buffer X API
-          # publishing is restricted to two UTC hours per day. Keep the
-          # publisher's persisted Retry-After guard (currently until Nov 29).
+          # Buffer is primary. Typefully can take over ONLY during a persisted
+          # Buffer 429 cooldown, and ONLY after explicit owner opt-in.
+          # Telegram/Threads remain hourly, independent of X.
           utc_hour="$(date -u +%H)"
           if [[ "$utc_hour" != "00" && "$utc_hour" != "12" ]]; then
-            echo "X Buffer API budget: not a 00/12 UTC publishing window; skip Buffer calls"
+            echo "X publishing budget: not a 00/12 UTC window; no X API calls"
             exit 0
           fi
-          python3 -m py_compile buffer_x_check.py buffer_x_crosspost.py x_editorial_queue.py
-          python3 buffer_x_crosspost.py
+          python3 -m py_compile buffer_x_check.py buffer_x_crosspost.py typefully_x_failover.py x_dispatch.py x_editorial_queue.py
+          python3 x_dispatch.py
       - name: Refresh Instagram and Threads tokens when due
         if: ${{ !cancelled() && steps.state_init.outcome == 'success' && steps.install.outcome == 'success' && steps.cover_checkpoint.outcome == 'success' }}
         env:
