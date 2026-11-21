@@ -1842,8 +1842,11 @@
       "id": "microsoft-agent-framework-pypi-stealer-20261117",
       "dzen_title": "В ИИ-пакет Microsoft подложили вирус — он сам воровал пароли",
       "threads_text": "В ИИ-пакет Microsoft подсунули ВОРА ПАРОЛЕЙ. 🦠\n\nДве заражённые версии продержались в каталоге PyPI меньше часа. Wiz обнаружила три случая успешной утечки данных.\n\nСамое неприятное: вирус запускался при старте Python в заражённой среде. Пользоваться самим Agent Framework даже не требовалось.\n\nСкачал обновление — получил незваного жильца. 🔑",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6b018422a4264217ceaa7da1",
+      "dzen_url": "https://dzen.ru/a/awGEIqQmQhfOqn2h",
+      "threads_post_id": "18084640298355392"
     },
     {
       "id": "microsoft-ai-mustafa-suleyman-conscious-ai-20261101",
