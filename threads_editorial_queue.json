@@ -3280,6 +3280,13 @@
       "dzen_id": "6af6931a500b72359578445d",
       "dzen_url": "https://dzen.ru/a/avaTGlALcjWVeERd",
       "threads_post_id": "18144182137613085"
+    },
+    {
+      "id": "artcraft-photocraft-ai-photoshop-prototype-20261112",
+      "dzen_title": "Аналог Photoshop за сутки: разработчик показал, что собрал с ИИ",
+      "threads_text": "24 ЧАСА — столько понадобилось ArtCraft, чтобы с ИИ получить первый работающий прототип аналога Photoshop.\n\nPhotoCraft теперь доступен бесплатно, его код открыт. У команды уже 17 программ, включая видеоредактор и инструмент для PDF. Сам разработчик оценивает сходство с Photoshop примерно в 60%.\n\nAdobe, Ctrl+Z здесь не поможет. 💀",
+      "status": "approved",
+      "include_dzen_link": false
     }
   ]
 }
