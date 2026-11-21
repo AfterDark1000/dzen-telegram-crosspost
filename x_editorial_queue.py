@@ -39,11 +39,15 @@ def validate_queue(data, *, enforce_text_limit=True):
             raise RuntimeError("Duplicate X title or ID")
         ids.add(ident)
         titles.add(key)
-        if status == "queued" and not (item.get("dzen_id") and item.get("buffer_post_id")):
-            # A concurrent editor may stage a row with a legacy 'queued'
-            # label before Buffer accepts it. Never treat this as delivery
-            # evidence or automatically approve it for publication.
-            print("X STAGED HOLD: missing Buffer acceptance evidence:", ident, flush=True)
+        if status == "queued" and not (
+                item.get("dzen_id") and (
+                    item.get("buffer_post_id") or (
+                        item.get("x_delivery_provider") == "typefully"
+                        and item.get("typefully_draft_id")
+                        and item.get("typefully_post_url"))):
+            # An editorial 'queued' label alone never proves delivery.
+            # Typefully uses its verified X post URL, not a Buffer post ID.
+            print("X STAGED HOLD: missing publisher acceptance evidence:", ident, flush=True)
         if "with_image" in item and not isinstance(item["with_image"], bool):
             raise RuntimeError("X with_image must be Boolean")
     return items
