@@ -1,0 +1,47 @@
+name: HPII — Typefully X connection check (READ ONLY)
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Verify Typefully X social set (NO PUBLICATION)
+        env:
+          TYPEFULLY_API_KEY: ${{ secrets.TYPEFULLY_API_KEY }}
+          TYPEFULLY_SOCIAL_SET_ID: ${{ vars.TYPEFULLY_SOCIAL_SET_ID }}
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json
+          import os
+          import re
+          import sys
+          import urllib.error
+          import urllib.request
+
+          token = os.environ.get("TYPEFULLY_API_KEY", "").strip()
+          sid = os.environ.get("TYPEFULLY_SOCIAL_SET_ID", "").strip()
+          if not token or not re.fullmatch(r"[1-9][0-9]*", sid):
+              sys.exit("TYPEFULLY_API_KEY secret or TYPEFULLY_SOCIAL_SET_ID variable not configured")
+          req = urllib.request.Request(
+              "https://api.typefully.com/v2/social-sets/" + sid + "/",
+              headers={"Authorization": "Bearer " + token, "Accept": "application/json"},
+              method="GET")
+          try:
+              with urllib.request.urlopen(req, timeout=25) as response:
+                  data = json.load(response)
+          except urllib.error.HTTPError as exc:
+              sys.exit("Typefully connection failed: HTTP " + str(exc.code))
+          except (urllib.error.URLError, TimeoutError, ValueError):
+              sys.exit("Typefully connection unavailable; no publication attempted")
+          x = (data.get("platforms") or {}).get("x") or {}
+          if str(x.get("username", "")).lstrip("@").lower() != "iipike_ai":
+              sys.exit("Typefully social set is NOT connected to @iipike_ai")
+          print("TYPEFULLY READ ONLY OK: connected X @iipike_ai; no posts created.")
+          print("Failover still requires TYPEFULLY_FAILOVER_ENABLED=true to publish.")
+          PY
