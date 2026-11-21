@@ -44,7 +44,7 @@ def validate_queue(data, *, enforce_text_limit=True):
                     item.get("buffer_post_id") or (
                         item.get("x_delivery_provider") == "typefully"
                         and item.get("typefully_draft_id")
-                        and item.get("typefully_post_url"))):
+                        and item.get("typefully_post_url")))):
             # An editorial 'queued' label alone never proves delivery.
             # Typefully uses its verified X post URL, not a Buffer post ID.
             print("X STAGED HOLD: missing publisher acceptance evidence:", ident, flush=True)
