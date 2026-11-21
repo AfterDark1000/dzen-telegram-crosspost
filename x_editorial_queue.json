@@ -2176,6 +2176,14 @@
       "dzen_url": "https://dzen.ru/a/avaTGlALcjWVeERd",
       "buffer_post_id": "6af6abc5c1a0010a5b01a317",
       "with_image": true
+    },
+    {
+      "id": "google-gemini-mac-computer-use-20261119",
+      "dzen_title": "Google пустила Gemini за ваш Mac: ИИ сам работает в программах, пока вы заняты",
+      "x_text": "@Google дала @GeminiApp управление приложениями на Mac. Gemini сам нажимает кнопки и заполняет формы в отдельном окне, не забирая ваш курсор. Computer Use постепенно запускают в США для взрослых подписчиков AI Plus, Pro и Ultra на Mac с Apple Silicon.",
+      "status": "queued",
+      "include_dzen_link": false,
+      "with_image": true
     }
   ]
 }
