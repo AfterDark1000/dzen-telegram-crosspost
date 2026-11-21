@@ -1300,6 +1300,13 @@
       "with_image": false
     },
     {
+      "id": "meta-muse-chrome-login-20261120",
+      "dzen_title": "Meta пустила ИИ в Chrome — под вашим логином",
+      "x_text": "@Meta пустила @Muse в Chrome: агент работает с сайтами, где вы уже авторизованы. @alexandr_wang объявил о расширении 20 ноября. Сам Muse паролей не видит, зато использует открытые сессии. Meta советует заранее выйти из лишних аккаунтов.",
+      "status": "approved",
+      "include_dzen_link": false
+    },
+    {
       "id": "meta-muse-ember-agents-pricing-20261109",
       "dzen_title": "Meta выпустила Muse Ember — дешёвого исполнителя для ИИ-агентов",
       "x_text": "Meta выпустила Muse Ember — модель для рутинных задач ИИ-агентов: вызовов инструментов, работы с файлами и кодом. В API цена — $0,10 за миллион входных и $0,50 за выходные токены при запросах до 200K. Свыше 200K тариф втрое выше.",
@@ -2241,13 +2248,6 @@
       "dzen_url": "https://dzen.ru/a/avaTGlALcjWVeERd",
       "buffer_post_id": "6af6abc5c1a0010a5b01a317",
       "with_image": true
-    },
-    {
-      "id": "meta-muse-chrome-login-20261120",
-      "dzen_title": "Meta пустила ИИ в Chrome — под вашим логином",
-      "x_text": "@Meta пустила @Muse в Chrome: агент работает с сайтами, где вы уже авторизованы. @alexandr_wang объявил о расширении 20 ноября. Сам Muse паролей не видит, зато использует открытые сессии. Meta советует заранее выйти из лишних аккаунтов.",
-      "status": "approved",
-      "include_dzen_link": false
     }
   ]
 }
