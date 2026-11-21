@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6b01893364e342739706edd0",
+      "title": "Google пустила Gemini за ваш Mac: ИИ сам работает в программах, пока вы заняты",
+      "dzen_url": "https://dzen.ru/a/awGJM2TjQnOXBu3Q",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-21T19:31:19+00:00",
+      "excerpt": "Gemini теперь сам нажимает кнопки в программах на Mac, пока владелец компьютера занимается своими делами. 19 ноября Google начала открывать функцию Computer Use в приложении Gemini для Mac. Пользователь пишет поручение, а нейросеть выполняет его через интерфейс обычных программ. Причём работать за компьютером можно одновременно с ИИ. Gemini действует в отдельном виртуальном окне, а мышь и основной экран остаются в ра"
+    },
+    {
       "dzen_id": "6b0187d7cb7610255c40882a",
       "title": "OpenAI начала тестировать Dots в ChatGPT Plus: ИИ работает даже после закрытия чата",
       "dzen_url": "https://dzen.ru/a/awGH18t2ECVcQIgq",
@@ -4383,11 +4394,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 407,
-    "fully_titled_from_archived_public_feed": 352,
+    "total_cataloged_editorial_publications": 408,
+    "fully_titled_from_archived_public_feed": 353,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-21",
-  "coverage": "407 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "408 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
