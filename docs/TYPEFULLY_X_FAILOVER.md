@@ -11,7 +11,8 @@
    - Вкладка **Secrets**, новый repository secret: TYPEFULLY_API_KEY (сам ключ).
    - Вкладка **Variables**, новая repository variable: TYPEFULLY_SOCIAL_SET_ID (числовой ID social set, можно узнать в режиме Development mode Typefully → Settings → API).
    - Вкладка **Variables**, TYPEFULLY_FAILOVER_ENABLED со значением **true** только после проверки связи и осознанного включения. Пока отсутствует/false — никаких запросов к Typefully.
-4. Проверить первый разрешённый проход и ссылку на реальный пост в X. Изменения очереди сохраняются штатным state_checkpoint, а не отдельной небезопасной записью.
+4. **Сначала проверить подключение без публикации:** в GitHub Actions вручную запустить workflow `HPII — Typefully X connection check (READ ONLY)`. Он делает только GET social set и подтверждает, что подключён именно `@iipike_ai`; никаких постов не создаёт.
+5. После успешной проверки выставить `TYPEFULLY_FAILOVER_ENABLED=true` (вкладка **Variables**, не Secrets) и проверить первый разрешённый проход и ссылку на реальный пост в X. Изменения очереди сохраняются штатным state_checkpoint.
 
 ## Правила переключения
 
