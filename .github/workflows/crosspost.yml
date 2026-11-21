@@ -91,12 +91,21 @@ jobs:
           python3 -m py_compile threads_crosspost.py threads_editorial_queue.py
           python3 -m unittest discover -s tests -p 'test_threads_editorial_queue.py' -v
           python3 threads_crosspost.py
-      - name: Queue approved X posts via Buffer (max one per run)
+      - name: Queue approved X posts via Buffer (max one per run; 2 UTC windows daily)
         if: ${{ !cancelled() && steps.state_init.outcome == 'success' && steps.install.outcome == 'success' && steps.cover_checkpoint.outcome == 'success' }}
         continue-on-error: true
         env:
           BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
         run: |
+          # Buffer Free has a shared rolling 30-day API budget.
+          # The Dzen/Telegram workflow still runs hourly; only Buffer X API
+          # publishing is restricted to two UTC hours per day. Keep the
+          # publisher's persisted Retry-After guard (currently until Nov 29).
+          utc_hour="$(date -u +%H)"
+          if [[ "$utc_hour" != "00" && "$utc_hour" != "12" ]]; then
+            echo "X Buffer API budget: not a 00/12 UTC publishing window; skip Buffer calls"
+            exit 0
+          fi
           python3 -m py_compile buffer_x_check.py buffer_x_crosspost.py x_editorial_queue.py
           python3 buffer_x_crosspost.py
       - name: Refresh Instagram and Threads tokens when due
