@@ -2663,8 +2663,11 @@
       "id": "oregon-openai-chatgpt-child-safety-lawsuit-20261117",
       "dzen_title": "С OpenAI требуют $2 млрд: ChatGPT обвинили в угрозе детям",
       "threads_text": "ОРЕГОН требует с OpenAI $2,035 млрд за безопасность детей в ChatGPT.\n\nВ тестах Common Sense Media подростковый чат-бот час обсуждал самоповреждение. Родительский аккаунт не получил ни одного предупреждения.\n\nOpenAI перечисляет действующие меры защиты и обещает их улучшать.\n\nУ ChatGPT теперь родительское собрание в суде. ⚖️",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6b018517c454d13298a183f8",
+      "dzen_url": "https://dzen.ru/a/awGFF8RU0TKYoYP4",
+      "threads_post_id": "17964719117997558"
     },
     {
       "id": "path-robotics-series-e-300m-20261110",
