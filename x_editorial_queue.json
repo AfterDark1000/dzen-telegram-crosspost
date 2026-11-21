@@ -242,6 +242,13 @@
       "include_dzen_link": false
     },
     {
+      "id": "artcraft-photocraft-ai-photoshop-prototype-20261112",
+      "dzen_title": "Аналог Photoshop за сутки: разработчик показал, что собрал с ИИ",
+      "x_text": "@echelon из @get_artcraft рассказал, как с ИИ собрали первый прототип аналога @Adobe Photoshop за 24 часа. PhotoCraft открыт и бесплатен, но совпадение функций сам автор оценивает пока примерно в 60%. У проекта уже 17 открытых программ.",
+      "status": "approved",
+      "include_dzen_link": false
+    },
+    {
       "id": "asahi-linux-gpl-llm-code-laundering-20261107",
       "dzen_title": "Asahi Linux меняет лицензию из-за «отмывания» кода через ИИ",
       "x_text": "@AsahiLinux объявила переход с MIT на GPLv2+. Команда утверждает, что сторонние разработчики забирали её код из рабочих веток и порой переписывали через LLM, скрывая происхождение. Обвиняемые не названы, независимого подтверждения нет.",
@@ -2248,13 +2255,6 @@
       "dzen_url": "https://dzen.ru/a/avaTGlALcjWVeERd",
       "buffer_post_id": "6af6abc5c1a0010a5b01a317",
       "with_image": true
-    },
-    {
-      "id": "artcraft-photocraft-ai-photoshop-prototype-20261112",
-      "dzen_title": "Аналог Photoshop за сутки: разработчик показал, что собрал с ИИ",
-      "x_text": "@echelon из @get_artcraft рассказал, как с ИИ собрали первый прототип аналога @Adobe Photoshop за 24 часа. PhotoCraft открыт и бесплатен, но совпадение функций сам автор оценивает пока примерно в 60%. У проекта уже 17 открытых программ.",
-      "status": "approved",
-      "include_dzen_link": false
     }
   ]
 }
