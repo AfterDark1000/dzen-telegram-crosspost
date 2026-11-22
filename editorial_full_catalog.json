@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6b0315ac5e16dc5f0883bada",
+      "title": "NVIDIA рухнула на 14% за день после сообщения о проверке её бухгалтерии в США",
+      "dzen_url": "https://dzen.ru/a/awMVrF4W3F8Ig7ra",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-22T18:03:02+00:00",
+      "excerpt": "20 ноября акции NVIDIA обвалились на 14% за одну торговую сессию. Индекс Nasdaq Composite потерял 5,3%, а крупнейшее IPO в истории не остановило распродажу ИИ-акций. В пятницу Reuters со ссылкой на двух осведомлённых источников сообщило, что Комиссия по ценным бумагам США (SEC) проверяет бухгалтерскую отчётность NVIDIA. Ещё до публикации расследования акции производителя ИИ-чипов падали более чем на 6%. После выхода"
+    },
+    {
       "dzen_id": "6b03156496c3731bc133798d",
       "title": "Трамп и Си договорились: ИИ не должен сам начинать крупные военные операции",
       "dzen_url": "https://dzen.ru/a/awMVZJbDcxvBM3mN",
@@ -4460,11 +4471,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 414,
-    "fully_titled_from_archived_public_feed": 359,
+    "total_cataloged_editorial_publications": 415,
+    "fully_titled_from_archived_public_feed": 360,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-22",
-  "coverage": "414 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "415 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
