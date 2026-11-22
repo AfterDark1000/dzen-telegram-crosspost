@@ -2289,5 +2289,5 @@
       "buffer_post_id": "6af6abc5c1a0010a5b01a317",
       "with_image": true
     }
-  ]
+  ,{"id":"microsoft-edge-aion-instruct-local-ai-20261119","dzen_title":"Microsoft поселила ИИ в Edge. Ему не нужен интернет","x_text":"Команда @MSEdgeDev встроила Aion Instruct (2,3 млрд параметров) прямо в Edge. Сайты тестируют доступ к ней через Prompt API: текст обрабатывается на компьютере посетителя, без облака. Веса модели уже открыты, но API пока экспериментальный.","status":"approved","include_dzen_link":false}]
 }
