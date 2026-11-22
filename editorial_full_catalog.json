@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6b03156496c3731bc133798d",
+      "title": "Трамп и Си договорились: ИИ не должен сам начинать крупные военные операции",
+      "dzen_url": "https://dzen.ru/a/awMVZJbDcxvBM3mN",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-22T16:17:39+00:00",
+      "excerpt": "ИИ не должен самостоятельно запускать крупные военные операции. Дональд Трамп и Си Цзиньпин согласовали этот принцип во время встречи в Китае, сообщил министр финансов США Скотт Бессент. 20 ноября Бессент рассказал об этом в интервью CNBC. Президенты США и Китая встретились накануне в Шэньчжэне. «Трамп и Си согласились, что человек всегда должен участвовать в любых военных решениях, которые принимает ИИ». — Скотт Бес"
+    },
+    {
       "dzen_id": "6b018ba562f36d57360c1e6a",
       "title": "Трамп пригрозил «огромным налогом» за ИИ-дата-центры за границей",
       "dzen_url": "https://dzen.ru/a/awGLpWLzbVc2DB5q",
@@ -4449,11 +4460,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 413,
-    "fully_titled_from_archived_public_feed": 358,
+    "total_cataloged_editorial_publications": 414,
+    "fully_titled_from_archived_public_feed": 359,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-22",
-  "coverage": "413 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "414 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
