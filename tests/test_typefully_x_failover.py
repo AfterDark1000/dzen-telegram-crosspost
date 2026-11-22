@@ -98,6 +98,42 @@ class TypefullyFailoverTests(unittest.TestCase):
         with self.assertRaisesRegex(t.FailoverError, "unlisted"):
             self.run_flow(queue=queue)
 
+    def queue_with_previous_attempt(self, seconds_ago):
+        queue = deepcopy(QUEUE)
+        queue["items"].append({
+            "id": "earlier-post-20261120",
+            "dzen_title": "Previously published distinct Dzen title",
+            "x_text": "Earlier approved X message",
+            "status": "queued",
+            "dzen_id": "dz-earlier",
+            "typefully_draft_id": 21,
+            "typefully_post_url": "https://x.com/iipike_ai/status/1234",
+            "x_delivery_provider": "typefully",
+            "typefully_attempt_at": NOW - seconds_ago,
+        })
+        return queue
+
+    def test_next_daily_slot_allows_thirty_seconds_of_runner_drift(self):
+        # Regression: 21 Nov 12:18:30 vs 22 Nov 12:18:18 previously
+        # suppressed the only daily slot despite just a few seconds' drift.
+        queue = self.queue_with_previous_attempt(24 * 3600 - 30)
+        _, calls, outcome, _, _ = self.run_flow(queue=queue)
+        self.assertEqual(outcome, "created")
+        self.assertEqual(len([c for c in calls if c[0] == "POST"]), 1)
+
+    def test_second_twelve_hour_slot_remains_blocked(self):
+        queue = self.queue_with_previous_attempt(12 * 3600)
+        _, calls, outcome, _, fetch = self.run_flow(queue=queue)
+        self.assertEqual(outcome, "none")
+        self.assertFalse(any(c[0] == "POST" for c in calls))
+        fetch.assert_awaited_once()
+
+    def test_more_than_five_minutes_early_remains_blocked(self):
+        queue = self.queue_with_previous_attempt(24 * 3600 - 6 * 60)
+        _, calls, outcome, _, _ = self.run_flow(queue=queue)
+        self.assertEqual(outcome, "none")
+        self.assertFalse(any(c[0] == "POST" for c in calls))
+
     def test_monthly_limit_prevents_write(self):
         drafts = [{"id": i, "x_post_enabled": True, "status": "published",
                    "created_at": "2026-11-21T00:00:00Z"} for i in range(8)]

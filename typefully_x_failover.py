@@ -21,6 +21,9 @@ from x_editorial_queue import load_queue, matching_approved, delivery_text, save
 API_BASE = "https://api.typefully.com/v2"
 EXPECTED_X = "iipike_ai"
 MAX_PER_30D = 8  # leave two Free-plan posts for manual use
+# The X job runs at 00/12 UTC. A few seconds of scheduler/API drift must not
+# waste the next day's only eligible slot; never allow a second 12-hour slot.
+MIN_POST_SPACING_SECONDS = 24 * 3600 - 5 * 60
 MAX_PAGES = 10
 
 
@@ -193,8 +196,8 @@ async def main():
         return "none"
     submissions = [int(e.get("typefully_attempt_at", 0)) for e in queue["items"]
                    if e.get("typefully_attempt_at")]
-    if submissions and now - max(submissions) < 24*3600:
-        print("X TYPEFULLY: one post per 24 hours")
+    if submissions and now - max(submissions) < MIN_POST_SPACING_SECONDS:
+        print("X TYPEFULLY: daily slot spacing guard (5m scheduler tolerance)")
         return "none"
     if recent_budget(drafts, now) >= MAX_PER_30D:
         print("X TYPEFULLY: conservative 8-post rolling limit reached")
