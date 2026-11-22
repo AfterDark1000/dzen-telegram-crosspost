@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6b0189cacd21ad0860046c8e",
+      "title": "Еврокомиссию атаковали с помощью ИИ: отключили даже систему отпусков",
+      "dzen_url": "https://dzen.ru/a/awGJys0hrQhgBGyO",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-22T03:01:17+00:00",
+      "excerpt": "В Еврокомиссии после кибератаки отключили служебный портал, через который сотрудники оформляют отпуска и проверяют зарплатные ведомости. 19 ноября Еврокомиссия подтвердила, что злоумышленники использовали искусственный интеллект. К тому моменту с обнаружения атаки прошло почти четыре недели. На брифинге представитель Еврокомиссии Томас Регнье заявил: «По результатам расследования мы подтверждаем: это была киберкампан"
+    },
+    {
       "dzen_id": "6b01893364e342739706edd0",
       "title": "Google пустила Gemini за ваш Mac: ИИ сам работает в программах, пока вы заняты",
       "dzen_url": "https://dzen.ru/a/awGJM2TjQnOXBu3Q",
@@ -4394,11 +4405,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 408,
-    "fully_titled_from_archived_public_feed": 353,
+    "total_cataloged_editorial_publications": 409,
+    "fully_titled_from_archived_public_feed": 354,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
-  "generated_date": "2026-11-21",
-  "coverage": "408 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "generated_date": "2026-11-22",
+  "coverage": "409 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
