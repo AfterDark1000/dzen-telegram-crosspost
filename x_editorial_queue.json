@@ -398,6 +398,13 @@
       "include_dzen_link": false
     },
     {
+      "id": "canva-ai-controls-opt-out-20261119",
+      "dzen_title": "Canva добавила кнопку «Выключить ИИ»",
+      "x_text": "@canva добавила выключатель генеративного ИИ для Free и Pro. Можно спрятать Canva AI и Magic Write, а отдельно — сократить ИИ-контент в поиске. Но удаление фона останется, а ИИ-шаблоны исчезнут не все. Доступ открывают постепенно.",
+      "status": "approved",
+      "include_dzen_link": false
+    },
+    {
       "id": "censys-artex-exposed-servers-20261105",
       "dzen_title": "Censys нашла 1465 серверов с ИИ-инструментом ARTEX. Некоторые раскрыли и файлы операторов",
       "x_text": "@censysio нашла 32 сервера с ARTEX, где были открыты папки с инструментами взлома и файлами операторов. ИИ помогает проверять чужую защиту, а собственные файлы лежат на виду. Исследователям удобно.",
@@ -2267,13 +2274,6 @@
       "dzen_url": "https://dzen.ru/a/avaTGlALcjWVeERd",
       "buffer_post_id": "6af6abc5c1a0010a5b01a317",
       "with_image": true
-    },
-    {
-      "id": "canva-ai-controls-opt-out-20261119",
-      "dzen_title": "Canva добавила кнопку «Выключить ИИ»",
-      "x_text": "@canva добавила выключатель генеративного ИИ для Free и Pro. Можно спрятать Canva AI и Magic Write, а отдельно — сократить ИИ-контент в поиске. Но удаление фона останется, а ИИ-шаблоны исчезнут не все. Доступ открывают постепенно.",
-      "status": "approved",
-      "include_dzen_link": false
     }
   ]
 }
