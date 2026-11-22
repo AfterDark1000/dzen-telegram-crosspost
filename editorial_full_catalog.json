@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6b018b4acc4e7a54a7825e30",
+      "title": "Signal запретил скриншоты, чтобы Siri и Gemini не читали ваши переписки",
+      "dzen_url": "https://dzen.ru/a/awGLSsxOelSngl4w",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-22T06:02:38+00:00",
+      "excerpt": "ИИ-агент Meta Muse прочитал сообщения Signal, хотя к самому мессенджеру его никто не подключал. На Mac агент воспользовался системными разрешениями, сделал снимки экрана с перепиской и перенёс текст в своё приложение. Доступ к самому Signal ему для этого не понадобился. 20 ноября президент Signal Мередит Уиттакер объявила, что мессенджер усиливает защиту от подобных действий. Под ограничения попали системные ИИ-помощ"
+    },
+    {
       "dzen_id": "6b018aebd6e45455eb94c7bd",
       "title": "США разрешили Китаю 880 тысяч ИИ-чипов — даже фирмам из военного списка Пентагона",
       "dzen_url": "https://dzen.ru/a/awGK69bkVFXrlMe9",
@@ -4427,11 +4438,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 411,
-    "fully_titled_from_archived_public_feed": 356,
+    "total_cataloged_editorial_publications": 412,
+    "fully_titled_from_archived_public_feed": 357,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-22",
-  "coverage": "411 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "412 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
