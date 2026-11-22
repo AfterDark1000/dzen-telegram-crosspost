@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6b018a3e911f7d45346d5518",
+      "title": "Amazon разрешила ИИ тратить ваши деньги без спроса",
+      "dzen_url": "https://dzen.ru/a/awGKPpEffUU0bVUY",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-22T04:01:01+00:00",
+      "excerpt": "Агент сам нашёл платный поисковик, купил запрос за один цент и отчитался о расходах. Человек эту покупку не подтверждал. 19 ноября Amazon Web Services (AWS) подключила автономные платежи к своему магазину программ и цифровых услуг AWS Marketplace. Теперь ИИ-агенты самостоятельно оплачивают доступ к платным инструментам, когда те понадобятся для выполнения задания. Деньги записывают на обычный облачный счёт компании."
+    },
+    {
       "dzen_id": "6b0189cacd21ad0860046c8e",
       "title": "Еврокомиссию атаковали с помощью ИИ: отключили даже систему отпусков",
       "dzen_url": "https://dzen.ru/a/awGJys0hrQhgBGyO",
@@ -4405,11 +4416,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 409,
-    "fully_titled_from_archived_public_feed": 354,
+    "total_cataloged_editorial_publications": 410,
+    "fully_titled_from_archived_public_feed": 355,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-22",
-  "coverage": "409 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "410 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
