@@ -2907,8 +2907,11 @@
       "id": "signal-ai-screenshot-protection-20261120",
       "dzen_title": "Signal запретил скриншоты, чтобы Siri и Gemini не читали ваши переписки",
       "threads_text": "Сквозное шифрование защищает переписку. Но что, если ИИ просто СМОТРИТ на экран? 👀\n\nВ тестах Reuters агент Meta Muse прочитал сообщения Signal через системные разрешения — без подключения к самому мессенджеру.\n\nSignal ответил блокировкой снимков: на iPhone с iOS 27 она включена сразу, на Android срабатывает при попытке ИИ прочитать чат. На Mac автоматической защиты пока нет.\n\nРазрешение «видеть экран» внезапно оказалось очень широким.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6b018b4acc4e7a54a7825e30",
+      "dzen_url": "https://dzen.ru/a/awGLSsxOelSngl4w",
+      "threads_post_id": "17974345365187359"
     },
     {
       "id": "skyfall-sky-001-20261019",
