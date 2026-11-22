@@ -2267,6 +2267,13 @@
       "dzen_url": "https://dzen.ru/a/avaTGlALcjWVeERd",
       "buffer_post_id": "6af6abc5c1a0010a5b01a317",
       "with_image": true
+    },
+    {
+      "id": "canva-ai-controls-opt-out-20261119",
+      "dzen_title": "Canva добавила кнопку «Выключить ИИ»",
+      "x_text": "@canva добавила выключатель генеративного ИИ для Free и Pro. Можно спрятать Canva AI и Magic Write, а отдельно — сократить ИИ-контент в поиске. Но удаление фона останется, а ИИ-шаблоны исчезнут не все. Доступ открывают постепенно.",
+      "status": "approved",
+      "include_dzen_link": false
     }
   ]
 }
