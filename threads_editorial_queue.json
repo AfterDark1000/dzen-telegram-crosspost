@@ -135,8 +135,11 @@
       "id": "amazon-aws-marketplace-agentic-payments-20261119",
       "dzen_title": "Amazon разрешила ИИ тратить ваши деньги без спроса",
       "threads_text": "Amazon пустила ИИ за ПОКУПКАМИ. 💸\n\nВ AWS Marketplace агент сам находит платный сервис и оплачивает запрос. В демонстрации AWS он купил веб-поиск за один цент.\n\nДеньги добавляют к счёту компании. Владелец заранее устанавливает лимит, а агент не вправе его повышать. Для каждой покупки отдельное одобрение не требуется.\n\nУ бухгалтерии дёрнулся глаз. 🧾",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6b018a3e911f7d45346d5518",
+      "dzen_url": "https://dzen.ru/a/awGKPpEffUU0bVUY",
+      "threads_post_id": "18133830802887432"
     },
     {
       "id": "amazon-ring-drone-rover-cam-20261110",
