@@ -986,7 +986,7 @@
       "id": "google-gtig-exploit-agent-autonomous-attacks-20261116",
       "dzen_title": "Google обнаружила ИИ-хакера, который превращает исправления программ в новые атаки",
       "x_text": "@GoogleCloudSec обнаружила exploit_agent — систему, которая сравнивает код до и после патчей, ищет уязвимости и автоматически запускает эксплойты. На открытом сервере хакеров нашли похищенные данные; следы ведут к французским сайтам.",
-      "status": "approved",
+      "status": "queued",
       "include_dzen_link": false,
       "typefully_attempt_at": 1795263510,
       "typefully_attempt_unknown": true,
@@ -994,7 +994,12 @@
       "typefully_source_dzen_id": "6afeb4c02cbc0d52dfc624d3",
       "typefully_source_dzen_url": "https://dzen.ru/a/av60wCy8DVLfxiTT",
       "typefully_draft_id": 12085822,
-      "typefully_state": "draft"
+      "typefully_state": "published",
+      "dzen_id": "6afeb4c02cbc0d52dfc624d3",
+      "dzen_url": "https://dzen.ru/a/av60wCy8DVLfxiTT",
+      "with_image": false,
+      "typefully_post_url": "https://x.com/iipike_ai/status/2124115256867979302",
+      "x_delivery_provider": "typefully"
     },
     {
       "id": "google-intelligent-eyewear-gemini-preorders-20261112",
