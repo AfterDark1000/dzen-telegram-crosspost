@@ -2419,6 +2419,14 @@
       "status": "approved",
       "include_dzen_link": false,
       "with_image": false
+    },
+    {
+      "id": "riverside-tonality-audio-word-edit-20261112",
+      "dzen_title": "ИИ научился заменять отдельные слова в аудиозаписи",
+      "x_text": "@RiversideLabsAI представила Tonality. ИИ заменяет отдельные слова в готовой аудиозаписи, сохраняя остальное звучание.\n\nМожно исправить оговорку, ударение или интонацию без полной перезаписи фразы.\n\nЕсть бесплатная демоверсия и API. 🎙️",
+      "status": "approved",
+      "include_dzen_link": false,
+      "with_image": false
     }
   ]
 }
