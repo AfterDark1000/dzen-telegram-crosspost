@@ -2387,6 +2387,14 @@
       "status": "approved",
       "include_dzen_link": false,
       "with_image": false
+    },
+    {
+      "id": "nebius-45b-microsoft-delay-20261112",
+      "dzen_title": "Компания бывшего главы «Яндекса» замахнулась на $45 млрд, но стройка для Microsoft уже буксует",
+      "x_text": "Nebius Аркадия Воложа планирует потратить $40–45 млрд на ИИ-инфраструктуру в 2027 году. До 85% расходов рассчитывает покрыть авансами и кредитами под контракты.\n\nПри этом дата-центр для @Microsoft в Нью-Джерси уже задерживается. 🔌",
+      "status": "approved",
+      "include_dzen_link": false,
+      "with_image": false
     }
   ]
 }
