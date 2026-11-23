@@ -2499,6 +2499,14 @@
       "status": "approved",
       "include_dzen_link": false,
       "with_image": false
+    },
+    {
+      "id": "openai-chatgpt-healthcare-20-connectors-20261116",
+      "dzen_title": "ChatGPT разобрал многомесячный завал документов в больнице за выходные",
+      "x_text": "@OpenAI добавила в ChatGPT более 20 медицинских подключений. 🏥\n\nИИ-агенты теперь работают в больничных программах, готовят документы для страховщиков и собирают истории пациентов.\n\nВ CVS Health агент за выходные разобрал очередь документов, накопившуюся за месяцы.",
+      "status": "approved",
+      "include_dzen_link": false,
+      "with_image": false
     }
   ]
 }
