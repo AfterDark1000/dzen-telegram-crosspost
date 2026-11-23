@@ -10,6 +10,28 @@
   ],
   "entries": [
     {
+      "dzen_id": "6b03d666bf87f1605cd49074",
+      "title": "OpenAI ищет охотника за шпионами за $500 тысяч — в её переговорной уже находили «жучок»",
+      "dzen_url": "https://dzen.ru/a/awPWZr-H8WBc1JB0",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-23T10:02:09+00:00",
+      "excerpt": "В переговорной OpenAI обнаружили скрытое устройство для записи разговоров. Оно находилось за телевизором. В октябре компания уволила инженера после этой находки. Его обвинили в незаконном перехвате переговоров, однако 6 ноября он не признал вину в суде. Об этой истории агентство Reuters рассказало 12 ноября, изучая, как крупнейшие ИИ-компании набирают специалистов по контрразведке. Сама OpenAI сейчас ищет старшего ра"
+    },
+    {
+      "dzen_id": "6b03d5e00da4121fb3d304ac",
+      "title": "OpenAI научила GPT молчать о своих «мыслях»",
+      "dzen_url": "https://dzen.ru/a/awPV4A2kEh-z0wSs",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-23T09:02:30+00:00",
+      "excerpt": "OpenAI заявила, что в испытаниях новой защиты вытащить скрытые рассуждения GPT-6.2 Astra из предыдущего запроса удалось лишь в 0,2% атак. Против GPT-6 Astra со старой защитой успех составлял 54%. Результаты компания представила 20 ноября. Когда GPT решает сложную задачу, она создаёт промежуточные рассуждения. Пользователь получает готовый ответ или краткое объяснение, а подробный ход работы остаётся скрытым. Для разр"
+    },
+    {
       "dzen_id": "6b03d59262f36d5736cc1169",
       "title": "Character.AI выставляет переписки на торги. Даже детские",
       "dzen_url": "https://dzen.ru/a/awPVkmLzbVc2zBFp",
@@ -4537,11 +4559,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 421,
-    "fully_titled_from_archived_public_feed": 366,
+    "total_cataloged_editorial_publications": 423,
+    "fully_titled_from_archived_public_feed": 368,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-23",
-  "coverage": "421 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "423 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
