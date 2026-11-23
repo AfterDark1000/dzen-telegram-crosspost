@@ -1953,8 +1953,11 @@
       "id": "microsoft-edge-aion-instruct-local-ai-20261119",
       "dzen_title": "Microsoft поселила ИИ в Edge. Ему не нужен интернет",
       "threads_text": "Edge теперь ЗАПУСКАЕТ ИИ прямо на вашем компьютере. 🧠\n\nMicrosoft встроила Aion Instruct с 2,3 млрд параметров. Сайты уже тестируют доступ к нейросети через Prompt API: она разбирает текст локально, без отправки его в облако, а после загрузки работает и офлайн.\n\nДля такого теста Microsoft требует 3 ГБ видеопамяти и 20 ГБ свободного места на диске.\n\nБраузер уже сожрал оперативку, теперь добрался до видеокарты. 💀",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6b03d54a1a98a4173e010a47",
+      "dzen_url": "https://dzen.ru/a/awPVShqYpBc-AQpH",
+      "threads_post_id": "18149130124585153"
     },
     {
       "id": "microsoft-foundry-autopilot-ai-employees-20261119",
