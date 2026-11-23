@@ -1296,8 +1296,11 @@
       "id": "google-ai-studio-android-firebase-play-20261117",
       "dzen_title": "Google научила ИИ делать Android-приложения, которые вас помнят",
       "threads_text": "Google AI Studio теперь делает Android-приложения С ПАМЯТЬЮ. 📱\n\nОписываешь идею — нейросеть пишет код, подключает облачную базу и вход через Google. Приложение сохраняет данные, даже когда закрываешь браузер.\n\nКривая кнопка? Показываешь ИИ скриншот, он исправляет.\n\nГотовую программу устанавливаешь на телефон через личную библиотеку Google Play. Пока только в США и для себя.\n\nПрограммист ещё кофе не допил, а приложение уже на телефоне. ☕",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6b03dd14c98fbb1942873955",
+      "dzen_url": "https://dzen.ru/a/awPdFMmPuxlChzlV",
+      "threads_post_id": "18393881125229014"
     },
     {
       "id": "google-alphagenome-2-cell-variants-20261111",
