@@ -2483,6 +2483,14 @@
       "status": "approved",
       "include_dzen_link": false,
       "with_image": false
+    },
+    {
+      "id": "apollo-ai-hiring-20261116",
+      "dzen_title": "Финансовый гигант Apollo замедлит найм сотрудников в 3 раза из-за ИИ",
+      "x_text": "В Apollo решили, что ИИ позволит нанимать гораздо меньше людей. 💼\n\nПлан: замедлить ежегодный рост штата с 12–15% до 3–5%, сохранив цель роста прибыли на 20%.\n\nА главный экономист самой Apollo недавно усомнился в финансовой отдаче от ИИ за пределами IT.",
+      "status": "approved",
+      "include_dzen_link": false,
+      "with_image": false
     }
   ]
 }
