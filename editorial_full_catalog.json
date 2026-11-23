@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6b03d59262f36d5736cc1169",
+      "title": "Character.AI выставляет переписки на торги. Даже детские",
+      "dzen_url": "https://dzen.ru/a/awPVkmLzbVc2zBFp",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-23T08:03:02+00:00",
+      "excerpt": "Компания, создавшая Character.AI, проходит процедуру банкротства. А вместе с её технологиями покупателям могут достаться личные разговоры миллионов людей с нейросетями. В этих переписках пользователи рассказывали о проблемах с психическим здоровьем, отношениях и личных переживаниях. Среди сохранённых данных есть миллионы разговоров несовершеннолетних. Продажу активов компания планирует провести через аукцион 1 декабр"
+    },
+    {
       "dzen_id": "6b03d54a1a98a4173e010a47",
       "title": "Microsoft поселила ИИ в Edge. Ему не нужен интернет",
       "dzen_url": "https://dzen.ru/a/awPVShqYpBc-AQpH",
@@ -4526,11 +4537,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 420,
-    "fully_titled_from_archived_public_feed": 365,
+    "total_cataloged_editorial_publications": 421,
+    "fully_titled_from_archived_public_feed": 366,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-23",
-  "coverage": "420 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "421 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
