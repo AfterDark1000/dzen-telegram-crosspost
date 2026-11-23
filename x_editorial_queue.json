@@ -2459,6 +2459,14 @@
       "status": "approved",
       "include_dzen_link": false,
       "with_image": false
+    },
+    {
+      "id": "hong-kong-smartview-facial-recognition-20261116",
+      "dzen_title": "В Гонконге включили распознавание лиц на городских камерах. Данные будут хранить до полугода",
+      "x_text": "@hkpoliceforce включила распознавание лиц в системе городских камер SmartView.\n\nОбычные записи хранят до 31 дня, а данные о лицах — до 180. К 2028 году сеть планируют расширить до 60 тыс. камер.\n\nПолиция обещает поиск по разрешению, правозащитники опасаются злоупотреблений.",
+      "status": "approved",
+      "include_dzen_link": false,
+      "with_image": false
     }
   ]
 }
