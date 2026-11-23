@@ -2323,6 +2323,13 @@
       "dzen_url": "https://dzen.ru/a/avaTGlALcjWVeERd",
       "buffer_post_id": "6af6abc5c1a0010a5b01a317",
       "with_image": true
+    },
+    {
+      "id": "google-blue-origin-suncatcher-new-glenn-20261119",
+      "dzen_title": "Google доверила Безосу запуск космических ИИ-серверов после испытания с Маском",
+      "x_text": "@Google договорилась с @BlueOrigin: в начале 2029 года New Glenn должна вывести на орбиту несколько ИИ-спутников мощностью примерно по серверной стойке каждый. Первый прототип Project Suncatcher в октябре запустила @SpaceX — он уже прислал с орбиты хокку.",
+      "status": "approved",
+      "include_dzen_link": false
     }
   ]
 }
