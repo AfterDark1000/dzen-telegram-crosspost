@@ -2411,6 +2411,14 @@
       "status": "approved",
       "include_dzen_link": false,
       "with_image": false
+    },
+    {
+      "id": "anthropic-self-hosted-managed-agents-20261112",
+      "dzen_title": "Anthropic разрешила компаниям поселить ИИ-агентов Claude на своих серверах",
+      "x_text": "@AnthropicAI открыла закрытую бету Self-hosted Claude Managed Agents.\n\nКомпании смогут запускать управление ИИ-агентами, рабочие контейнеры и хранение истории на своих серверах. Сама модель Claude продолжит работать через внешнего провайдера.\n\nСвой сервер, свой контроль. 🏠",
+      "status": "approved",
+      "include_dzen_link": false,
+      "with_image": false
     }
   ]
 }
