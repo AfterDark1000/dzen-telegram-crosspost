@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6b031651bf87f1605cb8982c",
+      "title": "Аналог Photoshop за сутки: разработчик показал, что собрал с ИИ",
+      "dzen_url": "https://dzen.ru/a/awMWUb-H8WBcuJgs",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-23T04:01:27+00:00",
+      "excerpt": "ArtCraft за 24 часа получила работающий прототип аналога Adobe Photoshop. Большую часть разработки поручили ИИ-агентам. 12 ноября на конференции AI Engineer CODE основатель компании Брэндон Томас объяснил, как это получилось. Команда составила для нейросети подробные задания: описала устройство фоторедактора и его инструменты, отдельно прописала работу с файлами. По этим планам агенты собирали программу на языке Rust"
+    },
+    {
       "dzen_id": "6b031610d6e45455eb663328",
       "title": "Meta пустила ИИ в Chrome — под вашим логином",
       "dzen_url": "https://dzen.ru/a/awMWENbkVFXrZjMo",
@@ -4482,11 +4493,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 416,
-    "fully_titled_from_archived_public_feed": 361,
+    "total_cataloged_editorial_publications": 417,
+    "fully_titled_from_archived_public_feed": 362,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-23",
-  "coverage": "416 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "417 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
