@@ -2451,6 +2451,14 @@
       "status": "approved",
       "include_dzen_link": false,
       "with_image": false
+    },
+    {
+      "id": "ai-four-visual-experiments-20261115",
+      "dzen_title": "Четыре эксперимента с ИИ: фильм без камеры, 700 тысяч мазков и японский храм из кода",
+      "x_text": "@sarpstar выпустил cinecode: ИИ-агент пишет сценарий, рисует кадры кодом и собирает фильм в MP4.\n\nА @jkeatn из Anthropic показал картину парковки, которую Claude создала примерно 700 тысячами виртуальных мазков кисти.\n\nДаже нейросети теперь приходится работать кисточкой. 🎨",
+      "status": "approved",
+      "include_dzen_link": false,
+      "with_image": false
     }
   ]
 }
