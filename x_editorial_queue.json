@@ -2379,6 +2379,14 @@
       "dzen_url": "https://dzen.ru/a/avaTGlALcjWVeERd",
       "buffer_post_id": "6af6abc5c1a0010a5b01a317",
       "with_image": true
+    },
+    {
+      "id": "baidu-token-exchange-ernie-55-20261112",
+      "dzen_title": "В Китае открыли биржу нейросетей. Уже 50 миллионов запросов в день",
+      "x_text": "@Baidu_Inc запустила Token Exchange, площадку для покупки доступа к разным ИИ-моделям. Заявляет о 100+ предложениях и 50 млн обращений в день.\n\nНовая ERNIE 5.5 Flash Preview стоит от 1 юаня за миллион входных токенов через API. Ещё дешевле уже трудно объяснить. 💸",
+      "status": "approved",
+      "include_dzen_link": false,
+      "with_image": false
     }
   ]
 }
