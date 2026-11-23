@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6b03169b569eed7d4dd37900",
+      "title": "Зомби сыграли нейросети: 30 серий без единого живого актёра",
+      "dzen_url": "https://dzen.ru/a/awMWm1ae7X1N03kA",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-23T05:02:12+00:00",
+      "excerpt": "Студия, созданная для поддержки темнокожих артистов, выпустила сериал, в котором ни одному живому актёру не досталось роли. Mansa, основанная актёрами Дэвидом Ойелоуо и Нейтом Паркером, 30 октября представила They Left Us to Die («Они оставили нас умирать»). Это зомби-хоррор на 30 серий, целиком созданный с помощью генеративного ИИ. Действие разворачивается в Лос-Анджелесе. После вспышки зомби-вируса власти изолируют"
+    },
+    {
       "dzen_id": "6b031651bf87f1605cb8982c",
       "title": "Аналог Photoshop за сутки: разработчик показал, что собрал с ИИ",
       "dzen_url": "https://dzen.ru/a/awMWUb-H8WBcuJgs",
@@ -4493,11 +4504,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 417,
-    "fully_titled_from_archived_public_feed": 362,
+    "total_cataloged_editorial_publications": 418,
+    "fully_titled_from_archived_public_feed": 363,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-23",
-  "coverage": "417 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "418 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
