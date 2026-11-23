@@ -1850,8 +1850,11 @@
       "id": "meta-muse-chrome-login-20261120",
       "dzen_title": "Meta пустила ИИ в Chrome — под вашим логином",
       "threads_text": "Meta пустила ИИ-агента в CHROME — прямо к сайтам, где вы уже вошли в аккаунт.\n\nMuse работает в боковой панели и берётся за покупки с вашим подтверждением. Пароли он не читает, зато пользуется действующими сессиями. Meta советует заранее выйти из аккаунтов, куда агента пускать не хочется.\n\nБро зашёл как к себе домой. 💀",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6b031610d6e45455eb663328",
+      "dzen_url": "https://dzen.ru/a/awMWENbkVFXrZjMo",
+      "threads_post_id": "17902451985612337"
     },
     {
       "id": "meta-muse-ember-agents-pricing-20261109",
