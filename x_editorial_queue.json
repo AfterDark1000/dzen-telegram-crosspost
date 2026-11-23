@@ -2515,6 +2515,14 @@
       "status": "approved",
       "include_dzen_link": false,
       "with_image": false
+    },
+    {
+      "id": "openai-french-press-lvmh-figaro-20261118",
+      "dzen_title": "Французские газеты разрешили ChatGPT пересказывать их статьи",
+      "x_text": "@OpenAI заключила соглашения с французскими издателями @Le_Figaro и группой LVMH, в которую входят Les Echos и Le Parisien.\n\nChatGPT сможет показывать выдержки из их публикаций со ссылками на оригиналы. Договор с Le Figaro охватывает и архивы.",
+      "status": "approved",
+      "include_dzen_link": false,
+      "with_image": false
     }
   ]
 }
