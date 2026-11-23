@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6b031610d6e45455eb663328",
+      "title": "Meta пустила ИИ в Chrome — под вашим логином",
+      "dzen_url": "https://dzen.ru/a/awMWENbkVFXrZjMo",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-23T03:01:52+00:00",
+      "excerpt": "Meta превратила ваши открытые сессии в Google Chrome в пропуск для ИИ-агента Muse. 20 ноября руководитель ИИ-направления Meta Александр Ван объявил о запуске расширения, хотя в Chrome Web Store оно появилось раньше. Muse поселился в боковой панели браузера и теперь выполняет поручения прямо на сайтах: заполняет формы, сравнивает цены, помогает оформлять покупки и бронирования. Причём агенту доступны сайты, где пользо"
+    },
+    {
       "dzen_id": "6b0315ac5e16dc5f0883bada",
       "title": "NVIDIA рухнула на 14% за день после сообщения о проверке её бухгалтерии в США",
       "dzen_url": "https://dzen.ru/a/awMVrF4W3F8Ig7ra",
@@ -4471,11 +4482,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 415,
-    "fully_titled_from_archived_public_feed": 360,
+    "total_cataloged_editorial_publications": 416,
+    "fully_titled_from_archived_public_feed": 361,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
-  "generated_date": "2026-11-22",
-  "coverage": "415 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "generated_date": "2026-11-23",
+  "coverage": "416 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
