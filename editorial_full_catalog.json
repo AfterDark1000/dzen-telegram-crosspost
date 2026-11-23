@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6b046aa5bf87f1605c54cc4f",
+      "title": "Google доверила Безосу запуск космических ИИ-серверов после испытания с Маском",
+      "dzen_url": "https://dzen.ru/a/awRqpb-H8WBcVMxP",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-23T18:02:05+00:00",
+      "excerpt": "Google отправила первый ИИ-спутник на ракете Маска, а для большого запуска выбрала его конкурента — Джеффа Безоса. 19 ноября Google и Blue Origin подписали соглашение: тяжёлая ракета New Glenn доставит на орбиту несколько вычислительных спутников проекта Project Suncatcher. Запуск намечен на первый квартал 2029 года. Каждый аппарат по вычислительной мощности будет сопоставим с целой стойкой серверов обычного дата-цен"
+    },
+    {
       "dzen_id": "6b046157569eed7d4d418281",
       "title": "Хуанга вернули в NVIDIA через 11 дней после скандальной отставки, хотя совет директоров был против",
       "dzen_url": "https://dzen.ru/a/awRhV1ae7X1NQYKB",
@@ -4603,11 +4614,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 427,
-    "fully_titled_from_archived_public_feed": 372,
+    "total_cataloged_editorial_publications": 428,
+    "fully_titled_from_archived_public_feed": 373,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-23",
-  "coverage": "427 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "428 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
