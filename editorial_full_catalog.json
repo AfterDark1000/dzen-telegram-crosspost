@@ -21,6 +21,17 @@
       "excerpt": "В переговорной OpenAI обнаружили скрытое устройство для записи разговоров. Оно находилось за телевизором. В октябре компания уволила инженера после этой находки. Его обвинили в незаконном перехвате переговоров, однако 6 ноября он не признал вину в суде. Об этой истории агентство Reuters рассказало 12 ноября, изучая, как крупнейшие ИИ-компании набирают специалистов по контрразведке. Сама OpenAI сейчас ищет старшего ра"
     },
     {
+      "dzen_id": "6b03d62a5e16dc5f08a315d3",
+      "title": "SpaceX нашла $44 млрд на чипы NVIDIA, но кредиторы хотят оставить их на Земле",
+      "dzen_url": "https://dzen.ru/a/awPWKl4W3F8IoxXT",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-23T11:02:53+00:00",
+      "excerpt": "Кредиторы SpaceX попытались запретить Илону Маску запускать в космос ИИ-чипы NVIDIA, которые служат залогом многомиллиардной сделки. 20 ноября инвестиционная компания Apollo и банк Goldman Sachs согласовали выпуск долговых бумаг примерно на 44 миллиарда долларов. Деньги направят на покупку ускорителей NVIDIA Vera Rubin и сопутствующего оборудования. Спрос инвесторов оказался настолько высоким, что объём финансировани"
+    },
+    {
       "dzen_id": "6b03d5e00da4121fb3d304ac",
       "title": "OpenAI научила GPT молчать о своих «мыслях»",
       "dzen_url": "https://dzen.ru/a/awPV4A2kEh-z0wSs",
@@ -4559,11 +4570,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 423,
-    "fully_titled_from_archived_public_feed": 368,
+    "total_cataloged_editorial_publications": 424,
+    "fully_titled_from_archived_public_feed": 369,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-23",
-  "coverage": "423 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "424 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
