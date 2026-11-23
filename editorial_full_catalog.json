@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6b03d2d6dc9f1e1d159e7342",
+      "title": "167 лет математики не могли доказать гипотезу Римана — Claude помог, и результат уже подтвердили",
+      "dzen_url": "https://dzen.ru/a/awPS1tyfHh0VnnNC",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-23T05:55:09+00:00",
+      "excerpt": "Над этой задачей бились 167 лет. А на финишной прямой нейросеть Claude, по признанию самого математика, обогнала его. 20 ноября математик Левент Альпёге из Anthropic объявил, что вместе с Claude нашёл доказательство знаменитой гипотезы Римана. Он выложил результат в виде 17 миллионов строк программного кода. Уже на следующий день независимые специалисты проверили его работу и подтвердили корректность доказательства."
+    },
+    {
       "dzen_id": "6b03169b569eed7d4dd37900",
       "title": "Зомби сыграли нейросети: 30 серий без единого живого актёра",
       "dzen_url": "https://dzen.ru/a/awMWm1ae7X1N03kA",
@@ -4504,11 +4515,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 418,
-    "fully_titled_from_archived_public_feed": 363,
+    "total_cataloged_editorial_publications": 419,
+    "fully_titled_from_archived_public_feed": 364,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-23",
-  "coverage": "418 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "419 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
