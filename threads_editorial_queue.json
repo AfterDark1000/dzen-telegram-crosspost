@@ -3186,8 +3186,11 @@
       "id": "spacex-nvidia-gpu-orbit-financing-20261120",
       "dzen_title": "SpaceX нашла $44 млрд на чипы NVIDIA, но кредиторы хотят оставить их на Земле",
       "threads_text": "SpaceX собирает $44 МИЛЛИАРДА на чипы NVIDIA. 💸\n\nИнвесторы разобрали долговые бумаги, а кредиторы попытались прописать одно необычное условие: купленные GPU нельзя запускать в космос.\n\nУ Маска есть планы орбитальных дата-центров, но эти чипы предназначены для наземных серверов. Банкиров волнует залог: если SpaceX перестанет платить, видеокарты придётся возвращать.\n\nПопробуй потом отправь приставов на орбиту. 🚀",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6b03d62a5e16dc5f08a315d3",
+      "dzen_url": "https://dzen.ru/a/awPWKl4W3F8IoxXT",
+      "threads_post_id": "18214530889370433"
     },
     {
       "id": "steam-next-fest-ai-copies-20261021",
