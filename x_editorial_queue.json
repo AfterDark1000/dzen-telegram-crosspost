@@ -2435,6 +2435,14 @@
       "dzen_url": "https://dzen.ru/a/avaTGlALcjWVeERd",
       "buffer_post_id": "6af6abc5c1a0010a5b01a317",
       "with_image": true
+    },
+    {
+      "id": "ai-four-game-experiments-20261115",
+      "dzen_title": "Четыре эксперимента с ИИ: создатель Elona сделал игру за три часа, а нейросеть стала стримером",
+      "x_text": "@elocat, создатель Elona, поручил Claude сделать игру за три часа. Результат доступен на itch.io.\n\n@MengTo за три дня собрал браузерную игру в духе Dark Souls, а @kevin_t_ngo показал ИИ-стримера, который сам выбирает игры и реагирует на чат.\n\nГеймеров заменять пока не обещали. 🎮",
+      "status": "approved",
+      "include_dzen_link": false,
+      "with_image": false
     }
   ]
 }
