@@ -2467,6 +2467,14 @@
       "status": "approved",
       "include_dzen_link": false,
       "with_image": false
+    },
+    {
+      "id": "meituan-longcat-2-5-open-weights-20261116",
+      "dzen_title": "Китайцы открыли ИИ на 1,6 триллиона параметров. Он работает на чипах Huawei",
+      "x_text": "@Meituan_LongCat открыла веса LongCat-2.5 под MIT.\n\n1,6 трлн параметров, из которых ~48 млрд активны на токен. Контекст до 1 млн токенов, есть версия W4A4 для Huawei Ascend.\n\nВ Terminal Bench 2.1 компания заявляет 88,4%. Модель доступна через API и Hugging Face.",
+      "status": "approved",
+      "include_dzen_link": false,
+      "with_image": false
     }
   ]
 }
