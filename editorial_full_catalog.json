@@ -21,6 +21,17 @@
       "excerpt": "Один рабочий день, один кадровый вопрос и плюс 952 миллиарда долларов к стоимости компании. После того как Дженсен Хуанг вернулся на пост главы NVIDIA, акции производителя ИИ-чипов взлетели на 31,48%. Торги 23 ноября завершились на отметке $165,05 за акцию против $125,53 в пятницу. Такого роста за одну торговую сессию NVIDIA не видела с мая 2003 года. Ещё в пятницу компания потеряла 14% своей стоимости на фоне сообще"
     },
     {
+      "dzen_id": "6b053605dc9f1e1d156a9484",
+      "title": "403 дата-центра США загрязняют атмосферу как целая Дания. Greenpeace взялась за NVIDIA",
+      "dzen_url": "https://dzen.ru/a/awU2BdyfHh0VapSE",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-24T08:13:10+00:00",
+      "excerpt": "За один год 403 американских дата-центра выбросили в атмосферу примерно столько углекислого газа, сколько целая Дания. 16 ноября исследователи Гарвардского университета опубликовали в журнале Nature Sustainability оценку климатического следа крупнейших вычислительных центров США. За период с мая 2024 по апрель 2025 года их выбросы составили около 25,7 миллиона тонн CO₂. На фоне бурного строительства инфраструктуры дл"
+    },
+    {
       "dzen_id": "6b046c8b5e16dc5f0830c54a",
       "title": "Сценарист «Таксиста» попросил ИИ написать фильм в его стиле и испугался результата",
       "dzen_url": "https://dzen.ru/a/awRsi14W3F8IMMVK",
@@ -4691,11 +4702,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 435,
-    "fully_titled_from_archived_public_feed": 380,
+    "total_cataloged_editorial_publications": 436,
+    "fully_titled_from_archived_public_feed": 381,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-24",
-  "coverage": "435 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "436 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
