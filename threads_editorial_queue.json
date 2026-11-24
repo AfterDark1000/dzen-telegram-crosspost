@@ -1021,8 +1021,11 @@
       "id": "darpa-racer-autonomous-targets-20261015",
       "dzen_title": "В США испытали роботов, которые сами ищут военные цели",
       "threads_text": "В США испытали РОБОТОВ-ОХОТНИКОВ. 🤖\n\nЧетыре автономные машины DARPA отправились искать условного противника. Один робот сам нашёл цель, остановился и дождался решения человека. После разрешения оператора последовал имитированный ракетный удар.\n\nСистема RACER рассчитана на передвижение без GPS и готовых карт.\n\nУ роботов пока режим «жду одобрения админа». 🎮",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6b055baccb29e46e9884eb4a",
+      "dzen_url": "https://dzen.ru/a/awVbrMsp5G6YhOtK",
+      "threads_post_id": "18225005062344528"
     },
     {
       "id": "databricks-genie-unvarnished-truth-20261111",
