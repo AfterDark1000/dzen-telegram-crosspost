@@ -1650,8 +1650,11 @@
       "id": "google-search-wallet-personal-intelligence-20261123",
       "dzen_title": "Поисковик Google теперь сможет заглянуть в ваш кошелёк",
       "threads_text": "Google-поисковик добрался до КОШЕЛЬКА. 💳\n\nТеперь AI Mode с вашего разрешения сможет анализировать расходы, искать способы экономии и подсказывать, какой банковской картой выгоднее пользоваться.\n\nСледующие на очереди Google Drive и переписки с Gemini.\n\n«Окей, Гугл, куда опять делась зарплата?»",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6b0538b5cd21ad08601b2934",
+      "dzen_url": "https://dzen.ru/a/awU4tc0hrQhgGyk0",
+      "threads_post_id": "18151049530569559"
     },
     {
       "id": "google-sensorwm-wearables-health-20261111",
