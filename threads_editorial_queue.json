@@ -504,8 +504,11 @@
       "id": "baidu-token-exchange-ernie-55-20261112",
       "dzen_title": "В Китае открыли биржу нейросетей. Уже 50 миллионов запросов в день",
       "threads_text": "В Китае открыли БИРЖУ НЕЙРОСЕТЕЙ. 💸\n\nBaidu запустила Token Exchange, где можно сравнивать цены и качество разных ИИ-моделей и покупать доступ к ним.\n\nКомпания заявляет о 50 млн обращений в день и более 100 предложениях.\n\nЗаодно представила ERNIE 5.5 Flash: миллион входных токенов через API стоит всего 1 юань, а через OpenRouter модель предлагали бесплатно.\n\nСкоро и на токены кешбэк начислять начнут. 🛒",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6b05367bcb7610255cd28815",
+      "dzen_url": "https://dzen.ru/a/awU2e8t2ECVc0ogV",
+      "threads_post_id": "18114747404236166"
     },
     {
       "id": "bay-ai-agent-security-50m-20261110",
