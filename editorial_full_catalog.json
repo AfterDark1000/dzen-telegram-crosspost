@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6b046b40a4264217cef1cfd6",
+      "title": "Ваши секреты из чатов с ИИ могли попасть к хакерам: OpenRouter отключила трёх поставщиков",
+      "dzen_url": "https://dzen.ru/a/awRrQKQmQhfO8c_W",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-24T03:02:28+00:00",
+      "excerpt": "Хакеры перехватывали запросы к нейросетям и пытались использовать найденные в них секретные ключи, даже когда пользователи включали режим повышенной конфиденциальности. 22 ноября OpenRouter, сервис для доступа к моделям разных разработчиков, объявил об отключении трёх поставщиков ИИ. Ещё 125 точек доступа к моделям лишились статуса Zero Data Retention (ZDR), который предполагает отсутствие хранения пользовательских з"
+    },
+    {
       "dzen_id": "6b046aeb9754767e44caa8a8",
       "title": "Хакер дал ИИ одну команду, и тот нашёл неизвестную дыру за 11 минут",
       "dzen_url": "https://dzen.ru/a/awRq65dUdn5Eyqio",
@@ -4625,11 +4636,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 429,
-    "fully_titled_from_archived_public_feed": 374,
+    "total_cataloged_editorial_publications": 430,
+    "fully_titled_from_archived_public_feed": 375,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
-  "generated_date": "2026-11-23",
-  "coverage": "429 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "generated_date": "2026-11-24",
+  "coverage": "430 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
