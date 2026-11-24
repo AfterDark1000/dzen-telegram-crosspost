@@ -2719,6 +2719,14 @@
       "status": "approved",
       "include_dzen_link": false,
       "with_image": false
+    },
+    {
+      "id": "will-wright-mymems-ai-memory-game-20261118",
+      "dzen_title": "Создатель The Sims превратит ваши воспоминания в игру с ИИ",
+      "x_text": "Создатель The Sims Уилл Райт готовит игру MyMems вместе с @ArtificialAgncy. ИИ превратит ваши воспоминания в игровой мир, а родственников и друзей в его персонажей. Даже бывшие одноклассники получат шанс стать NPC. Релиз намечен на 2027 год.",
+      "status": "approved",
+      "include_dzen_link": false,
+      "with_image": false
     }
   ]
 }
