@@ -2623,6 +2623,14 @@
       "dzen_url": "https://dzen.ru/a/avaTGlALcjWVeERd",
       "buffer_post_id": "6af6abc5c1a0010a5b01a317",
       "with_image": true
+    },
+    {
+      "id": "new-york-judges-ai-fabricated-citations-bill-20261116",
+      "dzen_title": "В Нью-Йорке предложили лишать судей должности за выдумки нейросетей",
+      "x_text": "В штате Нью-Йорк внесли законопроект о наказании судей за вымышленные нейросетями судебные прецеденты. В серьёзных случаях предусмотрена даже процедура направления дела на рассмотрение вопроса об импичменте.",
+      "status": "approved",
+      "include_dzen_link": false,
+      "with_image": false
     }
   ]
 }
