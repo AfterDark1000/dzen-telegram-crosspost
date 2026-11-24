@@ -2703,6 +2703,14 @@
       "status": "approved",
       "include_dzen_link": false,
       "with_image": false
+    },
+    {
+      "id": "xai-california-training-data-disclosure-appeal-20261118",
+      "dzen_title": "Маск пошёл в суд, чтобы не раскрывать, на чём обучали Grok",
+      "x_text": "У @grok теперь секреты уровня Coca-Cola. 🥤\n\nКомпания @elonmusk (@xai) судится с генпрокурором Калифорнии @AGRobBonta из-за закона, требующего раскрывать сведения об обучающих данных нейросетей. Юристы xAI считают их коммерческой тайной.",
+      "status": "approved",
+      "include_dzen_link": false,
+      "with_image": false
     }
   ]
 }
