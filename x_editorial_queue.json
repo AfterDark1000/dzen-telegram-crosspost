@@ -2695,6 +2695,14 @@
       "status": "approved",
       "include_dzen_link": false,
       "with_image": false
+    },
+    {
+      "id": "nvidia-q3-fy2027-earnings-vera-rubin-20261117",
+      "dzen_title": "NVIDIA заработала $65 млрд чистыми за три месяца, а дата-центры принесли ей 93% выручки",
+      "x_text": "Из $115,8 млрд квартальной выручки @NVIDIA $107,6 млрд пришлось на дата-центры. Чистая прибыль выросла вдвое, до $65,3 млрд. Новые системы Vera Rubin NVL72 уже работают у облачных провайдеров.",
+      "status": "approved",
+      "include_dzen_link": false,
+      "with_image": false
     }
   ]
 }
