@@ -1541,8 +1541,11 @@
       "id": "google-gemini-quantum-agent-conferences-20261123",
       "dzen_title": "Google устроила научные конференции для нейросетей",
       "threads_text": "Google отправила нейросети на НАУЧНУЮ КОНФЕРЕНЦИЮ. 🧑‍🔬\n\nКаждые четыре часа команды Gemini собирались на форуме, критиковали чужие идеи и предлагали свои.\n\nВ итоге ИИ почти в 12 раз сократил вычислительные затраты на одну из задач термоядерного синтеза. Около четверти улучшений в трёх научных задачах принесли именно обсуждения.\n\nНаконец-то совещание, на котором никто не спросил «меня слышно?»",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6b055b0ab346137d5a21f2d0",
+      "dzen_url": "https://dzen.ru/a/awVbCrNGE31aIfLQ",
+      "threads_post_id": "18146567806611636"
     },
     {
       "id": "google-gemini-robotics-2-5-mercedes-20261110",
