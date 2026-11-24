@@ -2591,6 +2591,14 @@
       "status": "approved",
       "include_dzen_link": false,
       "with_image": false
+    },
+    {
+      "id": "google-gemini-quantum-agent-conferences-20261123",
+      "dzen_title": "Google устроила научные конференции для нейросетей",
+      "x_text": "@GoogleDeepMind устроила научные конференции для ИИ-агентов Gemini.\n\nКаждые 4 часа нейросети обсуждали квантовые алгоритмы и критиковали идеи коллег. В одной из задач термоядерного синтеза вычислительные затраты сократились в 11,8 раза.",
+      "status": "approved",
+      "include_dzen_link": false,
+      "with_image": false
     }
   ]
 }
