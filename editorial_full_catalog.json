@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6b055b74cb29e46e98844abd",
+      "title": "Claude теперь может сам писать, проверять и принимать код без программиста",
+      "dzen_url": "https://dzen.ru/a/awVbdMsp5G6YhEq9",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-24T18:02:43+00:00",
+      "excerpt": "ИИ-программистам теперь можно поручить ещё и работу тех, кто за ними проверяет код. 23 ноября Anthropic представила Claude Ship. Система позволяет автоматизировать проверку изменений в программах, исправление найденных ошибок и одобрение готового кода для включения в основную версию проекта. Работу поделили между тремя ИИ-агентами: Правила такого отбора устанавливает сама команда разработчиков. Например, мелкие испра"
+    },
+    {
       "dzen_id": "6b055b0ab346137d5a21f2d0",
       "title": "Google устроила научные конференции для нейросетей",
       "dzen_url": "https://dzen.ru/a/awVbCrNGE31aIfLQ",
@@ -4790,11 +4801,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 444,
-    "fully_titled_from_archived_public_feed": 389,
+    "total_cataloged_editorial_publications": 445,
+    "fully_titled_from_archived_public_feed": 390,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-24",
-  "coverage": "444 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "445 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
