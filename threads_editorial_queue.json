@@ -370,8 +370,11 @@
       "id": "anthropic-self-hosted-managed-agents-20261112",
       "dzen_title": "Anthropic разрешила компаниям поселить ИИ-агентов Claude на своих серверах",
       "threads_text": "Claude теперь можно ПОСЕЛИТЬ на своих серверах. 🏠\n\nAnthropic открыла закрытую бету Self-hosted Managed Agents. Компании смогут сами хранить историю работы ИИ-агентов, управлять их заданиями и ключами доступа.\n\nСама нейросеть по-прежнему работает через внешнего поставщика. Подключение к Claude остаётся облачным, а доступ к установочному пакету дают по запросу.\n\nClaude переехал в офис, но мозги оставил в облаке. ☁️",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6b0537c9569eed7d4d93b11a",
+      "dzen_url": "https://dzen.ru/a/awU3yVae7X1Nk7Ea",
+      "threads_post_id": "17929737630221993"
     },
     {
       "id": "anthropic-single-agent-loop-subagents-20261027",
