@@ -2655,6 +2655,14 @@
       "status": "approved",
       "include_dzen_link": false,
       "with_image": false
+    },
+    {
+      "id": "instagram-content-protection-ai-copies-20261117",
+      "dzen_title": "Instagram научится ловить нейросети на воровстве чужих шуток и видеороликов",
+      "x_text": "@instagram взялась за воровство роликов. Авторы получают возможность скрывать чужие копии своих видео, а в ближайшие недели начнётся тестирование поиска украденных шуток и монологов в роликах, переделанных с помощью ИИ.",
+      "status": "approved",
+      "include_dzen_link": false,
+      "with_image": false
     }
   ]
 }
