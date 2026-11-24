@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6b05386b872377540054ae1c",
+      "title": "GPT-6.2 наконец добралась до обычного ChatGPT",
+      "dzen_url": "https://dzen.ru/a/awU4a4cjd1QAVK4c",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-24T14:01:17+00:00",
+      "excerpt": "Подписчикам Plus больше не придётся заходить в Work ради новой нейросети. 23 ноября OpenAI начала глобальное развёртывание GPT-6.2 в обычном чате. В его основу легла адаптированная для повседневного общения версия GPT-6.2 Sol. Напомним, что Astra и Sol вышли ещё 17 ноября, но тогда новые модели были доступны в Work, Codex и через API. OpenAI опубликовала результаты собственных сравнительных тестов GPT-6 и GPT-6.2: Ос"
+    },
+    {
       "dzen_id": "6b053816dc9f1e1d156fa29c",
       "title": "Возвращение Хуанга подняло стоимость NVIDIA почти на триллион долларов за день",
       "dzen_url": "https://dzen.ru/a/awU4FtyfHh0Vb6Kc",
@@ -4746,11 +4757,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 440,
-    "fully_titled_from_archived_public_feed": 385,
+    "total_cataloged_editorial_publications": 441,
+    "fully_titled_from_archived_public_feed": 386,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-24",
-  "coverage": "440 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "441 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
