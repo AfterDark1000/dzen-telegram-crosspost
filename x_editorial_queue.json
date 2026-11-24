@@ -2671,6 +2671,14 @@
       "status": "approved",
       "include_dzen_link": false,
       "with_image": false
+    },
+    {
+      "id": "suno-visuals-music-videos-20261117",
+      "dzen_title": "Suno научилась снимать музыкальные клипы на песни, которые сама же и сочинила",
+      "x_text": "@suno обзавелась видеоредактором. Выбираешь песню, придумываешь исполнителя, генерируешь сцены до 15 секунд с синхронизацией губ и собираешь клип.\n\nПравда, на видео нужны отдельные кредиты.",
+      "status": "approved",
+      "include_dzen_link": false,
+      "with_image": false
     }
   ]
 }
