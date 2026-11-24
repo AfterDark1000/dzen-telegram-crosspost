@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6b046c0ae9dfbb3c778aa612",
+      "title": "Главный учёный OpenAI предложил притормозить гонку ИИ, и Альтман согласился",
+      "dzen_url": "https://dzen.ru/a/awRsCunfuzx3iqYS",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-24T06:02:24+00:00",
+      "excerpt": "Нейросети могут научиться улучшать сами себя быстрее, чем люди успеют разобраться, как их контролировать. 22 ноября главный учёный OpenAI Якуб Пахоцкий предложил крупнейшим разработчикам ИИ договориться об общих пределах развития моделей. Превышать их можно будет после выполнения конкретных требований безопасности. Генеральный директор OpenAI Сэм Альтман поддержал предложение и назвал публикацию Пахоцкого одной из ва"
+    },
+    {
       "dzen_id": "6b046bc7bd47565203fd9b4a",
       "title": "В Южной Корее министр лишился должности из-за паники вокруг ИИ-шпаргалок",
       "dzen_url": "https://dzen.ru/a/awRrx71HVlID_ZtK",
@@ -4658,11 +4669,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 432,
-    "fully_titled_from_archived_public_feed": 377,
+    "total_cataloged_editorial_publications": 433,
+    "fully_titled_from_archived_public_feed": 378,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-24",
-  "coverage": "432 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "433 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
