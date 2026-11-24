@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6b055aa57f1b565ad2a8f7eb",
+      "title": "Amazon и eBay требуют убрать ИИ-игрушки с продажи до Рождества",
+      "dzen_url": "https://dzen.ru/a/awVapX8bVlrSqPfr",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-24T16:01:01+00:00",
+      "excerpt": "Плюшевого зайца со встроенным ChatGPT продавали как игрушку для детей от трёх лет. 23 ноября более 155 организаций и экспертов из шести частей света обратились к руководству Amazon и eBay с требованием остановить продажу детских игрушек со встроенными нейросетями. Инициаторами выступили организации Fairplay, Alliance 4 Children и Set@16. Только на американской площадке Amazon правозащитники обнаружили более 50 разнов"
+    },
+    {
       "dzen_id": "6b0538b5cd21ad08601b2934",
       "title": "Поисковик Google теперь сможет заглянуть в ваш кошелёк",
       "dzen_url": "https://dzen.ru/a/awU4tc0hrQhgGyk0",
@@ -4768,11 +4779,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 442,
-    "fully_titled_from_archived_public_feed": 387,
+    "total_cataloged_editorial_publications": 443,
+    "fully_titled_from_archived_public_feed": 388,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-24",
-  "coverage": "442 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "443 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
