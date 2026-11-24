@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6b046bc7bd47565203fd9b4a",
+      "title": "В Южной Корее министр лишился должности из-за паники вокруг ИИ-шпаргалок",
+      "dzen_url": "https://dzen.ru/a/awRrx71HVlID_ZtK",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-24T05:01:14+00:00",
+      "excerpt": "Министр образования Южной Кореи ушёл в отставку после того, как борьба со списыванием через ИИ превратила главный вступительный экзамен страны в череду экстренных запретов и проверок. 22 ноября Чхве Гё Джин подал заявление об уходе, а президент Ли Чжэ Мён принял его примерно через час. Поводом стал экзамен Suneung, который прошёл 19 ноября. От его результатов во многом зависит поступление корейских школьников в униве"
+    },
+    {
       "dzen_id": "6b046b921a98a4173e8040ce",
       "title": "ИИ-программист случайно выложил секретный ключ в интернет, и хакер скачал чужие запросы к нейросетям",
       "dzen_url": "https://dzen.ru/a/awRrkhqYpBc-gEDO",
@@ -4647,11 +4658,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 431,
-    "fully_titled_from_archived_public_feed": 376,
+    "total_cataloged_editorial_publications": 432,
+    "fully_titled_from_archived_public_feed": 377,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-24",
-  "coverage": "431 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "432 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
