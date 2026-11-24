@@ -171,6 +171,14 @@
       "include_dzen_link": false
     },
     {
+      "id": "amazon-ebay-ai-toys-safety-open-letter-20261123",
+      "dzen_title": "Amazon и eBay требуют убрать ИИ-игрушки с продажи до Рождества",
+      "x_text": "Плюшевый заяц с ChatGPT и маркировкой «3+».\n\nКоалиция из более чем 155 организаций и экспертов требует от @Amazon и @eBay убрать детские ИИ-игрушки до независимой проверки безопасности и вернуть деньги покупателям.\n\nОтвет ждут до Рождества.",
+      "status": "approved",
+      "include_dzen_link": false,
+      "with_image": false
+    },
+    {
       "id": "amazon-ring-drone-rover-cam-20261110",
       "dzen_title": "Amazon отправит дроны патрулировать квартиры",
       "x_text": "Amazon отправляет камеры в самостоятельный патруль: Ring Drone Cam летает по квартире и снимает в 2K, Rover Cam на колёсах объезжает магазины с 4K-камерой и сиреной. Цены в США — $249,99 и $999,99. Дрон ещё ждёт разрешения FCC.",
@@ -224,6 +232,14 @@
       "dzen_url": "https://dzen.ru/a/avgp1eQVKmhwRwki",
       "buffer_post_id": "6af86da3c5b364e062f75c9e",
       "with_image": true
+    },
+    {
+      "id": "anthropic-claude-ship-20261123",
+      "dzen_title": "Claude теперь может сам писать, проверять и принимать код без программиста",
+      "x_text": "У ИИ-программистов появились ИИ-проверяющие.\n\n@AnthropicAI запустила Claude Ship: агенты проверяют код, исправляют ошибки и могут самостоятельно одобрять изменения по правилам команды. Бета для Team и Enterprise с GitHub.",
+      "status": "approved",
+      "include_dzen_link": false,
+      "with_image": false
     },
     {
       "id": "anthropic-fable-mythos-52-black-holes-20261109",
@@ -1072,6 +1088,14 @@
       "with_image": false
     },
     {
+      "id": "google-gemini-quantum-agent-conferences-20261123",
+      "dzen_title": "Google устроила научные конференции для нейросетей",
+      "x_text": "@GoogleDeepMind устроила научные конференции для ИИ-агентов Gemini.\n\nКаждые 4 часа нейросети обсуждали квантовые алгоритмы и критиковали идеи коллег. В одной из задач термоядерного синтеза вычислительные затраты сократились в 11,8 раза.",
+      "status": "approved",
+      "include_dzen_link": false,
+      "with_image": false
+    },
+    {
       "id": "google-gemini-robotics-2-5-mercedes-20261110",
       "dzen_title": "Google испытала Gemini Robotics 2.5 на заводах Mercedes-Benz: 96% удачных операций",
       "x_text": "@GoogleDeepMind вместе с @Apptronik испытала Gemini Robotics 2.5 на заводах @MercedesBenz. Гуманоид Apollo 2 раскладывал автодетали по комплектам — 96% успешных операций, по данным Google. Новую модель пока предоставляют партнёрам.",
@@ -1137,6 +1161,14 @@
       "dzen_url": "https://dzen.ru/a/augPIKV4vCP1TEeL",
       "buffer_post_id": "6ae8637b3931d5366936864c",
       "with_image": true
+    },
+    {
+      "id": "google-search-wallet-personal-intelligence-20261123",
+      "dzen_title": "Поисковик Google теперь сможет заглянуть в ваш кошелёк",
+      "x_text": "@GoogleSearch подключает Google Wallet к ИИ-поиску. Теперь можно попросить поисковик проанализировать расходы и подобрать выгодный кешбэк.\n\nДоступ добровольный, только чтение данных. Скоро подключат ещё Drive и переписки с @GeminiApp.",
+      "status": "approved",
+      "include_dzen_link": false,
+      "with_image": false
     },
     {
       "id": "google-sensorwm-wearables-health-20261111",
@@ -1926,6 +1958,14 @@
       "include_dzen_link": false
     },
     {
+      "id": "openai-gpt-6-2-sol-chatgpt-20261123",
+      "dzen_title": "GPT-6.2 наконец добралась до обычного ChatGPT",
+      "x_text": "Дождались! @OpenAI начала раскатывать GPT-6.2 Sol в обычном ChatGPT.\n\nPlus, Pro, Business и Enterprise. По внутренним тестам понимание изображений выросло с 47,4% до 71,7%.\n\nРаботает и в Instant, и в Thinking. Бесплатный тариф пока мимо.",
+      "status": "approved",
+      "include_dzen_link": false,
+      "with_image": false
+    },
+    {
       "id": "openai-gpt-hidden-reasoning-defense-20261120",
       "dzen_title": "OpenAI научила GPT молчать о своих «мыслях»",
       "x_text": "У GPT есть «мысли», которые она не показывает. Их пытались вытягивать хитрыми запросами, чтобы обучать другие модели. @OpenAI обновила защиту: успешность таких атак в её тестах упала с 54% у GPT-6 Astra до 0,2% у GPT-6.2 Astra.",
@@ -2204,6 +2244,14 @@
       "dzen_url": "https://dzen.ru/a/au1TeF1t7weAayqH",
       "buffer_post_id": "6aeed0c8d6bbae6fa16f93f0",
       "with_image": true
+    },
+    {
+      "id": "san-francisco-data-center-moratorium-extension-20261117",
+      "dzen_title": "В городе OpenAI и Anthropic запретили строительство новых дата-центров на 10 месяцев",
+      "x_text": "Сан-Франциско единогласно проголосовал за продление запрета на новые дата-центры на 10,5 месяца.\n\nГородские власти подсчитали: один комплекс на 50 МВт потребует столько же мощности, сколько 25 тысяч новых квартир. А электросети расширять годами.",
+      "status": "approved",
+      "include_dzen_link": false,
+      "with_image": false
     },
     {
       "id": "seti-ai-agents-radio-telescope-20261030",
@@ -2496,6 +2544,14 @@
       "with_image": true
     },
     {
+      "id": "vals-ai-military-targeting-safety-20261117",
+      "dzen_title": "Нейросети записали школы и машины скорой помощи в список военных целей",
+      "x_text": "Исследователи @ValsAI испытали 14 нейросетей. В симуляциях ИИ обозначал мирных жителей, машины скорой помощи и сдавшихся солдат как военные цели.\n\nАвтоматические фильтры не заблокировали ни одного запроса. Разработчиков уведомили.",
+      "status": "approved",
+      "include_dzen_link": false,
+      "with_image": false
+    },
+    {
       "id": "voice-deepfake-family-money-scam-guide-20261109",
       "dzen_title": "«Мама, это я! Срочно нужны деньги!» Как проверить знакомый голос, если его мог подделать ИИ",
       "x_text": "«Мама, это я. Срочно нужны деньги!» Голос родственника теперь могут подделать ИИ. Не ищите «неестественные паузы»: закончите разговор и сами перезвоните близкому по сохранённому номеру. Не отвечает — свяжитесь с другим родственником. Никаких СМС-кодов и переводов до проверки.",
@@ -2567,62 +2623,6 @@
       "dzen_url": "https://dzen.ru/a/avaTGlALcjWVeERd",
       "buffer_post_id": "6af6abc5c1a0010a5b01a317",
       "with_image": true
-    },
-    {
-      "id": "openai-gpt-6-2-sol-chatgpt-20261123",
-      "dzen_title": "GPT-6.2 наконец добралась до обычного ChatGPT",
-      "x_text": "Дождались! @OpenAI начала раскатывать GPT-6.2 Sol в обычном ChatGPT.\n\nPlus, Pro, Business и Enterprise. По внутренним тестам понимание изображений выросло с 47,4% до 71,7%.\n\nРаботает и в Instant, и в Thinking. Бесплатный тариф пока мимо.",
-      "status": "approved",
-      "include_dzen_link": false,
-      "with_image": false
-    },
-    {
-      "id": "google-search-wallet-personal-intelligence-20261123",
-      "dzen_title": "Поисковик Google теперь сможет заглянуть в ваш кошелёк",
-      "x_text": "@GoogleSearch подключает Google Wallet к ИИ-поиску. Теперь можно попросить поисковик проанализировать расходы и подобрать выгодный кешбэк.\n\nДоступ добровольный, только чтение данных. Скоро подключат ещё Drive и переписки с @GeminiApp.",
-      "status": "approved",
-      "include_dzen_link": false,
-      "with_image": false
-    },
-    {
-      "id": "amazon-ebay-ai-toys-safety-open-letter-20261123",
-      "dzen_title": "Amazon и eBay требуют убрать ИИ-игрушки с продажи до Рождества",
-      "x_text": "Плюшевый заяц с ChatGPT и маркировкой «3+».\n\nКоалиция из более чем 155 организаций и экспертов требует от @Amazon и @eBay убрать детские ИИ-игрушки до независимой проверки безопасности и вернуть деньги покупателям.\n\nОтвет ждут до Рождества.",
-      "status": "approved",
-      "include_dzen_link": false,
-      "with_image": false
-    },
-    {
-      "id": "google-gemini-quantum-agent-conferences-20261123",
-      "dzen_title": "Google устроила научные конференции для нейросетей",
-      "x_text": "@GoogleDeepMind устроила научные конференции для ИИ-агентов Gemini.\n\nКаждые 4 часа нейросети обсуждали квантовые алгоритмы и критиковали идеи коллег. В одной из задач термоядерного синтеза вычислительные затраты сократились в 11,8 раза.",
-      "status": "approved",
-      "include_dzen_link": false,
-      "with_image": false
-    },
-    {
-      "id": "anthropic-claude-ship-20261123",
-      "dzen_title": "Claude теперь может сам писать, проверять и принимать код без программиста",
-      "x_text": "У ИИ-программистов появились ИИ-проверяющие.\n\n@AnthropicAI запустила Claude Ship: агенты проверяют код, исправляют ошибки и могут самостоятельно одобрять изменения по правилам команды. Бета для Team и Enterprise с GitHub.",
-      "status": "approved",
-      "include_dzen_link": false,
-      "with_image": false
-    },
-    {
-      "id": "san-francisco-data-center-moratorium-extension-20261117",
-      "dzen_title": "В городе OpenAI и Anthropic запретили строительство новых дата-центров на 10 месяцев",
-      "x_text": "Сан-Франциско единогласно проголосовал за продление запрета на новые дата-центры на 10,5 месяца.\n\nГородские власти подсчитали: один комплекс на 50 МВт потребует столько же мощности, сколько 25 тысяч новых квартир. А электросети расширять годами.",
-      "status": "approved",
-      "include_dzen_link": false,
-      "with_image": false
-    },
-    {
-      "id": "vals-ai-military-targeting-safety-20261117",
-      "dzen_title": "Нейросети записали школы и машины скорой помощи в список военных целей",
-      "x_text": "Исследователи @ValsAI испытали 14 нейросетей. В симуляциях ИИ обозначал мирных жителей, машины скорой помощи и сдавшихся солдат как военные цели.\n\nАвтоматические фильтры не заблокировали ни одного запроса. Разработчиков уведомили.",
-      "status": "approved",
-      "include_dzen_link": false,
-      "with_image": false
     }
   ]
 }
