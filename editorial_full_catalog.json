@@ -21,6 +21,17 @@
       "excerpt": "Один рабочий день, один кадровый вопрос и плюс 952 миллиарда долларов к стоимости компании. После того как Дженсен Хуанг вернулся на пост главы NVIDIA, акции производителя ИИ-чипов взлетели на 31,48%. Торги 23 ноября завершились на отметке $165,05 за акцию против $125,53 в пятницу. Такого роста за одну торговую сессию NVIDIA не видела с мая 2003 года. Ещё в пятницу компания потеряла 14% своей стоимости на фоне сообще"
     },
     {
+      "dzen_id": "6b0537c9569eed7d4d93b11a",
+      "title": "Anthropic разрешила компаниям поселить ИИ-агентов Claude на своих серверах",
+      "dzen_url": "https://dzen.ru/a/awU3yVae7X1Nk7Ea",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-24T13:03:00+00:00",
+      "excerpt": "ИИ-агент получает доступ к корпоративному коду, паролям и внутренним системам. Теперь компания может сама управлять всей инфраструктурой, в которой он работает. Anthropic 12 ноября открыла закрытое бета-тестирование Self-hosted Claude Managed Agents. Новая версия платформы позволяет организациям запускать сервис управления ИИ-агентами на собственных серверах или в выбранном облаке. Раньше Anthropic сама управляла сер"
+    },
+    {
       "dzen_id": "6b053787cc4e7a54a7ca2c26",
       "title": "Для ИИ придумали 2206 мер защиты. Контроль над агентами почти забыли",
       "dzen_url": "https://dzen.ru/a/awU3h8xOelSnyiwm",
@@ -4735,11 +4746,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 439,
-    "fully_titled_from_archived_public_feed": 384,
+    "total_cataloged_editorial_publications": 440,
+    "fully_titled_from_archived_public_feed": 385,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-24",
-  "coverage": "439 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "440 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
