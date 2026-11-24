@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6b055b0ab346137d5a21f2d0",
+      "title": "Google устроила научные конференции для нейросетей",
+      "dzen_url": "https://dzen.ru/a/awVbCrNGE31aIfLQ",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-24T17:02:10+00:00",
+      "excerpt": "Каждые четыре часа команды нейросетей собирались на общем форуме, спорили и разбирали научные идеи друг друга. 23 ноября Google DeepMind рассказала об эксперименте, в котором группы ИИ-агентов на базе Gemini 4 Carbon занимались разработкой более эффективных программ для квантовых компьютеров. Люди определяли научные задачи, а нейросети самостоятельно искали решения. У каждой команды была собственная специализация и д"
+    },
+    {
       "dzen_id": "6b055aa57f1b565ad2a8f7eb",
       "title": "Amazon и eBay требуют убрать ИИ-игрушки с продажи до Рождества",
       "dzen_url": "https://dzen.ru/a/awVapX8bVlrSqPfr",
@@ -4779,11 +4790,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 443,
-    "fully_titled_from_archived_public_feed": 388,
+    "total_cataloged_editorial_publications": 444,
+    "fully_titled_from_archived_public_feed": 389,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-24",
-  "coverage": "443 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "444 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
