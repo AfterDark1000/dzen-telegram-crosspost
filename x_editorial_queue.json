@@ -2711,6 +2711,14 @@
       "status": "approved",
       "include_dzen_link": false,
       "with_image": false
+    },
+    {
+      "id": "cop31-antalya-ai-pledge-big-tech-20261117",
+      "dzen_title": "ИИ-гиганты США проигнорировали климатическое соглашение ООН",
+      "x_text": "Климатическое соглашение @ITU об экологичном ИИ из технологических гигантов подписала только @AlibabaGroup.\n\n@Google, @Microsoft, @NVIDIA, @Amazon, @Apple и @Meta пока не присоединились. Участие добровольное.",
+      "status": "approved",
+      "include_dzen_link": false,
+      "with_image": false
     }
   ]
 }
