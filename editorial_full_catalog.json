@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6b046b921a98a4173e8040ce",
+      "title": "ИИ-программист случайно выложил секретный ключ в интернет, и хакер скачал чужие запросы к нейросетям",
+      "dzen_url": "https://dzen.ru/a/awRrkhqYpBc-gEDO",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-24T04:01:08+00:00",
+      "excerpt": "ИИ-помощник программиста случайно открыл постороннему человеку доступ к переписке клиентов с нейросетями, а автоматическая защита заметила ошибку слишком поздно. 21 ноября компания Together AI признала утечку пользовательских запросов, отправленных летом 2026 года. Причиной оказался секретный ключ, который ИИ-агент добавил в общедоступный репозиторий с программным кодом на GitHub. Разработчики Together AI работали на"
+    },
+    {
       "dzen_id": "6b046b40a4264217cef1cfd6",
       "title": "Ваши секреты из чатов с ИИ могли попасть к хакерам: OpenRouter отключила трёх поставщиков",
       "dzen_url": "https://dzen.ru/a/awRrQKQmQhfO8c_W",
@@ -4636,11 +4647,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 430,
-    "fully_titled_from_archived_public_feed": 375,
+    "total_cataloged_editorial_publications": 431,
+    "fully_titled_from_archived_public_feed": 376,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-24",
-  "coverage": "430 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "431 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
