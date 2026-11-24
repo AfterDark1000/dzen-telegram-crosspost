@@ -296,8 +296,11 @@
       "id": "anthropic-claude-ship-20261123",
       "dzen_title": "Claude теперь может сам писать, проверять и принимать код без программиста",
       "threads_text": "Claude теперь сам ПРОВЕРЯЕТ И ОДОБРЯЕТ программный код.\n\nAnthropic запустила Claude Ship. Один ИИ-агент ищет ошибки, другой их исправляет, третий решает, можно ли принять изменения без участия человека.\n\nРазработчики сами определяют, какие решения разрешено доверять нейросетям.\n\nВайбкодинг обзавёлся вайбначальником. 🧐",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6b055b74cb29e46e98844abd",
+      "dzen_url": "https://dzen.ru/a/awVbdMsp5G6YhEq9",
+      "threads_post_id": "18100899392535137"
     },
     {
       "id": "anthropic-fable-mythos-52-black-holes-20261109",
