@@ -21,6 +21,17 @@
       "excerpt": "Один рабочий день, один кадровый вопрос и плюс 952 миллиарда долларов к стоимости компании. После того как Дженсен Хуанг вернулся на пост главы NVIDIA, акции производителя ИИ-чипов взлетели на 31,48%. Торги 23 ноября завершились на отметке $165,05 за акцию против $125,53 в пятницу. Такого роста за одну торговую сессию NVIDIA не видела с мая 2003 года. Ещё в пятницу компания потеряла 14% своей стоимости на фоне сообще"
     },
     {
+      "dzen_id": "6b05367bcb7610255cd28815",
+      "title": "В Китае открыли биржу нейросетей. Уже 50 миллионов запросов в день",
+      "dzen_url": "https://dzen.ru/a/awU2e8t2ECVc0ogV",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-24T09:30:53+00:00",
+      "excerpt": "Нейросети теперь можно покупать на специальной бирже, сравнивая цены и качество работы разных поставщиков. Китайская Baidu представила 12 ноября площадку Token Exchange, через которую компании и разработчики могут получать доступ к ИИ-моделям разных производителей. За первый месяц работы на площадке появилось более 100 предложений модельных сервисов. По данным Baidu, ежедневно через неё проходит свыше 50 миллионов об"
+    },
+    {
       "dzen_id": "6b053605dc9f1e1d156a9484",
       "title": "403 дата-центра США загрязняют атмосферу как целая Дания. Greenpeace взялась за NVIDIA",
       "dzen_url": "https://dzen.ru/a/awU2BdyfHh0VapSE",
@@ -4702,11 +4713,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 436,
-    "fully_titled_from_archived_public_feed": 381,
+    "total_cataloged_editorial_publications": 437,
+    "fully_titled_from_archived_public_feed": 382,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-24",
-  "coverage": "436 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "437 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
