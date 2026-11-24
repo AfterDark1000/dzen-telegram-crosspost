@@ -2642,7 +2642,7 @@
       "id": "us-879868-ai-chips-china-licenses-20261119",
       "dzen_title": "США разрешили Китаю 880 тысяч ИИ-чипов — даже фирмам из военного списка Пентагона",
       "x_text": "@NVIDIA и @AMD получили разрешения США на экспорт 879 868 ИИ-чипов в Китай. Среди получателей — @AlibabaGroup и @TencentGlobal. На четыре компании из будущего «военного списка» Пентагона пришлось 272 тысячи чипов. В мае партии ещё числились неотгруженными.",
-      "status": "approved",
+      "status": "queued",
       "include_dzen_link": false,
       "typefully_attempt_at": 1795479468,
       "typefully_attempt_unknown": true,
@@ -2650,7 +2650,12 @@
       "typefully_source_dzen_id": "6b018aebd6e45455eb94c7bd",
       "typefully_source_dzen_url": "https://dzen.ru/a/awGK69bkVFXrlMe9",
       "typefully_draft_id": 12147285,
-      "typefully_state": "draft"
+      "typefully_state": "published",
+      "dzen_id": "6b018aebd6e45455eb94c7bd",
+      "dzen_url": "https://dzen.ru/a/awGK69bkVFXrlMe9",
+      "with_image": false,
+      "typefully_post_url": "https://x.com/iipike_ai/status/2125021051134591125",
+      "x_delivery_provider": "typefully"
     },
     {
       "id": "us-chinese-ai-disclosure-proposal-20261118",
