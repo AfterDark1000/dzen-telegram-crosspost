@@ -2852,8 +2852,11 @@
       "id": "openai-gpt-6-2-sol-chatgpt-20261123",
       "dzen_title": "GPT-6.2 наконец добралась до обычного ChatGPT",
       "threads_text": "ЧатЖПТ наконец ПОУМНЕЛ и в обычном чате. 🔥\n\nOpenAI начала развёртывание GPT-6.2 на Plus, Pro, Business и Enterprise. В основе новая Sol.\n\nПо тестам компании, понимание картинок выросло с 47,4% до 71,7%, а выполнение сложных инструкций с 62,5% до 78,1%.\n\nПользователи Plus, выходим из Work, нас выпустили!",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6b05386b872377540054ae1c",
+      "dzen_url": "https://dzen.ru/a/awU4a4cjd1QAVK4c",
+      "threads_post_id": "18031163405877534"
     },
     {
       "id": "openai-gpt-hidden-reasoning-defense-20261120",
