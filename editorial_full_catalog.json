@@ -10,6 +10,28 @@
   ],
   "entries": [
     {
+      "dzen_id": "6b053816dc9f1e1d156fa29c",
+      "title": "Возвращение Хуанга подняло стоимость NVIDIA почти на триллион долларов за день",
+      "dzen_url": "https://dzen.ru/a/awU4FtyfHh0Vb6Kc",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-24T07:10:28+00:00",
+      "excerpt": "Один рабочий день, один кадровый вопрос и плюс 952 миллиарда долларов к стоимости компании. После того как Дженсен Хуанг вернулся на пост главы NVIDIA, акции производителя ИИ-чипов взлетели на 31,48%. Торги 23 ноября завершились на отметке $165,05 за акцию против $125,53 в пятницу. Такого роста за одну торговую сессию NVIDIA не видела с мая 2003 года. Ещё в пятницу компания потеряла 14% своей стоимости на фоне сообще"
+    },
+    {
+      "dzen_id": "6b046c8b5e16dc5f0830c54a",
+      "title": "Сценарист «Таксиста» попросил ИИ написать фильм в его стиле и испугался результата",
+      "dzen_url": "https://dzen.ru/a/awRsi14W3F8IMMVK",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-24T07:02:41+00:00",
+      "excerpt": "Нейросеть за десять минут придумала основу фильма, а затем начала писать сценарий так похоже на самого автора, что тот прекратил эксперимент. 80-летний Пол Шредер, сценарист знаменитого «Таксиста» Мартина Скорсезе, рассказал об этом в интервью The Guardian 21 ноября. Шредер попросил ИИ придумать десять идей для фильма, который мог бы написать он сам. Пять вариантов показались ему хорошими, а три он оценил на уровне с"
+    },
+    {
       "dzen_id": "6b046c0ae9dfbb3c778aa612",
       "title": "Главный учёный OpenAI предложил притормозить гонку ИИ, и Альтман согласился",
       "dzen_url": "https://dzen.ru/a/awRsCunfuzx3iqYS",
@@ -4669,11 +4691,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 433,
-    "fully_titled_from_archived_public_feed": 378,
+    "total_cataloged_editorial_publications": 435,
+    "fully_titled_from_archived_public_feed": 380,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-24",
-  "coverage": "433 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "435 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
