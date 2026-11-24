@@ -2581,6 +2581,14 @@
       "typefully_state": "draft"
     },
     {
+      "id": "us-chinese-ai-disclosure-proposal-20261118",
+      "dzen_title": "«Извинись!» В США заставят признаваться за использование китайских нейросетей",
+      "x_text": "США готовят обязательную маркировку китайского ИИ.\n\nУ @Airbnb уже работает поддержка на базе Qwen, а модель Composer 2 от Cursor построена на китайской Kimi.\n\nБизнесу понравилось экономить.",
+      "status": "approved",
+      "include_dzen_link": false,
+      "with_image": false
+    },
+    {
       "id": "us-ten-countries-ai-supply-security-20261115",
       "dzen_title": "США собрали десять стран для защиты ИИ от Китая",
       "x_text": "@StateDept объявил: США и ещё 9 стран подписали Сан-Францисскую декларацию о защите цепочек поставок ИИ.\n\nВ коалиции Япония, Индия, Южная Корея, Британия и другие. Договорились создать рабочие группы; новых экспортных запретов документ не вводит.",
@@ -2679,14 +2687,6 @@
       "dzen_url": "https://dzen.ru/a/avaTGlALcjWVeERd",
       "buffer_post_id": "6af6abc5c1a0010a5b01a317",
       "with_image": true
-    },
-    {
-      "id": "us-chinese-ai-disclosure-proposal-20261118",
-      "dzen_title": "«Извинись!» В США заставят признаваться за использование китайских нейросетей",
-      "x_text": "США готовят обязательную маркировку китайского ИИ.\n\nУ @Airbnb уже работает поддержка на базе Qwen, а модель Composer 2 от Cursor построена на китайской Kimi.\n\nБизнесу понравилось экономить.",
-      "status": "approved",
-      "include_dzen_link": false,
-      "with_image": false
     }
   ]
 }
