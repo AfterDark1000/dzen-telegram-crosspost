@@ -2599,6 +2599,14 @@
       "status": "approved",
       "include_dzen_link": false,
       "with_image": false
+    },
+    {
+      "id": "anthropic-claude-ship-20261123",
+      "dzen_title": "Claude теперь может сам писать, проверять и принимать код без программиста",
+      "x_text": "У ИИ-программистов появились ИИ-проверяющие.\n\n@AnthropicAI запустила Claude Ship: агенты проверяют код, исправляют ошибки и могут самостоятельно одобрять изменения по правилам команды. Бета для Team и Enterprise с GitHub.",
+      "status": "approved",
+      "include_dzen_link": false,
+      "with_image": false
     }
   ]
 }
