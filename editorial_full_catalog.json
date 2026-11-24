@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6b0538b5cd21ad08601b2934",
+      "title": "Поисковик Google теперь сможет заглянуть в ваш кошелёк",
+      "dzen_url": "https://dzen.ru/a/awU4tc0hrQhgGyk0",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-24T15:02:07+00:00",
+      "excerpt": "Google научила свой поисковик разбираться в личных расходах пользователей и подсказывать, на чём можно сэкономить. 23 ноября компания начала подключать Google Wallet к своему поисковому ИИ в режиме AI Mode. С разрешения владельца кошелька нейросеть сможет анализировать траты и предлагать наиболее выгодные способы использования кешбэка и бонусов по привязанным банковским картам. Вице-президент Google по поисковым прод"
+    },
+    {
       "dzen_id": "6b05386b872377540054ae1c",
       "title": "GPT-6.2 наконец добралась до обычного ChatGPT",
       "dzen_url": "https://dzen.ru/a/awU4a4cjd1QAVK4c",
@@ -4757,11 +4768,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 441,
-    "fully_titled_from_archived_public_feed": 386,
+    "total_cataloged_editorial_publications": 442,
+    "fully_titled_from_archived_public_feed": 387,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-24",
-  "coverage": "441 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "442 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
