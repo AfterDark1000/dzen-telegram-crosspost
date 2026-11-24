@@ -2583,6 +2583,14 @@
       "status": "approved",
       "include_dzen_link": false,
       "with_image": false
+    },
+    {
+      "id": "amazon-ebay-ai-toys-safety-open-letter-20261123",
+      "dzen_title": "Amazon и eBay требуют убрать ИИ-игрушки с продажи до Рождества",
+      "x_text": "Плюшевый заяц с ChatGPT и маркировкой «3+».\n\nКоалиция из более чем 155 организаций и экспертов требует от @Amazon и @eBay убрать детские ИИ-игрушки до независимой проверки безопасности и вернуть деньги покупателям.\n\nОтвет ждут до Рождества.",
+      "status": "approved",
+      "include_dzen_link": false,
+      "with_image": false
     }
   ]
 }
