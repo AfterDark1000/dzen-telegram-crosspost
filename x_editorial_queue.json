@@ -2607,6 +2607,14 @@
       "status": "approved",
       "include_dzen_link": false,
       "with_image": false
+    },
+    {
+      "id": "san-francisco-data-center-moratorium-extension-20261117",
+      "dzen_title": "В городе OpenAI и Anthropic запретили строительство новых дата-центров на 10 месяцев",
+      "x_text": "Сан-Франциско единогласно проголосовал за продление запрета на новые дата-центры на 10,5 месяца.\n\nГородские власти подсчитали: один комплекс на 50 МВт потребует столько же мощности, сколько 25 тысяч новых квартир. А электросети расширять годами.",
+      "status": "approved",
+      "include_dzen_link": false,
+      "with_image": false
     }
   ]
 }
