@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6b055bf83edff347f600d3fc",
+      "title": "ИИ научился заменять отдельные слова в аудиозаписи",
+      "dzen_url": "https://dzen.ru/a/awVb-D7f80f2ANP8",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-25T03:01:37+00:00",
+      "excerpt": "Записали часовой подкаст, а потом обнаружили, что неправильно назвали гостя. Перезаписывать ничего не придётся. Компания Riverside 12 ноября представила Tonality, нейросеть для точечного редактирования человеческой речи. Она позволяет заменить, добавить или удалить отдельное слово в готовой аудиозаписи, сохранив остальную речь без изменений. И речь действительно об одном слове. Обычные инструменты синтеза голоса нере"
+    },
+    {
       "dzen_id": "6b055baccb29e46e9884eb4a",
       "title": "В США испытали роботов, которые сами ищут военные цели",
       "dzen_url": "https://dzen.ru/a/awVbrMsp5G6YhOtK",
@@ -4812,11 +4823,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 446,
-    "fully_titled_from_archived_public_feed": 391,
+    "total_cataloged_editorial_publications": 447,
+    "fully_titled_from_archived_public_feed": 392,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
-  "generated_date": "2026-11-24",
-  "coverage": "446 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "generated_date": "2026-11-25",
+  "coverage": "447 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
