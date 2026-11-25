@@ -1869,7 +1869,7 @@
       "id": "nvidia-jensen-huang-ceo-return-20261123",
       "dzen_title": "Хуанга вернули в NVIDIA через 11 дней после скандальной отставки, хотя совет директоров был против",
       "x_text": "Дженсен Хуанг снова руководит @nvidia! 🟢\n\n11 дней назад он ушёл после скандала, неделю назад компания исключала возвращение. Сегодня совет директоров единогласно восстановил его после консультаций с властями США.\n\nРасследование продолжается. Акции взлетели на премаркете.",
-      "status": "approved",
+      "status": "queued",
       "include_dzen_link": false,
       "with_image": false,
       "typefully_attempt_at": 1795565876,
@@ -1878,7 +1878,11 @@
       "typefully_source_dzen_id": "6b046157569eed7d4d418281",
       "typefully_source_dzen_url": "https://dzen.ru/a/awRhV1ae7X1NQYKB",
       "typefully_draft_id": 12174549,
-      "typefully_state": "draft"
+      "typefully_state": "published",
+      "dzen_id": "6b046157569eed7d4d418281",
+      "dzen_url": "https://dzen.ru/a/awRhV1ae7X1NQYKB",
+      "typefully_post_url": "https://x.com/iipike_ai/status/2125383468729450610",
+      "x_delivery_provider": "typefully"
     },
     {
       "id": "nvidia-jensen-huang-return-petition-20261116",
