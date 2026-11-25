@@ -21,6 +21,17 @@
       "excerpt": "Покупатели рискуют остаться без платного искусственного интеллекта, пяти терабайт облачного хранилища и даже возможности получать электронную почту. 24 ноября на форуме Google One появилось сразу несколько жалоб на досрочное отключение подписок Google AI Pro. У одних доступ пропал через два месяца, у других через три. А ещё 19 ноября один из пользователей получил уведомление об отмене подписки из-за «подозрительной а"
     },
     {
+      "dzen_id": "6b06b90f8229d43dc4b7631d",
+      "title": "Китайцы открыли ИИ на 1,6 триллиона параметров. Он работает на чипах Huawei",
+      "dzen_url": "https://dzen.ru/a/awa5D4Ip1D3Et2Md",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-25T13:41:00+00:00",
+      "excerpt": "Китайская компания, известная доставкой еды, выложила в открытый доступ нейросеть размером 1,6 триллиона параметров. Meituan открыла веса модели LongCat-2.5 под лицензией MIT. Разработчики могут скачивать её, изменять и использовать в собственных проектах, в том числе коммерческих. Сама модель появилась через API ещё 2 ноября, а к середине месяца стали доступны её веса и специальная версия для китайских ИИ-ускорителе"
+    },
+    {
       "dzen_id": "6b06b8b3aed0cd6482a4409f",
       "title": "В Гонконге включили распознавание лиц на городских камерах. Данные будут хранить до полугода",
       "dzen_url": "https://dzen.ru/a/awa4s67QzWSCpECf",
@@ -4889,11 +4900,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 453,
-    "fully_titled_from_archived_public_feed": 398,
+    "total_cataloged_editorial_publications": 454,
+    "fully_titled_from_archived_public_feed": 399,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-25",
-  "coverage": "453 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "454 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
