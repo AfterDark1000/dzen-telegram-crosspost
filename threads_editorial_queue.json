@@ -2825,8 +2825,11 @@
       "id": "openai-chatgpt-healthcare-20-connectors-20261116",
       "dzen_title": "ChatGPT разобрал многомесячный завал документов в больнице за выходные",
       "threads_text": "ИИ разобрал МНОГОМЕСЯЧНУЮ очередь больничных документов за выходные. 🏥\n\nЭто реальный рабочий процесс CVS Health.\n\nOpenAI подключила к ChatGPT более 20 медицинских сервисов. Теперь агенты могут искать записи пациентов, заполнять страховые формы и работать в больничных программах.\n\nВрачам остаются решения, требующие медицинской квалификации.\n\nБюрократия, кажется, наконец встретила достойного противника. 📋",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6b06ba508229d43dc4bf4011",
+      "dzen_url": "https://dzen.ru/a/awa6UIIp1D3Ev0AR",
+      "threads_post_id": "17920205196264472"
     },
     {
       "id": "openai-chatgpt-signals-165-work-tasks-20261027",
