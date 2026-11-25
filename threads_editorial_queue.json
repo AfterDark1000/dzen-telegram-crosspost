@@ -2079,8 +2079,11 @@
       "id": "meituan-longcat-2-5-open-weights-20261116",
       "dzen_title": "Китайцы открыли ИИ на 1,6 триллиона параметров. Он работает на чипах Huawei",
       "threads_text": "Китайцы выложили в открытый доступ ИИ на 1,6 ТРИЛЛИОНА параметров. 🐱\n\nLongCat-2.5 от Meituan умеет программировать, работать с изображениями и выполнять многоэтапные задачи.\n\nНа каждый токен включаются лишь 48 млрд параметров. Есть версия для китайских чипов Huawei Ascend.\n\nВ тесте Terminal Bench 2.1 компания заявляет 88,4%, почти на уровне GPT-5.6 Sol.\n\nДоставка еды прокачалась до доставки конкуренции OpenAI. 🍜",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6b06b90f8229d43dc4b7631d",
+      "dzen_url": "https://dzen.ru/a/awa5D4Ip1D3Et2Md",
+      "threads_post_id": "17926595409226083"
     },
     {
       "id": "mercor-series-d-750m-20b-valuation-20261110",
