@@ -21,6 +21,17 @@
       "excerpt": "Покупатели рискуют остаться без платного искусственного интеллекта, пяти терабайт облачного хранилища и даже возможности получать электронную почту. 24 ноября на форуме Google One появилось сразу несколько жалоб на досрочное отключение подписок Google AI Pro. У одних доступ пропал через два месяца, у других через три. А ещё 19 ноября один из пользователей получил уведомление об отмене подписки из-за «подозрительной а"
     },
     {
+      "dzen_id": "6b06b95cc26a587772451afc",
+      "title": "США собрали десять стран для защиты ИИ от Китая",
+      "dzen_url": "https://dzen.ru/a/awa5XMJqWHdyRRr8",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-25T14:51:21+00:00",
+      "excerpt": "Американцы решили защищать цепочки поставок ИИ вместе с девятью партнёрами. Начали с подписания декларации. 15 ноября в Сан-Франциско представители десяти государств подписали соглашение о защите технологий и инфраструктуры, необходимых для производства и работы искусственного интеллекта. Кроме США, документ поддержали Австралия, Индия, Израиль, Япония, Южная Корея, Катар, Сингапур, ОАЭ и Великобритания. Договорённос"
+    },
+    {
       "dzen_id": "6b06b90f8229d43dc4b7631d",
       "title": "Китайцы открыли ИИ на 1,6 триллиона параметров. Он работает на чипах Huawei",
       "dzen_url": "https://dzen.ru/a/awa5D4Ip1D3Et2Md",
@@ -4900,11 +4911,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 454,
-    "fully_titled_from_archived_public_feed": 399,
+    "total_cataloged_editorial_publications": 455,
+    "fully_titled_from_archived_public_feed": 400,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-25",
-  "coverage": "454 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "455 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
