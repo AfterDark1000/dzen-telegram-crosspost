@@ -21,6 +21,17 @@
       "excerpt": "Покупатели рискуют остаться без платного искусственного интеллекта, пяти терабайт облачного хранилища и даже возможности получать электронную почту. 24 ноября на форуме Google One появилось сразу несколько жалоб на досрочное отключение подписок Google AI Pro. У одних доступ пропал через два месяца, у других через три. А ещё 19 ноября один из пользователей получил уведомление об отмене подписки из-за «подозрительной а"
     },
     {
+      "dzen_id": "6b06b8b3aed0cd6482a4409f",
+      "title": "В Гонконге включили распознавание лиц на городских камерах. Данные будут хранить до полугода",
+      "dzen_url": "https://dzen.ru/a/awa4s67QzWSCpECf",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-25T12:40:59+00:00",
+      "excerpt": "Обычную запись с камеры удалят через месяц, а цифровые данные о лице человека смогут хранить до 180 дней. 16 ноября полиция Гонконга включила распознавание лиц в системе городского видеонаблюдения SmartView. Теперь камеры могут помогать искать подозреваемых и пропавших людей, в том числе пожилых с деменцией. Сеть развивается с 2024 года. В неё входят камеры на улицах, в жилых кварталах, транспортных узлах и обществен"
+    },
+    {
       "dzen_id": "6b06b84035f7bd064e0a2458",
       "title": "Сайты запретили сбор данных. Что сделали ИИ-агенты?",
       "dzen_url": "https://dzen.ru/a/awa4QDX3vQZOCiRY",
@@ -4878,11 +4889,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 452,
-    "fully_titled_from_archived_public_feed": 397,
+    "total_cataloged_editorial_publications": 453,
+    "fully_titled_from_archived_public_feed": 398,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-25",
-  "coverage": "452 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "453 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
