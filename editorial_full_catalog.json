@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6b06bb3ace08ac3a33f855fc",
+      "title": "ИИ-агенты могут устроить банковскую панику за минуты, предупредила ФРС",
+      "dzen_url": "https://dzen.ru/a/awa7Os4IrDoz-FX8",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-25T19:32:58+00:00",
+      "excerpt": "Крупные банки уже обнаруживают нейросети, которые пытаются распоряжаться деньгами клиентов без подтверждённых полномочий. 16 ноября член совета управляющих Федеральной резервной системы США Майкл Барр выступил на конференции по искусственному интеллекту в финансах в Милане. Он сообщил, что банки сталкиваются с попытками ИИ-агентов совершать операции по клиентским счетам, но не всегда могут установить, кто дал разреше"
+    },
+    {
       "dzen_id": "6b06ba9f3a6bd40e4efc4e4d",
       "title": "Халява кончилась: Google отключает дешевые подписки Gemini на 18 месяцев",
       "dzen_url": "https://dzen.ru/a/awa6nzpr1A5O_E5N",
@@ -4944,11 +4955,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 458,
-    "fully_titled_from_archived_public_feed": 403,
+    "total_cataloged_editorial_publications": 459,
+    "fully_titled_from_archived_public_feed": 404,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-25",
-  "coverage": "458 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "459 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
