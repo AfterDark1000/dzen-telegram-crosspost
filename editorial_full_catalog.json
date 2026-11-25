@@ -21,6 +21,28 @@
       "excerpt": "Покупатели рискуют остаться без платного искусственного интеллекта, пяти терабайт облачного хранилища и даже возможности получать электронную почту. 24 ноября на форуме Google One появилось сразу несколько жалоб на досрочное отключение подписок Google AI Pro. У одних доступ пропал через два месяца, у других через три. А ещё 19 ноября один из пользователей получил уведомление об отмене подписки из-за «подозрительной а"
     },
     {
+      "dzen_id": "6b06ba05ef619572f64306f7",
+      "title": "Голосовой ИИ Haru-4B слушает вас даже во время собственного ответа и работает без облака",
+      "dzen_url": "https://dzen.ru/a/awa6Be9hlXL2Qwb3",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-25T17:02:38+00:00",
+      "excerpt": "Нейросеть можно перебить посреди фразы. Она услышит вас, даже если сама в этот момент говорит. способную одновременно слушать собеседника и отвечать ему. Во время разговора ИИ реагирует на короткие «угу», смех и попытки вмешаться в его речь. Ждать, пока нейросеть договорит, больше не обязательно. На официальном сайте разработчики выложили четыре записи диалогов. В одном из них человек обсуждает с Haru фильмы. Собесед"
+    },
+    {
+      "dzen_id": "6b06b9b148baf03dabc79868",
+      "title": "Финансовый гигант Apollo замедлит найм сотрудников в 3 раза из-за ИИ",
+      "dzen_url": "https://dzen.ru/a/awa5sUi68D2rx5ho",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-25T16:01:08+00:00",
+      "excerpt": "Инвестиционная компания собирается наращивать прибыль на 20% ежегодно, увеличивая штат гораздо медленнее прежнего. Американская Apollo Global Management планирует снизить ежегодный рост числа сотрудников с 12–15% до 3–5%. Об этом сопрезидент Apollo Asset Management Скотт Кляйнман рассказал Business Insider 16 ноября. «Нам больше не нужно набрасывать на это дополнительные человеческие ресурсы». — Скотт Кляйнман, сопре"
+    },
+    {
       "dzen_id": "6b06b95cc26a587772451afc",
       "title": "США собрали десять стран для защиты ИИ от Китая",
       "dzen_url": "https://dzen.ru/a/awa5XMJqWHdyRRr8",
@@ -4911,11 +4933,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 455,
-    "fully_titled_from_archived_public_feed": 400,
+    "total_cataloged_editorial_publications": 457,
+    "fully_titled_from_archived_public_feed": 402,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-25",
-  "coverage": "455 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "457 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
