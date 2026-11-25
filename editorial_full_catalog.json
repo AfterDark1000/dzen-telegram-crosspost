@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6b05624962f36d5736f5681a",
+      "title": "Четыре эксперимента с ИИ: создатель Elona сделал игру за три часа, а нейросеть стала стримером",
+      "dzen_url": "https://dzen.ru/a/awViSWLzbVc29Wga",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-25T04:01:56+00:00",
+      "excerpt": "Известный разработчик японских RPG поручил Claude создать новую игру. Через три часа в неё уже можно было играть. Автор Elona и Elin, известный под псевдонимом Noa (lafrontier), 12 ноября выложил на площадке itch.io браузерную игру ECHO NOEIN. По словам разработчика, нейросеть Claude справилась примерно за три часа. Получился рогалайт, в котором игрок сражается с противниками и проходит уровни. Noa объяснил, что зате"
+    },
+    {
       "dzen_id": "6b055bf83edff347f600d3fc",
       "title": "ИИ научился заменять отдельные слова в аудиозаписи",
       "dzen_url": "https://dzen.ru/a/awVb-D7f80f2ANP8",
@@ -4823,11 +4834,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 447,
-    "fully_titled_from_archived_public_feed": 392,
+    "total_cataloged_editorial_publications": 448,
+    "fully_titled_from_archived_public_feed": 393,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-25",
-  "coverage": "447 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "448 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
