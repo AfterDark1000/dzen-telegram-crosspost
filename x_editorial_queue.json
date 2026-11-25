@@ -1200,6 +1200,13 @@
       "with_image": false
     },
     {
+      "id": "google-jio-gemini-subscription-cancellations-20261125",
+      "dzen_title": "Халява кончилась: Google отключает дешевые подписки Gemini на 18 месяцев",
+      "x_text": "Купили Gemini на 18 месяцев, а подписка прожила всего 28 дней. Пользователи жалуются на досрочное отключение Google AI Pro по акции @reliancejio. Вместе с @GeminiApp пропадают 5 ТБ облака. @Google, что случилось?",
+      "status": "approved",
+      "include_dzen_link": false
+    },
+    {
       "id": "google-project-suncatcher-gemma4-orbit-haiku-20261030",
       "dzen_title": "Google отправила ИИ в космос. Нейросеть ответила с орбиты!",
       "x_text": "Google получила с орбиты ответ Gemma 4: модель на TPU спутника Project Suncatcher сочинила хокку о космосе. Ответ приняли над Шпицбергеном.\n\nСпутник запущен 1 октября. Дальше — проверки чипов на радиацию и температуру, в 2027 году — испытания двух связанных спутников.",
@@ -1725,6 +1732,13 @@
       "dzen_url": "https://dzen.ru/a/avLkfAjJXWkToROh",
       "buffer_post_id": "6af30ba4cbbac94e1ea73472",
       "with_image": false
+    },
+    {
+      "id": "mts-virtual-foreign-card-ai-payments-20261124",
+      "dzen_title": "МТС начала продавать зарубежные карты для оплаты нейросетей прямо из России",
+      "x_text": "@ru_mts начала продавать пополняемые зарубежные карты за 5 990 ₽. Действуют 3 года, баланс в долларах, пополнение через СБП и российские карты. МТС заявляет нулевые комиссии, но пока не называет банк-эмитент. Оплата конкретных ИИ-сервисов требует проверки.",
+      "status": "approved",
+      "include_dzen_link": false
     },
     {
       "id": "musk-baron-robots-orbital-ai-20261106",
@@ -2787,20 +2801,6 @@
       "dzen_url": "https://dzen.ru/a/avaTGlALcjWVeERd",
       "buffer_post_id": "6af6abc5c1a0010a5b01a317",
       "with_image": true
-    },
-    {
-      "id": "google-jio-gemini-subscription-cancellations-20261125",
-      "dzen_title": "Халява кончилась: Google отключает дешевые подписки Gemini на 18 месяцев",
-      "x_text": "Купили Gemini на 18 месяцев, а подписка прожила всего 28 дней. Пользователи жалуются на досрочное отключение Google AI Pro по акции @reliancejio. Вместе с @GeminiApp пропадают 5 ТБ облака. @Google, что случилось?",
-      "status": "approved",
-      "include_dzen_link": false
-    },
-    {
-      "id": "mts-virtual-foreign-card-ai-payments-20261124",
-      "dzen_title": "МТС начала продавать зарубежные карты для оплаты нейросетей прямо из России",
-      "x_text": "@ru_mts начала продавать пополняемые зарубежные карты за 5 990 ₽. Действуют 3 года, баланс в долларах, пополнение через СБП и российские карты. МТС заявляет нулевые комиссии, но пока не называет банк-эмитент. Оплата конкретных ИИ-сервисов требует проверки.",
-      "status": "approved",
-      "include_dzen_link": false
     }
   ]
 }
