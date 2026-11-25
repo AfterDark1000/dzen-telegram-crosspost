@@ -2840,6 +2840,13 @@
       "dzen_url": "https://dzen.ru/a/avaTGlALcjWVeERd",
       "buffer_post_id": "6af6abc5c1a0010a5b01a317",
       "with_image": true
+    },
+    {
+      "id": "tidal-ai-music-ban-20261124",
+      "dzen_title": "Tidal удалит 29 миллионов нейропесен",
+      "x_text": "@TIDAL с 9 декабря запрещает полностью сгенерированную музыку. К началу 2027-го планирует удалить около 29 млн треков. 43% новых записей за последние три месяца оказались созданными ИИ, а 96% уже помеченных ИИ-треков никто не включал.",
+      "status": "approved",
+      "include_dzen_link": false
     }
   ]
 }
