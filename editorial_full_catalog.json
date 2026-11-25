@@ -21,6 +21,17 @@
       "excerpt": "Покупатели рискуют остаться без платного искусственного интеллекта, пяти терабайт облачного хранилища и даже возможности получать электронную почту. 24 ноября на форуме Google One появилось сразу несколько жалоб на досрочное отключение подписок Google AI Pro. У одних доступ пропал через два месяца, у других через три. А ещё 19 ноября один из пользователей получил уведомление об отмене подписки из-за «подозрительной а"
     },
     {
+      "dzen_id": "6b06ba508229d43dc4bf4011",
+      "title": "ChatGPT разобрал многомесячный завал документов в больнице за выходные",
+      "dzen_url": "https://dzen.ru/a/awa6UIIp1D3Ev0AR",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-25T18:01:50+00:00",
+      "excerpt": "В американской сети CVS Health ИИ за одни выходные разобрал очередь документов, скопившуюся за несколько месяцев. OpenAI 16 ноября представила обновление ChatGPT for Healthcare. В систему добавили более 20 медицинских подключений и возможность поручать ИИ-агентам работу в больничных программах. Агент самостоятельно перемещается между приложениями, читает информацию с экрана, нажимает кнопки и заполняет формы. Наприме"
+    },
+    {
       "dzen_id": "6b06ba05ef619572f64306f7",
       "title": "Голосовой ИИ Haru-4B слушает вас даже во время собственного ответа и работает без облака",
       "dzen_url": "https://dzen.ru/a/awa6Be9hlXL2Qwb3",
@@ -4933,11 +4944,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 457,
-    "fully_titled_from_archived_public_feed": 402,
+    "total_cataloged_editorial_publications": 458,
+    "fully_titled_from_archived_public_feed": 403,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-25",
-  "coverage": "457 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "458 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
