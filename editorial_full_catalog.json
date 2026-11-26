@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6b08048a6439085d025a7c4b",
+      "title": "$350 000 принесли подозрительные ставки на возвращение Хуанга в NVIDIA",
+      "dzen_url": "https://dzen.ru/a/awgEimQ5CF0CWnxL",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-26T15:02:34+00:00",
+      "excerpt": "Всего за несколько часов до возвращения Дженсена Хуанга в кресло генерального директора NVIDIA на рынке прогнозов появились подозрительно уверенные покупатели. 23 ноября аналитики Bubblemaps обнаружили на платформе Polymarket 16 аккаунтов, владельцы которых поставили деньги на возвращение главы компании. В общей сложности они потратили около 20 тысяч долларов. Прибыль составила примерно 350 тысяч долларов. И это при"
+    },
+    {
       "dzen_id": "6b0804441ca79e036215c459",
       "title": "Сотрудники OpenAI и Anthropic боятся выпускать свои самые мощные нейросети",
       "dzen_url": "https://dzen.ru/a/awgERBynngNiFcRZ",
@@ -5043,11 +5054,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 467,
-    "fully_titled_from_archived_public_feed": 412,
+    "total_cataloged_editorial_publications": 468,
+    "fully_titled_from_archived_public_feed": 413,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-26",
-  "coverage": "467 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "468 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
