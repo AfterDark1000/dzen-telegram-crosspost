@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6b06bbc00e78da72b9072e94",
+      "title": "Четыре эксперимента с ИИ: фильм без камеры, 700 тысяч мазков и японский храм из кода",
+      "dzen_url": "https://dzen.ru/a/awa7wA542nK5By6U",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-26T04:01:56+00:00",
+      "excerpt": "Нейросеть научили делать фильмы, в которых каждый кадр нарисован программным кодом. Разработчик sarpstar выложил на GitHub открытый проект cinecode. Он позволяет поручить создание видеоролика ИИ-агенту в Claude Code или Cursor. Агент пишет сценарий, программирует изображение, создаёт звуковое сопровождение и собирает готовый MP4. В октябре компания VideoGen показала фильм, собранный нейросетью по одному запросу. Разр"
+    },
+    {
       "dzen_id": "6b06bb8b7234df48e67faf88",
       "title": "Французские газеты разрешили ChatGPT пересказывать их статьи",
       "dzen_url": "https://dzen.ru/a/awa7i3I030jmf6-I",
@@ -4966,11 +4977,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 460,
-    "fully_titled_from_archived_public_feed": 405,
+    "total_cataloged_editorial_publications": 461,
+    "fully_titled_from_archived_public_feed": 406,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-26",
-  "coverage": "460 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "461 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
