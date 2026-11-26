@@ -5,27 +5,6 @@
   "buffer_rate_limit_active": true,
   "items": [
     {
-      "id": "amazon-autocorrode-isabelle-20261118",
-      "dzen_title": "Amazon нашла способ избавить ИИ от выдумок в математике",
-      "x_text": "В @AmazonScience подключили ИИ-агентов к системе проверки математических доказательств Isabelle. Теперь ошибки можно ловить прямо в процессе решения задачи. На испытаниях Claude даже исправил ошибочное доказательство самих исследователей.",
-      "status": "approved",
-      "include_dzen_link": false
-    },
-    {
-      "id": "openai-research-acceleration-20261118",
-      "dzen_title": "В OpenAI готовы променять 40% команды на ИИ",
-      "x_text": "В @OpenAI спросили исследователей, чем они готовы пожертвовать ради доступа к передовым ИИ-агентам. Медианный ответ — 40% численности собственной команды. А на одного исследователя уже приходится 46 часов работы агентов в сутки.",
-      "status": "approved",
-      "include_dzen_link": false
-    },
-    {
-      "id": "openai-astra-for-law-20261117",
-      "dzen_title": "OpenAI выпустила обновлённого ИИ-юриста, который ошибается в 20 раз реже Claude",
-      "x_text": "@OpenAI обновила Astra for Law до GPT-6.2. В юридическом тесте Harvey LAB-AA модель заняла первое место с 20,8% полных зачётов. Существенных галлюцинаций почти в 20 раз меньше, чем у Claude Opus 5.5. Доступ через Enterprise и API по заявке.",
-      "status": "approved",
-      "include_dzen_link": false
-    },
-    {
       "id": "8vc-safer-human-medicine-macaques-20261027",
       "dzen_title": "Макаки по $20 тысяч: фонд сооснователя Palantir вложил $20 млн в проект фермы",
       "x_text": "Фонд @8vc сооснователя Palantir Джо Лонсдейла вложил $20 млн в проект на 30 тысяч лабораторных макак. Комплекс в Джорджии пока не построен: протесты и суд. Тем временем FDA расширяет применение ИИ-моделей и других альтернатив опытам на животных.",
@@ -184,6 +163,13 @@
       "status": "approved",
       "include_dzen_link": false,
       "with_image": false
+    },
+    {
+      "id": "amazon-autocorrode-isabelle-20261118",
+      "dzen_title": "Amazon нашла способ избавить ИИ от выдумок в математике",
+      "x_text": "В @AmazonScience подключили ИИ-агентов к системе проверки математических доказательств Isabelle. Теперь ошибки можно ловить прямо в процессе решения задачи. На испытаниях Claude даже исправил ошибочное доказательство самих исследователей.",
+      "status": "approved",
+      "include_dzen_link": false
     },
     {
       "id": "amazon-aws-marketplace-agentic-payments-20261119",
@@ -2056,6 +2042,13 @@
       "include_dzen_link": false
     },
     {
+      "id": "openai-astra-for-law-20261117",
+      "dzen_title": "OpenAI выпустила обновлённого ИИ-юриста, который ошибается в 20 раз реже Claude",
+      "x_text": "@OpenAI обновила Astra for Law до GPT-6.2. В юридическом тесте Harvey LAB-AA модель заняла первое место с 20,8% полных зачётов. Существенных галлюцинаций почти в 20 раз меньше, чем у Claude Opus 5.5. Доступ через Enterprise и API по заявке.",
+      "status": "approved",
+      "include_dzen_link": false
+    },
+    {
       "id": "openai-brockman-anthropic-enterprise-20261104",
       "dzen_title": "Брокман признал: OpenAI отставала от Anthropic в борьбе за бизнес-клиентов",
       "x_text": "У OpenAI тоже бывают неудачные полугодия. Брокман признал: в начале 2026-го Anthropic перехватывала корпоративных клиентов, а Codex почти не замечали. Теперь, говорит, бизнес-направление за квартал удвоилось. Цифры компании, независимого аудита нет.",
@@ -2326,6 +2319,13 @@
       "dzen_url": "https://dzen.ru/a/auxjZaTdLGNGGRO7",
       "buffer_post_id": "6aec9e4a0fcbe7315a2aa097",
       "with_image": false
+    },
+    {
+      "id": "openai-research-acceleration-20261118",
+      "dzen_title": "В OpenAI готовы променять 40% команды на ИИ",
+      "x_text": "В @OpenAI спросили исследователей, чем они готовы пожертвовать ради доступа к передовым ИИ-агентам. Медианный ответ — 40% численности собственной команды. А на одного исследователя уже приходится 46 часов работы агентов в сутки.",
+      "status": "approved",
+      "include_dzen_link": false
     },
     {
       "id": "openai-security-bug-bounty-increased-rewards-20261102",
