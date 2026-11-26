@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6b0805bb548e162bfa6ef6ce",
+      "title": "«Волк с Уолл-стрит» запустил ИИ для звонков. Справится ли он с продажами?",
+      "dzen_url": "https://dzen.ru/a/awgFu1SOFiv6bvbO",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-26T19:11:39+00:00",
+      "excerpt": "В половине замеров голосовой агент Tone начинал говорить через 0,65 секунды или раньше, по данным разработчика. 16 ноября Джордан Белфорт и предприниматель Шервин Пишевар представили Tone. Платформу разработала их компания Straightline.AI. Она предлагает бизнесу голосовых агентов для телефонных продаж и поддержки. Белфорт привёл пример со страховкой. Агент уточняет бюджет клиента и объясняет, как условия полиса влияю"
+    },
+    {
       "dzen_id": "6b0805496439085d025c9365",
       "title": "Даже один ИИ-дата-центр оказался слишком мощным для электросетей половины исследованных стран",
       "dzen_url": "https://dzen.ru/a/awgFSWQ5CF0CXJNl",
@@ -5087,11 +5098,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 471,
-    "fully_titled_from_archived_public_feed": 416,
+    "total_cataloged_editorial_publications": 472,
+    "fully_titled_from_archived_public_feed": 417,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-26",
-  "coverage": "471 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "472 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
