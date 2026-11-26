@@ -2885,6 +2885,13 @@
       "dzen_url": "https://dzen.ru/a/avaTGlALcjWVeERd",
       "buffer_post_id": "6af6abc5c1a0010a5b01a317",
       "with_image": true
+    },
+    {
+      "id": "microsoft-artex-ai-hackers-20261125",
+      "dzen_title": "Microsoft выяснила, что ИИ-хакеры способны взломать компанию за считаные минуты",
+      "x_text": "@MsftSecIntel обнаружила ARTEX в арсенале как минимум шести хакерских группировок. ИИ-агенты при определённых условиях получают расширенные права доступа к корпоративным системам за считаные минуты.",
+      "status": "approved",
+      "include_dzen_link": false
     }
   ]
 }
