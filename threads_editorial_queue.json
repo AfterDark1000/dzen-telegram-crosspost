@@ -2965,8 +2965,11 @@
       "id": "openai-gpt-7-rumors-investigation-20261125",
       "dzen_title": "GPT-7 уже существует? Какого монстра OpenAI выращивает за закрытыми дверями",
       "threads_text": "Что известно о загадочной GPT-7?\n\nВ утечках фигурируют секретные проекты Bel, Doug и 10 ТРИЛЛИОНОВ параметров.\n\nА официальные документы OpenAI раскрывают вещи ещё интереснее: армия из 10 000 ИИ-агентов взялась за задачу тысячелетия, нейросети уже участвуют в разработке своих преемников, а учёные предлагают ограничить их дальнейшее развитие.\n\nСкайнет пока на испытательном сроке. 😬",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6b0712ae1ca79e0362523764",
+      "dzen_url": "https://dzen.ru/a/awcSrhynngNiUjdk",
+      "threads_post_id": "18083674619726184"
     },
     {
       "id": "openai-gpt-hidden-reasoning-defense-20261120",
