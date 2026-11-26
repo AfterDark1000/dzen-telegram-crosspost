@@ -3752,8 +3752,11 @@
       "id": "tidal-ai-music-ban-20261124",
       "dzen_title": "Tidal удалит 29 миллионов нейропесен",
       "threads_text": "Tidal собрал 27 миллионов песен, созданных нейросетями. 96% из них за три месяца не включил НИКТО.\n\nС 9 декабря сервис начинает удалять полностью сгенерированные треки. К Новому году рассчитывает избавиться от 29 миллионов записей. Музыка с участием человека останется.\n\nДаже нейрослопу теперь придётся искать свою аудиторию. 🎧",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6b0804beb00d9160ba1c98e0",
+      "dzen_url": "https://dzen.ru/a/awgEvrANkWC6HJjg",
+      "threads_post_id": "18116290082190337"
     },
     {
       "id": "tier-iv-autoware-five-models-20261111",
