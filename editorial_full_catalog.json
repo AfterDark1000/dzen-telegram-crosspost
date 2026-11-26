@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6b0712ae1ca79e0362523764",
+      "title": "GPT-7 уже существует? Какого монстра OpenAI выращивает за закрытыми дверями",
+      "dzen_url": "https://dzen.ru/a/awcSrhynngNiUjdk",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-26T06:57:20+00:00",
+      "excerpt": "У OpenAI уже есть нейросеть, рядом с которой даже нынешняя GPT-6 выглядит скромно. Пока мы просим ChatGPT написать письмо начальнику или придумать рецепт ужина, в лабораториях OpenAI тысячи ИИ-агентов одновременно штурмуют задачи, над которыми человечество билось десятилетиями. Сами разработчики всё чаще пользуются нейросетями для создания ещё более умных нейросетей. А в интернете уже несколько месяцев гуляют слухи о"
+    },
+    {
       "dzen_id": "6b06c437b346137d5a37531f",
       "title": "МТС начала продавать зарубежные карты для оплаты нейросетей прямо из России",
       "dzen_url": "https://dzen.ru/a/awbEN7NGE31aN1Mf",
@@ -4988,11 +4999,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 462,
-    "fully_titled_from_archived_public_feed": 407,
+    "total_cataloged_editorial_publications": 463,
+    "fully_titled_from_archived_public_feed": 408,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-26",
-  "coverage": "462 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "463 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
