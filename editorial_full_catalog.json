@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6b0803fd663a89354327e544",
+      "title": "OpenAI будет платить до $8 000 в месяц тем, кто научит других пользоваться нейросетями",
+      "dzen_url": "https://dzen.ru/a/awgD_WY6iTVDJ-VE",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-26T13:01:10+00:00",
+      "excerpt": "Владельцы небольшого магазина миниатюр в Северной Дакоте получили программу для управления товарными запасами, разработка которой обошлась бы в 50 тысяч долларов. И совершенно бесплатно. Компания набирает специалистов, которые будут помогать владельцам небольших предприятий внедрять искусственный интеллект в повседневную работу. Таковы минимальные ежемесячные обязательства участников программы. Вознаграждение составл"
+    },
+    {
       "dzen_id": "6b0803b0b2ddc12a1af0e922",
       "title": "Amazon заплатит $7,5 млрд за технологию ускорения собственных ИИ-чипов",
       "dzen_url": "https://dzen.ru/a/awgDsLLdwSoa8Oki",
@@ -5021,11 +5032,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 465,
-    "fully_titled_from_archived_public_feed": 410,
+    "total_cataloged_editorial_publications": 466,
+    "fully_titled_from_archived_public_feed": 411,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-26",
-  "coverage": "465 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "466 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
