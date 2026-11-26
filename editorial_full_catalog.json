@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6b06bb8b7234df48e67faf88",
+      "title": "Французские газеты разрешили ChatGPT пересказывать их статьи",
+      "dzen_url": "https://dzen.ru/a/awa7i3I030jmf6-I",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-26T03:02:06+00:00",
+      "excerpt": "В ответы ChatGPT попадут даже материалы из архива знаменитой французской газеты Le Figaro. OpenAI за три дня заключила два соглашения с крупными французскими медиагруппами. 16 ноября договор подписало медиаподразделение LVMH, а 18 ноября к нему присоединилась Groupe Figaro. Теперь ChatGPT сможет использовать материалы Le Figaro, Le Parisien, Les Echos, Paris Match, Challenges и других изданий. При вопросах на подходя"
+    },
+    {
       "dzen_id": "6b06bb3ace08ac3a33f855fc",
       "title": "ИИ-агенты могут устроить банковскую панику за минуты, предупредила ФРС",
       "dzen_url": "https://dzen.ru/a/awa7Os4IrDoz-FX8",
@@ -4955,11 +4966,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 459,
-    "fully_titled_from_archived_public_feed": 404,
+    "total_cataloged_editorial_publications": 460,
+    "fully_titled_from_archived_public_feed": 405,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
-  "generated_date": "2026-11-25",
-  "coverage": "459 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "generated_date": "2026-11-26",
+  "coverage": "460 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
