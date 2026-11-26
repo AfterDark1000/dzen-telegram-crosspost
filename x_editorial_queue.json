@@ -300,7 +300,7 @@
       "id": "anthropic-self-hosted-managed-agents-20261112",
       "dzen_title": "Anthropic разрешила компаниям поселить ИИ-агентов Claude на своих серверах",
       "x_text": "@AnthropicAI открыла закрытую бету Self-hosted Claude Managed Agents.\n\nКомпании смогут запускать управление ИИ-агентами, рабочие контейнеры и хранение истории на своих серверах. Сама модель Claude продолжит работать через внешнего провайдера.\n\nСвой сервер, свой контроль. 🏠",
-      "status": "approved",
+      "status": "queued",
       "include_dzen_link": false,
       "with_image": false,
       "typefully_attempt_at": 1795652271,
@@ -309,7 +309,11 @@
       "typefully_source_dzen_id": "6b0537c9569eed7d4d93b11a",
       "typefully_source_dzen_url": "https://dzen.ru/a/awU3yVae7X1Nk7Ea",
       "typefully_draft_id": 12200184,
-      "typefully_state": "draft"
+      "typefully_state": "published",
+      "dzen_id": "6b0537c9569eed7d4d93b11a",
+      "dzen_url": "https://dzen.ru/a/awU3yVae7X1Nk7Ea",
+      "typefully_post_url": "https://x.com/iipike_ai/status/2125745843617833211",
+      "x_delivery_provider": "typefully"
     },
     {
       "id": "apollo-ai-hiring-20261116",
