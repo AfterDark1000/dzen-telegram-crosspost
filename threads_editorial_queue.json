@@ -2912,8 +2912,11 @@
       "id": "openai-french-press-lvmh-figaro-20261118",
       "dzen_title": "Французские газеты разрешили ChatGPT пересказывать их статьи",
       "threads_text": "ChatGPT пустили в архивы французской прессы. 📰\n\nOpenAI за три дня договорилась с двумя медиагруппами, включая владельцев Le Figaro, Le Parisien и Paris Match.\n\nНейросеть сможет пересказывать их статьи, показывать выдержки и давать ссылки на оригиналы. Le Figaro откроет ещё и свои архивы.\n\nА сами редакции получат корпоративный ChatGPT.\n\nГазеты теперь официально разрешили себя пересказывать. 💀",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6b06bb8b7234df48e67faf88",
+      "dzen_url": "https://dzen.ru/a/awa7i3I030jmf6-I",
+      "threads_post_id": "18084404252448548"
     },
     {
       "id": "openai-google-anthropic-frontier-ai-lawsuit-20261112",
