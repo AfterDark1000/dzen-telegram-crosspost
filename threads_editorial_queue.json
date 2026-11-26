@@ -2597,8 +2597,11 @@
       "id": "nvidia-huang-return-polymarket-20261124",
       "dzen_title": "$350 000 принесли подозрительные ставки на возвращение Хуанга в NVIDIA",
       "threads_text": "Пока возвращение Хуанга в NVIDIA казалось маловероятным, 16 аккаунтов на Polymarket поставили на него около $20 тысяч. Прибыль, по подсчётам Bubblemaps, составила примерно $350 ТЫСЯЧ.\n\nВсе аккаунты интересовались только событиями вокруг NVIDIA. Американская организация Public Citizen уже требует расследования.\n\nУ кого-то прогнозы подозрительно похожи на спойлеры. 👀",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6b08048a6439085d025a7c4b",
+      "dzen_url": "https://dzen.ru/a/awgEimQ5CF0CWnxL",
+      "threads_post_id": "18652773475011060"
     },
     {
       "id": "nvidia-huang-return-stock-rally-20261123",
