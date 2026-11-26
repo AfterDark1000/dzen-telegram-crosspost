@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6b0804ffcebb13074d3c5bac",
+      "title": "OpenAI выпустила ИИ для поиска запрещённых изображений детей и ужесточила блокировки ChatGPT",
+      "dzen_url": "https://dzen.ru/a/awgE_867EwdNPFus",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-26T17:02:11+00:00",
+      "excerpt": "Новый ИИ находит запрещённые изображения, которых раньше не было ни в одной базе нарушений. 16 ноября OpenAI представила классификатор для выявления материалов, связанных с эксплуатацией детей, включая изображения, созданные нейросетями. Он анализирует само изображение и отмечает подозрительные материалы для проверки специалистами. Раньше подобные системы во многом опирались на цифровые отпечатки уже известных изобра"
+    },
+    {
       "dzen_id": "6b0804beb00d9160ba1c98e0",
       "title": "Tidal удалит 29 миллионов нейропесен",
       "dzen_url": "https://dzen.ru/a/awgEvrANkWC6HJjg",
@@ -5065,11 +5076,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 469,
-    "fully_titled_from_archived_public_feed": 414,
+    "total_cataloged_editorial_publications": 470,
+    "fully_titled_from_archived_public_feed": 415,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-26",
-  "coverage": "469 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "470 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
