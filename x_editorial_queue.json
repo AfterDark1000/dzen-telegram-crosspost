@@ -1516,6 +1516,13 @@
       "with_image": false
     },
     {
+      "id": "krea-video-swap-20261120",
+      "dzen_title": "Krea научилась менять актёров прямо в уже снятом видео",
+      "x_text": "@krea_ai выпустила Video Swap: в готовом видео можно заменить актёра, одежду, товар или декорации, сохранив движения, монтаж и звук. Поддерживаются ролики до 30 секунд в 1080p. Доступ по платной подписке.",
+      "status": "approved",
+      "include_dzen_link": false
+    },
+    {
       "id": "lg-k-exaone-25-free-api-20261109",
       "dzen_title": "LG открыла бесплатный API K-EXAONE 2.5 для разработчиков",
       "x_text": "LG AI Research бесплатно открыла API K-EXAONE 2.5. Модель работает с текстом, кодом и агентными задачами, API совместим с форматом OpenAI. В AutomationBench — 74,6 балла против 74,9 у DeepSeek V4.1 Flash. Оценка внутренняя, лимиты запросов есть.",
@@ -2066,6 +2073,13 @@
       "dzen_url": "https://dzen.ru/a/avQWbu0yqTgYhjNn",
       "buffer_post_id": "6af4db8838da815779d54c3e",
       "with_image": false
+    },
+    {
+      "id": "openai-chatgpt-for-sales-20261117",
+      "dzen_title": "OpenAI выпустила бесплатного ИИ-помощника для менеджеров по продажам",
+      "x_text": "@OpenAI выпустила ChatGPT for Sales: поиск клиентов, подготовка коммерческих предложений, анализ переговоров и обновление CRM. Более 30 новых и обновлённых партнёрских плагинов. Сам Sales доступен даже на бесплатном тарифе.",
+      "status": "approved",
+      "include_dzen_link": false
     },
     {
       "id": "openai-chatgpt-healthcare-20-connectors-20261116",
@@ -2906,20 +2920,6 @@
       "dzen_url": "https://dzen.ru/a/avaTGlALcjWVeERd",
       "buffer_post_id": "6af6abc5c1a0010a5b01a317",
       "with_image": true
-    },
-    {
-      "id": "krea-video-swap-20261120",
-      "dzen_title": "Krea научилась менять актёров прямо в уже снятом видео",
-      "x_text": "@krea_ai выпустила Video Swap: в готовом видео можно заменить актёра, одежду, товар или декорации, сохранив движения, монтаж и звук. Поддерживаются ролики до 30 секунд в 1080p. Доступ по платной подписке.",
-      "status": "approved",
-      "include_dzen_link": false
-    },
-    {
-      "id": "openai-chatgpt-for-sales-20261117",
-      "dzen_title": "OpenAI выпустила бесплатного ИИ-помощника для менеджеров по продажам",
-      "x_text": "@OpenAI выпустила ChatGPT for Sales: поиск клиентов, подготовка коммерческих предложений, анализ переговоров и обновление CRM. Более 30 новых и обновлённых партнёрских плагинов. Сам Sales доступен даже на бесплатном тарифе.",
-      "status": "approved",
-      "include_dzen_link": false
     }
   ]
 }
