@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6b06c437b346137d5a37531f",
+      "title": "МТС начала продавать зарубежные карты для оплаты нейросетей прямо из России",
+      "dzen_url": "https://dzen.ru/a/awbEN7NGE31aN1Mf",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-26T05:01:39+00:00",
+      "excerpt": "За 5 990 рублей предлагают долларовую банковскую карту на три года с бесплатным обслуживанием и пополнением через СБП. 24 ноября МТС запустила продажу виртуальных пополняемых карт иностранных банков через сервис «МТС Оплата». Оформление занимает около пяти минут и проходит полностью онлайн. Раньше компания предлагала предоплаченные карты с ограниченным сроком действия, которые нельзя было пополнять. Теперь достаточно"
+    },
+    {
       "dzen_id": "6b06bbc00e78da72b9072e94",
       "title": "Четыре эксперимента с ИИ: фильм без камеры, 700 тысяч мазков и японский храм из кода",
       "dzen_url": "https://dzen.ru/a/awa7wA542nK5By6U",
@@ -4977,11 +4988,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 461,
-    "fully_titled_from_archived_public_feed": 406,
+    "total_cataloged_editorial_publications": 462,
+    "fully_titled_from_archived_public_feed": 407,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-26",
-  "coverage": "461 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "462 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
