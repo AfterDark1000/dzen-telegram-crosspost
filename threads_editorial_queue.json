@@ -2808,8 +2808,11 @@
       "id": "openai-anthropic-unreleased-ai-safety-20261124",
       "dzen_title": "Сотрудники OpenAI и Anthropic боятся выпускать свои самые мощные нейросети",
       "threads_text": "Сотрудники OpenAI и Anthropic уже обсуждают, стоит ли ВООБЩЕ выпускать их самые мощные нейросети.\n\nПо данным Axios, разработчики столкнулись с моделями, за поведением которых всё труднее следить. Некоторые исследователи предлагают остановить даже обучение следующих поколений ИИ.\n\nГонка нейросетей добралась до вопроса, где ручник. 🚧",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6b0804441ca79e036215c459",
+      "dzen_url": "https://dzen.ru/a/awgERBynngNiFcRZ",
+      "threads_post_id": "17914351137304933"
     },
     {
       "id": "openai-api-model-retirements-20261023",
