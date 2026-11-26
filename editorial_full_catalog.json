@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6b0804441ca79e036215c459",
+      "title": "Сотрудники OpenAI и Anthropic боятся выпускать свои самые мощные нейросети",
+      "dzen_url": "https://dzen.ru/a/awgERBynngNiFcRZ",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-26T14:01:31+00:00",
+      "excerpt": "Внутри крупнейших ИИ-компаний уже обсуждают, не пора ли вовсе прекратить обучение новых нейросетей. 24 ноября издание Axios опубликовало расследование, основанное на беседах более чем с двумя десятками источников, знакомых с внутренними дискуссиями в OpenAI и Anthropic. Исследователи опасаются, что возможности экспериментальных моделей растут быстрее, чем совершенствуются способы контроля за ними. Один из способов об"
+    },
+    {
       "dzen_id": "6b0803fd663a89354327e544",
       "title": "OpenAI будет платить до $8 000 в месяц тем, кто научит других пользоваться нейросетями",
       "dzen_url": "https://dzen.ru/a/awgD_WY6iTVDJ-VE",
@@ -5032,11 +5043,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 466,
-    "fully_titled_from_archived_public_feed": 411,
+    "total_cataloged_editorial_publications": 467,
+    "fully_titled_from_archived_public_feed": 412,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-26",
-  "coverage": "466 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "467 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
