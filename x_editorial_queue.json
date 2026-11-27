@@ -2996,6 +2996,14 @@
       "dzen_url": "https://dzen.ru/a/avaTGlALcjWVeERd",
       "buffer_post_id": "6af6abc5c1a0010a5b01a317",
       "with_image": true
+    },
+    {
+      "id": "sber-kandinsky-6-5-20261126",
+      "dzen_title": "Сбер научил Kandinsky собирать людей с разных фотографий в одном видео",
+      "x_text": "Сбер выпустил Kandinsky 6.5. Нейросеть объединяет людей с разных фотографий в одном видео, сохраняет их внешность и генерирует действие между заданными кадрами. До 10 секунд со звуком в 2K. Уже доступно в ГигаЧате.",
+      "status": "approved",
+      "include_dzen_link": false,
+      "with_image": false
     }
   ]
 }
