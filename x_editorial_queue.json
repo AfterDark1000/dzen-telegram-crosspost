@@ -3072,6 +3072,14 @@
       "status": "approved",
       "include_dzen_link": false,
       "with_image": false
+    },
+    {
+      "id": "tencent-hy4-flash-open-weights-20261118",
+      "dzen_title": "Китайцы выпустили нейросеть в 20 раз дешевле своего флагмана",
+      "x_text": "@TencentHunyuan открыла веса Hy4 flash: 220 млрд параметров, 12 млрд активных на токен, контекст 1 млн. В собственном офисном тесте Tencent модель обходится в 20 раз дешевле флагманской Hy4. API: $0,07 за млн входных токенов.",
+      "status": "approved",
+      "include_dzen_link": false,
+      "with_image": false
     }
   ]
 }
