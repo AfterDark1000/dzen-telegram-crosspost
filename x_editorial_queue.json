@@ -3004,6 +3004,14 @@
       "status": "approved",
       "include_dzen_link": false,
       "with_image": false
+    },
+    {
+      "id": "anthropic-claude-api-rust-migration-20261125",
+      "dzen_title": "Claude переписал собственный API и сократил нагрузку на процессоры на 70%",
+      "x_text": "@AnthropicAI с помощью агентов @claudeai перенесла Messages API с Python на Rust. Расход CPU на запрос снизился на 70%, памяти — более чем на 80%. Первую версию ядра ИИ написал за неделю. Проверка и исправление ошибок заняли месяцы.",
+      "status": "approved",
+      "include_dzen_link": false,
+      "with_image": false
     }
   ]
 }
