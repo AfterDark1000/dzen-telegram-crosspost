@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6b08063a548e162bfa705da9",
+      "title": "Семья любовницы Хуанга засветилась в сделках с ИИ-серверами на $270 млн",
+      "dzen_url": "https://dzen.ru/a/awgGOlSOFiv6cF2p",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-27T03:01:47+00:00",
+      "excerpt": "В апреле китайская компания заложила банку 252 вычислительных модуля для ИИ под кредит на 70 миллионов долларов. До начала 2026 года контрольный пакет этой компании принадлежал сестре Алисы Хуанг. Той самой китайской бизнесвумен, роман с которой стоил Дженсену Хуангу кресла генерального директора NVIDIA на целых 11 дней. 25 ноября Reuters опубликовало результаты расследования. Журналисты изучили китайский кредитный р"
+    },
+    {
       "dzen_id": "6b0805fd8d30374391e462f1",
       "title": "OpenAI получит 457 МВт на чипах AMD. Когда заработают серверы?",
       "dzen_url": "https://dzen.ru/a/awgF_Y0wN0OR5GLx",
@@ -5109,11 +5120,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 473,
-    "fully_titled_from_archived_public_feed": 418,
+    "total_cataloged_editorial_publications": 474,
+    "fully_titled_from_archived_public_feed": 419,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-27",
-  "coverage": "473 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "474 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
