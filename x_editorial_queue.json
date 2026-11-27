@@ -3080,6 +3080,14 @@
       "dzen_url": "https://dzen.ru/a/avaTGlALcjWVeERd",
       "buffer_post_id": "6af6abc5c1a0010a5b01a317",
       "with_image": true
+    },
+    {
+      "id": "ubisoft-motherbrain-npc-memory-20261119",
+      "dzen_title": "Ubisoft научит игровых персонажей помнить вас",
+      "x_text": "@Ubisoft создала дочернюю компанию Motherbrain. Она займётся игровыми персонажами с памятью и ИИ-режиссёрами виртуальных миров. Команда уже показала голосовое управление напарниками в прототипе Teammates. Конкретные игры пока не названы.",
+      "status": "approved",
+      "include_dzen_link": false,
+      "with_image": false
     }
   ]
 }
