@@ -2610,8 +2610,11 @@
       "id": "new-york-judges-ai-fabricated-citations-bill-20261116",
       "dzen_title": "В Нью-Йорке предложили лишать судей должности за выдумки нейросетей",
       "threads_text": "В Нью-Йорке предложили лишать СУДЕЙ должности за выдумки нейросетей.\n\nПовод есть: в американских судебных решениях уже находили вымышленные прецеденты, перепутанные имена участников процесса и даже обвинения, которых не было в иске.\n\nПри этом более 60% опрошенных федеральных судей США пользуются ИИ в работе.\n\nА вы проверяли, что вам ChatGPT насоветовал?",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6b09e028e47a6210555b1bb9",
+      "dzen_url": "https://dzen.ru/a/awngKOR6YhBVWxu5",
+      "threads_post_id": "18022410209971962"
     },
     {
       "id": "nvidia-china-chip-tariff-congress-probe-20261112",
