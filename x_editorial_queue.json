@@ -2988,6 +2988,14 @@
       "dzen_url": "https://dzen.ru/a/avaTGlALcjWVeERd",
       "buffer_post_id": "6af6abc5c1a0010a5b01a317",
       "with_image": true
+    },
+    {
+      "id": "minimax-data-retention-leak-20261126",
+      "dzen_title": "Китайская MiniMax попалась на хранении секретных данных, которые обещала не сохранять",
+      "x_text": "@MiniMax_AI признала, что сохраняла ссылки из запросов даже в режиме нулевого хранения данных. Одну секретную ссылку исследователи обнаружили в китайском корпоративном мессенджере. Продолжение расследования утечек через @OpenRouter.",
+      "status": "approved",
+      "include_dzen_link": false,
+      "with_image": false
     }
   ]
 }
