@@ -1488,6 +1488,14 @@
       "x_delivery_provider": "typefully"
     },
     {
+      "id": "ideogram-4-6-image-editing-20261119",
+      "dzen_title": "Ideogram обошла Google и OpenAI в редактировании фотографий",
+      "x_text": "Новая Ideogram 4.6 от @ideogram_ai возглавила рейтинг Rapidata по сохранению внешности человека после пяти последовательных правок фотографии. GPT Image 2.6 Sunburst заняла 11-е место, Nano Banana Pro — 12-е. Поддерживается нативное 4K.",
+      "status": "approved",
+      "include_dzen_link": false,
+      "with_image": false
+    },
+    {
       "id": "ietf-ai-training-preference-four-companies-20261030",
       "dzen_title": "OpenAI, Google, Microsoft и Anthropic разрешат сайтам запрещать обучение ИИ",
       "x_text": "@OpenAI, @Google, @Microsoft и @AnthropicAI договорились: две строки в robots.txt позволят попросить не обучать ИИ на текстах сайта.\n\nПока это проект, и внедрять будут постепенно: @Microsoft — с февраля 2027-го, @Google — в 2027-м.\n\nОдин знак «Не трогать» на всех. 🪧",
@@ -2762,6 +2770,14 @@
       "with_image": false
     },
     {
+      "id": "tencent-hy4-flash-open-weights-20261118",
+      "dzen_title": "Китайцы выпустили нейросеть в 20 раз дешевле своего флагмана",
+      "x_text": "@TencentHunyuan открыла веса Hy4 flash: 220 млрд параметров, 12 млрд активных на токен, контекст 1 млн. В собственном офисном тесте Tencent модель обходится в 20 раз дешевле флагманской Hy4. API: $0,07 за млн входных токенов.",
+      "status": "approved",
+      "include_dzen_link": false,
+      "with_image": false
+    },
+    {
       "id": "tetsuo-131-ai-agents-music-video-20261108",
       "dzen_title": "131 ИИ-агент и 23 тысячи запросов ради одного музыкального клипа!",
       "x_text": "@tetsuoai опубликовал клип «Attention Is All You Need» длиной 5:26. По его подсчётам, производство заняло 26 ч 51 мин: 131 ИИ-агент, 23 354 вызова моделей и 10,1 млрд токенов. Пианино автор написал сам, финальную песню довёл в Suno. Масштаб за кулисами побольше самого клипа.",
@@ -3064,22 +3080,6 @@
       "dzen_url": "https://dzen.ru/a/avaTGlALcjWVeERd",
       "buffer_post_id": "6af6abc5c1a0010a5b01a317",
       "with_image": true
-    },
-    {
-      "id": "ideogram-4-6-image-editing-20261119",
-      "dzen_title": "Ideogram обошла Google и OpenAI в редактировании фотографий",
-      "x_text": "Новая Ideogram 4.6 от @ideogram_ai возглавила рейтинг Rapidata по сохранению внешности человека после пяти последовательных правок фотографии. GPT Image 2.6 Sunburst заняла 11-е место, Nano Banana Pro — 12-е. Поддерживается нативное 4K.",
-      "status": "approved",
-      "include_dzen_link": false,
-      "with_image": false
-    },
-    {
-      "id": "tencent-hy4-flash-open-weights-20261118",
-      "dzen_title": "Китайцы выпустили нейросеть в 20 раз дешевле своего флагмана",
-      "x_text": "@TencentHunyuan открыла веса Hy4 flash: 220 млрд параметров, 12 млрд активных на токен, контекст 1 млн. В собственном офисном тесте Tencent модель обходится в 20 раз дешевле флагманской Hy4. API: $0,07 за млн входных токенов.",
-      "status": "approved",
-      "include_dzen_link": false,
-      "with_image": false
     }
   ]
 }
