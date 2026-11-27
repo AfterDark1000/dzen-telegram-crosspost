@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6b0805fd8d30374391e462f1",
+      "title": "OpenAI получит 457 МВт на чипах AMD. Когда заработают серверы?",
+      "dzen_url": "https://dzen.ru/a/awgF_Y0wN0OR5GLx",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-27T02:01:58+00:00",
+      "excerpt": "TensorWave подписала с OpenAI контракт на шесть лет и выделит ей мощности на нескольких площадках в США. Условия сделки TensorWave раскрыла 16 ноября. По плану серверное оборудование на этих площадках сможет одновременно получать до 457 МВт. В серверные стойки AMD Helios установят ускорители AMD Instinct MI455X. На этих серверах OpenAI сможет обучать модели и запускать их для пользователей. В октябре 2025 года AMD и"
+    },
+    {
       "dzen_id": "6b0805bb548e162bfa6ef6ce",
       "title": "«Волк с Уолл-стрит» запустил ИИ для звонков. Справится ли он с продажами?",
       "dzen_url": "https://dzen.ru/a/awgFu1SOFiv6bvbO",
@@ -5098,11 +5109,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 472,
-    "fully_titled_from_archived_public_feed": 417,
+    "total_cataloged_editorial_publications": 473,
+    "fully_titled_from_archived_public_feed": 418,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
-  "generated_date": "2026-11-26",
-  "coverage": "472 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "generated_date": "2026-11-27",
+  "coverage": "473 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
