@@ -3048,6 +3048,14 @@
       "dzen_url": "https://dzen.ru/a/avaTGlALcjWVeERd",
       "buffer_post_id": "6af6abc5c1a0010a5b01a317",
       "with_image": true
+    },
+    {
+      "id": "openai-performance-factory-codex-20261119",
+      "dzen_title": "OpenAI поручила нейросетям чинить тормоза ChatGPT",
+      "x_text": "@OpenAI поручила Codex искать причины тормозов @ChatGPT и писать исправления. Более 1700 расследований за три месяца, найдены причины свыше 600 проблем. Теперь компания хочет разрешить агентам внедрять простые исправления без программистов.",
+      "status": "approved",
+      "include_dzen_link": false,
+      "with_image": false
     }
   ]
 }
