@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6b08067f3fce9862d741e24d",
+      "title": "В городе OpenAI и Anthropic запретили строительство новых дата-центров на 10 месяцев",
+      "dzen_url": "https://dzen.ru/a/awgGfz_OmGLXQeJN",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-27T04:01:38+00:00",
+      "excerpt": "Один крупный дата-центр может потребовать столько же электрической мощности, сколько 25 тысяч новых квартир. 17 ноября городской совет Сан-Франциско единогласно проголосовал за продление моратория на выдачу разрешений для новых дата-центров на 10 месяцев и 15 дней. Первоначальный запрет сроком на 45 дней ввели ещё в октябре. И это в городе, где расположены штаб-квартиры OpenAI и Anthropic. В 2025 году пиковая нагрузк"
+    },
+    {
       "dzen_id": "6b08063a548e162bfa705da9",
       "title": "Семья любовницы Хуанга засветилась в сделках с ИИ-серверами на $270 млн",
       "dzen_url": "https://dzen.ru/a/awgGOlSOFiv6cF2p",
@@ -5120,11 +5131,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 474,
-    "fully_titled_from_archived_public_feed": 419,
+    "total_cataloged_editorial_publications": 475,
+    "fully_titled_from_archived_public_feed": 420,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-27",
-  "coverage": "474 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "475 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
