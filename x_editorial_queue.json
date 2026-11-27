@@ -3040,6 +3040,14 @@
       "status": "approved",
       "include_dzen_link": false,
       "with_image": false
+    },
+    {
+      "id": "john-deere-orchard-ai-acquisition-20261119",
+      "dzen_title": "John Deere купила нейросеть, которая пересчитает все яблоки в саду",
+      "x_text": "@JohnDeere купила @orchard_robots. Камеры на тракторе сканируют каждое дерево на скорости до 19 км/ч, а к следующему утру ИИ выдаёт количество плодов, их размеры и прогноз урожая. Садоводство обзавелось собственной нейросетью.",
+      "status": "approved",
+      "include_dzen_link": false,
+      "with_image": false
     }
   ]
 }
