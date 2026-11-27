@@ -4165,6 +4165,13 @@
       "dzen_id": "6af6931a500b72359578445d",
       "dzen_url": "https://dzen.ru/a/avaTGlALcjWVeERd",
       "threads_post_id": "18144182137613085"
+    },
+    {
+      "id": "ideogram-4-6-image-editing-20261119",
+      "dzen_title": "Ideogram обошла Google и OpenAI в редактировании фотографий",
+      "threads_text": "Пять правок фотографии подряд, и нейросеть может сделать вам ПЛАСТИЧЕСКУЮ ОПЕРАЦИЮ, хотя вы просили поменять рубашку.\n\nRapidata проверила, как ИИ сохраняет внешность человека после последовательного редактирования снимка.\n\nIdeogram 4.6 заняла первое место. GPT Image 2.6 — одиннадцатое, Nano Banana Pro — двенадцатое.\n\nЛицо теперь тоже надо сохранять в резервную копию. 😅",
+      "status": "approved",
+      "include_dzen_link": false
     }
   ]
 }
