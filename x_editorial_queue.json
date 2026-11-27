@@ -3020,6 +3020,14 @@
       "status": "approved",
       "include_dzen_link": false,
       "with_image": false
+    },
+    {
+      "id": "us-china-ai-chip-distillation-curbs-20261126",
+      "dzen_title": "США сбивают темп китайской ИИ-гонки",
+      "x_text": "Китайская ИИ-гонка сбавляет обороты. По данным Reuters, GLM-5.5 от @Zai_org рискует задержаться до 2027 года, а @Kimi_Moonshot может перейти на годовой цикл крупных релизов. США ограничивают аренду вычислительных мощностей за рубежом.",
+      "status": "approved",
+      "include_dzen_link": false,
+      "with_image": false
     }
   ]
 }
