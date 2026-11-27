@@ -3507,8 +3507,11 @@
       "id": "russian-ai-subscriptions-investigation-20261127",
       "dzen_title": "Сбер и Т-Банк торгуют ChatGPT и Claude. Мы проверили 9 приложений и выяснили, кто за этим стоит",
       "threads_text": "Полезли проверять, сколько стоят зарубежные нейросети в российских банках. В итоге изучили 9 приложений. 🕵️\n\nСбер и Тинькофф продают ChatGPT и Claude по ОДИНАКОВЫМ ценам, вплоть до копейки. Оказалось, даже поддержка у них одна.\n\nOzon торгует доступом к OpenRouter и DeepSeek, Wildberries предлагает виртуальные карты, Альфа — подарочные коды.\n\nА OpenAI и Anthropic Россию по-прежнему не поддерживают.\n\nЗанятный рынок получился.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6b0924106439085d02821aca",
+      "dzen_url": "https://dzen.ru/a/awkkEGQ5CF0CghrK",
+      "threads_post_id": "18100929077690185"
     },
     {
       "id": "russian-courts-ai-krasnov-20261024",
