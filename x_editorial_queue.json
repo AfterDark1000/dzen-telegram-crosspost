@@ -3056,6 +3056,14 @@
       "status": "approved",
       "include_dzen_link": false,
       "with_image": false
+    },
+    {
+      "id": "google-gemini-tool-retrieval-20261119",
+      "dzen_title": "Google придумала, как снизить расходы на работу ИИ-агентов",
+      "x_text": "@Google представила Tool Retrieval в Gemini API. ИИ-агенты загружают подробные инструкции к инструментам только по необходимости, экономя входные токены. Функция уже тестируется в @GoogleAIStudio для Gemini 3.6 и новее.",
+      "status": "approved",
+      "include_dzen_link": false,
+      "with_image": false
     }
   ]
 }
