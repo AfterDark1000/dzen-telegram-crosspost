@@ -3096,6 +3096,14 @@
       "status": "approved",
       "include_dzen_link": false,
       "with_image": false
+    },
+    {
+      "id": "ai-pharma-drug-discovery-20261120",
+      "dzen_title": "Нейросети экономят фармацевтам годы исследований",
+      "x_text": "Фармацевты сокращают сроки исследований с ИИ. @sanofi сэкономила минимум год на разработке препарата от астмы. @Novartis ищет кандидатов в лекарства за 18–24 месяца вместо трёх лет. @novonordisk сократила число циклов проверки молекул с восьми до трёх.",
+      "status": "approved",
+      "include_dzen_link": false,
+      "with_image": false
     }
   ]
 }
