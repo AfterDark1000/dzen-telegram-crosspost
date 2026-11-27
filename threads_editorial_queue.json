@@ -3547,8 +3547,11 @@
       "id": "san-francisco-data-center-moratorium-extension-20261117",
       "dzen_title": "В городе OpenAI и Anthropic запретили строительство новых дата-центров на 10 месяцев",
       "threads_text": "Сан-Франциско решил притормозить строительство ДАТА-ЦЕНТРОВ. ⚡\n\nОдин комплекс мощностью 50 МВт потребует столько же электрической мощности, сколько 25 тысяч новых квартир.\n\nГородской совет проголосовал за продление моратория на 10 месяцев и 15 дней.\n\nИ это в городе, где сидят OpenAI и Anthropic. Вот вам и Кремниевая долина.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6b08067f3fce9862d741e24d",
+      "dzen_url": "https://dzen.ru/a/awgGfz_OmGLXQeJN",
+      "threads_post_id": "18022803434734276"
     },
     {
       "id": "seti-ai-agents-radio-telescope-20261030",
