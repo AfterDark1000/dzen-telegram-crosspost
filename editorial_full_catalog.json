@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6b0924106439085d02821aca",
+      "title": "Сбер и Т-Банк торгуют ChatGPT и Claude. Мы проверили 9 приложений и выяснили, кто за этим стоит",
+      "dzen_url": "https://dzen.ru/a/awkkEGQ5CF0CghrK",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-27T07:00:01+00:00",
+      "excerpt": "До копейки одинаковые цены, одинаковые описания подписок и даже один и тот же бот поддержки в Telegram. Именно это мы обнаружили, сравнив предложения Сбера и бывшего Тинькофф. 27 ноября редакция ХПИИ изучила девять приложений российских банков, маркетплейсов и цифровых магазинов. Оказывается, рынок оплаты зарубежных нейросетей уже вовсю освоили крупнейшие российские компании. Причем некоторые из них предлагают весьма"
+    },
+    {
       "dzen_id": "6b08067f3fce9862d741e24d",
       "title": "В городе OpenAI и Anthropic запретили строительство новых дата-центров на 10 месяцев",
       "dzen_url": "https://dzen.ru/a/awgGfz_OmGLXQeJN",
@@ -5131,11 +5142,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 475,
-    "fully_titled_from_archived_public_feed": 420,
+    "total_cataloged_editorial_publications": 476,
+    "fully_titled_from_archived_public_feed": 421,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-27",
-  "coverage": "475 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "476 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
