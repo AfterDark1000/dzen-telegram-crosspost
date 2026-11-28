@@ -504,6 +504,14 @@
       "include_dzen_link": false
     },
     {
+      "id": "bristol-smart-walker-saw-20261118",
+      "dzen_title": "В Британии создали ходунки, которые разговаривают с человеком",
+      "x_text": "Исследователи @BristolUni разработали прототип ходунков с ИИ. Они следят за походкой, автоматически тормозят перед посадкой, напоминают о лекарствах и поддерживают разговор. В 2027 году устройство представят в лондонском Музее науки.",
+      "status": "approved",
+      "include_dzen_link": false,
+      "with_image": false
+    },
+    {
       "id": "bytedance-seedance-2-5-flash-20261115",
       "dzen_title": "ByteDance выпустила Seedance 2.5 Flash — вдвое быстрее и на треть дешевле",
       "x_text": "@BytePlusGlobal выпустила Seedance 2.5 Flash в ModelArk. 720p стоит $0,152/сек — на 34% дешевле Seedance 2.5. Компания обещает почти двойную скорость. Можно создавать ролики до 30 секунд с видео-, аудио- и графическими референсами. Но максимум разрешения — 720p.",
@@ -1782,6 +1790,14 @@
       "x_text": "@MsftSecIntel обнаружила ARTEX в арсенале как минимум шести хакерских группировок. ИИ-агенты при определённых условиях получают расширенные права доступа к корпоративным системам за считаные минуты.",
       "status": "approved",
       "include_dzen_link": false
+    },
+    {
+      "id": "microsoft-copilot-clipchamp-document-video-20261117",
+      "dzen_title": "Microsoft превращает документы Word и PDF в полноценные видеоролики",
+      "x_text": "@Microsoft расширила возможности Copilot в Clipchamp. ИИ превращает Word, PDF и презентации в озвученные видеоролики. По оценке компании, двухминутное видео из рабочих материалов обойдётся в $2–4,50. Пока в раннем доступе.",
+      "status": "approved",
+      "include_dzen_link": false,
+      "with_image": false
     },
     {
       "id": "microsoft-decision-1-1-20261117",
@@ -3111,22 +3127,6 @@
       "dzen_url": "https://dzen.ru/a/avaTGlALcjWVeERd",
       "buffer_post_id": "6af6abc5c1a0010a5b01a317",
       "with_image": true
-    },
-    {
-      "id": "microsoft-copilot-clipchamp-document-video-20261117",
-      "dzen_title": "Microsoft превращает документы Word и PDF в полноценные видеоролики",
-      "x_text": "@Microsoft расширила возможности Copilot в Clipchamp. ИИ превращает Word, PDF и презентации в озвученные видеоролики. По оценке компании, двухминутное видео из рабочих материалов обойдётся в $2–4,50. Пока в раннем доступе.",
-      "status": "approved",
-      "include_dzen_link": false,
-      "with_image": false
-    },
-    {
-      "id": "bristol-smart-walker-saw-20261118",
-      "dzen_title": "В Британии создали ходунки, которые разговаривают с человеком",
-      "x_text": "Исследователи @BristolUni разработали прототип ходунков с ИИ. Они следят за походкой, автоматически тормозят перед посадкой, напоминают о лекарствах и поддерживают разговор. В 2027 году устройство представят в лондонском Музее науки.",
-      "status": "approved",
-      "include_dzen_link": false,
-      "with_image": false
     }
   ]
 }
