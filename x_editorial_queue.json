@@ -3127,6 +3127,14 @@
       "dzen_url": "https://dzen.ru/a/avaTGlALcjWVeERd",
       "buffer_post_id": "6af6abc5c1a0010a5b01a317",
       "with_image": true
+    },
+    {
+      "id": "ubisoft-generative-ai-pitch-pressure-20261126",
+      "dzen_title": "Ubisoft обвиняют в навязывании нейросетей разработчикам игр",
+      "x_text": "В @Ubisoft, как утверждают сотрудники, теперь приходится объяснять начальству, почему ты хочешь сделать игру без нейросетей. Компания отрицает принуждение к использованию ИИ.",
+      "status": "approved",
+      "include_dzen_link": false,
+      "with_image": false
     }
   ]
 }
