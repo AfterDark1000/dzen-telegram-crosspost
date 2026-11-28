@@ -2201,7 +2201,14 @@
       "x_text": "@OpenAI добавила в ChatGPT более 20 медицинских подключений. 🏥\n\nИИ-агенты теперь работают в больничных программах, готовят документы для страховщиков и собирают истории пациентов.\n\nВ CVS Health агент за выходные разобрал очередь документов, накопившуюся за месяцы.",
       "status": "approved",
       "include_dzen_link": false,
-      "with_image": false
+      "with_image": false,
+      "typefully_attempt_at": 1795825080,
+      "typefully_attempt_unknown": true,
+      "typefully_post_text": "@OpenAI добавила в ChatGPT более 20 медицинских подключений. 🏥\n\nИИ-агенты теперь работают в больничных программах, готовят документы для страховщиков и собирают истории пациентов.\n\nВ CVS Health агент за выходные разобрал очередь документов, накопившуюся за месяцы.",
+      "typefully_source_dzen_id": "6b06ba508229d43dc4bf4011",
+      "typefully_source_dzen_url": "https://dzen.ru/a/awa6UIIp1D3Ev0AR",
+      "typefully_draft_id": 12246183,
+      "typefully_state": "draft"
     },
     {
       "id": "openai-chatgpt-violence-conversation-termination-20261030",
