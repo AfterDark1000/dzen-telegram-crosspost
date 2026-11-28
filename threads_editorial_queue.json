@@ -4218,6 +4218,13 @@
       "dzen_id": "6af6931a500b72359578445d",
       "dzen_url": "https://dzen.ru/a/avaTGlALcjWVeERd",
       "threads_post_id": "18144182137613085"
+    },
+    {
+      "id": "microsoft-copilot-clipchamp-document-video-20261117",
+      "dzen_title": "Microsoft превращает документы Word и PDF в полноценные видеоролики",
+      "threads_text": "Зачем рассылать коллегам длиннющие ОТЧЁТЫ, если нейросеть сделает из них видео?\n\nMicrosoft открыла тестирование нового Copilot в Clipchamp. Загружаешь Word или PDF, получаешь ролик со сценарием, озвучкой и музыкой.\n\nДве минуты видео обойдутся примерно в $2–4,50. Правки оплачиваются отдельно.\n\nТеперь на работе ещё и кино зададут посмотреть.",
+      "status": "approved",
+      "include_dzen_link": false
     }
   ]
 }
