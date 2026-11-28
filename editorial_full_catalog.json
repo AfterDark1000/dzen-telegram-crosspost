@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6b09e266f0c2007775437f2d",
+      "title": "Создатели Proton Mail выпустили ИИ-помощника, которому можно запретить самодеятельность",
+      "dzen_url": "https://dzen.ru/a/awniZvDCAHd1Q38t",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-28T09:02:33+00:00",
+      "excerpt": "По умолчанию новый ИИ-помощник Proton может даже удалять письма из подключённого почтового ящика без ведома владельца. Нейросеть умеет работать с файлами на компьютере, выполнять системные команды, подключаться к электронной почте, Google Drive и другим сервисам. При подключении можно самостоятельно распределить полномочия ИИ: Настраивается каждое действие отдельно. Например, читать входящие письма можно сколько угод"
+    },
+    {
       "dzen_id": "6b09e2293ffc4c0c7919d765",
       "title": "Instagram научится ловить нейросети на воровстве чужих шуток и видеороликов",
       "dzen_url": "https://dzen.ru/a/awniKT_8TAx5Gddl",
@@ -5219,11 +5230,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 483,
-    "fully_titled_from_archived_public_feed": 428,
+    "total_cataloged_editorial_publications": 484,
+    "fully_titled_from_archived_public_feed": 429,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-28",
-  "coverage": "483 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "484 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
