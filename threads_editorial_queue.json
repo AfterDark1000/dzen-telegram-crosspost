@@ -4085,8 +4085,11 @@
       "id": "us-chinese-ai-disclosure-proposal-20261118",
       "dzen_title": "«Извинись!» В США заставят признаваться за использование китайских нейросетей",
       "threads_text": "В США готовят обязательную МАРКИРОВКУ китайского ИИ.\n\nAirbnb уже использует Qwen в поддержке клиентов, Cursor построил собственную нейросеть на базе Kimi, китайские модели использует даже служба доставки DoorDash.\n\nВашингтон хочет обязать компании сообщать об этом на своих сайтах.\n\nМожет содержать следы китайских нейросетей. 😂",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6b09e2ebde86d91bd7e327a1",
+      "dzen_url": "https://dzen.ru/a/awni696G2RvX4yeh",
+      "threads_post_id": "18085973447343202"
     },
     {
       "id": "us-ten-countries-ai-supply-security-20261115",
