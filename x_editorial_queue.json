@@ -2215,7 +2215,7 @@
       "id": "openai-chatgpt-healthcare-20-connectors-20261116",
       "dzen_title": "ChatGPT разобрал многомесячный завал документов в больнице за выходные",
       "x_text": "@OpenAI добавила в ChatGPT более 20 медицинских подключений. 🏥\n\nИИ-агенты теперь работают в больничных программах, готовят документы для страховщиков и собирают истории пациентов.\n\nВ CVS Health агент за выходные разобрал очередь документов, накопившуюся за месяцы.",
-      "status": "approved",
+      "status": "queued",
       "include_dzen_link": false,
       "with_image": false,
       "typefully_attempt_at": 1795825080,
@@ -2224,7 +2224,11 @@
       "typefully_source_dzen_id": "6b06ba508229d43dc4bf4011",
       "typefully_source_dzen_url": "https://dzen.ru/a/awa6UIIp1D3Ev0AR",
       "typefully_draft_id": 12246183,
-      "typefully_state": "draft"
+      "typefully_state": "published",
+      "dzen_id": "6b06ba508229d43dc4bf4011",
+      "dzen_url": "https://dzen.ru/a/awa6UIIp1D3Ev0AR",
+      "typefully_post_url": "https://x.com/iipike_ai/status/2126470652249137291",
+      "x_delivery_provider": "typefully"
     },
     {
       "id": "openai-chatgpt-violence-conversation-termination-20261030",
