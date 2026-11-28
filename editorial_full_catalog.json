@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6b09e13d138855008077c831",
+      "title": "Google увеличила срок хранения переписки с Gemini с трёх дней до двух месяцев",
+      "dzen_url": "https://dzen.ru/a/awnhPROIVQCAd8gx",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-28T05:03:00+00:00",
+      "excerpt": "Отключили историю переписки с нейросетью? Google всё равно сохранит ваши разговоры на своих серверах. 16 ноября Google объявила об изменении политики конфиденциальности Gemini. Раньше временные чаты и разговоры с отключённой историей хранились 72 часа. Теперь этот срок увеличивается до двух месяцев. В 20 раз дольше. Компания объясняет нововведение необходимостью выявлять и расследовать злоупотребления искусственным и"
+    },
+    {
       "dzen_id": "6b09e1047d2bc70aba54f961",
       "title": "Нейросети записали школы и машины скорой помощи в список военных целей",
       "dzen_url": "https://dzen.ru/a/awnhBH0rxwq6VPlh",
@@ -5175,11 +5186,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 479,
-    "fully_titled_from_archived_public_feed": 424,
+    "total_cataloged_editorial_publications": 480,
+    "fully_titled_from_archived_public_feed": 425,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-28",
-  "coverage": "479 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "480 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
