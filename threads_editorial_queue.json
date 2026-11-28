@@ -1677,8 +1677,11 @@
       "id": "google-gemini-temporary-chat-retention-20261116",
       "dzen_title": "Google увеличила срок хранения переписки с Gemini с трёх дней до двух месяцев",
       "threads_text": "Google увеличила срок хранения ПРИВАТНЫХ ЧАТОВ Gemini в 20 раз.\n\nБыло 72 часа, теперь два месяца. Даже если история отключена.\n\nGoogle объясняет это борьбой со злоупотреблениями ИИ. Причём в проверке переписок участвуют и люди.\n\nИз хорошего: историю теперь разрешили сохранять, отдельно отключив обучение нейросетей на своих разговорах.\n\nВременный чат оказался весьма растяжимым понятием. 🗓️",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6b09e13d138855008077c831",
+      "dzen_url": "https://dzen.ru/a/awnhPROIVQCAd8gx",
+      "threads_post_id": "17875663548648251"
     },
     {
       "id": "google-gemini-tool-retrieval-20261119",
