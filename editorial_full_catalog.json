@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6b09e32c7d2bc70aba5912e7",
+      "title": "Сбер выпустил GigaChat 4 и замахнулся на конкуренцию с DeepSeek. Что получилось?",
+      "dzen_url": "https://dzen.ru/a/awnjLH0rxwq6WRLn",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-28T12:02:14+00:00",
+      "excerpt": "Новой нейросети Сбера дали содержимое картриджа с Super Mario Bros., а она перекрасила игру и запустила её на Mac. В другом эксперименте ИИ спроектировал вазу, которую разработчики напечатали на 3D-принтере. 26 ноября на конференции AI Journey Сбер представил две модели нового поколения GigaChat 4: флагманскую на 708 миллиардов параметров и компактную на 37 миллиардов. Обе получили контекстное окно в миллион токенов,"
+    },
+    {
       "dzen_id": "6b09e2ebde86d91bd7e327a1",
       "title": "«Извинись!» В США заставят признаваться за использование китайских нейросетей",
       "dzen_url": "https://dzen.ru/a/awni696G2RvX4yeh",
@@ -5252,11 +5263,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 486,
-    "fully_titled_from_archived_public_feed": 431,
+    "total_cataloged_editorial_publications": 487,
+    "fully_titled_from_archived_public_feed": 432,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-28",
-  "coverage": "486 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "487 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
