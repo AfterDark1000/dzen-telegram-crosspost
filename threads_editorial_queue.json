@@ -3773,8 +3773,11 @@
       "id": "spotify-artist-profile-protection-20261117",
       "dzen_title": "Spotify разрешила музыкантам блокировать поддельные песни, выпущенные под их именем",
       "threads_text": "Просыпаешься утром, а ты, оказывается, выпустил новый альбом.\n\nSony Music уже потребовала удалить более 260 тысяч музыкальных ИИ-подделок с различных платформ.\n\nSpotify наконец разрешила всем музыкантам блокировать публикацию чужих песен под своим именем.",
-      "status": "approved",
-      "include_dzen_link": false
+      "status": "published",
+      "include_dzen_link": false,
+      "dzen_id": "6b09e1bb9a5706574274fa8f",
+      "dzen_url": "https://dzen.ru/a/awnhu5pXBldCdPqP",
+      "threads_post_id": "18182584540452272"
     },
     {
       "id": "steam-next-fest-ai-copies-20261021",
