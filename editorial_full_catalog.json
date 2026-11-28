@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6b09e2ebde86d91bd7e327a1",
+      "title": "«Извинись!» В США заставят признаваться за использование китайских нейросетей",
+      "dzen_url": "https://dzen.ru/a/awni696G2RvX4yeh",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-28T11:02:47+00:00",
+      "excerpt": "Американский бизнес распробовал дешёвые китайские нейросети. Министерство финансов США и управление Белого дома по научно-технической политике обсуждают обязательную публикацию сведений об использовании китайского ИИ на сайтах компаний. Китайские модели обходятся дешевле многих американских аналогов. А открытые веса позволяют компаниям самостоятельно дорабатывать нейросети под свои задачи. 20 ноября эти компании фигу"
+    },
+    {
       "dzen_id": "6b09e2b283be303355d3c54f",
       "title": "Suno научилась снимать музыкальные клипы на песни, которые сама же и сочинила",
       "dzen_url": "https://dzen.ru/a/awnisoO-MDNV08VP",
@@ -5241,11 +5252,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 485,
-    "fully_titled_from_archived_public_feed": 430,
+    "total_cataloged_editorial_publications": 486,
+    "fully_titled_from_archived_public_feed": 431,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-28",
-  "coverage": "485 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "486 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
