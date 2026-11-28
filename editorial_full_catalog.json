@@ -10,6 +10,17 @@
   ],
   "entries": [
     {
+      "dzen_id": "6b09e1047d2bc70aba54f961",
+      "title": "Нейросети записали школы и машины скорой помощи в список военных целей",
+      "dzen_url": "https://dzen.ru/a/awnhBH0rxwq6VPlh",
+      "status": "published_observed_in_feed",
+      "source": "editorial_archive.json",
+      "title_evidence": "recorded",
+      "url_evidence": "recorded_in_editorial_archive",
+      "published_at_utc": "2026-11-28T04:02:02+00:00",
+      "excerpt": "Современные нейросети в ходе эксперимента выбирали в качестве военных целей даже солдат, которые уже сдались в плен. 17 ноября компания Vals AI, специализирующаяся на независимой оценке нейросетей, опубликовала результаты испытаний 14 моделей. Среди участников оказались Claude, GPT, Gemini, Grok и DeepSeek. Исследователи использовали настоящие и сгенерированные изображения, имитирующие обстановку в зоне боевых действ"
+    },
+    {
       "dzen_id": "6b09e0a18eddac0c4dcef004",
       "title": "Microsoft выяснила, что ИИ-хакеры способны взломать компанию за считаные минуты",
       "dzen_url": "https://dzen.ru/a/awngoY7drAxNzvAE",
@@ -5164,11 +5175,11 @@
     "excluded_post_count": 1,
     "excluded_dzen_only_diary_count": 1,
     "editor_reported_scheduled_not_cataloged": 6,
-    "total_cataloged_editorial_publications": 478,
-    "fully_titled_from_archived_public_feed": 423,
+    "total_cataloged_editorial_publications": 479,
+    "fully_titled_from_archived_public_feed": 424,
     "titled_from_historical_github_logs": 40,
     "missing_titles": 15
   },
   "generated_date": "2026-11-28",
-  "coverage": "478 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
+  "coverage": "479 editorial articles cataloged; 15 lack verified titles. Non-article posts, clips and the excluded Dzen-only diary are omitted. The editor-reported 215 channel publications are a 2026-11-03 baseline, not a live counter."
 }
